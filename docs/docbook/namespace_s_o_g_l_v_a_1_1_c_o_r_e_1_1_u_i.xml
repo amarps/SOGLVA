@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i" xml:lang="en-US">
+<title>SOGLVA::CORE::UI Namespace Reference</title>
+<indexterm><primary>SOGLVA::CORE::UI</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l">PANEL</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system">UISystem</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

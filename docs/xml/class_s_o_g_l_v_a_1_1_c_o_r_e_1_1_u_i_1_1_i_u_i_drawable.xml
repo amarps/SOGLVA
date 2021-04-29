@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>SOGLVA::CORE::UI::IUIDrawable</compoundname>
+    <derivedcompoundref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter" prot="public" virt="non-virtual">SOGLVA::CORE::UI::PANEL::FPSCounter</derivedcompoundref>
+    <derivedcompoundref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property" prot="public" virt="non-virtual">SOGLVA::CORE::UI::PANEL::Property</derivedcompoundref>
+    <includes refid="_i_u_i_drawable_8h" local="no">IUIDrawable.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable_1aba6138fb0737c3750ce29b8d098dbd4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void SOGLVA::CORE::UI::IUIDrawable::Draw</definition>
+        <argsstring>()=0</argsstring>
+        <name>Draw</name>
+        <reimplementedby refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6">Draw</reimplementedby>
+        <reimplementedby refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property_1a3ca951c7ec2824660146038da4026736">Draw</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/IUIDrawable.h" line="9" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>SOGLVA::CORE::UI::PANEL::FPSCounter</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SOGLVA::CORE::UI::PANEL::Property</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::IUIDrawable</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::IUIDrawable</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable"/>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/UI/IUIDrawable.h" line="5" column="1" bodyfile="SOGLVA/src/Core/UI/IUIDrawable.h" bodystart="6" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable_1aba6138fb0737c3750ce29b8d098dbd4d" prot="public" virt="pure-virtual"><scope>SOGLVA::CORE::UI::IUIDrawable</scope><name>Draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

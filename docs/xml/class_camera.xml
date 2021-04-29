@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_camera" kind="class" language="C++" prot="public">
+    <compoundname>Camera</compoundname>
+    <basecompoundref refid="class_i_component" prot="public" virt="non-virtual">IComponent</basecompoundref>
+    <includes refid="_camera_8h" local="no">Camera.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_camera_1a910e91793a0078a11eef1cba77dec353" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Camera_Movement</name>
+        <enumvalue id="class_camera_1a910e91793a0078a11eef1cba77dec353a6388b5408cf8440021383388044ae77f" prot="public">
+          <name>FORWARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_camera_1a910e91793a0078a11eef1cba77dec353ae18db08a2289896f26dcddf6e2ad274f" prot="public">
+          <name>BACKWARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_camera_1a910e91793a0078a11eef1cba77dec353a1bed5588ea4c26163a72f0fc8621f6be" prot="public">
+          <name>LEFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_camera_1a910e91793a0078a11eef1cba77dec353aedac3a8506bf2bae7df2d36dd5580884" prot="public">
+          <name>RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="17" column="5" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="17" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_camera_1a5b59449d1f148774ba4941ced0ecac04" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Camera::YAW</definition>
+        <argsstring></argsstring>
+        <name>YAW</name>
+        <initializer>= -90.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="24" column="31" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Camera::PITCH</definition>
+        <argsstring></argsstring>
+        <name>PITCH</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="25" column="31" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a12bc287f7c305b389ca70ce84d5804b3" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Camera::SPEED</definition>
+        <argsstring></argsstring>
+        <name>SPEED</name>
+        <initializer>= 5.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="26" column="31" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1ae33d41d8fea366d7a1308768b0b43a4c" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Camera::SENSITIVITY</definition>
+        <argsstring></argsstring>
+        <name>SENSITIVITY</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="27" column="31" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a501cc2daabe3de4cc1e377ca7adc6a70" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Camera::ZOOM</definition>
+        <argsstring></argsstring>
+        <name>ZOOM</name>
+        <initializer>= 45.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="28" column="31" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_1a9733b59f5340f6f1bca24d52a6679039" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="36" column="15" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1ac95b3737115ffe9a6ff9128344d5b963" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::Front</definition>
+        <argsstring></argsstring>
+        <name>Front</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="37" column="15" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1ad74c4a490bc8865e67e27a2036d0a72d" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::Up</definition>
+        <argsstring></argsstring>
+        <name>Up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="38" column="15" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a6624f9f4228f6299a3d4ccb81e28da0a" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="39" column="15" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a340d30b833954b87fd016ce0e724c723" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Camera::WorldUp</definition>
+        <argsstring></argsstring>
+        <name>WorldUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="40" column="15" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a1a1354a2bd2df7f18ef82924e671d241" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::Yaw</definition>
+        <argsstring></argsstring>
+        <name>Yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="43" column="11" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1af9c8f223bb06bb74fc77c586545e7e67" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::Pitch</definition>
+        <argsstring></argsstring>
+        <name>Pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="44" column="11" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a63221392d762df6a74f45bc9d43a2f61" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::MovementSpeed</definition>
+        <argsstring></argsstring>
+        <name>MovementSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="46" column="11" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a73e88844b31d5111eeb76327dfbb2d68" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::MouseSensitivity</definition>
+        <argsstring></argsstring>
+        <name>MouseSensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="47" column="11" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_1a2becf27d08eb7e6da9c597c73ea95b5d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Camera::Zoom</definition>
+        <argsstring></argsstring>
+        <name>Zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="48" column="11" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_1a01f94c3543f56ede7af49dc778f19331" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera::Camera</definition>
+        <argsstring>()</argsstring>
+        <name>Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="13" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ad424b8b92e580508caf21337b69b93fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::updateCameraVectors</definition>
+        <argsstring>()</argsstring>
+        <name>updateCameraVectors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="14" column="10" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="68" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_camera_1afc637ed0e06583b570c09bbf58d6f949" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_camera" kindref="compound">Camera</ref> &amp;</type>
+        <definition>static Camera&amp; Camera::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="29" column="19" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_1adad6423186f3d7e4c461cff7274f2c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera::Camera</definition>
+        <argsstring>(glm::vec3 position=glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up=glm::vec3(0.0f, 1.0f, 0.0f), float yaw=YAW, float pitch=PITCH)</argsstring>
+        <name>Camera</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>position</declname>
+          <defval>glm::vec3(0.0f, 0.0f, 0.0f)</defval>
+        </param>
+        <param>
+          <type>glm::vec3</type>
+          <declname>up</declname>
+          <defval>glm::vec3(0.0f, 1.0f, 0.0f)</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+          <defval><ref refid="class_camera_1a5b59449d1f148774ba4941ced0ecac04" kindref="member">YAW</ref></defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+          <defval><ref refid="class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e" kindref="member">PITCH</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="51" column="5" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="3" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a3537fd723fdfb5fed73a084346270cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Camera::Camera</definition>
+        <argsstring>(float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)</argsstring>
+        <name>Camera</name>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posZ</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upZ</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="55" column="5" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1affa333055635aed96518c4c66be9a70c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Camera::GetViewMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>GetViewMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="58" column="15" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1aebba33a8b281fe2598bcafc54a55d296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::ProcessKeyboard</definition>
+        <argsstring>(Camera_Movement direction, float deltaTime)</argsstring>
+        <name>ProcessKeyboard</name>
+        <param>
+          <type><ref refid="class_camera_1a910e91793a0078a11eef1cba77dec353" kindref="member">Camera_Movement</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="64" column="10" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a656c2a8dc40150874f15bce47b789751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::ProcessMouseMovement</definition>
+        <argsstring>(float xoffset, float yoffset, GLboolean constrainPitch=true)</argsstring>
+        <name>ProcessMouseMovement</name>
+        <param>
+          <type>float</type>
+          <declname>xoffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>yoffset</declname>
+        </param>
+        <param>
+          <type>GLboolean</type>
+          <declname>constrainPitch</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="67" column="10" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="47" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1a05d150f7dc98940d2dd62f686cc2efe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Camera::ProcessMouseScroll</definition>
+        <argsstring>(float yoffset)</argsstring>
+        <name>ProcessMouseScroll</name>
+        <param>
+          <type>float</type>
+          <declname>yoffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="70" column="10" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1ad1e1e6737506ba97eece8b71a3862db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Camera::Start</definition>
+        <argsstring>() override</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="73" column="18" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1adba920a003ec354ebaa7d78496d168f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Camera::Update</definition>
+        <argsstring>() override</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_i_component_1ae7556b0967bcf83bd53878f430f9c234">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="74" column="18" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_1aaa67ed905ed98408a2b0ac315069cd38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Camera::Exit</definition>
+        <argsstring>() override</argsstring>
+        <name>Exit</name>
+        <reimplements refid="class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">Exit</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Camera.h" line="75" column="18" bodyfile="SOGLVA/src/Components/Camera.cpp" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Components/Camera.h" line="10" column="1" bodyfile="SOGLVA/src/Components/Camera.h" bodystart="11" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_camera_1a910e91793a0078a11eef1cba77dec353ae18db08a2289896f26dcddf6e2ad274f" prot="public" virt="non-virtual"><scope>Camera</scope><name>BACKWARD</name></member>
+      <member refid="class_camera_1a01f94c3543f56ede7af49dc778f19331" prot="private" virt="non-virtual"><scope>Camera</scope><name>Camera</name></member>
+      <member refid="class_camera_1adad6423186f3d7e4c461cff7274f2c87" prot="public" virt="non-virtual"><scope>Camera</scope><name>Camera</name></member>
+      <member refid="class_camera_1a3537fd723fdfb5fed73a084346270cf6" prot="public" virt="non-virtual"><scope>Camera</scope><name>Camera</name></member>
+      <member refid="class_camera_1a910e91793a0078a11eef1cba77dec353" prot="public" virt="non-virtual"><scope>Camera</scope><name>Camera_Movement</name></member>
+      <member refid="class_camera_1aaa67ed905ed98408a2b0ac315069cd38" prot="public" virt="virtual"><scope>Camera</scope><name>Exit</name></member>
+      <member refid="class_camera_1a910e91793a0078a11eef1cba77dec353a6388b5408cf8440021383388044ae77f" prot="public" virt="non-virtual"><scope>Camera</scope><name>FORWARD</name></member>
+      <member refid="class_camera_1ac95b3737115ffe9a6ff9128344d5b963" prot="public" virt="non-virtual"><scope>Camera</scope><name>Front</name></member>
+      <member refid="class_camera_1afc637ed0e06583b570c09bbf58d6f949" prot="public" virt="non-virtual"><scope>Camera</scope><name>get</name></member>
+      <member refid="class_camera_1affa333055635aed96518c4c66be9a70c" prot="public" virt="non-virtual"><scope>Camera</scope><name>GetViewMatrix</name></member>
+      <member refid="class_camera_1a910e91793a0078a11eef1cba77dec353a1bed5588ea4c26163a72f0fc8621f6be" prot="public" virt="non-virtual"><scope>Camera</scope><name>LEFT</name></member>
+      <member refid="class_camera_1a73e88844b31d5111eeb76327dfbb2d68" prot="public" virt="non-virtual"><scope>Camera</scope><name>MouseSensitivity</name></member>
+      <member refid="class_camera_1a63221392d762df6a74f45bc9d43a2f61" prot="public" virt="non-virtual"><scope>Camera</scope><name>MovementSpeed</name></member>
+      <member refid="class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e" prot="public" virt="non-virtual"><scope>Camera</scope><name>PITCH</name></member>
+      <member refid="class_camera_1af9c8f223bb06bb74fc77c586545e7e67" prot="public" virt="non-virtual"><scope>Camera</scope><name>Pitch</name></member>
+      <member refid="class_camera_1a9733b59f5340f6f1bca24d52a6679039" prot="public" virt="non-virtual"><scope>Camera</scope><name>Position</name></member>
+      <member refid="class_camera_1aebba33a8b281fe2598bcafc54a55d296" prot="public" virt="non-virtual"><scope>Camera</scope><name>ProcessKeyboard</name></member>
+      <member refid="class_camera_1a656c2a8dc40150874f15bce47b789751" prot="public" virt="non-virtual"><scope>Camera</scope><name>ProcessMouseMovement</name></member>
+      <member refid="class_camera_1a05d150f7dc98940d2dd62f686cc2efe3" prot="public" virt="non-virtual"><scope>Camera</scope><name>ProcessMouseScroll</name></member>
+      <member refid="class_camera_1a6624f9f4228f6299a3d4ccb81e28da0a" prot="public" virt="non-virtual"><scope>Camera</scope><name>Right</name></member>
+      <member refid="class_camera_1a910e91793a0078a11eef1cba77dec353aedac3a8506bf2bae7df2d36dd5580884" prot="public" virt="non-virtual"><scope>Camera</scope><name>RIGHT</name></member>
+      <member refid="class_camera_1ae33d41d8fea366d7a1308768b0b43a4c" prot="public" virt="non-virtual"><scope>Camera</scope><name>SENSITIVITY</name></member>
+      <member refid="class_camera_1a12bc287f7c305b389ca70ce84d5804b3" prot="public" virt="non-virtual"><scope>Camera</scope><name>SPEED</name></member>
+      <member refid="class_camera_1ad1e1e6737506ba97eece8b71a3862db7" prot="public" virt="virtual"><scope>Camera</scope><name>Start</name></member>
+      <member refid="class_camera_1ad74c4a490bc8865e67e27a2036d0a72d" prot="public" virt="non-virtual"><scope>Camera</scope><name>Up</name></member>
+      <member refid="class_camera_1adba920a003ec354ebaa7d78496d168f1" prot="public" virt="virtual"><scope>Camera</scope><name>Update</name></member>
+      <member refid="class_camera_1ad424b8b92e580508caf21337b69b93fa" prot="private" virt="non-virtual"><scope>Camera</scope><name>updateCameraVectors</name></member>
+      <member refid="class_camera_1a340d30b833954b87fd016ce0e724c723" prot="public" virt="non-virtual"><scope>Camera</scope><name>WorldUp</name></member>
+      <member refid="class_camera_1a5b59449d1f148774ba4941ced0ecac04" prot="public" virt="non-virtual"><scope>Camera</scope><name>YAW</name></member>
+      <member refid="class_camera_1a1a1354a2bd2df7f18ef82924e671d241" prot="public" virt="non-virtual"><scope>Camera</scope><name>Yaw</name></member>
+      <member refid="class_camera_1a501cc2daabe3de4cc1e377ca7adc6a70" prot="public" virt="non-virtual"><scope>Camera</scope><name>ZOOM</name></member>
+      <member refid="class_camera_1a2becf27d08eb7e6da9c597c73ea95b5d" prot="public" virt="non-virtual"><scope>Camera</scope><name>Zoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

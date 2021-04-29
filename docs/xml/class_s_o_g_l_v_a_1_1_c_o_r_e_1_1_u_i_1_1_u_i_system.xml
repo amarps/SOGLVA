@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::CORE::UI::UISystem</compoundname>
+    <includes refid="_u_i_system_8h" local="no">UISystem.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref> &amp;</type>
+        <definition>SOGLVA::CORE::RENDERING::Rendering&amp; SOGLVA::CORE::UI::UISystem::rendering</definition>
+        <argsstring></argsstring>
+        <name>rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="19" column="36" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" kindref="compound">IUIDrawable</ref> * &gt;</type>
+        <definition>std::vector&lt;IUIDrawable*&gt; SOGLVA::CORE::UI::UISystem::vUIPanels</definition>
+        <argsstring></argsstring>
+        <name>vUIPanels</name>
+        <briefdescription>
+<para>contains every panel that implemented <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" kindref="compound">IUIDrawable</ref> interface. these panels will be called inside main loop by ui draw method from <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" kindref="compound">IUIDrawable</ref> interface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="26" column="13" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" prot="private" static="no" mutable="no">
+        <type>struct nk_glfw</type>
+        <definition>struct nk_glfw SOGLVA::CORE::UI::UISystem::glfw</definition>
+        <argsstring></argsstring>
+        <name>glfw</name>
+        <initializer>= { 0 }</initializer>
+        <briefdescription>
+<para>contains current reference of glfw windows that will be used for nuklear context </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="26" column="13" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" prot="private" static="no" mutable="no">
+        <type>nk_context *</type>
+        <definition>nk_context* SOGLVA::CORE::UI::UISystem::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+<para>nuklear context required by every nuklear call </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="36" column="12" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::UI::UISystem::UISystem</definition>
+        <argsstring>(SOGLVA::CORE::RENDERING::Rendering &amp;_rendering)</argsstring>
+        <name>UISystem</name>
+        <param>
+          <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref> &amp;</type>
+          <declname>_rendering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="39" column="1" bodyfile="SOGLVA/src/Core/UI/UISystem.cpp" bodystart="5" bodyend="19"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" compoundref="_u_i_system_8h" startline="36">context</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" compoundref="_u_i_system_8h" startline="31">glfw</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" compoundref="_u_i_system_8h" startline="19">rendering</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" compoundref="_u_i_system_8h" startline="26">vUIPanels</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" compoundref="_rendering_8h" startline="41">SOGLVA::CORE::RENDERING::Rendering::window</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::UI::UISystem::~UISystem</definition>
+        <argsstring>()</argsstring>
+        <name>~UISystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="41" column="1" bodyfile="SOGLVA/src/Core/UI/UISystem.cpp" bodystart="21" bodyend="29"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" compoundref="_u_i_system_8h" startline="36">context</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" compoundref="_u_i_system_8h" startline="26">vUIPanels</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::CORE::UI::UISystem::DrawUiPanels</definition>
+        <argsstring>()</argsstring>
+        <name>DrawUiPanels</name>
+        <briefdescription>
+<para>create nuklear_glfw frame and draw every panels inside vUIPanels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="46" column="6" bodyfile="SOGLVA/src/Core/UI/UISystem.cpp" bodystart="31" bodyend="39"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" compoundref="_u_i_system_8h" startline="31">glfw</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" compoundref="_u_i_system_8h" startline="26">vUIPanels</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>this uiSystem class is for ui inside the opengl context. ui system use nuklear library for rendering ui inside the opengl context. this uisystem mean to be used in app for example for debugging or inapp ui not inside level editor. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>float</label>
+      </node>
+      <node id="8">
+        <label>static int</label>
+      </node>
+      <node id="9">
+        <label>vector&lt; SOGLVA::CORE::UI::IUIDrawable * &gt;</label>
+      </node>
+      <node id="10">
+        <label>nk_context *</label>
+      </node>
+      <node id="6">
+        <label>HWND</label>
+      </node>
+      <node id="3">
+        <label>SOGLVA::CORE::RENDERING::Rendering</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+AppName</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+window</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+hwNative</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+ClearColor</edgelabel>
+          <edgelabel>+deltaTime</edgelabel>
+          <edgelabel>+lastFrame</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+SCREEN_HEIGHT</edgelabel>
+          <edgelabel>+SCREEN_WIDTH</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::UISystem</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>-glfw</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-rendering</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-vUIPanels</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>-context</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>struct nk_glfw</label>
+      </node>
+      <node id="5">
+        <label>GLFWwindow *</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/UI/UISystem.h" line="16" column="1" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="17" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" prot="private" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>context</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>DrawUiPanels</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" prot="private" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>glfw</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" prot="private" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>rendering</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>UISystem</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" prot="private" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>vUIPanels</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::UISystem</scope><name>~UISystem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

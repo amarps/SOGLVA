@@ -1,0 +1,127 @@
+.TH "Rendering" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Rendering
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Rendering\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRendering\fP ()"
+.br
+.ti -1c
+.RI "\fB~Rendering\fP ()"
+.br
+.ti -1c
+.RI "void \fBClearWindow\fP ()"
+.br
+.RI "Clear the window using static rendering::ClearColor "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "float \fBdeltaTime\fP = 0\&.0f"
+.br
+.ti -1c
+.RI "float \fBlastFrame\fP = 0\&.0f"
+.br
+.ti -1c
+.RI "GLFWwindow * \fBwindow\fP"
+.br
+.ti -1c
+.RI "HWND \fBhwNative\fP"
+.br
+.RI "HWND of glfwWindow yang dibuat untuk export to dll volatile keyword to prevent compiler optimize this member variable "
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBSCREEN_WIDTH\fP = 800"
+.br
+.RI "default screen width if this changed the window size will be changed to "
+.ti -1c
+.RI "static int \fBSCREEN_HEIGHT\fP = 600"
+.br
+.RI "default screen height if this changed the window size will be changed to "
+.ti -1c
+.RI "static std::string \fBAppName\fP = 'Default'"
+.br
+.ti -1c
+.RI "static float \fBClearColor\fP [4] = { 0\&.05f, 0\&.05f, 0\&.05f, 1\&.0f }"
+.br
+.RI "Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file Rendering\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Rendering::Rendering ()"
+
+.PP
+Definition at line 3 of file Rendering\&.cpp\&.
+.SS "Rendering::~Rendering ()"
+
+.PP
+Definition at line 9 of file Rendering\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Rendering::ClearWindow ()"
+
+.PP
+Clear the window using static rendering::ClearColor 
+.PP
+Definition at line 64 of file Rendering\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::string Rendering::AppName = 'Default'\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 54 of file Rendering\&.h\&.
+.SS "float Rendering::ClearColor[4] = { 0\&.05f, 0\&.05f, 0\&.05f, 1\&.0f }\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window 
+.PP
+Definition at line 59 of file Rendering\&.h\&.
+.SS "float Rendering::deltaTime = 0\&.0f"
+
+.PP
+Definition at line 34 of file Rendering\&.h\&.
+.SS "HWND Rendering::hwNative"
+
+.PP
+HWND of glfwWindow yang dibuat untuk export to dll volatile keyword to prevent compiler optimize this member variable 
+.PP
+Definition at line 43 of file Rendering\&.h\&.
+.SS "float Rendering::lastFrame = 0\&.0f"
+
+.PP
+Definition at line 35 of file Rendering\&.h\&.
+.SS "int Rendering::SCREEN_HEIGHT = 600\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+default screen height if this changed the window size will be changed to 
+.PP
+Definition at line 53 of file Rendering\&.h\&.
+.SS "int Rendering::SCREEN_WIDTH = 800\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+default screen width if this changed the window size will be changed to 
+.PP
+Definition at line 48 of file Rendering\&.h\&.
+.SS "GLFWwindow* Rendering::window"
+
+.PP
+Definition at line 37 of file Rendering\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

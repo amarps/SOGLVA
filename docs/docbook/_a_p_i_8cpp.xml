@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__a_p_i_8cpp" xml:lang="en-US">
+<title>SOGLVA/src/API.cpp File Reference</title>
+<indexterm><primary>SOGLVA/src/API.cpp</primary></indexterm>
+<programlisting>#include &quot;API.h&quot;
+#include &lt;nuklear.h&gt;
+#include &lt;glfw_opengl3/nuklear_glfw_gl3.h&gt;
+#include &lt;stb_image.h&gt;
+</programlisting>Include dependency graph for API.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1a4e30c99b0f20f7155adebf2cb2219b03">NK_INCLUDE_FIXED_TYPES</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1a2ab99de094ad4c244260062426e5caa0">NK_INCLUDE_STANDARD_IO</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1a13b5abd58c2a82dcf6a5f7ddfcf112aa">NK_INCLUDE_STANDARD_VARARGS</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1adf1c808d169071b73cb46f7538bf1721">NK_INCLUDE_DEFAULT_ALLOCATOR</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1ac67be0ee8bc7f08530c891cbfa14b788">NK_INCLUDE_VERTEX_BUFFER_OUTPUT</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2">NK_INCLUDE_FONT_BAKING</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1af0847faa9e18a4865944c2f5fb093be0">NK_INCLUDE_DEFAULT_FONT</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1a9555e340b124951b3323becad26b15c5">NK_KEYSTATE_BASED_INPUT</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1aae11ce91efbb99ec40b279ddc84c050f">NK_IMPLEMENTATION</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1afcbe59ecb36abfe68316d9e74d5889b8">NK_GLFW_GL3_IMPLEMENTATION</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__a_p_i_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78">STB_IMAGE_IMPLEMENTATION</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>HWND <link linkend="__a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2">SOGLVAInitialize</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="__a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba">SOGLVARunApp</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="__a_p_i_8cpp_1a199398df1ba356f908954a6d83cc862a">SOGLVARestart</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="__a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0">SOGLVADestroy</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__a_p_i_8cpp_1afcbe59ecb36abfe68316d9e74d5889b8"/>    <section>
+    <title>NK_GLFW_GL3_IMPLEMENTATION</title>
+<indexterm><primary>NK_GLFW_GL3_IMPLEMENTATION</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_GLFW_GL3_IMPLEMENTATION</secondary></indexterm>
+<para><computeroutput>#define NK_GLFW_GL3_IMPLEMENTATION</computeroutput></para><para>
+Definition at line 12 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1aae11ce91efbb99ec40b279ddc84c050f"/>    <section>
+    <title>NK_IMPLEMENTATION</title>
+<indexterm><primary>NK_IMPLEMENTATION</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_IMPLEMENTATION</secondary></indexterm>
+<para><computeroutput>#define NK_IMPLEMENTATION</computeroutput></para><para>
+Definition at line 11 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1adf1c808d169071b73cb46f7538bf1721"/>    <section>
+    <title>NK_INCLUDE_DEFAULT_ALLOCATOR</title>
+<indexterm><primary>NK_INCLUDE_DEFAULT_ALLOCATOR</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_DEFAULT_ALLOCATOR</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_DEFAULT_ALLOCATOR</computeroutput></para><para>
+Definition at line 6 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1af0847faa9e18a4865944c2f5fb093be0"/>    <section>
+    <title>NK_INCLUDE_DEFAULT_FONT</title>
+<indexterm><primary>NK_INCLUDE_DEFAULT_FONT</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_DEFAULT_FONT</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_DEFAULT_FONT</computeroutput></para><para>
+Definition at line 9 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a4e30c99b0f20f7155adebf2cb2219b03"/>    <section>
+    <title>NK_INCLUDE_FIXED_TYPES</title>
+<indexterm><primary>NK_INCLUDE_FIXED_TYPES</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_FIXED_TYPES</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_FIXED_TYPES</computeroutput></para><para>
+Definition at line 3 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2"/>    <section>
+    <title>NK_INCLUDE_FONT_BAKING</title>
+<indexterm><primary>NK_INCLUDE_FONT_BAKING</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_FONT_BAKING</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_FONT_BAKING</computeroutput></para><para>
+Definition at line 8 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a2ab99de094ad4c244260062426e5caa0"/>    <section>
+    <title>NK_INCLUDE_STANDARD_IO</title>
+<indexterm><primary>NK_INCLUDE_STANDARD_IO</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_STANDARD_IO</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_STANDARD_IO</computeroutput></para><para>
+Definition at line 4 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a13b5abd58c2a82dcf6a5f7ddfcf112aa"/>    <section>
+    <title>NK_INCLUDE_STANDARD_VARARGS</title>
+<indexterm><primary>NK_INCLUDE_STANDARD_VARARGS</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_STANDARD_VARARGS</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_STANDARD_VARARGS</computeroutput></para><para>
+Definition at line 5 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1ac67be0ee8bc7f08530c891cbfa14b788"/>    <section>
+    <title>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</title>
+<indexterm><primary>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_VERTEX_BUFFER_OUTPUT</computeroutput></para><para>
+Definition at line 7 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a9555e340b124951b3323becad26b15c5"/>    <section>
+    <title>NK_KEYSTATE_BASED_INPUT</title>
+<indexterm><primary>NK_KEYSTATE_BASED_INPUT</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>NK_KEYSTATE_BASED_INPUT</secondary></indexterm>
+<para><computeroutput>#define NK_KEYSTATE_BASED_INPUT</computeroutput></para><para>
+Definition at line 10 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78"/>    <section>
+    <title>STB_IMAGE_IMPLEMENTATION</title>
+<indexterm><primary>STB_IMAGE_IMPLEMENTATION</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>STB_IMAGE_IMPLEMENTATION</secondary></indexterm>
+<para><computeroutput>#define STB_IMAGE_IMPLEMENTATION</computeroutput></para><para>
+Definition at line 16 of file API.cpp.</para>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0"/>    <section>
+    <title>SOGLVADestroy()</title>
+<indexterm><primary>SOGLVADestroy</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>SOGLVADestroy</secondary></indexterm>
+<para><computeroutput>void SOGLVADestroy ( )</computeroutput></para><para>
+Definition at line 46 of file API.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8cpp_af12dde41a775c2faadea650da6e89cd0_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2"/>    <section>
+    <title>SOGLVAInitialize()</title>
+<indexterm><primary>SOGLVAInitialize</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>SOGLVAInitialize</secondary></indexterm>
+<para><computeroutput>HWND SOGLVAInitialize ( )</computeroutput></para><para>
+Definition at line 28 of file API.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8cpp_ad4ad2f9f5426826faa5651f6913400f2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1a199398df1ba356f908954a6d83cc862a"/>    <section>
+    <title>SOGLVARestart()</title>
+<indexterm><primary>SOGLVARestart</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>SOGLVARestart</secondary></indexterm>
+<para><computeroutput>void SOGLVARestart ( )</computeroutput></para>
+<para>not implemented</para>
+<para>
+Definition at line 40 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba"/>    <section>
+    <title>SOGLVARunApp()</title>
+<indexterm><primary>SOGLVARunApp</primary><secondary>API.cpp</secondary></indexterm>
+<indexterm><primary>API.cpp</primary><secondary>SOGLVARunApp</secondary></indexterm>
+<para><computeroutput>void SOGLVARunApp ( )</computeroutput></para><para>
+Definition at line 34 of file API.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8cpp_abf5d66297cd56a29de5dbc454c2393ba_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+</section>

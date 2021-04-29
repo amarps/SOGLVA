@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t" kind="namespace" language="C++">
+    <compoundname>SOGLVA::MANAGED_OBJECT::COMPONENT</compoundname>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</innerclass>
+    <innerclass refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</innerclass>
+    <innerclass refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Model</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform" prot="public">SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::TextureFromFile</definition>
+        <argsstring>(const char *path, const std::string &amp;directory, bool gamma)</argsstring>
+        <name>TextureFromFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>directory</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp" line="92" column="18" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp" bodystart="92" bodyend="129" declfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" declline="24" declcolumn="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/ManagedObject/Components/Camera.cpp" line="3" column="1"/>
+  </compounddef>
+</doxygen>

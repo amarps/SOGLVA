@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__rendering_def_8h" xml:lang="en-US">
+<title>SOGLVA/src/Core/Rendering/RenderingDef.h File Reference</title>
+<indexterm><primary>SOGLVA/src/Core/Rendering/RenderingDef.h</primary></indexterm>
+<programlisting>#include &lt;GL/glew.h&gt;
+#include &lt;GLFW/glfw3.h&gt;
+#include &lt;GLFW/glfw3native.h&gt;
+#include &lt;Windows.h&gt;
+</programlisting>Include dependency graph for RenderingDef.h:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_rendering_def_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+This graph shows which files directly or indirectly include this file:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_rendering_def_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__rendering_def_8h_1a7226e54815f41685fdc9df544352957e">GLFW_EXPOSE_NATIVE_WIN32</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__rendering_def_8h_1a9f918755b601cf4bffca775992e6fb90">NOMINMAX</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__rendering_def_8h_1a7226e54815f41685fdc9df544352957e"/>    <section>
+    <title>GLFW_EXPOSE_NATIVE_WIN32</title>
+<indexterm><primary>GLFW_EXPOSE_NATIVE_WIN32</primary><secondary>RenderingDef.h</secondary></indexterm>
+<indexterm><primary>RenderingDef.h</primary><secondary>GLFW_EXPOSE_NATIVE_WIN32</secondary></indexterm>
+<para><computeroutput>#define GLFW_EXPOSE_NATIVE_WIN32</computeroutput></para>
+<para>Definition header for rendering system eg. glew, glfw .... </para>
+<para>
+Definition at line 9 of file RenderingDef.h.</para>
+    </section><anchor xml:id="__rendering_def_8h_1a9f918755b601cf4bffca775992e6fb90"/>    <section>
+    <title>NOMINMAX</title>
+<indexterm><primary>NOMINMAX</primary><secondary>RenderingDef.h</secondary></indexterm>
+<indexterm><primary>RenderingDef.h</primary><secondary>NOMINMAX</secondary></indexterm>
+<para><computeroutput>#define NOMINMAX</computeroutput></para><para>
+Definition at line 12 of file RenderingDef.h.</para>
+</section>
+</section>
+</section>

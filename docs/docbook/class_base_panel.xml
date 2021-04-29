@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_base_panel" xml:lang="en-US">
+<title>BasePanel Class Reference</title>
+<indexterm><primary>BasePanel</primary></indexterm>
+<para>
+
+<para>abstract for every nuklear panel </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;BasePanel.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for BasePanel:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_base_panel.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_base_panel_1a946059a37637fede3975991d166dcae9">BasePanel</link> (nk_context *&amp;_context, <link linkend="_class_rendering">Rendering</link> &amp;_rendering, const std::string &amp;_name)</para>
+</listitem>
+            <listitem><para><link linkend="_class_base_panel_1a62a48991f55e47420a65752e219dbce2">~BasePanel</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>nk_context *&amp; <link linkend="_class_base_panel_1acfbe89a3ddf3aba9a367c918f720f3a4">context</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_rendering">Rendering</link> &amp; <link linkend="_class_base_panel_1a1aeb2bcd69f51713f53107ba3b36881b">rendering</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_base_panel_1a6e9c2abfca86cbb9eb4cf960423568c6">name</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>abstract for every nuklear panel </para>
+
+
+<para>
+Definition at line 10 of file BasePanel.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_base_panel_1a946059a37637fede3975991d166dcae9"/>    <section>
+    <title>BasePanel()</title>
+<indexterm><primary>BasePanel</primary><secondary>BasePanel</secondary></indexterm>
+<indexterm><primary>BasePanel</primary><secondary>BasePanel</secondary></indexterm>
+<para><computeroutput>BasePanel::BasePanel (nk_context *&amp; _context, <link linkend="_class_rendering">Rendering</link> &amp; _rendering, const std::string &amp; _name)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file BasePanel.h.</para>
+    </section><anchor xml:id="_class_base_panel_1a62a48991f55e47420a65752e219dbce2"/>    <section>
+    <title>~BasePanel()</title>
+<indexterm><primary>~BasePanel</primary><secondary>BasePanel</secondary></indexterm>
+<indexterm><primary>BasePanel</primary><secondary>~BasePanel</secondary></indexterm>
+<para><computeroutput>BasePanel::~BasePanel ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file BasePanel.h.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_base_panel_1acfbe89a3ddf3aba9a367c918f720f3a4"/>    <section>
+    <title>context</title>
+<indexterm><primary>context</primary><secondary>BasePanel</secondary></indexterm>
+<indexterm><primary>BasePanel</primary><secondary>context</secondary></indexterm>
+<para><computeroutput>nk_context*&amp; BasePanel::context<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file BasePanel.h.</para>
+    </section><anchor xml:id="_class_base_panel_1a6e9c2abfca86cbb9eb4cf960423568c6"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>BasePanel</secondary></indexterm>
+<indexterm><primary>BasePanel</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>std::string BasePanel::name<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file BasePanel.h.</para>
+    </section><anchor xml:id="_class_base_panel_1a1aeb2bcd69f51713f53107ba3b36881b"/>    <section>
+    <title>rendering</title>
+<indexterm><primary>rendering</primary><secondary>BasePanel</secondary></indexterm>
+<indexterm><primary>BasePanel</primary><secondary>rendering</secondary></indexterm>
+<para><computeroutput><link linkend="_class_rendering">Rendering</link>&amp; BasePanel::rendering<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file BasePanel.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SOGLVA/src/Core/UI/Panels/<link linkend="__base_panel_8h">BasePanel.h</link></section>
+</section>

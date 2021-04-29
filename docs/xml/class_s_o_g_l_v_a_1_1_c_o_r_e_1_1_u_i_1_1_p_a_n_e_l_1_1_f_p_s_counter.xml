@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::CORE::UI::PANEL::FPSCounter</compoundname>
+    <basecompoundref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" prot="public" virt="non-virtual">SOGLVA::CORE::UI::IUIDrawable</basecompoundref>
+    <basecompoundref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel" prot="public" virt="non-virtual">SOGLVA::CORE::UI::PANEL::BasePanel</basecompoundref>
+    <includes refid="_f_p_s_counter_8h" local="no">FPSCounter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string SOGLVA::CORE::UI::PANEL::FPSCounter::fpsText</definition>
+        <argsstring></argsstring>
+        <name>fpsText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="11" column="13" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1afbfdfef613850e6b02769c307dc037bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::UI::PANEL::FPSCounter::FPSCounter</definition>
+        <argsstring>(nk_context *&amp;_context, SOGLVA::CORE::RENDERING::Rendering &amp;_rendering, const std::string &amp;_name)</argsstring>
+        <name>FPSCounter</name>
+        <param>
+          <type>nk_context *&amp;</type>
+          <declname>_context</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref> &amp;</type>
+          <declname>_rendering</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="14" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.h" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SOGLVA::CORE::UI::PANEL::FPSCounter::Draw</definition>
+        <argsstring>() override</argsstring>
+        <name>Draw</name>
+        <reimplements refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable_1aba6138fb0737c3750ce29b8d098dbd4d">Draw</reimplements>
+        <briefdescription>
+<para>Draw Panel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="20" column="14" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.cpp" bodystart="7" bodyend="22"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" compoundref="_base_panel_8h" startline="14">SOGLVA::CORE::UI::PANEL::BasePanel::context</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a" compoundref="_rendering_8h" startline="38">SOGLVA::CORE::RENDERING::Rendering::deltaTime</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8" compoundref="_f_p_s_counter_8h" startline="11">fpsText</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" compoundref="_base_panel_8h" startline="16">SOGLVA::CORE::UI::PANEL::BasePanel::name</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a9ef4bc09f2a893686cae5c1828a2402e" compoundref="_base_panel_8h" startline="15">SOGLVA::CORE::UI::PANEL::BasePanel::rendering</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::PANEL::FPSCounter</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SOGLVA::CORE::UI::PANEL::BasePanel</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel"/>
+      </node>
+      <node id="2">
+        <label>SOGLVA::CORE::UI::IUIDrawable</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>float</label>
+      </node>
+      <node id="9">
+        <label>static int</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::PANEL::FPSCounter</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-fpsText</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>HWND</label>
+      </node>
+      <node id="4">
+        <label>SOGLVA::CORE::RENDERING::Rendering</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+AppName</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+window</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+hwNative</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+ClearColor</edgelabel>
+          <edgelabel>+deltaTime</edgelabel>
+          <edgelabel>+lastFrame</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+SCREEN_HEIGHT</edgelabel>
+          <edgelabel>+SCREEN_WIDTH</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SOGLVA::CORE::UI::PANEL::BasePanel</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>#rendering</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>#name</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>#context</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GLFWwindow *</label>
+      </node>
+      <node id="10">
+        <label>nk_context *&amp;</label>
+      </node>
+      <node id="2">
+        <label>SOGLVA::CORE::UI::IUIDrawable</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable"/>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="8" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.h" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a607a168c375ff16af7db8e81771feee6" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>BasePanel</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" prot="protected" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>context</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6" prot="public" virt="virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>Draw</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1afbfdfef613850e6b02769c307dc037bd" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>FPSCounter</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8" prot="private" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>fpsText</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" prot="protected" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>name</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a9ef4bc09f2a893686cae5c1828a2402e" prot="protected" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>rendering</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ace83bb74601c40c7cedb51af6e8dbf14" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::FPSCounter</scope><name>~BasePanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_input_handler" kind="namespace" language="C++">
+    <compoundname>InputHandler</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_input_handler_1a2ec95ebfb37b5d983707cafdffb40891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputHandler::DefaultKeyboardInput</definition>
+        <argsstring>(Rendering &amp;rendering)</argsstring>
+        <name>DefaultKeyboardInput</name>
+        <param>
+          <type><ref refid="class_rendering" kindref="compound">Rendering</ref> &amp;</type>
+          <declname>rendering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/InputHandler/DefaultInput.cpp" line="6" column="10" bodyfile="SOGLVA/src/InputHandler/DefaultInput.cpp" bodystart="6" bodyend="49" declfile="SOGLVA/src/InputHandler/DefaultInput.h" declline="8" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/InputHandler/DefaultInput.cpp" line="4" column="1"/>
+  </compounddef>
+</doxygen>

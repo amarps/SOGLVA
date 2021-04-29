@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8989f69d5c4f4920eec819feb18e1812" kind="dir">
+    <compoundname>SOGLVA/src/Core/UI/Panels</compoundname>
+    <innerfile refid="_base_panel_8h">BasePanel.h</innerfile>
+    <innerfile refid="_f_p_s_counter_8cpp">FPSCounter.cpp</innerfile>
+    <innerfile refid="_f_p_s_counter_8h">FPSCounter.h</innerfile>
+    <innerfile refid="_property_8cpp">Property.cpp</innerfile>
+    <innerfile refid="_property_8h">Property.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/UI/Panels/"/>
+  </compounddef>
+</doxygen>

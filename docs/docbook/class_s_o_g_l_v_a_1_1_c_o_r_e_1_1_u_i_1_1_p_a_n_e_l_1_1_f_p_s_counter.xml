@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter" xml:lang="en-US">
+<title>SOGLVA::CORE::UI::PANEL::FPSCounter Class Reference</title>
+<indexterm><primary>SOGLVA::CORE::UI::PANEL::FPSCounter</primary></indexterm>
+<para>
+<computeroutput>#include &lt;FPSCounter.h&gt;</computeroutput>
+</para>
+Inheritance diagram for SOGLVA::CORE::UI::PANEL::FPSCounter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SOGLVA::CORE::UI::PANEL::FPSCounter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1afbfdfef613850e6b02769c307dc037bd">FPSCounter</link> (nk_context *&amp;_context, <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp;_rendering, const std::string &amp;_name)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6">Draw</link> () override</para>
+
+<para>Draw Panel </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::string <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8">fpsText</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 8 of file FPSCounter.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1afbfdfef613850e6b02769c307dc037bd"/>    <section>
+    <title>FPSCounter()</title>
+<indexterm><primary>FPSCounter</primary><secondary>SOGLVA::CORE::UI::PANEL::FPSCounter</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::PANEL::FPSCounter</primary><secondary>FPSCounter</secondary></indexterm>
+<para><computeroutput>SOGLVA::CORE::UI::PANEL::FPSCounter::FPSCounter (nk_context *&amp; _context, <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp; _rendering, const std::string &amp; _name)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file FPSCounter.h.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>SOGLVA::CORE::UI::PANEL::FPSCounter</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::PANEL::FPSCounter</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::UI::PANEL::FPSCounter::Draw ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Draw Panel </para>
+</para>
+<para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable_1aba6138fb0737c3750ce29b8d098dbd4d">SOGLVA::CORE::UI::IUIDrawable</link>.</para>
+<para>
+Definition at line 7 of file FPSCounter.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8"/>    <section>
+    <title>fpsText</title>
+<indexterm><primary>fpsText</primary><secondary>SOGLVA::CORE::UI::PANEL::FPSCounter</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::PANEL::FPSCounter</primary><secondary>fpsText</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::CORE::UI::PANEL::FPSCounter::fpsText<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file FPSCounter.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/UI/Panels/<link linkend="__f_p_s_counter_8h">FPSCounter.h</link>SOGLVA/src/Core/UI/Panels/<link linkend="__f_p_s_counter_8cpp">FPSCounter.cpp</link></section>
+</section>

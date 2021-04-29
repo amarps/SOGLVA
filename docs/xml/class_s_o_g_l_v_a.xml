@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA</compoundname>
+    <includes refid="_s_o_g_l_v_a_8h" local="no">SOGLVA.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1a6b8bfadafed7b6f907a61d33323e8e7a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SOGLVA::m_quit</definition>
+        <argsstring></argsstring>
+        <name>m_quit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="9" column="6" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1af3858b0eb0b820eaef02f1c2cbfcdc88" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_rendering" kindref="compound">Rendering</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;Rendering&gt; SOGLVA::rendering</definition>
+        <argsstring></argsstring>
+        <name>rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="12" column="17" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1a5face782a83bf633bb0a522c24b9beae" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_u_i_system" kindref="compound">UISystem</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;UISystem&gt; SOGLVA::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="13" column="17" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1a397a7064db77453e9d89c8ab97418be8" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_scene_manager" kindref="compound">SceneManager</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;SceneManager&gt; SOGLVA::sceneManager</definition>
+        <argsstring></argsstring>
+        <name>sceneManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="14" column="17" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1aa98c805739a690845ff1e61e5a23b70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::SOGLVA</definition>
+        <argsstring>()</argsstring>
+        <name>SOGLVA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="16" column="1" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="5" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1aa08f193105badfb479a410aebc035a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::~SOGLVA</definition>
+        <argsstring>()</argsstring>
+        <name>~SOGLVA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="17" column="1" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1a2e7bba85a3aecf84f79318e3c579b7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="19" column="6" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="17" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1a4f64bbf8efe73a2ba558025aef23bbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="21" column="6" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="31" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1a0a42968da10bccd092315a2a0707671e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SOGLVA::IsQuit</definition>
+        <argsstring>()</argsstring>
+        <name>IsQuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="22" column="6" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/SOGLVA.h" line="6" column="1" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1a2e7bba85a3aecf84f79318e3c579b7e3" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>Initialize</name></member>
+      <member refid="class_s_o_g_l_v_a_1a0a42968da10bccd092315a2a0707671e" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>IsQuit</name></member>
+      <member refid="class_s_o_g_l_v_a_1a6b8bfadafed7b6f907a61d33323e8e7a" prot="private" virt="non-virtual"><scope>SOGLVA</scope><name>m_quit</name></member>
+      <member refid="class_s_o_g_l_v_a_1af3858b0eb0b820eaef02f1c2cbfcdc88" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>rendering</name></member>
+      <member refid="class_s_o_g_l_v_a_1a4f64bbf8efe73a2ba558025aef23bbd7" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>Run</name></member>
+      <member refid="class_s_o_g_l_v_a_1a397a7064db77453e9d89c8ab97418be8" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>sceneManager</name></member>
+      <member refid="class_s_o_g_l_v_a_1aa98c805739a690845ff1e61e5a23b70a" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>SOGLVA</name></member>
+      <member refid="class_s_o_g_l_v_a_1a5face782a83bf633bb0a522c24b9beae" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>ui</name></member>
+      <member refid="class_s_o_g_l_v_a_1aa08f193105badfb479a410aebc035a29" prot="public" virt="non-virtual"><scope>SOGLVA</scope><name>~SOGLVA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

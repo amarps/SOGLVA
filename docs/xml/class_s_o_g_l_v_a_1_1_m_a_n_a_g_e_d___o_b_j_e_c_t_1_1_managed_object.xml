@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::MANAGED_OBJECT::ManagedObject</compoundname>
+    <includes refid="_managed_object_8h" local="no">ManagedObject.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a8c56f002df800e5a34f64abf29ec9956" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string SOGLVA::MANAGED_OBJECT::ManagedObject::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/ManagedObject.h" line="19" column="21" bodyfile="SOGLVA/src/ManagedObject/ManagedObject.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a37601642d6b4c34233e2cb55d0d907e5" prot="public" static="no" mutable="no">
+        <type>std::set&lt; <ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component" kindref="compound">COMPONENT::IComponent</ref> * &gt;</type>
+        <definition>std::set&lt;COMPONENT::IComponent*&gt; SOGLVA::MANAGED_OBJECT::ManagedObject::components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/ManagedObject.h" line="20" column="18" bodyfile="SOGLVA/src/ManagedObject/ManagedObject.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a3d6d98454879f6e54e6defabcb0b1068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::MANAGED_OBJECT::ManagedObject::ManagedObject</definition>
+        <argsstring>(std::string name=&quot;Default Object&quot;)</argsstring>
+        <name>ManagedObject</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+          <defval>&quot;Default Object&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/ManagedObject.h" line="22" column="9" bodyfile="SOGLVA/src/ManagedObject/ManagedObject.h" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1af37ed7c3d7a823ca70fc91781267890c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::MANAGED_OBJECT::ManagedObject::~ManagedObject</definition>
+        <argsstring>()</argsstring>
+        <name>~ManagedObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/ManagedObject.h" line="26" column="9" bodyfile="SOGLVA/src/ManagedObject/ManagedObject.cpp" bodystart="6" bodyend="12"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a37601642d6b4c34233e2cb55d0d907e5" compoundref="_managed_object_8h" startline="20">components</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1aa43d8685638b0dfd4c7d84c76e324acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::MANAGED_OBJECT::ManagedObject::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/ManagedObject.h" line="29" column="14" bodyfile="SOGLVA/src/ManagedObject/ManagedObject.cpp" bodystart="14" bodyend="20"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a37601642d6b4c34233e2cb55d0d907e5" compoundref="_managed_object_8h" startline="20">components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>set&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent * &gt;</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA::MANAGED_OBJECT::ManagedObject</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+name</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+components</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/ManagedObject/ManagedObject.h" line="16" column="5" bodyfile="SOGLVA/src/ManagedObject/ManagedObject.h" bodystart="17" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a37601642d6b4c34233e2cb55d0d907e5" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::ManagedObject</scope><name>components</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a3d6d98454879f6e54e6defabcb0b1068" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::ManagedObject</scope><name>ManagedObject</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a8c56f002df800e5a34f64abf29ec9956" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::ManagedObject</scope><name>name</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1aa43d8685638b0dfd4c7d84c76e324acf" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::ManagedObject</scope><name>Update</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1af37ed7c3d7a823ca70fc91781267890c" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::ManagedObject</scope><name>~ManagedObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_rendering" kind="class" language="C++" prot="public">
+    <compoundname>Rendering</compoundname>
+    <includes refid="_rendering_8h" local="no">Rendering.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rendering_1adfe5f69d4040554dc0d35ba85b33af18" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Rendering::deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="34" column="7" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendering_1adb2e2cd5a054e57c823473cfcf087c24" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Rendering::lastFrame</definition>
+        <argsstring></argsstring>
+        <name>lastFrame</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="35" column="7" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendering_1ac700e204354afc7f4ef8e49abb13803f" prot="public" static="no" mutable="no">
+        <type>GLFWwindow *</type>
+        <definition>GLFWwindow* Rendering::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="37" column="12" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendering_1a49b62aa1e8903005fcca12ef0c8f6ae5" prot="public" static="no" mutable="no">
+        <type>HWND</type>
+        <definition>HWND Rendering::hwNative</definition>
+        <argsstring></argsstring>
+        <name>hwNative</name>
+        <briefdescription>
+<para>HWND of glfwWindow yang dibuat untuk export to dll volatile keyword to prevent compiler optimize this member variable </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="43" column="6" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_rendering_1aa9a6a1fca7cee848d17ecfb687fd4cc2" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Rendering::SCREEN_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>SCREEN_WIDTH</name>
+        <initializer>= 800</initializer>
+        <briefdescription>
+<para>default screen width if this changed the window size will be changed to </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="48" column="19" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendering_1ab8692715493254fe3a3234b463cdaf38" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Rendering::SCREEN_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>SCREEN_HEIGHT</name>
+        <initializer>= 600</initializer>
+        <briefdescription>
+<para>default screen height if this changed the window size will be changed to </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="53" column="19" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendering_1afa94636ea7ba0773a9fddae6a3b77395" prot="public" static="yes" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Rendering::AppName</definition>
+        <argsstring></argsstring>
+        <name>AppName</name>
+        <initializer>= &quot;Default&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="54" column="27" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendering_1ac9d12a43b1151d74d2de60c1e463224a" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float Rendering::ClearColor[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>ClearColor</name>
+        <initializer>= { 0.05f, 0.05f, 0.05f, 1.0f }</initializer>
+        <briefdescription>
+<para>Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="59" column="21" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_rendering_1a1c31e3889bc52767a35f53630e816a45" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rendering::framebuffer_size_callback</definition>
+        <argsstring>(GLFWwindow *window, int width, int height)</argsstring>
+        <name>framebuffer_size_callback</name>
+        <param>
+          <type>GLFWwindow *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>resize the opengl size context to window size </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>window</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GLFW window that want to implement resize callback</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new width</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new height</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="15" column="13" bodyfile="SOGLVA/src/Core/Rendering/Rendering.cpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rendering_1a43e869e82b98bd1fbdf244318a92ebb6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rendering::SetupGLFWWindow</definition>
+        <argsstring>()</argsstring>
+        <name>SetupGLFWWindow</name>
+        <briefdescription>
+<para>intialize glfw and set glfw window hint </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>initialize glfw context for opengl</para>
+<para>remove tittle bar</para>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="21" column="6" bodyfile="SOGLVA/src/Core/Rendering/Rendering.cpp" bodystart="15" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rendering_1a9bd971f9b153424f114cc1282212aa90" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rendering::ConfigureOGLFunction</definition>
+        <argsstring>()</argsstring>
+        <name>ConfigureOGLFunction</name>
+        <briefdescription>
+<para>Create window in glfw; load Opengl API via glew; set window callback; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Window Creation</para>
+<para>sets the user-defined pointer of the specified window. The current value is retained until the window is destroyed.</para>
+<para>Initialize GLEW to load opengl API</para>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="28" column="6" bodyfile="SOGLVA/src/Core/Rendering/Rendering.cpp" bodystart="36" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rendering_1a2d6135f6f0563031d59f12e81c15416d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Rendering::Rendering</definition>
+        <argsstring>()</argsstring>
+        <name>Rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="31" column="1" bodyfile="SOGLVA/src/Core/Rendering/Rendering.cpp" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rendering_1a8bbf821e06ed0a707b080a12cdda8896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Rendering::~Rendering</definition>
+        <argsstring>()</argsstring>
+        <name>~Rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="32" column="1" bodyfile="SOGLVA/src/Core/Rendering/Rendering.cpp" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rendering_1ab7548b359eaa9fc89f7466034324a949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Rendering::ClearWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ClearWindow</name>
+        <briefdescription>
+<para>Clear the window using static rendering::ClearColor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="64" column="6" bodyfile="SOGLVA/src/Core/Rendering/Rendering.cpp" bodystart="64" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/Rendering/Rendering.h" line="6" column="1" bodyfile="SOGLVA/src/Core/Rendering/Rendering.h" bodystart="7" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_rendering_1afa94636ea7ba0773a9fddae6a3b77395" prot="public" virt="non-virtual"><scope>Rendering</scope><name>AppName</name></member>
+      <member refid="class_rendering_1ac9d12a43b1151d74d2de60c1e463224a" prot="public" virt="non-virtual"><scope>Rendering</scope><name>ClearColor</name></member>
+      <member refid="class_rendering_1ab7548b359eaa9fc89f7466034324a949" prot="public" virt="non-virtual"><scope>Rendering</scope><name>ClearWindow</name></member>
+      <member refid="class_rendering_1a9bd971f9b153424f114cc1282212aa90" prot="private" virt="non-virtual"><scope>Rendering</scope><name>ConfigureOGLFunction</name></member>
+      <member refid="class_rendering_1adfe5f69d4040554dc0d35ba85b33af18" prot="public" virt="non-virtual"><scope>Rendering</scope><name>deltaTime</name></member>
+      <member refid="class_rendering_1a1c31e3889bc52767a35f53630e816a45" prot="private" virt="non-virtual"><scope>Rendering</scope><name>framebuffer_size_callback</name></member>
+      <member refid="class_rendering_1a49b62aa1e8903005fcca12ef0c8f6ae5" prot="public" virt="non-virtual"><scope>Rendering</scope><name>hwNative</name></member>
+      <member refid="class_rendering_1adb2e2cd5a054e57c823473cfcf087c24" prot="public" virt="non-virtual"><scope>Rendering</scope><name>lastFrame</name></member>
+      <member refid="class_rendering_1a2d6135f6f0563031d59f12e81c15416d" prot="public" virt="non-virtual"><scope>Rendering</scope><name>Rendering</name></member>
+      <member refid="class_rendering_1ab8692715493254fe3a3234b463cdaf38" prot="public" virt="non-virtual"><scope>Rendering</scope><name>SCREEN_HEIGHT</name></member>
+      <member refid="class_rendering_1aa9a6a1fca7cee848d17ecfb687fd4cc2" prot="public" virt="non-virtual"><scope>Rendering</scope><name>SCREEN_WIDTH</name></member>
+      <member refid="class_rendering_1a43e869e82b98bd1fbdf244318a92ebb6" prot="private" virt="non-virtual"><scope>Rendering</scope><name>SetupGLFWWindow</name></member>
+      <member refid="class_rendering_1ac700e204354afc7f4ef8e49abb13803f" prot="public" virt="non-virtual"><scope>Rendering</scope><name>window</name></member>
+      <member refid="class_rendering_1a8bbf821e06ed0a707b080a12cdda8896" prot="public" virt="non-virtual"><scope>Rendering</scope><name>~Rendering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="standard_8h" kind="file" language="C++">
+    <compoundname>standard.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">string</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">set</includes>
+    <includes local="no">stdexcept</includes>
+    <includedby refid="_mesh_8h" local="yes">SOGLVA/src/Components/Graphics/Mesh.h</includedby>
+    <includedby refid="_model_8h" local="yes">SOGLVA/src/Components/Graphics/Model.h</includedby>
+    <includedby refid="_shader_8h" local="yes">SOGLVA/src/Components/Graphics/Shader.h</includedby>
+    <includedby refid="_scene_8h" local="yes">SOGLVA/src/Core/Scene/Scene.h</includedby>
+    <includedby refid="_base_panel_8h" local="yes">SOGLVA/src/Core/UI/Panels/BasePanel.h</includedby>
+    <includedby refid="_managed_object_8h" local="yes">SOGLVA/src/ManagedObject/ManagedObject.h</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>stdexcept</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>fstream</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>sstream</label>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="8">
+        <label>set</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/common/standard.h</label>
+        <link refid="standard_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>SOGLVA/src/Core/Scene/Scene.h</label>
+        <link refid="_scene_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>SOGLVA/src/SOGLVA.cpp</label>
+        <link refid="_s_o_g_l_v_a_8cpp"/>
+      </node>
+      <node id="23">
+        <label>SOGLVA/src/Core/UI/UISystem.h</label>
+        <link refid="_u_i_system_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SOGLVA/src/ManagedObject/ManagedObject.h</label>
+        <link refid="_managed_object_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>SOGLVA/src/ManagedObject/ManagedObject.cpp</label>
+        <link refid="_managed_object_8cpp"/>
+      </node>
+      <node id="26">
+        <label>SOGLVA/src/Core/UI/Panels/Property.cpp</label>
+        <link refid="_property_8cpp"/>
+      </node>
+      <node id="21">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.h</label>
+        <link refid="_f_p_s_counter_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>SOGLVA/src/Core/UI/UISystem.cpp</label>
+        <link refid="_u_i_system_8cpp"/>
+      </node>
+      <node id="13">
+        <label>SOGLVA/src/API.cpp</label>
+        <link refid="_a_p_i_8cpp"/>
+      </node>
+      <node id="22">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.cpp</label>
+        <link refid="_f_p_s_counter_8cpp"/>
+      </node>
+      <node id="11">
+        <label>SOGLVA/src/SOGLVA.h</label>
+        <link refid="_s_o_g_l_v_a_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SOGLVA/src/Components/Graphics/Mesh.h</label>
+        <link refid="_mesh_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>SOGLVA/src/Components/Graphics/Shader.cpp</label>
+        <link refid="_shader_8cpp"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA/src/Components/Graphics/Mesh.cpp</label>
+        <link refid="_mesh_8cpp"/>
+      </node>
+      <node id="8">
+        <label>SOGLVA/src/Core/Scene/Scene.cpp</label>
+        <link refid="_scene_8cpp"/>
+      </node>
+      <node id="19">
+        <label>SOGLVA/src/Components/Lighting/DirectionalLight.h</label>
+        <link refid="_directional_light_8h"/>
+      </node>
+      <node id="25">
+        <label>SOGLVA/src/Core/UI/Panels/Property.h</label>
+        <link refid="_property_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>SOGLVA/src/API.h</label>
+        <link refid="_a_p_i_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>SOGLVA/src/InputHandler/DefaultInput.cpp</label>
+        <link refid="_default_input_8cpp"/>
+      </node>
+      <node id="5">
+        <label>SOGLVA/src/Components/Graphics/Model.cpp</label>
+        <link refid="_model_8cpp"/>
+      </node>
+      <node id="20">
+        <label>SOGLVA/src/Core/UI/Panels/BasePanel.h</label>
+        <link refid="_base_panel_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>SOGLVA/src/Components/Graphics/Shader.h</label>
+        <link refid="_shader_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>SOGLVA/src/Core/Scene/SceneManager.h</label>
+        <link refid="_scene_manager_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/common/standard.h</label>
+        <link refid="standard_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>SOGLVA/src/Core/Scene/SceneManager.cpp</label>
+        <link refid="_scene_manager_8cpp"/>
+      </node>
+      <node id="4">
+        <label>SOGLVA/src/Components/Graphics/Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;set&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/common/standard.h"/>
+  </compounddef>
+</doxygen>

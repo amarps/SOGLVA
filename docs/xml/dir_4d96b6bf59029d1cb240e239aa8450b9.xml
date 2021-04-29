@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_4d96b6bf59029d1cb240e239aa8450b9" kind="dir">
+    <compoundname>SOGLVA/src/ManagedObject</compoundname>
+    <innerdir refid="dir_5f77f39654fea40997b785d73888715f">SOGLVA/src/ManagedObject/Components</innerdir>
+    <innerfile refid="_managed_object_8cpp">ManagedObject.cpp</innerfile>
+    <innerfile refid="_managed_object_8h">ManagedObject.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/ManagedObject/"/>
+  </compounddef>
+</doxygen>

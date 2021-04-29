@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_model" kind="class" language="C++" prot="public">
+    <compoundname>Model</compoundname>
+    <basecompoundref refid="class_i_component" prot="public" virt="non-virtual">IComponent</basecompoundref>
+    <includes refid="_model_8h" local="no">Model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_model_1a866353fd9967b57286864fac87799ae1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_texture" kindref="compound">Texture</ref> &gt;</type>
+        <definition>std::vector&lt;Texture&gt; Model::textures_loaded</definition>
+        <argsstring></argsstring>
+        <name>textures_loaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="20" column="17" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a538e42901dcfba59471072a48a162163" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_mesh" kindref="compound">Mesh</ref> &gt;</type>
+        <definition>std::vector&lt;Mesh&gt; Model::meshes</definition>
+        <argsstring></argsstring>
+        <name>meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="21" column="20" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a5ea3aa111c7a7d179e93dcc0bb567701" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Model::directory</definition>
+        <argsstring></argsstring>
+        <name>directory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="22" column="17" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a634e0014fce54c8b994f110a1b98b57b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_shader" kindref="compound">Shader</ref></type>
+        <definition>Shader Model::shader</definition>
+        <argsstring></argsstring>
+        <name>shader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="23" column="12" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a6ade6755da87446ae85a3f33dc693800" prot="public" static="no" mutable="no">
+        <type><ref refid="class_transform" kindref="compound">Transform</ref></type>
+        <definition>Transform Model::transform</definition>
+        <argsstring></argsstring>
+        <name>transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="24" column="15" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1ad77d358db2ff46758774b8a621f60db3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Model::gammaCorrection</definition>
+        <argsstring></argsstring>
+        <name>gammaCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="26" column="10" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_1a45860e6e3f38e96843fd28b37a0a7943" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Model::flipUV</definition>
+        <argsstring></argsstring>
+        <name>flipUV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="27" column="10" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_model_1a5e5a11248d2ffdd5a1edd28aed94521a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Model::Model</definition>
+        <argsstring>(std::string const &amp;path=&quot;&quot;, bool flipUV=true, bool gamma=false)</argsstring>
+        <name>Model</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>path</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flipUV</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gamma</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="30" column="5" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a9c66de8af7e48fefaccbb8a056ec3c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::Draw</definition>
+        <argsstring>(Shader &amp;shader)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type><ref refid="class_shader" kindref="compound">Shader</ref> &amp;</type>
+          <declname>shader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="33" column="10" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a28c642db0df154eed0cae184afe99621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::loadModel</definition>
+        <argsstring>(std::string const &amp;path)</argsstring>
+        <name>loadModel</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="36" column="10" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="17" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1aec91baaf9703d179794580a40696dedd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Model::Start</definition>
+        <argsstring>() override</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="38" column="18" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="170" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a9d6bbfb0279efb902c0f238b4bc6c76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Model::Update</definition>
+        <argsstring>() override</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_i_component_1ae7556b0967bcf83bd53878f430f9c234">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="40" column="18" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="176" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a17650cafdc01e03053ac794aeec06dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Model::Exit</definition>
+        <argsstring>() override</argsstring>
+        <name>Exit</name>
+        <reimplements refid="class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">Exit</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="42" column="18" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="190" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_model_1a23b167ce0d33f7e6ab5693cd5e81a9a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::processNode</definition>
+        <argsstring>(aiNode *node, const aiScene *scene)</argsstring>
+        <name>processNode</name>
+        <param>
+          <type>aiNode *</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>const aiScene *</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="47" column="10" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="35" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a95ae1a9980ded3d98b1c8785cb889d96" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_mesh" kindref="compound">Mesh</ref></type>
+        <definition>Mesh Model::processMesh</definition>
+        <argsstring>(aiMesh *mesh, const aiScene *scene)</argsstring>
+        <name>processMesh</name>
+        <param>
+          <type>aiMesh *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const aiScene *</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="49" column="10" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="52" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a9eb2d6a180c9ed7c7dab560884a1cbcd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="struct_texture" kindref="compound">Texture</ref> &gt;</type>
+        <definition>std::vector&lt; Texture &gt; Model::loadMaterialTextures</definition>
+        <argsstring>(aiMaterial *mat, aiTextureType type, std::string typeName)</argsstring>
+        <name>loadMaterialTextures</name>
+        <param>
+          <type>aiMaterial *</type>
+          <declname>mat</declname>
+        </param>
+        <param>
+          <type>aiTextureType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Model.h" line="53" column="17" bodyfile="SOGLVA/src/Components/Graphics/Model.cpp" bodystart="137" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+      <node id="1">
+        <label>Model</label>
+        <link refid="class_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Transform</label>
+        <link refid="class_transform"/>
+      </node>
+      <node id="3">
+        <label>Shader</label>
+        <link refid="class_shader"/>
+      </node>
+      <node id="2">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+      <node id="1">
+        <label>Model</label>
+        <link refid="class_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>shader</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>transform</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Components/Graphics/Model.h" line="16" column="1" bodyfile="SOGLVA/src/Components/Graphics/Model.h" bodystart="17" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_model_1a5ea3aa111c7a7d179e93dcc0bb567701" prot="public" virt="non-virtual"><scope>Model</scope><name>directory</name></member>
+      <member refid="class_model_1a9c66de8af7e48fefaccbb8a056ec3c1d" prot="public" virt="non-virtual"><scope>Model</scope><name>Draw</name></member>
+      <member refid="class_model_1a17650cafdc01e03053ac794aeec06dd8" prot="public" virt="virtual"><scope>Model</scope><name>Exit</name></member>
+      <member refid="class_model_1a45860e6e3f38e96843fd28b37a0a7943" prot="public" virt="non-virtual"><scope>Model</scope><name>flipUV</name></member>
+      <member refid="class_model_1ad77d358db2ff46758774b8a621f60db3" prot="public" virt="non-virtual"><scope>Model</scope><name>gammaCorrection</name></member>
+      <member refid="class_model_1a9eb2d6a180c9ed7c7dab560884a1cbcd" prot="private" virt="non-virtual"><scope>Model</scope><name>loadMaterialTextures</name></member>
+      <member refid="class_model_1a28c642db0df154eed0cae184afe99621" prot="public" virt="non-virtual"><scope>Model</scope><name>loadModel</name></member>
+      <member refid="class_model_1a538e42901dcfba59471072a48a162163" prot="public" virt="non-virtual"><scope>Model</scope><name>meshes</name></member>
+      <member refid="class_model_1a5e5a11248d2ffdd5a1edd28aed94521a" prot="public" virt="non-virtual"><scope>Model</scope><name>Model</name></member>
+      <member refid="class_model_1a95ae1a9980ded3d98b1c8785cb889d96" prot="private" virt="non-virtual"><scope>Model</scope><name>processMesh</name></member>
+      <member refid="class_model_1a23b167ce0d33f7e6ab5693cd5e81a9a5" prot="private" virt="non-virtual"><scope>Model</scope><name>processNode</name></member>
+      <member refid="class_model_1a634e0014fce54c8b994f110a1b98b57b" prot="public" virt="non-virtual"><scope>Model</scope><name>shader</name></member>
+      <member refid="class_model_1aec91baaf9703d179794580a40696dedd" prot="public" virt="virtual"><scope>Model</scope><name>Start</name></member>
+      <member refid="class_model_1a866353fd9967b57286864fac87799ae1" prot="public" virt="non-virtual"><scope>Model</scope><name>textures_loaded</name></member>
+      <member refid="class_model_1a6ade6755da87446ae85a3f33dc693800" prot="public" virt="non-virtual"><scope>Model</scope><name>transform</name></member>
+      <member refid="class_model_1a9d6bbfb0279efb902c0f238b4bc6c76c" prot="public" virt="virtual"><scope>Model</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

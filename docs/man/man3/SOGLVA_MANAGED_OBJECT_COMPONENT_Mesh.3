@@ -1,0 +1,102 @@
+.TH "SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Mesh\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMesh\fP (std::vector< \fBVertex\fP > \fBvertices\fP, std::vector< unsigned int > \fBindices\fP, std::vector< \fBTexture\fP > \fBtextures\fP)"
+.br
+.ti -1c
+.RI "void \fBDraw\fP (\fBShader\fP &shader)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::vector< \fBVertex\fP > \fBvertices\fP"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBindices\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBTexture\fP > \fBtextures\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBVAO\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetupMesh\fP ()"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBVBO\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBEBO\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 39 of file Mesh\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::Mesh (std::vector< \fBVertex\fP > vertices, std::vector< unsigned int > indices, std::vector< \fBTexture\fP > textures)"
+
+.PP
+Definition at line 7 of file Mesh\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::Draw (\fBShader\fP & shader)"
+
+.PP
+Definition at line 17 of file Mesh\&.cpp\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::setupMesh ()\fC [private]\fP"
+
+.PP
+Definition at line 54 of file Mesh\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::EBO\fC [private]\fP"
+
+.PP
+Definition at line 55 of file Mesh\&.h\&.
+.SS "std::vector<unsigned int> SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::indices"
+
+.PP
+Definition at line 43 of file Mesh\&.h\&.
+.SS "std::vector<\fBTexture\fP> SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::textures"
+
+.PP
+Definition at line 44 of file Mesh\&.h\&.
+.SS "unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::VAO"
+
+.PP
+Definition at line 45 of file Mesh\&.h\&.
+.SS "unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::VBO\fC [private]\fP"
+
+.PP
+Definition at line 55 of file Mesh\&.h\&.
+.SS "std::vector<\fBVertex\fP> SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::vertices"
+
+.PP
+Definition at line 42 of file Mesh\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

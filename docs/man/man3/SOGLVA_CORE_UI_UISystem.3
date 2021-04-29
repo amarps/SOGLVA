@@ -1,0 +1,94 @@
+.TH "SOGLVA::CORE::UI::UISystem" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::CORE::UI::UISystem
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <UISystem\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBUISystem\fP (\fBSOGLVA::CORE::RENDERING::Rendering\fP &_rendering)"
+.br
+.ti -1c
+.RI "\fB~UISystem\fP ()"
+.br
+.ti -1c
+.RI "void \fBDrawUiPanels\fP ()"
+.br
+.RI "create nuklear_glfw frame and draw every panels inside vUIPanels "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSOGLVA::CORE::RENDERING::Rendering\fP & \fBrendering\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBIUIDrawable\fP * > \fBvUIPanels\fP"
+.br
+.RI "contains every panel that implemented \fBIUIDrawable\fP interface\&. these panels will be called inside main loop by ui draw method from \fBIUIDrawable\fP interface\&. "
+.ti -1c
+.RI "struct nk_glfw \fBglfw\fP = { 0 }"
+.br
+.RI "contains current reference of glfw windows that will be used for nuklear context "
+.ti -1c
+.RI "nk_context * \fBcontext\fP"
+.br
+.RI "nuklear context required by every nuklear call "
+.in -1c
+.SH "Detailed Description"
+.PP 
+this uiSystem class is for ui inside the opengl context\&. ui system use nuklear library for rendering ui inside the opengl context\&. this uisystem mean to be used in app for example for debugging or inapp ui not inside level editor\&. 
+.PP
+Definition at line 16 of file UISystem\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::CORE::UI::UISystem::UISystem (\fBSOGLVA::CORE::RENDERING::Rendering\fP & _rendering)"
+
+.PP
+Definition at line 5 of file UISystem\&.cpp\&.
+.SS "SOGLVA::CORE::UI::UISystem::~UISystem ()"
+
+.PP
+Definition at line 21 of file UISystem\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SOGLVA::CORE::UI::UISystem::DrawUiPanels ()"
+
+.PP
+create nuklear_glfw frame and draw every panels inside vUIPanels 
+.PP
+Definition at line 31 of file UISystem\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "nk_context* SOGLVA::CORE::UI::UISystem::context\fC [private]\fP"
+
+.PP
+nuklear context required by every nuklear call 
+.PP
+Definition at line 36 of file UISystem\&.h\&.
+.SS "struct nk_glfw SOGLVA::CORE::UI::UISystem::glfw = { 0 }\fC [private]\fP"
+
+.PP
+contains current reference of glfw windows that will be used for nuklear context 
+.PP
+Definition at line 26 of file UISystem\&.h\&.
+.SS "\fBSOGLVA::CORE::RENDERING::Rendering\fP& SOGLVA::CORE::UI::UISystem::rendering\fC [private]\fP"
+
+.PP
+Definition at line 19 of file UISystem\&.h\&.
+.SS "std::vector<\fBIUIDrawable\fP*> SOGLVA::CORE::UI::UISystem::vUIPanels\fC [private]\fP"
+
+.PP
+contains every panel that implemented \fBIUIDrawable\fP interface\&. these panels will be called inside main loop by ui draw method from \fBIUIDrawable\fP interface\&. 
+.PP
+Definition at line 26 of file UISystem\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

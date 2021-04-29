@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Transform.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Transform:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1acf3a46d36bc217b6887d8aea118f323a">Transform</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1ac74727dda981435eccae2690d8fbebad">Transform</link> (glm::mat4 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa17ba8fc7dfcd04a74facaafbf35045c">transformMatrix</link>, glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1afb08a874a1c70201c456b6b127f7690a">position</link>, glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a07fba787e09d02e0d6d3763fdd186025">rotation</link>, glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa9749b8f3fef8c7502e96b4f28167b65">scaling</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a59d2bd380bd601809a49086b0e2f698d">Translate</link> (glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1afb08a874a1c70201c456b6b127f7690a">position</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a00c3390542d06947741133662537be88">Scale</link> (glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa9749b8f3fef8c7502e96b4f28167b65">scaling</link>)</para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208">getPosition</link> ()</para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a7b3f4ee48ef8ffce67ebbbbc35fd83be">setPosition</link> (glm::vec3 newPosition)</para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1ab4523dcb3b8352fc3409d2a8477439a1">Scaling</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::mat4 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa17ba8fc7dfcd04a74facaafbf35045c">transformMatrix</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1afb08a874a1c70201c456b6b127f7690a">position</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a07fba787e09d02e0d6d3763fdd186025">rotation</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa9749b8f3fef8c7502e96b4f28167b65">scaling</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 7 of file Transform.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1acf3a46d36bc217b6887d8aea118f323a"/>    <section>
+    <title>Transform()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Transform</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>Transform</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Transform ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file Transform.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1ac74727dda981435eccae2690d8fbebad"/>    <section>
+    <title>Transform()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Transform</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>Transform</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Transform (glm::mat4 transformMatrix, glm::vec3 position, glm::vec3 rotation, glm::vec3 scaling)</computeroutput></para><para>
+Definition at line 5 of file Transform.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_ac74727dda981435eccae2690d8fbebad_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208"/>    <section>
+    <title>getPosition()</title>
+<indexterm><primary>getPosition</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>getPosition</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::getPosition ( )</computeroutput></para><para>
+Definition at line 22 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a00c3390542d06947741133662537be88"/>    <section>
+    <title>Scale()</title>
+<indexterm><primary>Scale</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>Scale</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Scale (glm::vec3 scaling)</computeroutput></para><para>
+Definition at line 34 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1ab4523dcb3b8352fc3409d2a8477439a1"/>    <section>
+    <title>Scaling()</title>
+<indexterm><primary>Scaling</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>Scaling</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Scaling ( )</computeroutput></para><para>
+Definition at line 40 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a7b3f4ee48ef8ffce67ebbbbc35fd83be"/>    <section>
+    <title>setPosition()</title>
+<indexterm><primary>setPosition</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>setPosition</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::setPosition (glm::vec3 newPosition)</computeroutput></para><para>
+Definition at line 27 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a59d2bd380bd601809a49086b0e2f698d"/>    <section>
+    <title>Translate()</title>
+<indexterm><primary>Translate</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>Translate</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Translate (glm::vec3 position)</computeroutput></para><para>
+Definition at line 16 of file Transform.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1afb08a874a1c70201c456b6b127f7690a"/>    <section>
+    <title>position</title>
+<indexterm><primary>position</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>position</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::position<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 31 of file Transform.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a07fba787e09d02e0d6d3763fdd186025"/>    <section>
+    <title>rotation</title>
+<indexterm><primary>rotation</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>rotation</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::rotation<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 32 of file Transform.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa9749b8f3fef8c7502e96b4f28167b65"/>    <section>
+    <title>scaling</title>
+<indexterm><primary>scaling</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>scaling</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::scaling<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 33 of file Transform.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa17ba8fc7dfcd04a74facaafbf35045c"/>    <section>
+    <title>transformMatrix</title>
+<indexterm><primary>transformMatrix</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</primary><secondary>transformMatrix</secondary></indexterm>
+<para><computeroutput>glm::mat4 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::transformMatrix</computeroutput></para><para>
+Definition at line 10 of file Transform.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/ManagedObject/Components/<link linkend="__transform_8h">Transform.h</link>SOGLVA/src/ManagedObject/Components/<link linkend="__transform_8cpp">Transform.cpp</link></section>
+</section>

@@ -1,0 +1,96 @@
+.TH "SOGLVA::CORE::SCENE::Scene" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::CORE::SCENE::Scene
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Scene\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBScene\fP (std::string _name)"
+.br
+.ti -1c
+.RI "\fB~Scene\fP ()"
+.br
+.RI "delete every managedObject inside managed objects data and clear the data container which is std::vector "
+.ti -1c
+.RI "void \fBUpdate\fP ()"
+.br
+.RI "call Update in every managedObject inside managed objects data "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBname\fP"
+.br
+.ti -1c
+.RI "\fBSOGLVA::MANAGED_OBJECT::COMPONENT::Model\fP * \fBcubeModel\fP"
+.br
+.ti -1c
+.RI "\fBSOGLVA::MANAGED_OBJECT::COMPONENT::Physic\fP \fBphysic\fP"
+.br
+.ti -1c
+.RI "btRigidBody * \fBRBspehere\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBSOGLVA::MANAGED_OBJECT::ManagedObject\fP * > \fBmanagedObjects\fP"
+.br
+.RI "managed object that will rendered inside this scene "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 6 of file Scene\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::CORE::SCENE::Scene::Scene (std::string _name)"
+
+.PP
+Definition at line 5 of file Scene\&.cpp\&.
+.SS "SOGLVA::CORE::SCENE::Scene::~Scene ()"
+
+.PP
+delete every managedObject inside managed objects data and clear the data container which is std::vector 
+.PP
+Definition at line 48 of file Scene\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SOGLVA::CORE::SCENE::Scene::Update ()"
+
+.PP
+call Update in every managedObject inside managed objects data 
+.PP
+Definition at line 57 of file Scene\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBSOGLVA::MANAGED_OBJECT::COMPONENT::Model\fP* SOGLVA::CORE::SCENE::Scene::cubeModel"
+
+.PP
+Definition at line 10 of file Scene\&.h\&.
+.SS "std::vector<\fBSOGLVA::MANAGED_OBJECT::ManagedObject\fP*> SOGLVA::CORE::SCENE::Scene::managedObjects"
+
+.PP
+managed object that will rendered inside this scene 
+.PP
+Definition at line 17 of file Scene\&.h\&.
+.SS "std::string SOGLVA::CORE::SCENE::Scene::name"
+
+.PP
+Definition at line 9 of file Scene\&.h\&.
+.SS "\fBSOGLVA::MANAGED_OBJECT::COMPONENT::Physic\fP SOGLVA::CORE::SCENE::Scene::physic"
+
+.PP
+Definition at line 11 of file Scene\&.h\&.
+.SS "btRigidBody* SOGLVA::CORE::SCENE::Scene::RBspehere"
+
+.PP
+Definition at line 12 of file Scene\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

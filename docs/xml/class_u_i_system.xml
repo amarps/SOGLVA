@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_u_i_system" kind="class" language="C++" prot="public">
+    <compoundname>UISystem</compoundname>
+    <includes refid="_u_i_system_8h" local="no">UISystem.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_system_1ac0c4c4a27ecbf490162284525c92de3d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rendering" kindref="compound">Rendering</ref> &amp;</type>
+        <definition>Rendering&amp; UISystem::rendering</definition>
+        <argsstring></argsstring>
+        <name>rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="20" column="11" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_system_1a60ed6b563aa55ad5084a5c366d0da1e2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_i_u_i_drawable" kindref="compound">IUIDrawable</ref> * &gt;</type>
+        <definition>std::vector&lt;IUIDrawable*&gt; UISystem::vUIPanels</definition>
+        <argsstring></argsstring>
+        <name>vUIPanels</name>
+        <briefdescription>
+<para>contains every panel that implemented <ref refid="class_i_u_i_drawable" kindref="compound">IUIDrawable</ref> interface. these panels will be called inside main loop by ui draw method from <ref refid="class_i_u_i_drawable" kindref="compound">IUIDrawable</ref> interface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="27" column="13" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_system_1a477cef318a70a2daef6b000e8ad32eb2" prot="private" static="no" mutable="no">
+        <type>struct nk_glfw</type>
+        <definition>struct nk_glfw UISystem::glfw</definition>
+        <argsstring></argsstring>
+        <name>glfw</name>
+        <initializer>= { 0 }</initializer>
+        <briefdescription>
+<para>contains current reference of glfw windows that will be used for nuklear context </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="27" column="13" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_system_1aeaa08238e54beee2eaf6a4927a847b55" prot="private" static="no" mutable="no">
+        <type>nk_context *</type>
+        <definition>nk_context* UISystem::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+<para>nuklear context required by every nuklear call </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="37" column="12" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_system_1a91a74f7b261216602f997afecd1c9d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UISystem::UISystem</definition>
+        <argsstring>(Rendering &amp;_rendering)</argsstring>
+        <name>UISystem</name>
+        <param>
+          <type><ref refid="class_rendering" kindref="compound">Rendering</ref> &amp;</type>
+          <declname>_rendering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="40" column="1" bodyfile="SOGLVA/src/Core/UI/UISystem.cpp" bodystart="3" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_system_1a877206d1d98fcf1129871905aab35356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UISystem::~UISystem</definition>
+        <argsstring>()</argsstring>
+        <name>~UISystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="42" column="1" bodyfile="SOGLVA/src/Core/UI/UISystem.cpp" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_system_1a73fa98334b256507cf288c135a1aa521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UISystem::DrawUiPanels</definition>
+        <argsstring>()</argsstring>
+        <name>DrawUiPanels</name>
+        <briefdescription>
+<para>create nuklear_glfw frame and draw every panels inside vUIPanels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/UISystem.h" line="47" column="6" bodyfile="SOGLVA/src/Core/UI/UISystem.cpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this uiSystem class is for ui inside the opengl context. ui system use nuklear library for rendering ui inside the opengl context. this uisystem mean to be used in app for example for debugging or inapp ui not inside level editor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/UI/UISystem.h" line="17" column="1" bodyfile="SOGLVA/src/Core/UI/UISystem.h" bodystart="18" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_u_i_system_1aeaa08238e54beee2eaf6a4927a847b55" prot="private" virt="non-virtual"><scope>UISystem</scope><name>context</name></member>
+      <member refid="class_u_i_system_1a73fa98334b256507cf288c135a1aa521" prot="public" virt="non-virtual"><scope>UISystem</scope><name>DrawUiPanels</name></member>
+      <member refid="class_u_i_system_1a477cef318a70a2daef6b000e8ad32eb2" prot="private" virt="non-virtual"><scope>UISystem</scope><name>glfw</name></member>
+      <member refid="class_u_i_system_1ac0c4c4a27ecbf490162284525c92de3d" prot="private" virt="non-virtual"><scope>UISystem</scope><name>rendering</name></member>
+      <member refid="class_u_i_system_1a91a74f7b261216602f997afecd1c9d9e" prot="public" virt="non-virtual"><scope>UISystem</scope><name>UISystem</name></member>
+      <member refid="class_u_i_system_1a60ed6b563aa55ad5084a5c366d0da1e2" prot="private" virt="non-virtual"><scope>UISystem</scope><name>vUIPanels</name></member>
+      <member refid="class_u_i_system_1a877206d1d98fcf1129871905aab35356" prot="public" virt="non-virtual"><scope>UISystem</scope><name>~UISystem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

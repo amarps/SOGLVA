@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_vertex" xml:lang="en-US">
+<title>Vertex Struct Reference</title>
+<indexterm><primary>Vertex</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Mesh.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::vec3 <link linkend="_struct_vertex_1abb3cfacd96b5955b0cec9359840ee49f">Position</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_struct_vertex_1a9ab4dc431b41509f0b1bb1a4bf09d4e2">Normal</link></para>
+</listitem>
+            <listitem><para>glm::vec2 <link linkend="_struct_vertex_1a921a513c1e6d1e63e99d477fa837a317">TexCoords</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_struct_vertex_1abfd8917796f41a3bd16441b2626e8212">Tangent</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_struct_vertex_1af65a7edcbe784e73e9fb29fdf6368615">Bitangent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 24 of file Mesh.h.</para>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_vertex_1af65a7edcbe784e73e9fb29fdf6368615"/>    <section>
+    <title>Bitangent</title>
+<indexterm><primary>Bitangent</primary><secondary>Vertex</secondary></indexterm>
+<indexterm><primary>Vertex</primary><secondary>Bitangent</secondary></indexterm>
+<para><computeroutput>glm::vec3 Vertex::Bitangent</computeroutput></para><para>
+Definition at line 34 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_vertex_1a9ab4dc431b41509f0b1bb1a4bf09d4e2"/>    <section>
+    <title>Normal</title>
+<indexterm><primary>Normal</primary><secondary>Vertex</secondary></indexterm>
+<indexterm><primary>Vertex</primary><secondary>Normal</secondary></indexterm>
+<para><computeroutput>glm::vec3 Vertex::Normal</computeroutput></para><para>
+Definition at line 28 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_vertex_1abb3cfacd96b5955b0cec9359840ee49f"/>    <section>
+    <title>Position</title>
+<indexterm><primary>Position</primary><secondary>Vertex</secondary></indexterm>
+<indexterm><primary>Vertex</primary><secondary>Position</secondary></indexterm>
+<para><computeroutput>glm::vec3 Vertex::Position</computeroutput></para><para>
+Definition at line 26 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_vertex_1abfd8917796f41a3bd16441b2626e8212"/>    <section>
+    <title>Tangent</title>
+<indexterm><primary>Tangent</primary><secondary>Vertex</secondary></indexterm>
+<indexterm><primary>Vertex</primary><secondary>Tangent</secondary></indexterm>
+<para><computeroutput>glm::vec3 Vertex::Tangent</computeroutput></para><para>
+Definition at line 32 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_vertex_1a921a513c1e6d1e63e99d477fa837a317"/>    <section>
+    <title>TexCoords</title>
+<indexterm><primary>TexCoords</primary><secondary>Vertex</secondary></indexterm>
+<indexterm><primary>Vertex</primary><secondary>TexCoords</secondary></indexterm>
+<para><computeroutput>glm::vec2 Vertex::TexCoords</computeroutput></para><para>
+Definition at line 30 of file Mesh.h.</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+SOGLVA/src/Components/Graphics/<link linkend="__mesh_8h">Mesh.h</link></section>
+</section>

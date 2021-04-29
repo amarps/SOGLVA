@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r" kind="namespace" language="C++">
+    <compoundname>SOGLVA::INPUTHANDLER</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r_1ad8a2ede621b1aedc78489910b0cba427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::INPUTHANDLER::DefaultKeyboardInput</definition>
+        <argsstring>(SOGLVA::CORE::RENDERING::Rendering &amp;rendering)</argsstring>
+        <name>DefaultKeyboardInput</name>
+        <param>
+          <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref> &amp;</type>
+          <declname>rendering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/InputHandler/DefaultInput.cpp" line="9" column="10" bodyfile="SOGLVA/src/InputHandler/DefaultInput.cpp" bodystart="9" bodyend="52" declfile="SOGLVA/src/InputHandler/DefaultInput.h" declline="8" declcolumn="6"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a1600546df8da227fb258c2dc296d433c" compoundref="_camera_8h" startline="22">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::BACKWARD</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a" compoundref="_rendering_8h" startline="38">SOGLVA::CORE::RENDERING::Rendering::deltaTime</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29aecb66931927ba8fb61ca6eee757c4e7e" compoundref="_camera_8h" startline="21">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::FORWARD</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a581843a2acbb7e915ab340958fe0dac9" compoundref="_camera_8h" startline="32" endline="36">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::get</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a7c43f07c60613f723bba36f725b7c342" compoundref="_camera_8h" startline="23">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::LEFT</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ad1edda4d81ed45b40238af05a054ffe8" compoundref="_camera_8cpp" startline="27" endline="38">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::ProcessKeyboard</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac6965462dfcfdae73cdaccd67a7af5fb" compoundref="_camera_8cpp" startline="49" endline="68">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::ProcessMouseMovement</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a4952cfe01a42208e0571551de40df9dd" compoundref="_camera_8h" startline="24">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::RIGHT</references>
+        <references refid="_a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0" compoundref="_a_p_i_8cpp" startline="46" endline="51">SOGLVADestroy</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" compoundref="_rendering_8h" startline="41">SOGLVA::CORE::RENDERING::Rendering::window</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/InputHandler/DefaultInput.cpp" line="7" column="1"/>
+  </compounddef>
+</doxygen>

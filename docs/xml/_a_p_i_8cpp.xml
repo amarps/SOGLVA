@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_a_p_i_8cpp" kind="file" language="C++">
+    <compoundname>API.cpp</compoundname>
+    <includes refid="_a_p_i_8h" local="yes">API.h</includes>
+    <includes local="no">nuklear.h</includes>
+    <includes local="no">glfw_opengl3/nuklear_glfw_gl3.h</includes>
+    <includes local="no">stb_image.h</includes>
+    <incdepgraph>
+      <node id="20">
+        <label>Scene.h</label>
+        <link refid="_scene_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="39">
+        <label>Components/Physic.h</label>
+        <link refid="_physic_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Core/UI/UISystem.h</label>
+        <link refid="_u_i_system_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>ManagedObject/ManagedObject.h</label>
+        <link refid="_managed_object_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Windows.h</label>
+      </node>
+      <node id="30">
+        <label>shader.h</label>
+        <link refid="_shader_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="42">
+        <label>map</label>
+      </node>
+      <node id="11">
+        <label>Panels/FPSCounter.h</label>
+        <link refid="_f_p_s_counter_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/API.cpp</label>
+        <link refid="_a_p_i_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SOGLVA.h</label>
+        <link refid="_s_o_g_l_v_a_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Core/Rendering/Rendering.h</label>
+        <link refid="_rendering_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Components/Graphics/Mesh.h</label>
+        <link refid="_mesh_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Components/Graphics/Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="31">
+        <label>glm/gtc/type_ptr.hpp</label>
+      </node>
+      <node id="17">
+        <label>style.c</label>
+      </node>
+      <node id="15">
+        <label>nuklear.h</label>
+      </node>
+      <node id="38">
+        <label>vector</label>
+      </node>
+      <node id="12">
+        <label>Core/UI/IUIDrawable.h</label>
+        <link refid="_i_u_i_drawable_8h"/>
+      </node>
+      <node id="14">
+        <label>common/NuklearImport.h</label>
+        <link refid="_nuklear_import_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Panels/Property.h</label>
+        <link refid="_property_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>glfw_opengl3/nuklear_glfw_gl3.h</label>
+      </node>
+      <node id="40">
+        <label>bullet/btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="2">
+        <label>API.h</label>
+        <link refid="_a_p_i_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>assimp/scene.h</label>
+      </node>
+      <node id="23">
+        <label>Components/Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>assimp/postprocess.h</label>
+      </node>
+      <node id="28">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="33">
+        <label>stb_image.h</label>
+      </node>
+      <node id="27">
+        <label>Components/Transform.h</label>
+        <link refid="_transform_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>BasePanel.h</label>
+        <link refid="_base_panel_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Core/Scene/SceneManager.h</label>
+        <link refid="_scene_manager_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>set</label>
+      </node>
+      <node id="26">
+        <label>gl/glew.h</label>
+      </node>
+      <node id="35">
+        <label>assimp/Importer.hpp</label>
+      </node>
+      <node id="22">
+        <label>Components/IComponent.h</label>
+        <link refid="_i_component_8h"/>
+      </node>
+      <node id="24">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_a_p_i_8cpp_1a4e30c99b0f20f7155adebf2cb2219b03" prot="public" static="no">
+        <name>NK_INCLUDE_FIXED_TYPES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="3" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1a2ab99de094ad4c244260062426e5caa0" prot="public" static="no">
+        <name>NK_INCLUDE_STANDARD_IO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="4" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1a13b5abd58c2a82dcf6a5f7ddfcf112aa" prot="public" static="no">
+        <name>NK_INCLUDE_STANDARD_VARARGS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="5" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1adf1c808d169071b73cb46f7538bf1721" prot="public" static="no">
+        <name>NK_INCLUDE_DEFAULT_ALLOCATOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="6" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1ac67be0ee8bc7f08530c891cbfa14b788" prot="public" static="no">
+        <name>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="7" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2" prot="public" static="no">
+        <name>NK_INCLUDE_FONT_BAKING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="8" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1af0847faa9e18a4865944c2f5fb093be0" prot="public" static="no">
+        <name>NK_INCLUDE_DEFAULT_FONT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="9" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1a9555e340b124951b3323becad26b15c5" prot="public" static="no">
+        <name>NK_KEYSTATE_BASED_INPUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="10" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1aae11ce91efbb99ec40b279ddc84c050f" prot="public" static="no">
+        <name>NK_IMPLEMENTATION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="11" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1afcbe59ecb36abfe68316d9e74d5889b8" prot="public" static="no">
+        <name>NK_GLFW_GL3_IMPLEMENTATION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="12" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_p_i_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" prot="public" static="no">
+        <name>STB_IMAGE_IMPLEMENTATION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="16" column="9" bodyfile="SOGLVA/src/API.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HWND</type>
+        <definition>HWND SOGLVAInitialize</definition>
+        <argsstring>()</argsstring>
+        <name>SOGLVAInitialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="28" column="6" bodyfile="SOGLVA/src/API.cpp" bodystart="28" bodyend="32"/>
+        <references refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" compoundref="_a_p_i_8h" startline="10">application</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2" compoundref="_s_o_g_l_v_a_8cpp" startline="20" endline="27">SOGLVA::Soglva::Initialize</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" compoundref="_s_o_g_l_v_a_8h" startline="14">SOGLVA::Soglva::rendering</references>
+      </memberdef>
+      <memberdef kind="function" id="_a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVARunApp</definition>
+        <argsstring>()</argsstring>
+        <name>SOGLVARunApp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="34" column="6" bodyfile="SOGLVA/src/API.cpp" bodystart="34" bodyend="38"/>
+        <references refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" compoundref="_a_p_i_8h" startline="10">application</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd" compoundref="_s_o_g_l_v_a_8cpp" startline="34" endline="54">SOGLVA::Soglva::Run</references>
+      </memberdef>
+      <memberdef kind="function" id="_a_p_i_8cpp_1a199398df1ba356f908954a6d83cc862a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVARestart</definition>
+        <argsstring>()</argsstring>
+        <name>SOGLVARestart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>not implemented</para>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="40" column="6" bodyfile="SOGLVA/src/API.cpp" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVADestroy</definition>
+        <argsstring>()</argsstring>
+        <name>SOGLVADestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/API.cpp" line="46" column="6" bodyfile="SOGLVA/src/API.cpp" bodystart="46" bodyend="51"/>
+        <references refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" compoundref="_a_p_i_8h" startline="10">application</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988" compoundref="_s_o_g_l_v_a_8cpp" startline="29" endline="32">SOGLVA::Soglva::IsQuit</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_a_p_i_8h" kindref="compound">API.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="_a_p_i_8cpp_1a4e30c99b0f20f7155adebf2cb2219b03" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_FIXED_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="_a_p_i_8cpp_1a2ab99de094ad4c244260062426e5caa0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_STANDARD_IO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="_a_p_i_8cpp_1a13b5abd58c2a82dcf6a5f7ddfcf112aa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_STANDARD_VARARGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="_a_p_i_8cpp_1adf1c808d169071b73cb46f7538bf1721" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_DEFAULT_ALLOCATOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_a_p_i_8cpp_1ac67be0ee8bc7f08530c891cbfa14b788" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_a_p_i_8cpp_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_FONT_BAKING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_a_p_i_8cpp_1af0847faa9e18a4865944c2f5fb093be0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_DEFAULT_FONT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_a_p_i_8cpp_1a9555e340b124951b3323becad26b15c5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_KEYSTATE_BASED_INPUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="_a_p_i_8cpp_1aae11ce91efbb99ec40b279ddc84c050f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_IMPLEMENTATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="_a_p_i_8cpp_1afcbe59ecb36abfe68316d9e74d5889b8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_GLFW_GL3_IMPLEMENTATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nuklear.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glfw_opengl3/nuklear_glfw_gl3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_a_p_i_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STB_IMAGE_IMPLEMENTATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stb_image.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2" kindref="member">SOGLVAInitialize</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba" kindref="member">SOGLVARunApp</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="_a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2" refkind="member"><highlight class="normal">HWND<sp/><ref refid="_a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2" kindref="member">SOGLVAInitialize</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kindref="member">application</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2" kindref="member">Initialize</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kindref="member">application</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" kindref="member">rendering</ref>-&gt;hwNative;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="_a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba" kindref="member">SOGLVARunApp</ref>()</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kindref="member">application</ref>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kindref="member">application</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd" kindref="member">Run</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_a_p_i_8cpp_1a199398df1ba356f908954a6d83cc862a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_a_p_i_8cpp_1a199398df1ba356f908954a6d83cc862a" kindref="member">SOGLVARestart</ref>()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="_a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0" kindref="member">SOGLVADestroy</ref>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kindref="member">application</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988" kindref="member">IsQuit</ref>())</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kindref="member">application</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>std::exit(0);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/API.cpp"/>
+  </compounddef>
+</doxygen>

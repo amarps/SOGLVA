@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_mesh_8cpp" kind="file" language="C++">
+    <compoundname>Mesh.cpp</compoundname>
+    <includes refid="_mesh_8h" local="yes">Mesh.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp</label>
+        <link refid="_mesh_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Windows.h</label>
+      </node>
+      <node id="4">
+        <label>shader.h</label>
+        <link refid="_shader_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="7">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="2">
+        <label>Mesh.h</label>
+        <link refid="_mesh_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="11">
+        <label>glm/gtc/type_ptr.hpp</label>
+      </node>
+      <node id="14">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="13">
+        <label>stb_image.h</label>
+      </node>
+      <node id="5">
+        <label>Core/Rendering/RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_s_o_g_l_v_a">SOGLVA</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t">SOGLVA::MANAGED_OBJECT</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t">SOGLVA::MANAGED_OBJECT::COMPONENT</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mesh_8h" kindref="compound">Mesh.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t" kindref="compound">SOGLVA::MANAGED_OBJECT::COMPONENT</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87" kindref="member">Mesh::Mesh</ref>(std::vector&lt;Vertex&gt;<sp/>vertices,<sp/>std::vector&lt;unsigned<sp/>int&gt;<sp/>indices,<sp/>std::vector&lt;Texture&gt;<sp/>textures)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;vertices<sp/>=<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" kindref="member">vertices</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;indices<sp/>=<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" kindref="member">indices</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;textures<sp/>=<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" kindref="member">textures</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>that<sp/>we<sp/>have<sp/>all<sp/>the<sp/>required<sp/>data,<sp/>set<sp/>the<sp/>vertex<sp/>buffers<sp/>and<sp/>its<sp/>attribute<sp/>pointers.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" kindref="member">setupMesh</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5" kindref="member">Mesh::Draw</ref>(<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" kindref="compound">Shader</ref>&amp;<sp/>shader)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bind<sp/>appropriate<sp/>textures</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>diffuseNr<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>specularNr<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>normalNr<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>heightNr<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" kindref="member">textures</ref>.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glActiveTexture(GL_TEXTURE0<sp/>+<sp/>i);<sp/></highlight><highlight class="comment">//<sp/>active<sp/>proper<sp/>texture<sp/>unit<sp/>before<sp/>binding</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>retrieve<sp/>texture<sp/>number<sp/>(the<sp/>N<sp/>in<sp/>diffuse_textureN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>number;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>name<sp/>=<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" kindref="member">textures</ref>[i].type;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;texture_diffuse&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>=<sp/>std::to_string(diffuseNr++);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;texture_specular&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>=<sp/>std::to_string(specularNr++);<sp/></highlight><highlight class="comment">//<sp/>transfer<sp/>unsigned<sp/>int<sp/>to<sp/>stream</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;texture_normal&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>=<sp/>std::to_string(normalNr++);<sp/></highlight><highlight class="comment">//<sp/>transfer<sp/>unsigned<sp/>int<sp/>to<sp/>stream</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(name<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;texture_height&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>number<sp/>=<sp/>std::to_string(heightNr++);<sp/></highlight><highlight class="comment">//<sp/>transfer<sp/>unsigned<sp/>int<sp/>to<sp/>stream</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>now<sp/>set<sp/>the<sp/>sampler<sp/>to<sp/>the<sp/>correct<sp/>texture<sp/>unit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glUniform1i(glGetUniformLocation(shader.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a33e503add5c09e826472b69a4f4dbdd2" kindref="member">ID</ref>,<sp/>(name<sp/>+<sp/>number).c_str()),<sp/>i);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>finally<sp/>bind<sp/>the<sp/>texture</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" kindref="member">textures</ref>[i].</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>draw<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindVertexArray(<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" kindref="member">VAO</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glDrawElements(GL_TRIANGLES,<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" kindref="member">indices</ref>.size(),<sp/>GL_UNSIGNED_INT,<sp/>0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindVertexArray(0);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>always<sp/>good<sp/>practice<sp/>to<sp/>set<sp/>everything<sp/>back<sp/>to<sp/>defaults<sp/>once<sp/>configured.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glActiveTexture(GL_TEXTURE0);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" kindref="member">Mesh::setupMesh</ref>()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>create<sp/>buffers/arrays</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glGenVertexArrays(1,<sp/>&amp;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" kindref="member">VAO</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glGenBuffers(1,<sp/>&amp;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d" kindref="member">VBO</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glGenBuffers(1,<sp/>&amp;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa" kindref="member">EBO</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindVertexArray(<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" kindref="member">VAO</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>data<sp/>into<sp/>vertex<sp/>buffers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindBuffer(GL_ARRAY_BUFFER,<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d" kindref="member">VBO</ref>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>A<sp/>great<sp/>thing<sp/>about<sp/>structs<sp/>is<sp/>that<sp/>their<sp/>memory<sp/>layout<sp/>is<sp/>sequential<sp/>for<sp/>all<sp/>its<sp/>items.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>effect<sp/>is<sp/>that<sp/>we<sp/>can<sp/>simply<sp/>pass<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>struct<sp/>and<sp/>it<sp/>translates<sp/>perfectly<sp/>to<sp/>a<sp/>glm::vec3/2<sp/>array<sp/>which</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>again<sp/>translates<sp/>to<sp/>3/2<sp/>floats<sp/>which<sp/>translates<sp/>to<sp/>a<sp/>byte<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBufferData(GL_ARRAY_BUFFER,<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" kindref="member">vertices</ref>.size()<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>),<sp/>&amp;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" kindref="member">vertices</ref>[0],<sp/>GL_STATIC_DRAW);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa" kindref="member">EBO</ref>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBufferData(GL_ELEMENT_ARRAY_BUFFER,<sp/><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" kindref="member">indices</ref>.size()<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">),<sp/>&amp;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" kindref="member">indices</ref>[0],<sp/>GL_STATIC_DRAW);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>the<sp/>vertex<sp/>attribute<sp/>pointers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>Positions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glEnableVertexAttribArray(0);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertexAttribPointer(0,<sp/>3,<sp/>GL_FLOAT,<sp/>GL_FALSE,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>),<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)0);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>normals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glEnableVertexAttribArray(1);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertexAttribPointer(1,<sp/>3,<sp/>GL_FLOAT,<sp/>GL_FALSE,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>),<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)offsetof(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>,<sp/>Normal));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>texture<sp/>coords</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glEnableVertexAttribArray(2);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertexAttribPointer(2,<sp/>2,<sp/>GL_FLOAT,<sp/>GL_FALSE,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>),<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)offsetof(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>,<sp/>TexCoords));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>tangent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glEnableVertexAttribArray(3);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertexAttribPointer(3,<sp/>3,<sp/>GL_FLOAT,<sp/>GL_FALSE,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>),<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)offsetof(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>,<sp/>Tangent));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>vertex<sp/>bitangent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glEnableVertexAttribArray(4);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glVertexAttribPointer(4,<sp/>3,<sp/>GL_FLOAT,<sp/>GL_FALSE,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>),<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)offsetof(<ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref>,<sp/>Bitangent));</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindVertexArray(0);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641" kindref="member">TextureFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>directory,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>gamma)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>filename<sp/>=<sp/>std::string(path);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>filename<sp/>=<sp/>directory<sp/>+<sp/></highlight><highlight class="charliteral">&apos;/&apos;</highlight><highlight class="normal"><sp/>+<sp/>filename;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>textureID;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glGenTextures(1,<sp/>&amp;textureID);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/>height,<sp/>nrComponents;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>data<sp/>=<sp/>stbi_load(filename.c_str(),<sp/>&amp;width,<sp/>&amp;height,<sp/>&amp;nrComponents,<sp/>0);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(data)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GLenum<sp/>format;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nrComponents<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>format<sp/>=<sp/>GL_RED;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nrComponents<sp/>==<sp/>3)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>format<sp/>=<sp/>GL_RGB;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nrComponents<sp/>==<sp/>4)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>format<sp/>=<sp/>GL_RGBA;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glBindTexture(GL_TEXTURE_2D,<sp/>textureID);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glTexImage2D(GL_TEXTURE_2D,<sp/>0,<sp/>format,<sp/>width,<sp/>height,<sp/>0,<sp/>format,<sp/>GL_UNSIGNED_BYTE,<sp/>data);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glGenerateMipmap(GL_TEXTURE_2D);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glTexParameteri(GL_TEXTURE_2D,<sp/>GL_TEXTURE_WRAP_S,<sp/>GL_REPEAT);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glTexParameteri(GL_TEXTURE_2D,<sp/>GL_TEXTURE_WRAP_T,<sp/>GL_REPEAT);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glTexParameteri(GL_TEXTURE_2D,<sp/>GL_TEXTURE_MIN_FILTER,<sp/>GL_LINEAR_MIPMAP_LINEAR);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glTexParameteri(GL_TEXTURE_2D,<sp/>GL_TEXTURE_MAG_FILTER,<sp/>GL_LINEAR);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stbi_image_free(data);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Texture<sp/>failed<sp/>to<sp/>load<sp/>at<sp/>path:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>filename<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stbi_image_free(data);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>textureID;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_transform" kind="class" language="C++" prot="public">
+    <compoundname>Transform</compoundname>
+    <includes refid="_transform_8h" local="no">Transform.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_transform_1abf10a1e478be3ff110e03b07c3577800" prot="public" static="no" mutable="no">
+        <type>glm::mat4</type>
+        <definition>glm::mat4 Transform::transformMatrix</definition>
+        <argsstring></argsstring>
+        <name>transformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="8" column="15" bodyfile="SOGLVA/src/Components/Transform.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_transform_1aa357f8eb780f4ef195027d1c636baa36" prot="private" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Transform::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="29" column="15" bodyfile="SOGLVA/src/Components/Transform.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform_1aefd4a6bf41e01cf5898fd57430d93dea" prot="private" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Transform::rotation</definition>
+        <argsstring></argsstring>
+        <name>rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="30" column="15" bodyfile="SOGLVA/src/Components/Transform.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_transform_1aa63334a46f3d6b6b41eed8e5c866fac1" prot="private" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Transform::scaling</definition>
+        <argsstring></argsstring>
+        <name>scaling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="31" column="15" bodyfile="SOGLVA/src/Components/Transform.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_transform_1aa08ca4266efabc768973cdeea51945ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Transform::Transform</definition>
+        <argsstring>()</argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="10" column="5" bodyfile="SOGLVA/src/Components/Transform.h" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform_1aa0b3411eab68aa905e7b73322954b9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Transform::Transform</definition>
+        <argsstring>(glm::mat4 transformMatrix, glm::vec3 position, glm::vec3 rotation, glm::vec3 scaling)</argsstring>
+        <name>Transform</name>
+        <param>
+          <type>glm::mat4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>glm::vec3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>glm::vec3</type>
+          <declname>rotation</declname>
+        </param>
+        <param>
+          <type>glm::vec3</type>
+          <declname>scaling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="18" column="5" bodyfile="SOGLVA/src/Components/Transform.cpp" bodystart="3" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform_1afdb45a925b40ac6976077230946b0035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Transform::Translate</definition>
+        <argsstring>(glm::vec3 position)</argsstring>
+        <name>Translate</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="20" column="10" bodyfile="SOGLVA/src/Components/Transform.cpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform_1a60396810bb2365e5b6a7b2709eb1083d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Transform::Scale</definition>
+        <argsstring>(glm::vec3 scaling)</argsstring>
+        <name>Scale</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>scaling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="21" column="10" bodyfile="SOGLVA/src/Components/Transform.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform_1a0b21f641e72d7b55f3a630b986d0b106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Transform::getPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="23" column="15" bodyfile="SOGLVA/src/Components/Transform.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform_1a64018b6c8fc04dbed870219ca97474ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Transform::setPosition</definition>
+        <argsstring>(glm::vec3 newPosition)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>glm::vec3</type>
+          <declname>newPosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="24" column="15" bodyfile="SOGLVA/src/Components/Transform.cpp" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_transform_1aaaca5c382f180b441df8f7b15f85186b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 Transform::Scaling</definition>
+        <argsstring>()</argsstring>
+        <name>Scaling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Transform.h" line="26" column="15" bodyfile="SOGLVA/src/Components/Transform.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Components/Transform.h" line="5" column="1" bodyfile="SOGLVA/src/Components/Transform.h" bodystart="6" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_transform_1a0b21f641e72d7b55f3a630b986d0b106" prot="public" virt="non-virtual"><scope>Transform</scope><name>getPosition</name></member>
+      <member refid="class_transform_1aa357f8eb780f4ef195027d1c636baa36" prot="private" virt="non-virtual"><scope>Transform</scope><name>position</name></member>
+      <member refid="class_transform_1aefd4a6bf41e01cf5898fd57430d93dea" prot="private" virt="non-virtual"><scope>Transform</scope><name>rotation</name></member>
+      <member refid="class_transform_1a60396810bb2365e5b6a7b2709eb1083d" prot="public" virt="non-virtual"><scope>Transform</scope><name>Scale</name></member>
+      <member refid="class_transform_1aa63334a46f3d6b6b41eed8e5c866fac1" prot="private" virt="non-virtual"><scope>Transform</scope><name>scaling</name></member>
+      <member refid="class_transform_1aaaca5c382f180b441df8f7b15f85186b" prot="public" virt="non-virtual"><scope>Transform</scope><name>Scaling</name></member>
+      <member refid="class_transform_1a64018b6c8fc04dbed870219ca97474ae" prot="public" virt="non-virtual"><scope>Transform</scope><name>setPosition</name></member>
+      <member refid="class_transform_1aa08ca4266efabc768973cdeea51945ab" prot="public" virt="non-virtual"><scope>Transform</scope><name>Transform</name></member>
+      <member refid="class_transform_1aa0b3411eab68aa905e7b73322954b9fa" prot="public" virt="non-virtual"><scope>Transform</scope><name>Transform</name></member>
+      <member refid="class_transform_1abf10a1e478be3ff110e03b07c3577800" prot="public" virt="non-virtual"><scope>Transform</scope><name>transformMatrix</name></member>
+      <member refid="class_transform_1afdb45a925b40ac6976077230946b0035" prot="public" virt="non-virtual"><scope>Transform</scope><name>Translate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

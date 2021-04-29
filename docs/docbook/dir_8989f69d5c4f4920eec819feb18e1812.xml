@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_8989f69d5c4f4920eec819feb18e1812" xml:lang="en-US">
+<title>SOGLVA/src/Core/UI/Panels Directory Reference</title>
+<indexterm><primary>SOGLVA/src/Core/UI/Panels Directory Reference</primary></indexterm>
+Directory dependency graph for Panels:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_8989f69d5c4f4920eec819feb18e1812_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__base_panel_8h">BasePanel.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__f_p_s_counter_8cpp">FPSCounter.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__f_p_s_counter_8h">FPSCounter.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__property_8cpp">Property.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__property_8h">Property.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

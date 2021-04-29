@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_8b4168203b5f12743d70f178dccc384d" kind="dir">
+    <compoundname>SOGLVA/src/ManagedObject/Components/Lighting</compoundname>
+    <innerfile refid="_directional_light_8h">DirectionalLight.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/ManagedObject/Components/Lighting/"/>
+  </compounddef>
+</doxygen>

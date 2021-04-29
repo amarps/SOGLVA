@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system" xml:lang="en-US">
+<title>SOGLVA::CORE::UI::UISystem Class Reference</title>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary></indexterm>
+<para>
+<computeroutput>#include &lt;UISystem.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::CORE::UI::UISystem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf">UISystem</link> (<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp;_rendering)</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3">~UISystem</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88">DrawUiPanels</link> ()</para>
+
+<para>create nuklear_glfw frame and draw every panels inside vUIPanels </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0">rendering</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link> * &gt; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a">vUIPanels</link></para>
+
+<para>contains every panel that implemented <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link> interface. these panels will be called inside main loop by ui draw method from <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link> interface. </para>
+</listitem>
+            <listitem><para>struct nk_glfw <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc">glfw</link> = { 0 }</para>
+
+<para>contains current reference of glfw windows that will be used for nuklear context </para>
+</listitem>
+            <listitem><para>nk_context * <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab">context</link></para>
+
+<para>nuklear context required by every nuklear call </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>this uiSystem class is for ui inside the opengl context. ui system use nuklear library for rendering ui inside the opengl context. this uisystem mean to be used in app for example for debugging or inapp ui not inside level editor. </para>
+<para>
+Definition at line 16 of file UISystem.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf"/>    <section>
+    <title>UISystem()</title>
+<indexterm><primary>UISystem</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>UISystem</secondary></indexterm>
+<para><computeroutput>SOGLVA::CORE::UI::UISystem::UISystem (<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp; _rendering)</computeroutput></para><para>
+Definition at line 5 of file UISystem.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3"/>    <section>
+    <title>~UISystem()</title>
+<indexterm><primary>~UISystem</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>~UISystem</secondary></indexterm>
+<para><computeroutput>SOGLVA::CORE::UI::UISystem::~UISystem ( )</computeroutput></para><para>
+Definition at line 21 of file UISystem.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88"/>    <section>
+    <title>DrawUiPanels()</title>
+<indexterm><primary>DrawUiPanels</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>DrawUiPanels</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::UI::UISystem::DrawUiPanels ( )</computeroutput></para><para>
+
+<para>create nuklear_glfw frame and draw every panels inside vUIPanels </para>
+</para>
+<para>
+Definition at line 31 of file UISystem.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab"/>    <section>
+    <title>context</title>
+<indexterm><primary>context</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>context</secondary></indexterm>
+<para><computeroutput>nk_context* SOGLVA::CORE::UI::UISystem::context<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>nuklear context required by every nuklear call </para>
+</para>
+<para>
+Definition at line 36 of file UISystem.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc"/>    <section>
+    <title>glfw</title>
+<indexterm><primary>glfw</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>glfw</secondary></indexterm>
+<para><computeroutput>struct nk_glfw SOGLVA::CORE::UI::UISystem::glfw = { 0 }<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>contains current reference of glfw windows that will be used for nuklear context </para>
+</para>
+<para>
+Definition at line 26 of file UISystem.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0"/>    <section>
+    <title>rendering</title>
+<indexterm><primary>rendering</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>rendering</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link>&amp; SOGLVA::CORE::UI::UISystem::rendering<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file UISystem.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a"/>    <section>
+    <title>vUIPanels</title>
+<indexterm><primary>vUIPanels</primary><secondary>SOGLVA::CORE::UI::UISystem</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::UI::UISystem</primary><secondary>vUIPanels</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link>*&gt; SOGLVA::CORE::UI::UISystem::vUIPanels<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>contains every panel that implemented <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link> interface. these panels will be called inside main loop by ui draw method from <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable">IUIDrawable</link> interface. </para>
+</para>
+<para>
+Definition at line 26 of file UISystem.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/UI/<link linkend="__u_i_system_8h">UISystem.h</link>SOGLVA/src/Core/UI/<link linkend="__u_i_system_8cpp">UISystem.cpp</link></section>
+</section>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_fb8fe5feafa800bff77474b2c210aa36" kind="dir">
+    <compoundname>SOGLVA/src/Core/Rendering</compoundname>
+    <innerfile refid="_rendering_8cpp">Rendering.cpp</innerfile>
+    <innerfile refid="_rendering_8h">Rendering.h</innerfile>
+    <innerfile refid="_rendering_def_8h">RenderingDef.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/Rendering/"/>
+  </compounddef>
+</doxygen>

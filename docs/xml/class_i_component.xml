@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_i_component" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IComponent</compoundname>
+    <derivedcompoundref refid="class_camera" prot="public" virt="non-virtual">Camera</derivedcompoundref>
+    <derivedcompoundref refid="class_lighting" prot="public" virt="non-virtual">Lighting</derivedcompoundref>
+    <derivedcompoundref refid="class_model" prot="public" virt="non-virtual">Model</derivedcompoundref>
+    <includes refid="_i_component_8h" local="no">IComponent.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IComponent::Start</definition>
+        <argsstring>()=0</argsstring>
+        <name>Start</name>
+        <reimplementedby refid="class_camera_1ad1e1e6737506ba97eece8b71a3862db7">Start</reimplementedby>
+        <reimplementedby refid="class_model_1aec91baaf9703d179794580a40696dedd">Start</reimplementedby>
+        <reimplementedby refid="class_lighting_1a35b6d07e728058d226482e498cf7b9a1">Start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/IComponent.h" line="5" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_component_1ae7556b0967bcf83bd53878f430f9c234" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IComponent::Update</definition>
+        <argsstring>()=0</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_camera_1adba920a003ec354ebaa7d78496d168f1">Update</reimplementedby>
+        <reimplementedby refid="class_model_1a9d6bbfb0279efb902c0f238b4bc6c76c">Update</reimplementedby>
+        <reimplementedby refid="class_lighting_1abe1db17a66cb2eedca2ccd3300f24438">Update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/IComponent.h" line="6" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_component_1a559e400d4e90ecdda87c65761ef5fda1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IComponent::Exit</definition>
+        <argsstring>()=0</argsstring>
+        <name>Exit</name>
+        <reimplementedby refid="class_camera_1aaa67ed905ed98408a2b0ac315069cd38">Exit</reimplementedby>
+        <reimplementedby refid="class_model_1a17650cafdc01e03053ac794aeec06dd8">Exit</reimplementedby>
+        <reimplementedby refid="class_lighting_1a38e76ce91dd222fa228c6ee01eb424a5">Exit</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/IComponent.h" line="7" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Lighting</label>
+        <link refid="class_lighting"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Camera</label>
+        <link refid="class_camera"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+      <node id="4">
+        <label>Model</label>
+        <link refid="class_model"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="SOGLVA/src/Components/IComponent.h" line="2" column="1" bodyfile="SOGLVA/src/Components/IComponent.h" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_i_component_1a559e400d4e90ecdda87c65761ef5fda1" prot="public" virt="pure-virtual"><scope>IComponent</scope><name>Exit</name></member>
+      <member refid="class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a" prot="public" virt="pure-virtual"><scope>IComponent</scope><name>Start</name></member>
+      <member refid="class_i_component_1ae7556b0967bcf83bd53878f430f9c234" prot="public" virt="pure-virtual"><scope>IComponent</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_scene_manager" kind="class" language="C++" prot="public">
+    <compoundname>SceneManager</compoundname>
+    <includes refid="_scene_manager_8h" local="no">SceneManager.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_manager_1a61fb6deaad8c240b54833caf36c1f19a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_scene" kindref="compound">Scene</ref> *</type>
+        <definition>Scene* SceneManager::currentScene</definition>
+        <argsstring></argsstring>
+        <name>currentScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="8" column="7" bodyfile="SOGLVA/src/Core/Scene/SceneManager.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_manager_1ab8338d52fbc9671a82f1bdafda13fe62" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="class_scene" kindref="compound">Scene</ref> * &gt;</type>
+        <definition>std::map&lt;std::string, Scene*&gt; SceneManager::scenes</definition>
+        <argsstring></argsstring>
+        <name>scenes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="11" column="10" bodyfile="SOGLVA/src/Core/Scene/SceneManager.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_manager_1ad7a33600535b88f13e71d4d4f2b065c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneManager::ChangeCurrentScene</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>ChangeCurrentScene</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="13" column="6" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_manager_1aa12ac3807b8e59b815ec445c25fca5ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_scene" kindref="compound">Scene</ref> *</type>
+        <definition>Scene * SceneManager::GetCurrentScene</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="15" column="7" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_manager_1a6ddf2cc2c9f6902d3dc9318715b20d4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneManager::CreateScene</definition>
+        <argsstring>(std::string name=&quot;Default Scene&quot;)</argsstring>
+        <name>CreateScene</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+          <defval>&quot;Default <ref refid="class_scene" kindref="compound">Scene</ref>&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="17" column="6" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="13" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_manager_1a229dc2977144af1a4dd3e7ff6e593034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneManager::DeleteScene</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>DeleteScene</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="19" column="6" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="5" column="1" bodyfile="SOGLVA/src/Core/Scene/SceneManager.h" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_scene_manager_1ad7a33600535b88f13e71d4d4f2b065c0" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>ChangeCurrentScene</name></member>
+      <member refid="class_scene_manager_1a6ddf2cc2c9f6902d3dc9318715b20d4c" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>CreateScene</name></member>
+      <member refid="class_scene_manager_1a61fb6deaad8c240b54833caf36c1f19a" prot="private" virt="non-virtual"><scope>SceneManager</scope><name>currentScene</name></member>
+      <member refid="class_scene_manager_1a229dc2977144af1a4dd3e7ff6e593034" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>DeleteScene</name></member>
+      <member refid="class_scene_manager_1aa12ac3807b8e59b815ec445c25fca5ae" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>GetCurrentScene</name></member>
+      <member refid="class_scene_manager_1ab8338d52fbc9671a82f1bdafda13fe62" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>scenes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

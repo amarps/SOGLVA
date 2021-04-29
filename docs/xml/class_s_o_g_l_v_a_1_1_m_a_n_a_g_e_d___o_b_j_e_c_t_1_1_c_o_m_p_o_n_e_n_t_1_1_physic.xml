@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</compoundname>
+    <includes refid="_physic_8h" local="no">Physic.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" prot="public" static="no" mutable="no">
+        <type>btDynamicsWorld *</type>
+        <definition>btDynamicsWorld* SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_world</definition>
+        <argsstring></argsstring>
+        <name>m_world</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="14" column="17" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1aca24f8263556d982960dc2b4ca7cc156" prot="public" static="no" mutable="no">
+        <type>btDispatcher *</type>
+        <definition>btDispatcher* SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_dispatcher</definition>
+        <argsstring></argsstring>
+        <name>m_dispatcher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="15" column="14" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1abe39b4456b292b7afcc58d3ec8e731ff" prot="public" static="no" mutable="no">
+        <type>btCollisionConfiguration *</type>
+        <definition>btCollisionConfiguration* SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_collisionConfig</definition>
+        <argsstring></argsstring>
+        <name>m_collisionConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="16" column="26" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a0c69de77826d711d6fa45df96dc88b48" prot="public" static="no" mutable="no">
+        <type>btBroadphaseInterface *</type>
+        <definition>btBroadphaseInterface* SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_broadPhase</definition>
+        <argsstring></argsstring>
+        <name>m_broadPhase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="17" column="23" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1addda4fb9e13a7f4f682a96e7e5286a3c" prot="public" static="no" mutable="no">
+        <type>btConstraintSolver *</type>
+        <definition>btConstraintSolver* SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_solver</definition>
+        <argsstring></argsstring>
+        <name>m_solver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="18" column="20" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ab0893ac64209291365a691d75e7d864a" prot="public" static="no" mutable="no">
+        <type>btVector3</type>
+        <definition>btVector3 SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_gravitation</definition>
+        <argsstring></argsstring>
+        <name>m_gravitation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="19" column="11" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ad23f20cf2d8fe9bcfcd73194a136b211" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; btRigidBody * &gt;</type>
+        <definition>std::vector&lt;btRigidBody*&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_rigidBodies</definition>
+        <argsstring></argsstring>
+        <name>m_rigidBodies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="20" column="13" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a67095a95a54a70ea24597adb83f3300a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::Physic</definition>
+        <argsstring>()</argsstring>
+        <name>Physic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="22" column="1" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.cpp" bodystart="6" bodyend="19"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a0c69de77826d711d6fa45df96dc88b48" compoundref="_physic_8h" startline="17">m_broadPhase</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1abe39b4456b292b7afcc58d3ec8e731ff" compoundref="_physic_8h" startline="16">m_collisionConfig</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1aca24f8263556d982960dc2b4ca7cc156" compoundref="_physic_8h" startline="15">m_dispatcher</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ab0893ac64209291365a691d75e7d864a" compoundref="_physic_8h" startline="19">m_gravitation</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1addda4fb9e13a7f4f682a96e7e5286a3c" compoundref="_physic_8h" startline="18">m_solver</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" compoundref="_physic_8h" startline="14">m_world</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a3f96149ec042cb39e9ef742779ae3cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="24" column="6" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.cpp" bodystart="21" bodyend="24"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" compoundref="_physic_8h" startline="14">m_world</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1af7423112d611f5c2c99cc38297a1e426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::~Physic</definition>
+        <argsstring>()</argsstring>
+        <name>~Physic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="26" column="1" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.cpp" bodystart="26" bodyend="33"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a0c69de77826d711d6fa45df96dc88b48" compoundref="_physic_8h" startline="17">m_broadPhase</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1abe39b4456b292b7afcc58d3ec8e731ff" compoundref="_physic_8h" startline="16">m_collisionConfig</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1aca24f8263556d982960dc2b4ca7cc156" compoundref="_physic_8h" startline="15">m_dispatcher</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1addda4fb9e13a7f4f682a96e7e5286a3c" compoundref="_physic_8h" startline="18">m_solver</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" compoundref="_physic_8h" startline="14">m_world</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a2c6bf6c13c94b305272ef085e28a13a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>btRigidBody *</type>
+        <definition>btRigidBody * SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::CreateSpehereRigidBody</definition>
+        <argsstring>(float radius, float x, float y, float z, float mass)</argsstring>
+        <name>CreateSpehereRigidBody</name>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="28" column="13" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.cpp" bodystart="35" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>btCollisionConfiguration *</label>
+      </node>
+      <node id="6">
+        <label>vector&lt; btRigidBody * &gt;</label>
+      </node>
+      <node id="3">
+        <label>btDispatcher *</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+m_solver</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+m_dispatcher</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+m_gravitation</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+m_world</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+m_rigidBodies</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+m_collisionConfig</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+m_broadPhase</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>btConstraintSolver *</label>
+      </node>
+      <node id="4">
+        <label>btVector3</label>
+      </node>
+      <node id="8">
+        <label>btBroadphaseInterface *</label>
+      </node>
+      <node id="5">
+        <label>btDynamicsWorld *</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/ManagedObject/Components/Physic.h" line="11" column="1" bodyfile="SOGLVA/src/ManagedObject/Components/Physic.h" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a2c6bf6c13c94b305272ef085e28a13a7" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>CreateSpehereRigidBody</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a0c69de77826d711d6fa45df96dc88b48" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_broadPhase</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1abe39b4456b292b7afcc58d3ec8e731ff" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_collisionConfig</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1aca24f8263556d982960dc2b4ca7cc156" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_dispatcher</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ab0893ac64209291365a691d75e7d864a" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_gravitation</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ad23f20cf2d8fe9bcfcd73194a136b211" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_rigidBodies</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1addda4fb9e13a7f4f682a96e7e5286a3c" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_solver</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>m_world</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a67095a95a54a70ea24597adb83f3300a" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>Physic</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a3f96149ec042cb39e9ef742779ae3cda" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>Update</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1af7423112d611f5c2c99cc38297a1e426" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</scope><name>~Physic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

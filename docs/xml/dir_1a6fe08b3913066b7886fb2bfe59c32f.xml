@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_1a6fe08b3913066b7886fb2bfe59c32f" kind="dir">
+    <compoundname>SOGLVA/src/Core/UI</compoundname>
+    <innerdir refid="dir_8989f69d5c4f4920eec819feb18e1812">SOGLVA/src/Core/UI/Panels</innerdir>
+    <innerfile refid="_i_u_i_drawable_8h">IUIDrawable.h</innerfile>
+    <innerfile refid="_u_i_system_8cpp">UISystem.cpp</innerfile>
+    <innerfile refid="_u_i_system_8h">UISystem.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/UI/"/>
+  </compounddef>
+</doxygen>

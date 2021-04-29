@@ -1,0 +1,112 @@
+.TH "SOGLVA::MANAGED_OBJECT::COMPONENT::Transform" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::MANAGED_OBJECT::COMPONENT::Transform
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Transform\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTransform\fP ()"
+.br
+.ti -1c
+.RI "\fBTransform\fP (glm::mat4 \fBtransformMatrix\fP, glm::vec3 \fBposition\fP, glm::vec3 \fBrotation\fP, glm::vec3 \fBscaling\fP)"
+.br
+.ti -1c
+.RI "void \fBTranslate\fP (glm::vec3 \fBposition\fP)"
+.br
+.ti -1c
+.RI "void \fBScale\fP (glm::vec3 \fBscaling\fP)"
+.br
+.ti -1c
+.RI "glm::vec3 \fBgetPosition\fP ()"
+.br
+.ti -1c
+.RI "glm::vec3 \fBsetPosition\fP (glm::vec3 newPosition)"
+.br
+.ti -1c
+.RI "glm::vec3 \fBScaling\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "glm::mat4 \fBtransformMatrix\fP"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "glm::vec3 \fBposition\fP"
+.br
+.ti -1c
+.RI "glm::vec3 \fBrotation\fP"
+.br
+.ti -1c
+.RI "glm::vec3 \fBscaling\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file Transform\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Transform ()\fC [inline]\fP"
+
+.PP
+Definition at line 12 of file Transform\&.h\&.
+.SS "SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Transform (glm::mat4 transformMatrix, glm::vec3 position, glm::vec3 rotation, glm::vec3 scaling)"
+
+.PP
+Definition at line 5 of file Transform\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::getPosition ()"
+
+.PP
+Definition at line 22 of file Transform\&.cpp\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Scale (glm::vec3 scaling)"
+
+.PP
+Definition at line 34 of file Transform\&.cpp\&.
+.SS "glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Scaling ()"
+
+.PP
+Definition at line 40 of file Transform\&.cpp\&.
+.SS "glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::setPosition (glm::vec3 newPosition)"
+
+.PP
+Definition at line 27 of file Transform\&.cpp\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Translate (glm::vec3 position)"
+
+.PP
+Definition at line 16 of file Transform\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::position\fC [private]\fP"
+
+.PP
+Definition at line 31 of file Transform\&.h\&.
+.SS "glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::rotation\fC [private]\fP"
+
+.PP
+Definition at line 32 of file Transform\&.h\&.
+.SS "glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::scaling\fC [private]\fP"
+
+.PP
+Definition at line 33 of file Transform\&.h\&.
+.SS "glm::mat4 SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::transformMatrix"
+
+.PP
+Definition at line 10 of file Transform\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

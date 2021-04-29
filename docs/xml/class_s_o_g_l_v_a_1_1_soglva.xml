@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_soglva" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::Soglva</compoundname>
+    <includes refid="_s_o_g_l_v_a_8h" local="no">SOGLVA.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SOGLVA::Soglva::m_quit</definition>
+        <argsstring></argsstring>
+        <name>m_quit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="11" column="6" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">CORE::RENDERING::Rendering</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;CORE::RENDERING::Rendering&gt; SOGLVA::Soglva::rendering</definition>
+        <argsstring></argsstring>
+        <name>rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="14" column="17" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system" kindref="compound">CORE::UI::UISystem</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;CORE::UI::UISystem&gt; SOGLVA::Soglva::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="15" column="17" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" kindref="compound">CORE::SCENE::SceneManager</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;CORE::SCENE::SceneManager&gt; SOGLVA::Soglva::sceneManager</definition>
+        <argsstring></argsstring>
+        <name>sceneManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="16" column="17" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_soglva_1a3bdd9f32b910ac66cb78a5def8dfef88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::Soglva::Soglva</definition>
+        <argsstring>()</argsstring>
+        <name>Soglva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="18" column="1" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_soglva_1af1345ce2bf6c65401fde8a06b462c62a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::Soglva::~Soglva</definition>
+        <argsstring>()</argsstring>
+        <name>~Soglva</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="19" column="1" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="12" bodyend="18"/>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43" compoundref="_s_o_g_l_v_a_8h" startline="11">m_quit</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" compoundref="_s_o_g_l_v_a_8h" startline="14">rendering</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c" compoundref="_s_o_g_l_v_a_8h" startline="16">sceneManager</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe" compoundref="_s_o_g_l_v_a_8h" startline="15">ui</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::Soglva::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="21" column="6" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="20" bodyend="27"/>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" compoundref="_s_o_g_l_v_a_8h" startline="14">rendering</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c" compoundref="_s_o_g_l_v_a_8h" startline="16">sceneManager</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe" compoundref="_s_o_g_l_v_a_8h" startline="15">ui</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::Soglva::Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="23" column="6" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="34" bodyend="54"/>
+        <references refid="namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r_1ad8a2ede621b1aedc78489910b0cba427" compoundref="_default_input_8cpp" startline="9" endline="52">SOGLVA::INPUTHANDLER::DefaultKeyboardInput</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988" compoundref="_s_o_g_l_v_a_8cpp" startline="29" endline="32">IsQuit</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" compoundref="_s_o_g_l_v_a_8h" startline="14">rendering</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c" compoundref="_s_o_g_l_v_a_8h" startline="16">sceneManager</references>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe" compoundref="_s_o_g_l_v_a_8h" startline="15">ui</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SOGLVA::Soglva::IsQuit</definition>
+        <argsstring>()</argsstring>
+        <name>IsQuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/SOGLVA.h" line="24" column="6" bodyfile="SOGLVA/src/SOGLVA.cpp" bodystart="29" bodyend="32"/>
+        <references refid="class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43" compoundref="_s_o_g_l_v_a_8h" startline="11">m_quit</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>SOGLVA::Soglva</label>
+        <link refid="class_s_o_g_l_v_a_1_1_soglva"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+ui</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-m_quit</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+sceneManager</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+rendering</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>unique_ptr&lt; SOGLVA::CORE::RENDERING::Rendering &gt;</label>
+      </node>
+      <node id="2">
+        <label>unique_ptr&lt; SOGLVA::CORE::UI::UISystem &gt;</label>
+      </node>
+      <node id="4">
+        <label>unique_ptr&lt; SOGLVA::CORE::SCENE::SceneManager &gt;</label>
+      </node>
+      <node id="3">
+        <label>bool</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/SOGLVA.h" line="8" column="1" bodyfile="SOGLVA/src/SOGLVA.h" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>Initialize</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>IsQuit</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43" prot="private" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>m_quit</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>rendering</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>Run</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>sceneManager</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1a3bdd9f32b910ac66cb78a5def8dfef88" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>Soglva</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>ui</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_soglva_1af1345ce2bf6c65401fde8a06b462c62a" prot="public" virt="non-virtual"><scope>SOGLVA::Soglva</scope><name>~Soglva</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

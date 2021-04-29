@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r" xml:lang="en-US">
+<title>SOGLVA::INPUTHANDLER Namespace Reference</title>
+<indexterm><primary>SOGLVA::INPUTHANDLER</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r_1ad8a2ede621b1aedc78489910b0cba427">DefaultKeyboardInput</link> (<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp;rendering)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r_1ad8a2ede621b1aedc78489910b0cba427"/>    <section>
+    <title>DefaultKeyboardInput()</title>
+<indexterm><primary>DefaultKeyboardInput</primary><secondary>SOGLVA::INPUTHANDLER</secondary></indexterm>
+<indexterm><primary>SOGLVA::INPUTHANDLER</primary><secondary>DefaultKeyboardInput</secondary></indexterm>
+<para><computeroutput>void SOGLVA::INPUTHANDLER::DefaultKeyboardInput (<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">SOGLVA::CORE::RENDERING::Rendering</link> &amp; rendering)</computeroutput></para><para>
+Definition at line 9 of file DefaultInput.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r_ad8a2ede621b1aedc78489910b0cba427_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+</section>

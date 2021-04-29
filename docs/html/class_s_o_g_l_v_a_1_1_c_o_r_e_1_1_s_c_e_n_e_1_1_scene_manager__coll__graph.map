@@ -1,0 +1,26 @@
+<map id="SOGLVA::CORE::SCENE::SceneManager" name="SOGLVA::CORE::SCENE::SceneManager">
+<area shape="rect" id="node1" title=" " alt="" coords="701,1856,893,2051"/>
+<area shape="rect" id="node2" title=" " alt="" coords="661,1679,847,1771"/>
+<area shape="rect" id="node3" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene.html" title=" " alt="" coords="872,1657,1047,1793"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,1341,204,1433"/>
+<area shape="rect" id="node5" href="$class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model.html" title=" " alt="" coords="856,1180,1063,1595"/>
+<area shape="rect" id="node6" href="$class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component.html" title=" " alt="" coords="280,593,487,714"/>
+<area shape="rect" id="node7" href="$class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader.html" title=" " alt="" coords="1126,189,1369,1117"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1356,5,1403,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1012,5,1067,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1201,5,1293,83"/>
+<area shape="rect" id="node11" href="$class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform.html" title=" " alt="" coords="1552,512,1759,795"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1671,5,1722,83"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1589,5,1637,83"/>
+<area shape="rect" id="node14" title=" " alt="" coords="511,607,744,699"/>
+<area shape="rect" id="node15" title=" " alt="" coords="768,607,991,699"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1087,1349,1189,1426"/>
+<area shape="rect" id="node17" href="$class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic.html" title=" " alt="" coords="2197,1297,2404,1477"/>
+<area shape="rect" id="node18" title=" " alt="" coords="2499,615,2635,692"/>
+<area shape="rect" id="node19" title=" " alt="" coords="2659,615,2763,692"/>
+<area shape="rect" id="node20" title=" " alt="" coords="2791,615,2869,692"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1783,615,1917,692"/>
+<area shape="rect" id="node22" title=" " alt="" coords="1941,615,2100,692"/>
+<area shape="rect" id="node23" title=" " alt="" coords="2124,615,2291,692"/>
+<area shape="rect" id="node24" title=" " alt="" coords="2315,615,2475,692"/>
+</map>

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</compoundname>
+    <includes refid="_mesh_8h" local="no">Mesh.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>std::vector&lt;Vertex&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="42" column="27" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::indices</definition>
+        <argsstring></argsstring>
+        <name>indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="43" column="21" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture" kindref="compound">Texture</ref> &gt;</type>
+        <definition>std::vector&lt;Texture&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::textures</definition>
+        <argsstring></argsstring>
+        <name>textures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="44" column="26" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::VAO</definition>
+        <argsstring></argsstring>
+        <name>VAO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="45" column="22" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::VBO</definition>
+        <argsstring></argsstring>
+        <name>VBO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="55" column="22" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::EBO</definition>
+        <argsstring></argsstring>
+        <name>EBO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="55" column="26" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::Mesh</definition>
+        <argsstring>(std::vector&lt; Vertex &gt; vertices, std::vector&lt; unsigned int &gt; indices, std::vector&lt; Texture &gt; textures)</argsstring>
+        <name>Mesh</name>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; unsigned int &gt;</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture" kindref="compound">Texture</ref> &gt;</type>
+          <declname>textures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="48" column="9" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp" bodystart="7" bodyend="15"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" compoundref="_mesh_8h" startline="43">indices</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" compoundref="_mesh_8cpp" startline="54" endline="90">setupMesh</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" compoundref="_mesh_8h" startline="44">textures</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" compoundref="_mesh_8h" startline="42">vertices</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::Draw</definition>
+        <argsstring>(Shader &amp;shader)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" kindref="compound">Shader</ref> &amp;</type>
+          <declname>shader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="51" column="14" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp" bodystart="17" bodyend="52"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a33e503add5c09e826472b69a4f4dbdd2" compoundref="_shader_8h" startline="15">SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::ID</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" compoundref="_mesh_8h" startline="43">indices</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" compoundref="_mesh_8h" startline="44">textures</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" compoundref="_mesh_8h" startline="45">VAO</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::setupMesh</definition>
+        <argsstring>()</argsstring>
+        <name>setupMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="58" column="14" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.cpp" bodystart="54" bodyend="90"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa" compoundref="_mesh_8h" startline="55">EBO</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" compoundref="_mesh_8h" startline="43">indices</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" compoundref="_mesh_8h" startline="45">VAO</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d" compoundref="_mesh_8h" startline="55">VBO</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" compoundref="_mesh_8h" startline="42">vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::Texture &gt;</label>
+      </node>
+      <node id="2">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex &gt;</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+vertices</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+textures</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+VAO</edgelabel>
+          <edgelabel>-EBO</edgelabel>
+          <edgelabel>-VBO</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+indices</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>unsigned int</label>
+      </node>
+      <node id="5">
+        <label>vector&lt; unsigned int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="39" column="5" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="39" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>Draw</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa" prot="private" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>EBO</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>indices</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>Mesh</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" prot="private" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>setupMesh</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>textures</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>VAO</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d" prot="private" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>VBO</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

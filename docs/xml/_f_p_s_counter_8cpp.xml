@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_f_p_s_counter_8cpp" kind="file" language="C++">
+    <compoundname>FPSCounter.cpp</compoundname>
+    <includes refid="_f_p_s_counter_8h" local="yes">FPSCounter.h</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>Windows.h</label>
+      </node>
+      <node id="15">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="2">
+        <label>FPSCounter.h</label>
+        <link refid="_f_p_s_counter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.cpp</label>
+        <link refid="_f_p_s_counter_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Core/Rendering/Rendering.h</label>
+        <link refid="_rendering_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="14">
+        <label>style.c</label>
+      </node>
+      <node id="12">
+        <label>nuklear.h</label>
+      </node>
+      <node id="3">
+        <label>Core/UI/IUIDrawable.h</label>
+        <link refid="_i_u_i_drawable_8h"/>
+      </node>
+      <node id="11">
+        <label>common/NuklearImport.h</label>
+        <link refid="_nuklear_import_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>glfw_opengl3/nuklear_glfw_gl3.h</label>
+      </node>
+      <node id="4">
+        <label>BasePanel.h</label>
+        <link refid="_base_panel_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_s_o_g_l_v_a">SOGLVA</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e">SOGLVA::CORE</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i">SOGLVA::CORE::UI</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l">SOGLVA::CORE::UI::PANEL</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_p_s_counter_8h" kindref="compound">FPSCounter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l" kindref="compound">SOGLVA::CORE::UI::PANEL</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6" kindref="member">FPSCounter::Draw</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>remove<sp/>window<sp/>backgorund</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>-&gt;style.window.fixed_background<sp/>=<sp/>nk_style_item_hide();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nk_begin(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" kindref="member">name</ref>.c_str(),<sp/>nk_rect(0,<sp/>0,<sp/>300,<sp/>100),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NK_WINDOW_NO_INPUT))</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_layout_row_dynamic(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>,<sp/>20,<sp/>1);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8" kindref="member">fpsText</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FPS:&quot;</highlight><highlight class="normal"><sp/>+<sp/>std::to_string(1<sp/>/<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a9ef4bc09f2a893686cae5c1828a2402e" kindref="member">rendering</ref>.<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a" kindref="member">deltaTime</ref>).substr(0,<sp/>5);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>-&gt;style.text.color<sp/>=<sp/>nk_rgb(255,<sp/>204,<sp/>0);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_label(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8" kindref="member">fpsText</ref>.c_str(),<sp/>NK_TEXT_LEFT);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>-&gt;style.text.color<sp/>=<sp/>nk_rgb(255,<sp/>204,<sp/>255);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_label(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Type<sp/>R<sp/>to<sp/>show<sp/>Settings<sp/>Window&quot;</highlight><highlight class="normal">,<sp/>NK_TEXT_LEFT);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_end(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kindref="member">context</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.cpp"/>
+  </compounddef>
+</doxygen>

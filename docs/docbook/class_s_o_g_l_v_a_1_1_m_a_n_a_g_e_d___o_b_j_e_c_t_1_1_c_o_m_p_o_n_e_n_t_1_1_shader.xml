@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Shader.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Shader:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a5fb36f1334e339601091ef8bbe9eef65">Shader</link> (const char *vertexPath=&quot;resources/shaders/object/objectDefaultLit.vs&quot;, const char *fragmentPath=&quot;resources/shaders/object/objectDefaultLit.fs&quot;, bool _uselib=true)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a02e0792912d89c9c72a4e6c8b9674bd8">setPath</link> (const char *vertexPath, const char *fragmentPath)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1adcf52d415f600d3024838ebd488b2cb2">compile</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a9fd26512b5de44a5c5c2747e9401aa8f">use</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7e549b387c5cd620ab67d63ce89161da">setBool</link> (const std::string &amp;name, bool value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1af119146598a6823ed4d6d4eeb7dec040">setInt</link> (const std::string &amp;name, int value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1adbcef9925b30917e0e708db1f3a9a284">setFloat</link> (const std::string &amp;name, float value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a1a4416bbd981add1593b67234bed9742">setVec2</link> (const std::string &amp;name, const glm::vec2 &amp;value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a28e0620f1bb9b005af13ae0c1239b3fd">setVec2</link> (const std::string &amp;name, float x, float y) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a0366896fa53cf38ac6b8e07f59f37219">setVec3</link> (const std::string &amp;name, const glm::vec3 &amp;value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1afc5107169708986d555a9f24bc465a32">setVec3</link> (const std::string &amp;name, float x, float y, float z) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1abc73763addad4935c6b0da13543dafd8">setVec4</link> (const std::string &amp;name, const glm::vec4 &amp;value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7998b41d4b4c89c30867915a5d9c0a61">setVec4</link> (const std::string &amp;name, float x, float y, float z, float w)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7b140034b9a27680f4aa159b2baf6be7">setMat2</link> (const std::string &amp;name, const glm::mat2 &amp;mat) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a0dc789ab008bce085d538299ee1ebdc4">setMat3</link> (const std::string &amp;name, const glm::mat3 &amp;mat) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a599ee441a335640f2eb955d8ba83fa1a">setMat4</link> (const std::string &amp;name, const glm::mat4 &amp;mat) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>unsigned int <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a33e503add5c09e826472b69a4f4dbdd2">ID</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1aa217d6cef11ca67c0dfad794ed7205fb">checkCompileErrors</link> (unsigned int shader, std::string type)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::string <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a18955dc6f4b530aad84d06725fc6d912">vertexCode</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a5e2d89b9419d5b6e17ddeec1fe1fea65">fragmentCode</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a93c402992da9d0195d6c0af6242f3d5a">libvertexCode</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1af07446b6f2883c00c0e7db3d2df7ab5d">libfragmentCode</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1ab8e82b8077c7434edddbf4af6a42fbf3">use_lib</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file Shader.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a5fb36f1334e339601091ef8bbe9eef65"/>    <section>
+    <title>Shader()</title>
+<indexterm><primary>Shader</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>Shader</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::Shader (const char * vertexPath = <computeroutput>&quot;resources/shaders/object/objectDefaultLit.vs&quot;</computeroutput>
+, const char * fragmentPath = <computeroutput>&quot;resources/shaders/object/objectDefaultLit.fs&quot;</computeroutput>
+, bool _uselib = <computeroutput>true</computeroutput>
+)</computeroutput></para><para>
+Definition at line 9 of file Shader.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_a5fb36f1334e339601091ef8bbe9eef65_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1aa217d6cef11ca67c0dfad794ed7205fb"/>    <section>
+    <title>checkCompileErrors()</title>
+<indexterm><primary>checkCompileErrors</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>checkCompileErrors</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::checkCompileErrors (unsigned int shader, std::string type)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 94 of file Shader.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1adcf52d415f600d3024838ebd488b2cb2"/>    <section>
+    <title>compile()</title>
+<indexterm><primary>compile</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>compile</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::compile ( )</computeroutput></para><para>
+Definition at line 61 of file Shader.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_adcf52d415f600d3024838ebd488b2cb2_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7e549b387c5cd620ab67d63ce89161da"/>    <section>
+    <title>setBool()</title>
+<indexterm><primary>setBool</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setBool</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setBool (const std::string &amp; name, bool value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 27 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1adbcef9925b30917e0e708db1f3a9a284"/>    <section>
+    <title>setFloat()</title>
+<indexterm><primary>setFloat</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setFloat</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setFloat (const std::string &amp; name, float value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 37 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1af119146598a6823ed4d6d4eeb7dec040"/>    <section>
+    <title>setInt()</title>
+<indexterm><primary>setInt</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setInt</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setInt (const std::string &amp; name, int value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 32 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7b140034b9a27680f4aa159b2baf6be7"/>    <section>
+    <title>setMat2()</title>
+<indexterm><primary>setMat2</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setMat2</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setMat2 (const std::string &amp; name, const glm::mat2 &amp; mat) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 69 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a0dc789ab008bce085d538299ee1ebdc4"/>    <section>
+    <title>setMat3()</title>
+<indexterm><primary>setMat3</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setMat3</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setMat3 (const std::string &amp; name, const glm::mat3 &amp; mat) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 74 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a599ee441a335640f2eb955d8ba83fa1a"/>    <section>
+    <title>setMat4()</title>
+<indexterm><primary>setMat4</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setMat4</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setMat4 (const std::string &amp; name, const glm::mat4 &amp; mat) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 79 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a02e0792912d89c9c72a4e6c8b9674bd8"/>    <section>
+    <title>setPath()</title>
+<indexterm><primary>setPath</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setPath</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setPath (const char * vertexPath, const char * fragmentPath)</computeroutput></para><para>
+Definition at line 18 of file Shader.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a1a4416bbd981add1593b67234bed9742"/>    <section>
+    <title>setVec2()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setVec2</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setVec2</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec2 (const std::string &amp; name, const glm::vec2 &amp; value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 42 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a28e0620f1bb9b005af13ae0c1239b3fd"/>    <section>
+    <title>setVec2()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setVec2</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setVec2</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec2 (const std::string &amp; name, float x, float y) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 46 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a0366896fa53cf38ac6b8e07f59f37219"/>    <section>
+    <title>setVec3()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setVec3</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setVec3</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec3 (const std::string &amp; name, const glm::vec3 &amp; value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 51 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1afc5107169708986d555a9f24bc465a32"/>    <section>
+    <title>setVec3()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setVec3</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setVec3</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec3 (const std::string &amp; name, float x, float y, float z) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 55 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1abc73763addad4935c6b0da13543dafd8"/>    <section>
+    <title>setVec4()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setVec4</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setVec4</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec4 (const std::string &amp; name, const glm::vec4 &amp; value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 60 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7998b41d4b4c89c30867915a5d9c0a61"/>    <section>
+    <title>setVec4()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setVec4</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>setVec4</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec4 (const std::string &amp; name, float x, float y, float z, float w)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 64 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a9fd26512b5de44a5c5c2747e9401aa8f"/>    <section>
+    <title>use()</title>
+<indexterm><primary>use</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>use</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::use ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 23 of file Shader.h.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a5e2d89b9419d5b6e17ddeec1fe1fea65"/>    <section>
+    <title>fragmentCode</title>
+<indexterm><primary>fragmentCode</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>fragmentCode</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::fragmentCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 86 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a33e503add5c09e826472b69a4f4dbdd2"/>    <section>
+    <title>ID</title>
+<indexterm><primary>ID</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>ID</secondary></indexterm>
+<para><computeroutput>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::ID</computeroutput></para><para>
+Definition at line 15 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1af07446b6f2883c00c0e7db3d2df7ab5d"/>    <section>
+    <title>libfragmentCode</title>
+<indexterm><primary>libfragmentCode</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>libfragmentCode</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::libfragmentCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 88 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a93c402992da9d0195d6c0af6242f3d5a"/>    <section>
+    <title>libvertexCode</title>
+<indexterm><primary>libvertexCode</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>libvertexCode</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::libvertexCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 87 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1ab8e82b8077c7434edddbf4af6a42fbf3"/>    <section>
+    <title>use_lib</title>
+<indexterm><primary>use_lib</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>use_lib</secondary></indexterm>
+<para><computeroutput>bool SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::use_lib<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 90 of file Shader.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a18955dc6f4b530aad84d06725fc6d912"/>    <section>
+    <title>vertexCode</title>
+<indexterm><primary>vertexCode</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</primary><secondary>vertexCode</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::vertexCode<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 85 of file Shader.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__shader_8h">Shader.h</link>SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__shader_8cpp">Shader.cpp</link></section>
+</section>

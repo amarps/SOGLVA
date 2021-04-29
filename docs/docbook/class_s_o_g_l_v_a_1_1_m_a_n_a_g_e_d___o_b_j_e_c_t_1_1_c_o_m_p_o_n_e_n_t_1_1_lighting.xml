@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary></indexterm>
+<para>
+<computeroutput>#include &lt;DirectionalLight.h&gt;</computeroutput>
+</para>
+Inheritance diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a2276fcbc782c27015357bdfca1ababf9">Draw</link> (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> &amp;<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a7501467f2de0031372e6647dd62c88a4">shader</link>)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a46031236d82636f81be3dc391b270d66">Start</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1ae6e567b33c40993f25ba64cdb5912f54">Update</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a4e6186594eeed593084afbf3dd849cab">Exit</link> () override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform">Transform</link> <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a5c60974c8b25c2cce29b56309e443cb6">transform</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a7501467f2de0031372e6647dd62c88a4">shader</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 8 of file DirectionalLight.h.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a2276fcbc782c27015357bdfca1ababf9"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Draw (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> &amp; shader)</computeroutput></para>    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a4e6186594eeed593084afbf3dd849cab"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Exit ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a46031236d82636f81be3dc391b270d66"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Start ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1ae6e567b33c40993f25ba64cdb5912f54"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Update ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a7501467f2de0031372e6647dd62c88a4"/>    <section>
+    <title>shader</title>
+<indexterm><primary>shader</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary><secondary>shader</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::shader</computeroutput></para><para>
+Definition at line 15 of file DirectionalLight.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a5c60974c8b25c2cce29b56309e443cb6"/>    <section>
+    <title>transform</title>
+<indexterm><primary>transform</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</primary><secondary>transform</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform">Transform</link> SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::transform</computeroutput></para><para>
+Definition at line 12 of file DirectionalLight.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SOGLVA/src/ManagedObject/Components/Lighting/<link linkend="__directional_light_8h">DirectionalLight.h</link></section>
+</section>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__nuklear_import_8h" xml:lang="en-US">
+<title>SOGLVA/src/common/NuklearImport.h File Reference</title>
+<indexterm><primary>SOGLVA/src/common/NuklearImport.h</primary></indexterm>
+<programlisting>#include &lt;nuklear.h&gt;
+#include &lt;glfw_opengl3/nuklear_glfw_gl3.h&gt;
+#include &lt;style.c&gt;
+</programlisting>Include dependency graph for NuklearImport.h:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_nuklear_import_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+This graph shows which files directly or indirectly include this file:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_nuklear_import_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1a4e30c99b0f20f7155adebf2cb2219b03">NK_INCLUDE_FIXED_TYPES</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1a2ab99de094ad4c244260062426e5caa0">NK_INCLUDE_STANDARD_IO</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1a13b5abd58c2a82dcf6a5f7ddfcf112aa">NK_INCLUDE_STANDARD_VARARGS</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1adf1c808d169071b73cb46f7538bf1721">NK_INCLUDE_DEFAULT_ALLOCATOR</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1ac67be0ee8bc7f08530c891cbfa14b788">NK_INCLUDE_VERTEX_BUFFER_OUTPUT</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2">NK_INCLUDE_FONT_BAKING</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1af0847faa9e18a4865944c2f5fb093be0">NK_INCLUDE_DEFAULT_FONT</link></para>
+</listitem>
+            <listitem><para>#define <link linkend="__nuklear_import_8h_1a9555e340b124951b3323becad26b15c5">NK_KEYSTATE_BASED_INPUT</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__nuklear_import_8h_1adf1c808d169071b73cb46f7538bf1721"/>    <section>
+    <title>NK_INCLUDE_DEFAULT_ALLOCATOR</title>
+<indexterm><primary>NK_INCLUDE_DEFAULT_ALLOCATOR</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_DEFAULT_ALLOCATOR</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_DEFAULT_ALLOCATOR</computeroutput></para><para>
+Definition at line 5 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1af0847faa9e18a4865944c2f5fb093be0"/>    <section>
+    <title>NK_INCLUDE_DEFAULT_FONT</title>
+<indexterm><primary>NK_INCLUDE_DEFAULT_FONT</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_DEFAULT_FONT</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_DEFAULT_FONT</computeroutput></para><para>
+Definition at line 8 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1a4e30c99b0f20f7155adebf2cb2219b03"/>    <section>
+    <title>NK_INCLUDE_FIXED_TYPES</title>
+<indexterm><primary>NK_INCLUDE_FIXED_TYPES</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_FIXED_TYPES</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_FIXED_TYPES</computeroutput></para><para>
+Definition at line 2 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2"/>    <section>
+    <title>NK_INCLUDE_FONT_BAKING</title>
+<indexterm><primary>NK_INCLUDE_FONT_BAKING</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_FONT_BAKING</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_FONT_BAKING</computeroutput></para><para>
+Definition at line 7 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1a2ab99de094ad4c244260062426e5caa0"/>    <section>
+    <title>NK_INCLUDE_STANDARD_IO</title>
+<indexterm><primary>NK_INCLUDE_STANDARD_IO</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_STANDARD_IO</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_STANDARD_IO</computeroutput></para><para>
+Definition at line 3 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1a13b5abd58c2a82dcf6a5f7ddfcf112aa"/>    <section>
+    <title>NK_INCLUDE_STANDARD_VARARGS</title>
+<indexterm><primary>NK_INCLUDE_STANDARD_VARARGS</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_STANDARD_VARARGS</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_STANDARD_VARARGS</computeroutput></para><para>
+Definition at line 4 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1ac67be0ee8bc7f08530c891cbfa14b788"/>    <section>
+    <title>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</title>
+<indexterm><primary>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</secondary></indexterm>
+<para><computeroutput>#define NK_INCLUDE_VERTEX_BUFFER_OUTPUT</computeroutput></para><para>
+Definition at line 6 of file NuklearImport.h.</para>
+    </section><anchor xml:id="__nuklear_import_8h_1a9555e340b124951b3323becad26b15c5"/>    <section>
+    <title>NK_KEYSTATE_BASED_INPUT</title>
+<indexterm><primary>NK_KEYSTATE_BASED_INPUT</primary><secondary>NuklearImport.h</secondary></indexterm>
+<indexterm><primary>NuklearImport.h</primary><secondary>NK_KEYSTATE_BASED_INPUT</secondary></indexterm>
+<para><computeroutput>#define NK_KEYSTATE_BASED_INPUT</computeroutput></para><para>
+Definition at line 9 of file NuklearImport.h.</para>
+</section>
+</section>
+</section>

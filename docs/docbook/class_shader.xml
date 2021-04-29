@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_shader" xml:lang="en-US">
+<title>Shader Class Reference</title>
+<indexterm><primary>Shader</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Shader.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_shader_1ab5a7afa720f49ebdbfe93e44c9d826a8">Shader</link> (const char *vertexPath=&quot;resources/shaders/object/objectDefaultLit.vs&quot;, const char *fragmentPath=&quot;resources/shaders/object/objectDefaultLit.fs&quot;, bool _uselib=true)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a5643468413e4031f279576759e854a1b">setPath</link> (const char *vertexPath, const char *fragmentPath)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a5be69e48ac2436651ead777bf5fb5c9f">compile</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a870fa9f13d69e558815d6fd351a469dc">use</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1ab1a56d6c299bd7eaa18c2e142ef7bd9f">setBool</link> (const std::string &amp;name, bool value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1ad362e2b654cd95a3574cd505411e41fd">setInt</link> (const std::string &amp;name, int value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1afe7367621f74c2d26431d8ac15252bf3">setFloat</link> (const std::string &amp;name, float value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1afd4d41322a1cdd1d5155bf124d19debf">setVec2</link> (const std::string &amp;name, const glm::vec2 &amp;value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1afb91bc9e954bf590857c96ab1331b0ec">setVec2</link> (const std::string &amp;name, float x, float y) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1aeb021061c5d451329d92257b07dbfec3">setVec3</link> (const std::string &amp;name, const glm::vec3 &amp;value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a90092c25b7dc23964c465b93887300f9">setVec3</link> (const std::string &amp;name, float x, float y, float z) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a79cbe674f6bf1a576a48045dcb924de5">setVec4</link> (const std::string &amp;name, const glm::vec4 &amp;value) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a913e10fe2501b00746ae6901b97a1730">setVec4</link> (const std::string &amp;name, float x, float y, float z, float w)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a91a6ee79b959cacd618c9e29a5bbd732">setMat2</link> (const std::string &amp;name, const glm::mat2 &amp;mat) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a3e24fcad187493dfebaa12939072e91d">setMat3</link> (const std::string &amp;name, const glm::mat3 &amp;mat) const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_shader_1a8e711c96f3e1722cbfb88fde9478977c">setMat4</link> (const std::string &amp;name, const glm::mat4 &amp;mat) const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>unsigned int <link linkend="_class_shader_1a142a08b6fbdfc982d82ca10ee0b0f38d">ID</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 9 of file Shader.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_shader_1ab5a7afa720f49ebdbfe93e44c9d826a8"/>    <section>
+    <title>Shader()</title>
+<indexterm><primary>Shader</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>Shader</secondary></indexterm>
+<para><computeroutput>Shader::Shader (const char * vertexPath = <computeroutput>&quot;resources/shaders/object/objectDefaultLit.vs&quot;</computeroutput>
+, const char * fragmentPath = <computeroutput>&quot;resources/shaders/object/objectDefaultLit.fs&quot;</computeroutput>
+, bool _uselib = <computeroutput>true</computeroutput>
+)</computeroutput></para><para>
+Definition at line 3 of file Shader.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_shader_1a5be69e48ac2436651ead777bf5fb5c9f"/>    <section>
+    <title>compile()</title>
+<indexterm><primary>compile</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>compile</secondary></indexterm>
+<para><computeroutput>void Shader::compile ( )</computeroutput></para><para>
+Definition at line 55 of file Shader.cpp.</para>
+    </section><anchor xml:id="_class_shader_1ab1a56d6c299bd7eaa18c2e142ef7bd9f"/>    <section>
+    <title>setBool()</title>
+<indexterm><primary>setBool</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setBool</secondary></indexterm>
+<para><computeroutput>void Shader::setBool (const std::string &amp; name, bool value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1afe7367621f74c2d26431d8ac15252bf3"/>    <section>
+    <title>setFloat()</title>
+<indexterm><primary>setFloat</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setFloat</secondary></indexterm>
+<para><computeroutput>void Shader::setFloat (const std::string &amp; name, float value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 35 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1ad362e2b654cd95a3574cd505411e41fd"/>    <section>
+    <title>setInt()</title>
+<indexterm><primary>setInt</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setInt</secondary></indexterm>
+<para><computeroutput>void Shader::setInt (const std::string &amp; name, int value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 30 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a91a6ee79b959cacd618c9e29a5bbd732"/>    <section>
+    <title>setMat2()</title>
+<indexterm><primary>setMat2</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setMat2</secondary></indexterm>
+<para><computeroutput>void Shader::setMat2 (const std::string &amp; name, const glm::mat2 &amp; mat) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 67 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a3e24fcad187493dfebaa12939072e91d"/>    <section>
+    <title>setMat3()</title>
+<indexterm><primary>setMat3</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setMat3</secondary></indexterm>
+<para><computeroutput>void Shader::setMat3 (const std::string &amp; name, const glm::mat3 &amp; mat) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 72 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a8e711c96f3e1722cbfb88fde9478977c"/>    <section>
+    <title>setMat4()</title>
+<indexterm><primary>setMat4</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setMat4</secondary></indexterm>
+<para><computeroutput>void Shader::setMat4 (const std::string &amp; name, const glm::mat4 &amp; mat) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 77 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a5643468413e4031f279576759e854a1b"/>    <section>
+    <title>setPath()</title>
+<indexterm><primary>setPath</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setPath</secondary></indexterm>
+<para><computeroutput>void Shader::setPath (const char * vertexPath, const char * fragmentPath)</computeroutput></para><para>
+Definition at line 12 of file Shader.cpp.</para>
+    </section><anchor xml:id="_class_shader_1afd4d41322a1cdd1d5155bf124d19debf"/>    <section>
+    <title>setVec2()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setVec2</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setVec2</secondary></indexterm>
+<para><computeroutput>void Shader::setVec2 (const std::string &amp; name, const glm::vec2 &amp; value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 40 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1afb91bc9e954bf590857c96ab1331b0ec"/>    <section>
+    <title>setVec2()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setVec2</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setVec2</secondary></indexterm>
+<para><computeroutput>void Shader::setVec2 (const std::string &amp; name, float x, float y) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 44 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1aeb021061c5d451329d92257b07dbfec3"/>    <section>
+    <title>setVec3()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setVec3</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setVec3</secondary></indexterm>
+<para><computeroutput>void Shader::setVec3 (const std::string &amp; name, const glm::vec3 &amp; value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 49 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a90092c25b7dc23964c465b93887300f9"/>    <section>
+    <title>setVec3()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setVec3</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setVec3</secondary></indexterm>
+<para><computeroutput>void Shader::setVec3 (const std::string &amp; name, float x, float y, float z) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 53 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a79cbe674f6bf1a576a48045dcb924de5"/>    <section>
+    <title>setVec4()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>setVec4</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setVec4</secondary></indexterm>
+<para><computeroutput>void Shader::setVec4 (const std::string &amp; name, const glm::vec4 &amp; value) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 58 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a913e10fe2501b00746ae6901b97a1730"/>    <section>
+    <title>setVec4()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>setVec4</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>setVec4</secondary></indexterm>
+<para><computeroutput>void Shader::setVec4 (const std::string &amp; name, float x, float y, float z, float w)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 62 of file Shader.h.</para>
+    </section><anchor xml:id="_class_shader_1a870fa9f13d69e558815d6fd351a469dc"/>    <section>
+    <title>use()</title>
+<indexterm><primary>use</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>use</secondary></indexterm>
+<para><computeroutput>void Shader::use ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file Shader.h.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_shader_1a142a08b6fbdfc982d82ca10ee0b0f38d"/>    <section>
+    <title>ID</title>
+<indexterm><primary>ID</primary><secondary>Shader</secondary></indexterm>
+<indexterm><primary>Shader</primary><secondary>ID</secondary></indexterm>
+<para><computeroutput>unsigned int Shader::ID</computeroutput></para><para>
+Definition at line 13 of file Shader.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Components/Graphics/<link linkend="__shader_8h">Shader.h</link>SOGLVA/src/Components/Graphics/<link linkend="__shader_8cpp">Shader.cpp</link></section>
+</section>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_nuklear_import_8h" kind="file" language="C++">
+    <compoundname>NuklearImport.h</compoundname>
+    <includes local="no">nuklear.h</includes>
+    <includes local="no">glfw_opengl3/nuklear_glfw_gl3.h</includes>
+    <includes local="no">style.c</includes>
+    <includedby refid="_base_panel_8h" local="yes">SOGLVA/src/Core/UI/Panels/BasePanel.h</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>style.c</label>
+      </node>
+      <node id="2">
+        <label>nuklear.h</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/common/NuklearImport.h</label>
+        <link refid="_nuklear_import_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>glfw_opengl3/nuklear_glfw_gl3.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="11">
+        <label>SOGLVA/src/SOGLVA.cpp</label>
+        <link refid="_s_o_g_l_v_a_8cpp"/>
+      </node>
+      <node id="5">
+        <label>SOGLVA/src/Core/UI/UISystem.h</label>
+        <link refid="_u_i_system_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>SOGLVA/src/Core/UI/Panels/Property.cpp</label>
+        <link refid="_property_8cpp"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.h</label>
+        <link refid="_f_p_s_counter_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SOGLVA/src/Core/UI/UISystem.cpp</label>
+        <link refid="_u_i_system_8cpp"/>
+      </node>
+      <node id="9">
+        <label>SOGLVA/src/API.cpp</label>
+        <link refid="_a_p_i_8cpp"/>
+      </node>
+      <node id="7">
+        <label>SOGLVA/src/SOGLVA.h</label>
+        <link refid="_s_o_g_l_v_a_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.cpp</label>
+        <link refid="_f_p_s_counter_8cpp"/>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/common/NuklearImport.h</label>
+        <link refid="_nuklear_import_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>SOGLVA/src/Core/UI/Panels/Property.h</label>
+        <link refid="_property_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>SOGLVA/src/API.h</label>
+        <link refid="_a_p_i_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>SOGLVA/src/InputHandler/DefaultInput.cpp</label>
+        <link refid="_default_input_8cpp"/>
+      </node>
+      <node id="2">
+        <label>SOGLVA/src/Core/UI/Panels/BasePanel.h</label>
+        <link refid="_base_panel_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_nuklear_import_8h_1a4e30c99b0f20f7155adebf2cb2219b03" prot="public" static="no">
+        <name>NK_INCLUDE_FIXED_TYPES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="2" column="10" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1a2ab99de094ad4c244260062426e5caa0" prot="public" static="no">
+        <name>NK_INCLUDE_STANDARD_IO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="3" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1a13b5abd58c2a82dcf6a5f7ddfcf112aa" prot="public" static="no">
+        <name>NK_INCLUDE_STANDARD_VARARGS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="4" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1adf1c808d169071b73cb46f7538bf1721" prot="public" static="no">
+        <name>NK_INCLUDE_DEFAULT_ALLOCATOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="5" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1ac67be0ee8bc7f08530c891cbfa14b788" prot="public" static="no">
+        <name>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="6" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2" prot="public" static="no">
+        <name>NK_INCLUDE_FONT_BAKING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="7" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1af0847faa9e18a4865944c2f5fb093be0" prot="public" static="no">
+        <name>NK_INCLUDE_DEFAULT_FONT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="8" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_nuklear_import_8h_1a9555e340b124951b3323becad26b15c5" prot="public" static="no">
+        <name>NK_KEYSTATE_BASED_INPUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/common/NuklearImport.h" line="9" column="9" bodyfile="SOGLVA/src/common/NuklearImport.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="_nuklear_import_8h_1a4e30c99b0f20f7155adebf2cb2219b03" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_FIXED_TYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="_nuklear_import_8h_1a2ab99de094ad4c244260062426e5caa0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_STANDARD_IO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="_nuklear_import_8h_1a13b5abd58c2a82dcf6a5f7ddfcf112aa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_STANDARD_VARARGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="_nuklear_import_8h_1adf1c808d169071b73cb46f7538bf1721" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_DEFAULT_ALLOCATOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="_nuklear_import_8h_1ac67be0ee8bc7f08530c891cbfa14b788" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="_nuklear_import_8h_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_FONT_BAKING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="_nuklear_import_8h_1af0847faa9e18a4865944c2f5fb093be0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_INCLUDE_DEFAULT_FONT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_nuklear_import_8h_1a9555e340b124951b3323becad26b15c5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NK_KEYSTATE_BASED_INPUT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nuklear.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;glfw_opengl3/nuklear_glfw_gl3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;style.c&gt;</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/common/NuklearImport.h"/>
+  </compounddef>
+</doxygen>

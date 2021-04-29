@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SOGLVA::CORE::SCENE::SceneManager" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACggAAAAAIAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Core\Scene\SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::MANAGED_OBJECT::ManagedObject" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAJAAEAAACABAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ManagedObject\ManagedObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::Scene" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAgAAAAAAAQAQECAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\Core\Scene\Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::UI::FPSCounter" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Core\UI\Panels\FPSCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::UI::Property" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>src\Core\UI\Panels\Property.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::UI::IUIDrawable" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Core\UI\IUIDrawable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::UI::UISystem" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAEAAAAIAQAAAAAAAAAEAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>src\Core\UI\UISystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::UI::PANEL::BasePanel" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAIAAAAAAAAAAIAGAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Core\UI\Panels\BasePanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::CORE::RENDERING::Rendering" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgQAAAEAAAgAAIASAQAggAAAAAgIAAAAAAAIAAA=</HashCode>
+      <FileName>src\Core\Rendering\Rendering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SOGLVA::Soglva" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEQIAAAAAEAAAAAAAABCAQAAABAAAAAI=</HashCode>
+      <FileName>src\SOGLVA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

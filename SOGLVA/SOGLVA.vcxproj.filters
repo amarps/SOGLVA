@@ -11,40 +11,108 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\API.cpp">
+    <ClCompile Include="src\Core\Rendering\Rendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\UI\UISystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\UI\Panels\Property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\UI\Panels\FPSCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagedObject\Components\Graphics\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagedObject\Components\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagedObject\Components\Graphics\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagedObject\Components\Graphics\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagedObject\Components\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Scene\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputHandler\DefaultInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\SOGLVA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Rendering\RenderingSystem.cpp">
+    <ClCompile Include="src\Core\Scene\SceneManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\UI\UISystem.cpp">
+    <ClCompile Include="src\Core\Scene\WorldPhysic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\UI\Panels\Property.cpp">
+    <ClCompile Include="src\ManagedObject\ManagedObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\UI\Panels\FPSCounter.cpp">
+    <ClCompile Include="src\ManagedObject\Components\BoxRigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripting\CoreCpp\RuntimeDllUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOGLVA_API\SOGLVA_API.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOGLVA_API\SYSTEM\SOGLVASystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOGLVA_API\SCENE\SOGLVAScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOGLVA_API\OBJECT\SOGLVAObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SOGLVA_API\UI\SOGLVAUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\API.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SOGLVA.h" />
-    <ClInclude Include="src\Rendering\RenderingSystem.h" />
-    <ClInclude Include="src\common\standard.h" />
-    <ClInclude Include="src\interfaces\IUIPanel.h" />
-    <ClInclude Include="src\interfaces\IUIComponent.h" />
-    <ClInclude Include="src\interfaces\ImanagedObject.h" />
-    <ClInclude Include="src\UI\UISystem.h" />
+    <ClInclude Include="src\Core\Rendering\Rendering.h" />
+    <ClInclude Include="src\Core\UI\IUIDrawable.h" />
+    <ClInclude Include="src\Core\UI\UISystem.h" />
     <ClInclude Include="src\common\NuklearImport.h" />
-    <ClInclude Include="src\interfaces\ISystem.h" />
-    <ClInclude Include="src\UI\Panels\Property.h" />
-    <ClInclude Include="src\UI\Panels\FPSCounter.h" />
-    <ClInclude Include="src\UI\Panels\BasePanel.h" />
+    <ClInclude Include="src\Core\UI\Panels\Property.h" />
+    <ClInclude Include="src\Core\UI\Panels\FPSCounter.h" />
+    <ClInclude Include="src\Core\UI\Panels\BasePanel.h" />
+    <ClInclude Include="src\ManagedObject\Components\Graphics\Mesh.h" />
+    <ClInclude Include="src\ManagedObject\Components\Transform.h" />
+    <ClInclude Include="src\ManagedObject\Components\Graphics\Shader.h" />
+    <ClInclude Include="src\ManagedObject\Components\Graphics\Model.h" />
+    <ClInclude Include="src\ManagedObject\Components\Camera.h" />
+    <ClInclude Include="src\ManagedObject\ManagedObject.h" />
+    <ClInclude Include="src\ManagedObject\Components\IComponent.h" />
+    <ClInclude Include="src\Core\Scene\Scene.h" />
+    <ClInclude Include="src\InputHandler\DefaultInput.h" />
+    <ClInclude Include="src\SOGLVA.h" />
+    <ClInclude Include="src\Core\Rendering\RenderingDef.h" />
+    <ClInclude Include="src\common\json.h" />
+    <ClInclude Include="src\Core\Scene\SceneManager.h" />
+    <ClInclude Include="src\ManagedObject\Components\Lighting\DirectionalLight.h" />
+    <ClInclude Include="src\Core\Scene\WorldPhysic.h" />
+    <ClInclude Include="src\ManagedObject\Components\BaseRigidbody.h" />
+    <ClInclude Include="src\ManagedObject\Components\BoxRigidBody.h" />
+    <ClInclude Include="src\Scripting\CoreCpp\RuntimeDllUpdate.h" />
+    <ClInclude Include="src\Scripting\CoreCpp\ScriptLoader.h" />
+    <ClInclude Include="src\SOGLVA_API\SOGLVA_API.h" />
+    <ClInclude Include="src\SOGLVA_API\SYSTEM\SOGLVASystem.h" />
+    <ClInclude Include="src\SOGLVA_API\SCENE\SOGLVAScene.h" />
+    <ClInclude Include="src\SOGLVA_API\OBJECT\SOGLVAObject.h" />
+    <ClInclude Include="src\SOGLVA_API\UI\SOGLVAUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

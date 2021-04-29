@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__mesh_8h" xml:lang="en-US">
+<title>SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h File Reference</title>
+<indexterm><primary>SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h</primary></indexterm>
+<programlisting>#include &lt;glm/gtc/matrix_transform.hpp&gt;
+#include &quot;shader.h&quot;
+#include &quot;stb_image.h&quot;
+</programlisting>Include dependency graph for Mesh.h:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_mesh_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+This graph shows which files directly or indirectly include this file:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_mesh_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex">SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh">SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a">SOGLVA</link></para>
+</listitem>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t">SOGLVA::MANAGED_OBJECT</link></para>
+</listitem>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t">SOGLVA::MANAGED_OBJECT::COMPONENT</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__mesh_8h_1af70b7d747f3a41e1503b6ac69179d42f">MESH_H</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>unsigned int <link linkend="_namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641">SOGLVA::MANAGED_OBJECT::COMPONENT::TextureFromFile</link> (const char *path, const std::string &amp;directory, bool gamma)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__mesh_8h_1af70b7d747f3a41e1503b6ac69179d42f"/>    <section>
+    <title>MESH_H</title>
+<indexterm><primary>MESH_H</primary><secondary>Mesh.h</secondary></indexterm>
+<indexterm><primary>Mesh.h</primary><secondary>MESH_H</secondary></indexterm>
+<para><computeroutput>#define MESH_H</computeroutput></para><para>
+Definition at line 4 of file Mesh.h.</para>
+</section>
+</section>
+</section>

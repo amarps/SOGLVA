@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_i_component" xml:lang="en-US">
+<title>IComponent Class Reference</title>
+<indexterm><primary>IComponent</primary></indexterm>
+<para>
+<computeroutput>#include &lt;IComponent.h&gt;</computeroutput>
+</para>
+Inheritance diagram for IComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_i_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">Start</link> ()=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_i_component_1ae7556b0967bcf83bd53878f430f9c234">Update</link> ()=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">Exit</link> ()=0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 2 of file IComponent.h.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_i_component_1a559e400d4e90ecdda87c65761ef5fda1"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>IComponent</secondary></indexterm>
+<indexterm><primary>IComponent</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>virtual void IComponent::Exit ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_lighting_1a38e76ce91dd222fa228c6ee01eb424a5">Lighting</link>, <link linkend="_class_model_1a17650cafdc01e03053ac794aeec06dd8">Model</link>, and <link linkend="_class_camera_1aaa67ed905ed98408a2b0ac315069cd38">Camera</link>.</para>
+    </section><anchor xml:id="_class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>IComponent</secondary></indexterm>
+<indexterm><primary>IComponent</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>virtual void IComponent::Start ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_lighting_1a35b6d07e728058d226482e498cf7b9a1">Lighting</link>, <link linkend="_class_model_1aec91baaf9703d179794580a40696dedd">Model</link>, and <link linkend="_class_camera_1ad1e1e6737506ba97eece8b71a3862db7">Camera</link>.</para>
+    </section><anchor xml:id="_class_i_component_1ae7556b0967bcf83bd53878f430f9c234"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>IComponent</secondary></indexterm>
+<indexterm><primary>IComponent</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>virtual void IComponent::Update ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_lighting_1abe1db17a66cb2eedca2ccd3300f24438">Lighting</link>, <link linkend="_class_model_1a9d6bbfb0279efb902c0f238b4bc6c76c">Model</link>, and <link linkend="_class_camera_1adba920a003ec354ebaa7d78496d168f1">Camera</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SOGLVA/src/Components/<link linkend="__i_component_8h">IComponent.h</link></section>
+</section>

@@ -1,0 +1,192 @@
+.TH "SOGLVA::CORE::RENDERING::Rendering" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::CORE::RENDERING::Rendering
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Rendering\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRendering\fP ()"
+.br
+.ti -1c
+.RI "\fB~Rendering\fP ()"
+.br
+.ti -1c
+.RI "void \fBClearWindow\fP ()"
+.br
+.RI "Clear the window using static rendering::ClearColor "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "float \fBdeltaTime\fP = 0\&.0f"
+.br
+.ti -1c
+.RI "float \fBlastFrame\fP = 0\&.0f"
+.br
+.ti -1c
+.RI "GLFWwindow * \fBwindow\fP"
+.br
+.ti -1c
+.RI "HWND \fBhwNative\fP"
+.br
+.RI "HWND of glfwWindow for use in win32 apps\&. "
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBSCREEN_WIDTH\fP = 800"
+.br
+.RI "default screen width\&. "
+.ti -1c
+.RI "static int \fBSCREEN_HEIGHT\fP = 600"
+.br
+.RI "default screen height "
+.ti -1c
+.RI "static std::string \fBAppName\fP = 'Default'"
+.br
+.RI "default application name "
+.ti -1c
+.RI "static float \fBClearColor\fP [4] = { 0\&.05f, 0\&.05f, 0\&.05f, 1\&.0f }"
+.br
+.RI "Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window "
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBSetupGLFWWindow\fP ()"
+.br
+.RI "intialize glfw window and startup configuration handler "
+.ti -1c
+.RI "void \fBConfigureOGLFunction\fP ()"
+.br
+.in -1c
+.SS "Static Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBframebuffer_size_callback\fP (GLFWwindow *\fBwindow\fP, int width, int height)"
+.br
+.RI "resize callback for opengl viewport size context to new window size "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file Rendering\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::CORE::RENDERING::Rendering::Rendering ()"
+
+.PP
+Definition at line 5 of file Rendering\&.cpp\&.
+.SS "SOGLVA::CORE::RENDERING::Rendering::~Rendering ()"
+
+.PP
+Definition at line 11 of file Rendering\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SOGLVA::CORE::RENDERING::Rendering::ClearWindow ()"
+
+.PP
+Clear the window using static rendering::ClearColor 
+.PP
+Definition at line 66 of file Rendering\&.cpp\&.
+.SS "void SOGLVA::CORE::RENDERING::Rendering::ConfigureOGLFunction ()\fC [private]\fP"
+
+.PP
+
+.IP "\(bu" 2
+Create window in glfw
+.IP "\(bu" 2
+load Opengl API via glew
+.IP "\(bu" 2
+set window callback 
+.PP
+Window Creation
+.PP
+sets the user-defined pointer of the specified window\&. The current value is retained until the window is destroyed\&.
+.PP
+Initialize GLEW to load opengl API
+.PP
+Definition at line 38 of file Rendering\&.cpp\&.
+.SS "void SOGLVA::CORE::RENDERING::Rendering::framebuffer_size_callback (GLFWwindow * window, int width, int height)\fC [static]\fP, \fC [private]\fP"
+
+.PP
+resize callback for opengl viewport size context to new window size 
+.PP
+\fBParameters\fP
+.RS 4
+\fIwindow\fP : GLFW window that want to implement resize callback 
+.br
+\fIwidth\fP : window width 
+.br
+\fIheight\fP : window height 
+.RE
+.PP
+
+.PP
+Definition at line 72 of file Rendering\&.cpp\&.
+.SS "void SOGLVA::CORE::RENDERING::Rendering::SetupGLFWWindow ()\fC [private]\fP"
+
+.PP
+intialize glfw window and startup configuration handler initialize glfw context for opengl
+.PP
+remove tittle bar
+.PP
+Definition at line 17 of file Rendering\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::string SOGLVA::CORE::RENDERING::Rendering::AppName = 'Default'\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+default application name 
+.PP
+Definition at line 53 of file Rendering\&.h\&.
+.SS "float SOGLVA::CORE::RENDERING::Rendering::ClearColor[4] = { 0\&.05f, 0\&.05f, 0\&.05f, 1\&.0f }\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window 
+.PP
+Definition at line 58 of file Rendering\&.h\&.
+.SS "float SOGLVA::CORE::RENDERING::Rendering::deltaTime = 0\&.0f"
+
+.PP
+Definition at line 38 of file Rendering\&.h\&.
+.SS "HWND SOGLVA::CORE::RENDERING::Rendering::hwNative"
+
+.PP
+HWND of glfwWindow for use in win32 apps\&. 
+.PP
+Definition at line 44 of file Rendering\&.h\&.
+.SS "float SOGLVA::CORE::RENDERING::Rendering::lastFrame = 0\&.0f"
+
+.PP
+Definition at line 39 of file Rendering\&.h\&.
+.SS "int SOGLVA::CORE::RENDERING::Rendering::SCREEN_HEIGHT = 600\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+default screen height 
+.PP
+Definition at line 50 of file Rendering\&.h\&.
+.SS "int SOGLVA::CORE::RENDERING::Rendering::SCREEN_WIDTH = 800\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+default screen width\&. 
+.PP
+Definition at line 47 of file Rendering\&.h\&.
+.SS "GLFWwindow* SOGLVA::CORE::RENDERING::Rendering::window"
+
+.PP
+Definition at line 41 of file Rendering\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

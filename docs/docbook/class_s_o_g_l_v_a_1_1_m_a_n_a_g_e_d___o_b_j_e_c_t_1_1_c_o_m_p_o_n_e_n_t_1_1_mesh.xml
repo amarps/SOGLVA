@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Mesh.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87">Mesh</link> (std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex">Vertex</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9">vertices</link>, std::vector&lt; unsigned int &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc">indices</link>, std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd">textures</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5">Draw</link> (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> &amp;shader)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex">Vertex</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9">vertices</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; unsigned int &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc">indices</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd">textures</link></para>
+</listitem>
+            <listitem><para>unsigned int <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7">VAO</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9">setupMesh</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>unsigned int <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d">VBO</link></para>
+</listitem>
+            <listitem><para>unsigned int <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa">EBO</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 39 of file Mesh.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87"/>    <section>
+    <title>Mesh()</title>
+<indexterm><primary>Mesh</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>Mesh</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::Mesh (std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex">Vertex</link> &gt; vertices, std::vector&lt; unsigned int &gt; indices, std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link> &gt; textures)</computeroutput></para><para>
+Definition at line 7 of file Mesh.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_a49541426a3663a84b807541d724bed87_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::Draw (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> &amp; shader)</computeroutput></para><para>
+Definition at line 17 of file Mesh.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9"/>    <section>
+    <title>setupMesh()</title>
+<indexterm><primary>setupMesh</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>setupMesh</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::setupMesh ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 54 of file Mesh.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa"/>    <section>
+    <title>EBO</title>
+<indexterm><primary>EBO</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>EBO</secondary></indexterm>
+<para><computeroutput>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::EBO<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 55 of file Mesh.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc"/>    <section>
+    <title>indices</title>
+<indexterm><primary>indices</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>indices</secondary></indexterm>
+<para><computeroutput>std::vector&lt;unsigned int&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::indices</computeroutput></para><para>
+Definition at line 43 of file Mesh.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd"/>    <section>
+    <title>textures</title>
+<indexterm><primary>textures</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>textures</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link>&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::textures</computeroutput></para><para>
+Definition at line 44 of file Mesh.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7"/>    <section>
+    <title>VAO</title>
+<indexterm><primary>VAO</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>VAO</secondary></indexterm>
+<para><computeroutput>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::VAO</computeroutput></para><para>
+Definition at line 45 of file Mesh.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d"/>    <section>
+    <title>VBO</title>
+<indexterm><primary>VBO</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>VBO</secondary></indexterm>
+<para><computeroutput>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::VBO<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 55 of file Mesh.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9"/>    <section>
+    <title>vertices</title>
+<indexterm><primary>vertices</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</primary><secondary>vertices</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex">Vertex</link>&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh::vertices</computeroutput></para><para>
+Definition at line 42 of file Mesh.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__mesh_8h">Mesh.h</link>SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__mesh_8cpp">Mesh.cpp</link></section>
+</section>

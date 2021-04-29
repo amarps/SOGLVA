@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_base_panel" kind="class" language="C++" prot="public">
+    <compoundname>BasePanel</compoundname>
+    <derivedcompoundref refid="class_u_i_1_1_panel_1_1_f_p_s_counter" prot="public" virt="non-virtual">UI::Panel::FPSCounter</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_panel_1_1_property" prot="public" virt="non-virtual">UI::Panel::Property</derivedcompoundref>
+    <includes refid="_base_panel_8h" local="no">BasePanel.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_base_panel_1acfbe89a3ddf3aba9a367c918f720f3a4" prot="protected" static="no" mutable="no">
+        <type>nk_context *&amp;</type>
+        <definition>nk_context*&amp; BasePanel::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="13" column="12" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_panel_1a1aeb2bcd69f51713f53107ba3b36881b" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_rendering" kindref="compound">Rendering</ref> &amp;</type>
+        <definition>Rendering&amp; BasePanel::rendering</definition>
+        <argsstring></argsstring>
+        <name>rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="14" column="11" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_base_panel_1a6e9c2abfca86cbb9eb4cf960423568c6" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string BasePanel::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="15" column="13" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_base_panel_1a946059a37637fede3975991d166dcae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BasePanel::BasePanel</definition>
+        <argsstring>(nk_context *&amp;_context, Rendering &amp;_rendering, const std::string &amp;_name)</argsstring>
+        <name>BasePanel</name>
+        <param>
+          <type>nk_context *&amp;</type>
+          <declname>_context</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rendering" kindref="compound">Rendering</ref> &amp;</type>
+          <declname>_rendering</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="18" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="18" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_panel_1a62a48991f55e47420a65752e219dbce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BasePanel::~BasePanel</definition>
+        <argsstring>()</argsstring>
+        <name>~BasePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="21" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>abstract for every nuklear panel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BasePanel</label>
+        <link refid="class_base_panel"/>
+      </node>
+      <node id="3">
+        <label>UI::Panel::Property</label>
+        <link refid="class_u_i_1_1_panel_1_1_property"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UI::Panel::FPSCounter</label>
+        <link refid="class_u_i_1_1_panel_1_1_f_p_s_counter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BasePanel</label>
+        <link refid="class_base_panel"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>rendering</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Rendering</label>
+        <link refid="class_rendering"/>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="10" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_base_panel_1a946059a37637fede3975991d166dcae9" prot="public" virt="non-virtual"><scope>BasePanel</scope><name>BasePanel</name></member>
+      <member refid="class_base_panel_1acfbe89a3ddf3aba9a367c918f720f3a4" prot="protected" virt="non-virtual"><scope>BasePanel</scope><name>context</name></member>
+      <member refid="class_base_panel_1a6e9c2abfca86cbb9eb4cf960423568c6" prot="protected" virt="non-virtual"><scope>BasePanel</scope><name>name</name></member>
+      <member refid="class_base_panel_1a1aeb2bcd69f51713f53107ba3b36881b" prot="protected" virt="non-virtual"><scope>BasePanel</scope><name>rendering</name></member>
+      <member refid="class_base_panel_1a62a48991f55e47420a65752e219dbce2" prot="public" virt="non-virtual"><scope>BasePanel</scope><name>~BasePanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

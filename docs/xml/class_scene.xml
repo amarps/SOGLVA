@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_scene" kind="class" language="C++" prot="public">
+    <compoundname>Scene</compoundname>
+    <includes refid="_scene_8h" local="no">Scene.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_1a44b2d6bffa153dda02f026f8533ceb08" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Scene::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="10" column="13" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_1a7bb3b709697c46ba0eab096004a2d7bd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_model" kindref="compound">Model</ref> *</type>
+        <definition>Model* Scene::cubeModel</definition>
+        <argsstring></argsstring>
+        <name>cubeModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="11" column="7" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_1aac1b19b8771b7549636f982ab57a7d9c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_physic" kindref="compound">Physic</ref></type>
+        <definition>Physic Scene::physic</definition>
+        <argsstring></argsstring>
+        <name>physic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="12" column="8" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_1aa8f5c84bb7801df7d00325cb1c5341f2" prot="public" static="no" mutable="no">
+        <type>btRigidBody *</type>
+        <definition>btRigidBody* Scene::RBspehere</definition>
+        <argsstring></argsstring>
+        <name>RBspehere</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="13" column="13" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_1a5cfdc8b14e3876f44a0a99ef80e96c6e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_managed_object" kindref="compound">ManagedObject</ref> * &gt;</type>
+        <definition>std::vector&lt;ManagedObject*&gt; Scene::managedObjects</definition>
+        <argsstring></argsstring>
+        <name>managedObjects</name>
+        <briefdescription>
+<para>managed object that will rendered inside this scene </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="18" column="13" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_1af2b7219db7db9322eaee20a21c4677be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scene::Scene</definition>
+        <argsstring>(std::string _name)</argsstring>
+        <name>Scene</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="20" column="1" bodyfile="SOGLVA/src/Core/Scene/Scene.cpp" bodystart="3" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_1a3b8cec2e32546713915f8c6303c951f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scene::~Scene</definition>
+        <argsstring>()</argsstring>
+        <name>~Scene</name>
+        <briefdescription>
+<para>delete every managedObject inside managed objects data and clear the data container which is std::vector </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="26" column="1" bodyfile="SOGLVA/src/Core/Scene/Scene.cpp" bodystart="44" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_1a71a71b4f7752b853ff8032b0941a9d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scene::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>call Update in every managedObject inside managed objects data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="31" column="6" bodyfile="SOGLVA/src/Core/Scene/Scene.cpp" bodystart="53" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>Transform</label>
+        <link refid="class_transform"/>
+      </node>
+      <node id="4">
+        <label>Shader</label>
+        <link refid="class_shader"/>
+      </node>
+      <node id="1">
+        <label>Scene</label>
+        <link refid="class_scene"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cubeModel</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>physic</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+      <node id="6">
+        <label>Physic</label>
+        <link refid="class_physic"/>
+      </node>
+      <node id="2">
+        <label>Model</label>
+        <link refid="class_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>shader</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>transform</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/Scene/Scene.h" line="7" column="1" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_scene_1a7bb3b709697c46ba0eab096004a2d7bd" prot="public" virt="non-virtual"><scope>Scene</scope><name>cubeModel</name></member>
+      <member refid="class_scene_1a5cfdc8b14e3876f44a0a99ef80e96c6e" prot="public" virt="non-virtual"><scope>Scene</scope><name>managedObjects</name></member>
+      <member refid="class_scene_1a44b2d6bffa153dda02f026f8533ceb08" prot="public" virt="non-virtual"><scope>Scene</scope><name>name</name></member>
+      <member refid="class_scene_1aac1b19b8771b7549636f982ab57a7d9c" prot="public" virt="non-virtual"><scope>Scene</scope><name>physic</name></member>
+      <member refid="class_scene_1aa8f5c84bb7801df7d00325cb1c5341f2" prot="public" virt="non-virtual"><scope>Scene</scope><name>RBspehere</name></member>
+      <member refid="class_scene_1af2b7219db7db9322eaee20a21c4677be" prot="public" virt="non-virtual"><scope>Scene</scope><name>Scene</name></member>
+      <member refid="class_scene_1a71a71b4f7752b853ff8032b0941a9d8d" prot="public" virt="non-virtual"><scope>Scene</scope><name>Update</name></member>
+      <member refid="class_scene_1a3b8cec2e32546713915f8c6303c951f1" prot="public" virt="non-virtual"><scope>Scene</scope><name>~Scene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

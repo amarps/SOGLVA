@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_9b73525287b64a8a1a48afd236a923e7" kind="dir">
+    <compoundname>SOGLVA/src/InputHandler</compoundname>
+    <innerfile refid="_default_input_8cpp">DefaultInput.cpp</innerfile>
+    <innerfile refid="_default_input_8h">DefaultInput.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/InputHandler/"/>
+  </compounddef>
+</doxygen>

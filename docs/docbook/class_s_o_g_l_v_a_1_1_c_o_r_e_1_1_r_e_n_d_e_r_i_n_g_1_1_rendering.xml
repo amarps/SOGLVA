@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" xml:lang="en-US">
+<title>SOGLVA::CORE::RENDERING::Rendering Class Reference</title>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Rendering.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::CORE::RENDERING::Rendering:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a9a0edc825c0cc5fd75a3acab9b0a2bd9">Rendering</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4a33c76e77839b9563222ceb62f4df0f">~Rendering</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac57a32d2dc6cbb4d6254c8e134c76abb">ClearWindow</link> ()</para>
+
+<para>Clear the window using static rendering::ClearColor </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a">deltaTime</link> = 0.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab655515cdb07eeabcd94d59ff7f8130a">lastFrame</link> = 0.0f</para>
+</listitem>
+            <listitem><para>GLFWwindow * <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38">window</link></para>
+</listitem>
+            <listitem><para>HWND <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0578f28b8d8bb26457ec96e6ba909ee9">hwNative</link></para>
+
+<para>HWND of glfwWindow for use in win32 apps. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0d8718a1eb5d14473cbcbfc78d404b2c">SCREEN_WIDTH</link> = 800</para>
+
+<para>default screen width. </para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4f7c81ad37410ed71d19c524658fd7f3">SCREEN_HEIGHT</link> = 600</para>
+
+<para>default screen height </para>
+</listitem>
+            <listitem><para>static std::string <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1afd078a972e8b5f9388b37efc3b8d1d5d">AppName</link> = &quot;Default&quot;</para>
+
+<para>default application name </para>
+</listitem>
+            <listitem><para>static float <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a01497a16323354863d6850bbbf74eae3">ClearColor</link> [4] = { 0.05f, 0.05f, 0.05f, 1.0f }</para>
+
+<para>Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab97bc68cb216c890b1b16b9d9689c5e1">SetupGLFWWindow</link> ()</para>
+
+<para>intialize glfw window and startup configuration handler </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a6b6d8b36356a3851507b70c99635b1ab">ConfigureOGLFunction</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a3ba04a3407c4318be44ab6a676412826">framebuffer_size_callback</link> (GLFWwindow *<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38">window</link>, int width, int height)</para>
+
+<para>resize callback for opengl viewport size context to new window size </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 10 of file Rendering.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a9a0edc825c0cc5fd75a3acab9b0a2bd9"/>    <section>
+    <title>Rendering()</title>
+<indexterm><primary>Rendering</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>Rendering</secondary></indexterm>
+<para><computeroutput>SOGLVA::CORE::RENDERING::Rendering::Rendering ( )</computeroutput></para><para>
+Definition at line 5 of file Rendering.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_a9a0edc825c0cc5fd75a3acab9b0a2bd9_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4a33c76e77839b9563222ceb62f4df0f"/>    <section>
+    <title>~Rendering()</title>
+<indexterm><primary>~Rendering</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>~Rendering</secondary></indexterm>
+<para><computeroutput>SOGLVA::CORE::RENDERING::Rendering::~Rendering ( )</computeroutput></para><para>
+Definition at line 11 of file Rendering.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac57a32d2dc6cbb4d6254c8e134c76abb"/>    <section>
+    <title>ClearWindow()</title>
+<indexterm><primary>ClearWindow</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>ClearWindow</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::RENDERING::Rendering::ClearWindow ( )</computeroutput></para><para>
+
+<para>Clear the window using static rendering::ClearColor </para>
+</para>
+<para>
+Definition at line 66 of file Rendering.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a6b6d8b36356a3851507b70c99635b1ab"/>    <section>
+    <title>ConfigureOGLFunction()</title>
+<indexterm><primary>ConfigureOGLFunction</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>ConfigureOGLFunction</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::RENDERING::Rendering::ConfigureOGLFunction ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+</para>
+
+<para><itemizedlist>
+<listitem>
+<para>Create window in glfw</para>
+</listitem><listitem>
+<para>load Opengl API via glew</para>
+</listitem><listitem>
+<para>set window callback </para>
+</listitem></itemizedlist>
+</para>
+
+<para>Window Creation</para>
+
+<para>sets the user-defined pointer of the specified window. The current value is retained until the window is destroyed.</para>
+
+<para>Initialize GLEW to load opengl API</para>
+<para>
+Definition at line 38 of file Rendering.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_a6b6d8b36356a3851507b70c99635b1ab_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a3ba04a3407c4318be44ab6a676412826"/>    <section>
+    <title>framebuffer_size_callback()</title>
+<indexterm><primary>framebuffer_size_callback</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>framebuffer_size_callback</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::RENDERING::Rendering::framebuffer_size_callback (GLFWwindow * window, int width, int height)<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>resize callback for opengl viewport size context to new window size </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>window</entry>
+                                <entry>
+<para>: GLFW window that want to implement resize callback </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>width</entry>
+                                <entry>
+<para>: window width </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>height</entry>
+                                <entry>
+<para>: window height </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Definition at line 72 of file Rendering.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab97bc68cb216c890b1b16b9d9689c5e1"/>    <section>
+    <title>SetupGLFWWindow()</title>
+<indexterm><primary>SetupGLFWWindow</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>SetupGLFWWindow</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::RENDERING::Rendering::SetupGLFWWindow ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+
+<para>intialize glfw window and startup configuration handler </para>
+</para>
+
+<para>initialize glfw context for opengl</para>
+
+<para>remove tittle bar</para>
+<para>
+Definition at line 17 of file Rendering.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1afd078a972e8b5f9388b37efc3b8d1d5d"/>    <section>
+    <title>AppName</title>
+<indexterm><primary>AppName</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>AppName</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::CORE::RENDERING::Rendering::AppName = &quot;Default&quot;<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>default application name </para>
+</para>
+<para>
+Definition at line 53 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a01497a16323354863d6850bbbf74eae3"/>    <section>
+    <title>ClearColor</title>
+<indexterm><primary>ClearColor</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>ClearColor</secondary></indexterm>
+<para><computeroutput>float SOGLVA::CORE::RENDERING::Rendering::ClearColor[4] = { 0.05f, 0.05f, 0.05f, 1.0f }<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window </para>
+</para>
+<para>
+Definition at line 58 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a"/>    <section>
+    <title>deltaTime</title>
+<indexterm><primary>deltaTime</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>deltaTime</secondary></indexterm>
+<para><computeroutput>float SOGLVA::CORE::RENDERING::Rendering::deltaTime = 0.0f</computeroutput></para><para>
+Definition at line 38 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0578f28b8d8bb26457ec96e6ba909ee9"/>    <section>
+    <title>hwNative</title>
+<indexterm><primary>hwNative</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>hwNative</secondary></indexterm>
+<para><computeroutput>HWND SOGLVA::CORE::RENDERING::Rendering::hwNative</computeroutput></para><para>
+
+<para>HWND of glfwWindow for use in win32 apps. </para>
+</para>
+<para>
+Definition at line 44 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab655515cdb07eeabcd94d59ff7f8130a"/>    <section>
+    <title>lastFrame</title>
+<indexterm><primary>lastFrame</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>lastFrame</secondary></indexterm>
+<para><computeroutput>float SOGLVA::CORE::RENDERING::Rendering::lastFrame = 0.0f</computeroutput></para><para>
+Definition at line 39 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4f7c81ad37410ed71d19c524658fd7f3"/>    <section>
+    <title>SCREEN_HEIGHT</title>
+<indexterm><primary>SCREEN_HEIGHT</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>SCREEN_HEIGHT</secondary></indexterm>
+<para><computeroutput>int SOGLVA::CORE::RENDERING::Rendering::SCREEN_HEIGHT = 600<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>default screen height </para>
+</para>
+<para>
+Definition at line 50 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0d8718a1eb5d14473cbcbfc78d404b2c"/>    <section>
+    <title>SCREEN_WIDTH</title>
+<indexterm><primary>SCREEN_WIDTH</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>SCREEN_WIDTH</secondary></indexterm>
+<para><computeroutput>int SOGLVA::CORE::RENDERING::Rendering::SCREEN_WIDTH = 800<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>default screen width. </para>
+</para>
+<para>
+Definition at line 47 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38"/>    <section>
+    <title>window</title>
+<indexterm><primary>window</primary><secondary>SOGLVA::CORE::RENDERING::Rendering</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::RENDERING::Rendering</primary><secondary>window</secondary></indexterm>
+<para><computeroutput>GLFWwindow* SOGLVA::CORE::RENDERING::Rendering::window</computeroutput></para><para>
+Definition at line 41 of file Rendering.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/Rendering/<link linkend="__rendering_8h">Rendering.h</link>SOGLVA/src/Core/Rendering/<link linkend="__rendering_8cpp">Rendering.cpp</link></section>
+</section>

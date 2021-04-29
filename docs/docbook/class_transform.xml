@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_transform" xml:lang="en-US">
+<title>Transform Class Reference</title>
+<indexterm><primary>Transform</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Transform.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_transform_1aa08ca4266efabc768973cdeea51945ab">Transform</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_transform_1aa0b3411eab68aa905e7b73322954b9fa">Transform</link> (glm::mat4 <link linkend="_class_transform_1abf10a1e478be3ff110e03b07c3577800">transformMatrix</link>, glm::vec3 position, glm::vec3 rotation, glm::vec3 scaling)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_transform_1afdb45a925b40ac6976077230946b0035">Translate</link> (glm::vec3 position)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_transform_1a60396810bb2365e5b6a7b2709eb1083d">Scale</link> (glm::vec3 scaling)</para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_transform_1a0b21f641e72d7b55f3a630b986d0b106">getPosition</link> ()</para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_transform_1a64018b6c8fc04dbed870219ca97474ae">setPosition</link> (glm::vec3 newPosition)</para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_transform_1aaaca5c382f180b441df8f7b15f85186b">Scaling</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::mat4 <link linkend="_class_transform_1abf10a1e478be3ff110e03b07c3577800">transformMatrix</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 5 of file Transform.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_transform_1aa08ca4266efabc768973cdeea51945ab"/>    <section>
+    <title>Transform()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Transform</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>Transform</secondary></indexterm>
+<para><computeroutput>Transform::Transform ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 10 of file Transform.h.</para>
+    </section><anchor xml:id="_class_transform_1aa0b3411eab68aa905e7b73322954b9fa"/>    <section>
+    <title>Transform()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Transform</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>Transform</secondary></indexterm>
+<para><computeroutput>Transform::Transform (glm::mat4 transformMatrix, glm::vec3 position, glm::vec3 rotation, glm::vec3 scaling)</computeroutput></para><para>
+Definition at line 3 of file Transform.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_transform_1a0b21f641e72d7b55f3a630b986d0b106"/>    <section>
+    <title>getPosition()</title>
+<indexterm><primary>getPosition</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>getPosition</secondary></indexterm>
+<para><computeroutput>glm::vec3 Transform::getPosition ( )</computeroutput></para><para>
+Definition at line 20 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_transform_1a60396810bb2365e5b6a7b2709eb1083d"/>    <section>
+    <title>Scale()</title>
+<indexterm><primary>Scale</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>Scale</secondary></indexterm>
+<para><computeroutput>void Transform::Scale (glm::vec3 scaling)</computeroutput></para><para>
+Definition at line 32 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_transform_1aaaca5c382f180b441df8f7b15f85186b"/>    <section>
+    <title>Scaling()</title>
+<indexterm><primary>Scaling</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>Scaling</secondary></indexterm>
+<para><computeroutput>glm::vec3 Transform::Scaling ( )</computeroutput></para><para>
+Definition at line 38 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_transform_1a64018b6c8fc04dbed870219ca97474ae"/>    <section>
+    <title>setPosition()</title>
+<indexterm><primary>setPosition</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>setPosition</secondary></indexterm>
+<para><computeroutput>glm::vec3 Transform::setPosition (glm::vec3 newPosition)</computeroutput></para><para>
+Definition at line 25 of file Transform.cpp.</para>
+    </section><anchor xml:id="_class_transform_1afdb45a925b40ac6976077230946b0035"/>    <section>
+    <title>Translate()</title>
+<indexterm><primary>Translate</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>Translate</secondary></indexterm>
+<para><computeroutput>void Transform::Translate (glm::vec3 position)</computeroutput></para><para>
+Definition at line 14 of file Transform.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_transform_1abf10a1e478be3ff110e03b07c3577800"/>    <section>
+    <title>transformMatrix</title>
+<indexterm><primary>transformMatrix</primary><secondary>Transform</secondary></indexterm>
+<indexterm><primary>Transform</primary><secondary>transformMatrix</secondary></indexterm>
+<para><computeroutput>glm::mat4 Transform::transformMatrix</computeroutput></para><para>
+Definition at line 8 of file Transform.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Components/<link linkend="__transform_8h">Transform.h</link>SOGLVA/src/Components/<link linkend="__transform_8cpp">Transform.cpp</link></section>
+</section>

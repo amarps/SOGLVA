@@ -1,0 +1,74 @@
+.TH "SOGLVA/src/API.h" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA/src/API.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'SOGLVA\&.h'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBEXPORT\fP   __declspec(dllimport)"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "HWND \fBEXPORT\fP \fBSOGLVAInitialize\fP ()"
+.br
+.ti -1c
+.RI "void \fBEXPORT\fP \fBSOGLVARunApp\fP ()"
+.br
+.ti -1c
+.RI "void \fBEXPORT\fP \fBSOGLVARestart\fP ()"
+.br
+.ti -1c
+.RI "void \fBEXPORT\fP \fBSOGLVADestroy\fP ()"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static \fBSOGLVA::Soglva\fP * \fBapplication\fP = new \fBSOGLVA::Soglva\fP()"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define EXPORT   __declspec(dllimport)"
+
+.PP
+Definition at line 7 of file API\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "void \fBEXPORT\fP SOGLVADestroy ()"
+
+.PP
+Definition at line 46 of file API\&.cpp\&.
+.SS "HWND \fBEXPORT\fP SOGLVAInitialize ()"
+
+.PP
+Definition at line 28 of file API\&.cpp\&.
+.SS "void \fBEXPORT\fP SOGLVARestart ()"
+not implemented
+.PP
+Definition at line 40 of file API\&.cpp\&.
+.SS "void \fBEXPORT\fP SOGLVARunApp ()"
+
+.PP
+Definition at line 34 of file API\&.cpp\&.
+.SH "Variable Documentation"
+.PP 
+.SS "\fBSOGLVA::Soglva\fP* application = new \fBSOGLVA::Soglva\fP()\fC [static]\fP"
+
+.PP
+Definition at line 10 of file API\&.h\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

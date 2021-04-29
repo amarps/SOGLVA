@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_mesh" kind="class" language="C++" prot="public">
+    <compoundname>Mesh</compoundname>
+    <includes refid="_mesh_8h" local="no">Mesh.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mesh_1a6465a888c97232a39e12aad008c969c3" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_vertex" kindref="compound">Vertex</ref> &gt;</type>
+        <definition>std::vector&lt;Vertex&gt; Mesh::vertices</definition>
+        <argsstring></argsstring>
+        <name>vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="40" column="23" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_1a26632e27b772f24b069a738e7983b9da" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; unsigned int &gt;</type>
+        <definition>std::vector&lt;unsigned int&gt; Mesh::indices</definition>
+        <argsstring></argsstring>
+        <name>indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="41" column="17" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_1abf1e672703bf4f8e104f3b076faaf958" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_texture" kindref="compound">Texture</ref> &gt;</type>
+        <definition>std::vector&lt;Texture&gt; Mesh::textures</definition>
+        <argsstring></argsstring>
+        <name>textures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="42" column="22" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_1a79afa055e485fb65b1a7aa5b8eda2940" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Mesh::VAO</definition>
+        <argsstring></argsstring>
+        <name>VAO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="43" column="18" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mesh_1af08e5f92b0cf587817841104c16fa803" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Mesh::VBO</definition>
+        <argsstring></argsstring>
+        <name>VBO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="53" column="18" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mesh_1a25262f446aea3107da7c23f126a81faa" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Mesh::EBO</definition>
+        <argsstring></argsstring>
+        <name>EBO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="53" column="22" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mesh_1a5d0b82c7f381bcdb2430e3dcd987e506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Mesh::Mesh</definition>
+        <argsstring>(std::vector&lt; Vertex &gt; vertices, std::vector&lt; unsigned int &gt; indices, std::vector&lt; Texture &gt; textures)</argsstring>
+        <name>Mesh</name>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_vertex" kindref="compound">Vertex</ref> &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; unsigned int &gt;</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_texture" kindref="compound">Texture</ref> &gt;</type>
+          <declname>textures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="46" column="5" bodyfile="SOGLVA/src/Components/Graphics/Mesh.cpp" bodystart="3" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mesh_1ae5a32a9bc54c191d247638d09c050cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mesh::Draw</definition>
+        <argsstring>(Shader &amp;shader)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type><ref refid="class_shader" kindref="compound">Shader</ref> &amp;</type>
+          <declname>shader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="49" column="10" bodyfile="SOGLVA/src/Components/Graphics/Mesh.cpp" bodystart="13" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mesh_1aafa4e21067a9b0c4407daf5e3c9ea991" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mesh::setupMesh</definition>
+        <argsstring>()</argsstring>
+        <name>setupMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="56" column="10" bodyfile="SOGLVA/src/Components/Graphics/Mesh.cpp" bodystart="50" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="37" column="1" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="37" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_mesh_1ae5a32a9bc54c191d247638d09c050cbf" prot="public" virt="non-virtual"><scope>Mesh</scope><name>Draw</name></member>
+      <member refid="class_mesh_1a25262f446aea3107da7c23f126a81faa" prot="private" virt="non-virtual"><scope>Mesh</scope><name>EBO</name></member>
+      <member refid="class_mesh_1a26632e27b772f24b069a738e7983b9da" prot="public" virt="non-virtual"><scope>Mesh</scope><name>indices</name></member>
+      <member refid="class_mesh_1a5d0b82c7f381bcdb2430e3dcd987e506" prot="public" virt="non-virtual"><scope>Mesh</scope><name>Mesh</name></member>
+      <member refid="class_mesh_1aafa4e21067a9b0c4407daf5e3c9ea991" prot="private" virt="non-virtual"><scope>Mesh</scope><name>setupMesh</name></member>
+      <member refid="class_mesh_1abf1e672703bf4f8e104f3b076faaf958" prot="public" virt="non-virtual"><scope>Mesh</scope><name>textures</name></member>
+      <member refid="class_mesh_1a79afa055e485fb65b1a7aa5b8eda2940" prot="public" virt="non-virtual"><scope>Mesh</scope><name>VAO</name></member>
+      <member refid="class_mesh_1af08e5f92b0cf587817841104c16fa803" prot="private" virt="non-virtual"><scope>Mesh</scope><name>VBO</name></member>
+      <member refid="class_mesh_1a6465a888c97232a39e12aad008c969c3" prot="public" virt="non-virtual"><scope>Mesh</scope><name>vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

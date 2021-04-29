@@ -1,0 +1,73 @@
+.TH "Mesh" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Mesh
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Mesh\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMesh\fP (std::vector< \fBVertex\fP > \fBvertices\fP, std::vector< unsigned int > \fBindices\fP, std::vector< \fBTexture\fP > \fBtextures\fP)"
+.br
+.ti -1c
+.RI "void \fBDraw\fP (\fBShader\fP &shader)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::vector< \fBVertex\fP > \fBvertices\fP"
+.br
+.ti -1c
+.RI "std::vector< unsigned int > \fBindices\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBTexture\fP > \fBtextures\fP"
+.br
+.ti -1c
+.RI "unsigned int \fBVAO\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 37 of file Mesh\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Mesh::Mesh (std::vector< \fBVertex\fP > vertices, std::vector< unsigned int > indices, std::vector< \fBTexture\fP > textures)"
+
+.PP
+Definition at line 3 of file Mesh\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Mesh::Draw (\fBShader\fP & shader)"
+
+.PP
+Definition at line 13 of file Mesh\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::vector<unsigned int> Mesh::indices"
+
+.PP
+Definition at line 41 of file Mesh\&.h\&.
+.SS "std::vector<\fBTexture\fP> Mesh::textures"
+
+.PP
+Definition at line 42 of file Mesh\&.h\&.
+.SS "unsigned int Mesh::VAO"
+
+.PP
+Definition at line 43 of file Mesh\&.h\&.
+.SS "std::vector<\fBVertex\fP> Mesh::vertices"
+
+.PP
+Definition at line 40 of file Mesh\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

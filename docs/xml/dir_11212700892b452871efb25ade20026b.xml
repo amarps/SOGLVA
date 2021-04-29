@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_11212700892b452871efb25ade20026b" kind="dir">
+    <compoundname>SOGLVA/src/Core</compoundname>
+    <innerdir refid="dir_fb8fe5feafa800bff77474b2c210aa36">SOGLVA/src/Core/Rendering</innerdir>
+    <innerdir refid="dir_40b94d92348dbca1f0f0485cc885935b">SOGLVA/src/Core/Scene</innerdir>
+    <innerdir refid="dir_1a6fe08b3913066b7886fb2bfe59c32f">SOGLVA/src/Core/UI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/"/>
+  </compounddef>
+</doxygen>

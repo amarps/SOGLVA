@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_u_i_1_1_panel_1_1_f_p_s_counter" xml:lang="en-US">
+<title>UI::Panel::FPSCounter Class Reference</title>
+<indexterm><primary>UI::Panel::FPSCounter</primary></indexterm>
+<para>
+<computeroutput>#include &lt;FPSCounter.h&gt;</computeroutput>
+</para>
+<para>Inheritance diagram for UI::Panel::FPSCounter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_i_1_1_panel_1_1_f_p_s_counter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_u_i_1_1_panel_1_1_f_p_s_counter_1af8fbf8e8e681d03a898ea545c321ed43">FPSCounter</link> (nk_context *&amp;_context, <link linkend="_class_rendering">Rendering</link> &amp;_rendering, const std::string &amp;_name)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_u_i_1_1_panel_1_1_f_p_s_counter_1a8f000b8d8f7dfbda96db187a544ea763">Draw</link> () override</para>
+
+<para>Draw <link linkend="_namespace_u_i_1_1_panel">Panel</link> </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 11 of file FPSCounter.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_u_i_1_1_panel_1_1_f_p_s_counter_1af8fbf8e8e681d03a898ea545c321ed43"/>    <section>
+    <title>FPSCounter()</title>
+<indexterm><primary>FPSCounter</primary><secondary>UI::Panel::FPSCounter</secondary></indexterm>
+<indexterm><primary>UI::Panel::FPSCounter</primary><secondary>FPSCounter</secondary></indexterm>
+<para><computeroutput>UI::Panel::FPSCounter::FPSCounter (nk_context *&amp; _context, <link linkend="_class_rendering">Rendering</link> &amp; _rendering, const std::string &amp; _name)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file FPSCounter.h.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_u_i_1_1_panel_1_1_f_p_s_counter_1a8f000b8d8f7dfbda96db187a544ea763"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>UI::Panel::FPSCounter</secondary></indexterm>
+<indexterm><primary>UI::Panel::FPSCounter</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void UI::Panel::FPSCounter::Draw ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Draw <link linkend="_namespace_u_i_1_1_panel">Panel</link> </para>
+</para>
+<para>
+Implements <link linkend="_class_i_u_i_drawable_1a55b8226952f05b430d560d7ce5a71458">IUIDrawable</link>.</para>
+<para>
+Definition at line 7 of file FPSCounter.cpp.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/UI/Panels/<link linkend="__f_p_s_counter_8h">FPSCounter.h</link>SOGLVA/src/Core/UI/Panels/<link linkend="__f_p_s_counter_8cpp">FPSCounter.cpp</link></section>
+</section>

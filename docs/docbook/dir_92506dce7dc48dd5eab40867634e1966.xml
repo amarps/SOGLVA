@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_92506dce7dc48dd5eab40867634e1966" xml:lang="en-US">
+<title>SOGLVA/src Directory Reference</title>
+<indexterm><primary>SOGLVA/src Directory Reference</primary></indexterm>
+Directory dependency graph for src:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_92506dce7dc48dd5eab40867634e1966_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_883a5621fc05c20e407199c1b8f8eb98">common</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_11212700892b452871efb25ade20026b">Core</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_9b73525287b64a8a1a48afd236a923e7">InputHandler</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_4d96b6bf59029d1cb240e239aa8450b9">ManagedObject</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__a_p_i_8cpp">API.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__a_p_i_8h">API.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__s_o_g_l_v_a_8cpp">SOGLVA.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__s_o_g_l_v_a_8h">SOGLVA.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

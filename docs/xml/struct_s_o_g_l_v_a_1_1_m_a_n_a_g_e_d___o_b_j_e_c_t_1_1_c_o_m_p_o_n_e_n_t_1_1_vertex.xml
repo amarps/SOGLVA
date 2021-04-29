@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kind="struct" language="C++" prot="public">
+    <compoundname>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</compoundname>
+    <includes refid="_mesh_8h" local="no">Mesh.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac9feeef6c0deeca2b28d8aa5090ec8dd" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="28" column="19" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac516a95167e427a2cd187bc617dd460d" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Normal</definition>
+        <argsstring></argsstring>
+        <name>Normal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="30" column="19" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1a386730ebe9a08846b0c0a00ba1d08943" prot="public" static="no" mutable="no">
+        <type>glm::vec2</type>
+        <definition>glm::vec2 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::TexCoords</definition>
+        <argsstring></argsstring>
+        <name>TexCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="32" column="19" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1afd406e00d376ac44e41604a5f265ccbb" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Tangent</definition>
+        <argsstring></argsstring>
+        <name>Tangent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="34" column="19" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1aab7a0700758c852c7700dfccf7e64229" prot="public" static="no" mutable="no">
+        <type>glm::vec3</type>
+        <definition>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Bitangent</definition>
+        <argsstring></argsstring>
+        <name>Bitangent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="36" column="19" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vec2</label>
+      </node>
+      <node id="3">
+        <label>vec3</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</label>
+        <link refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+TexCoords</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+Bitangent</edgelabel>
+          <edgelabel>+Normal</edgelabel>
+          <edgelabel>+Position</edgelabel>
+          <edgelabel>+Tangent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" line="26" column="5" bodyfile="SOGLVA/src/ManagedObject/Components/Graphics/Mesh.h" bodystart="26" bodyend="37"/>
+    <listofallmembers>
+      <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1aab7a0700758c852c7700dfccf7e64229" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</scope><name>Bitangent</name></member>
+      <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac516a95167e427a2cd187bc617dd460d" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</scope><name>Normal</name></member>
+      <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac9feeef6c0deeca2b28d8aa5090ec8dd" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</scope><name>Position</name></member>
+      <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1afd406e00d376ac44e41604a5f265ccbb" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</scope><name>Tangent</name></member>
+      <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1a386730ebe9a08846b0c0a00ba1d08943" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</scope><name>TexCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

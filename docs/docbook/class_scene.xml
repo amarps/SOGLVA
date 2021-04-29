@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_scene" xml:lang="en-US">
+<title>Scene Class Reference</title>
+<indexterm><primary>Scene</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Scene.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_scene_1af2b7219db7db9322eaee20a21c4677be">Scene</link> (std::string _name)</para>
+</listitem>
+            <listitem><para><link linkend="_class_scene_1a3b8cec2e32546713915f8c6303c951f1">~Scene</link> ()</para>
+
+<para>delete every managedObject inside managed objects data and clear the data container which is std::vector </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_1a71a71b4f7752b853ff8032b0941a9d8d">Update</link> ()</para>
+
+<para>call Update in every managedObject inside managed objects data </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::string <link linkend="_class_scene_1a44b2d6bffa153dda02f026f8533ceb08">name</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_model">Model</link> * <link linkend="_class_scene_1a7bb3b709697c46ba0eab096004a2d7bd">cubeModel</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_physic">Physic</link> <link linkend="_class_scene_1aac1b19b8771b7549636f982ab57a7d9c">physic</link></para>
+</listitem>
+            <listitem><para>btRigidBody * <link linkend="_class_scene_1aa8f5c84bb7801df7d00325cb1c5341f2">RBspehere</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; <link linkend="_class_managed_object">ManagedObject</link> * &gt; <link linkend="_class_scene_1a5cfdc8b14e3876f44a0a99ef80e96c6e">managedObjects</link></para>
+
+<para>managed object that will rendered inside this scene </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 7 of file Scene.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_scene_1af2b7219db7db9322eaee20a21c4677be"/>    <section>
+    <title>Scene()</title>
+<indexterm><primary>Scene</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>Scene</secondary></indexterm>
+<para><computeroutput>Scene::Scene (std::string _name)</computeroutput></para><para>
+Definition at line 3 of file Scene.cpp.</para>
+    </section><anchor xml:id="_class_scene_1a3b8cec2e32546713915f8c6303c951f1"/>    <section>
+    <title>~Scene()</title>
+<indexterm><primary>~Scene</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>~Scene</secondary></indexterm>
+<para><computeroutput>Scene::~Scene ( )</computeroutput></para><para>
+
+<para>delete every managedObject inside managed objects data and clear the data container which is std::vector </para>
+</para>
+<para>
+Definition at line 44 of file Scene.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_scene_1a71a71b4f7752b853ff8032b0941a9d8d"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void Scene::Update ( )</computeroutput></para><para>
+
+<para>call Update in every managedObject inside managed objects data </para>
+</para>
+<para>
+Definition at line 53 of file Scene.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_scene_1a7bb3b709697c46ba0eab096004a2d7bd"/>    <section>
+    <title>cubeModel</title>
+<indexterm><primary>cubeModel</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>cubeModel</secondary></indexterm>
+<para><computeroutput><link linkend="_class_model">Model</link>* Scene::cubeModel</computeroutput></para><para>
+Definition at line 11 of file Scene.h.</para>
+    </section><anchor xml:id="_class_scene_1a5cfdc8b14e3876f44a0a99ef80e96c6e"/>    <section>
+    <title>managedObjects</title>
+<indexterm><primary>managedObjects</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>managedObjects</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_class_managed_object">ManagedObject</link>*&gt; Scene::managedObjects</computeroutput></para><para>
+
+<para>managed object that will rendered inside this scene </para>
+</para>
+<para>
+Definition at line 18 of file Scene.h.</para>
+    </section><anchor xml:id="_class_scene_1a44b2d6bffa153dda02f026f8533ceb08"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>std::string Scene::name</computeroutput></para><para>
+Definition at line 10 of file Scene.h.</para>
+    </section><anchor xml:id="_class_scene_1aac1b19b8771b7549636f982ab57a7d9c"/>    <section>
+    <title>physic</title>
+<indexterm><primary>physic</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>physic</secondary></indexterm>
+<para><computeroutput><link linkend="_class_physic">Physic</link> Scene::physic</computeroutput></para><para>
+Definition at line 12 of file Scene.h.</para>
+    </section><anchor xml:id="_class_scene_1aa8f5c84bb7801df7d00325cb1c5341f2"/>    <section>
+    <title>RBspehere</title>
+<indexterm><primary>RBspehere</primary><secondary>Scene</secondary></indexterm>
+<indexterm><primary>Scene</primary><secondary>RBspehere</secondary></indexterm>
+<para><computeroutput>btRigidBody* Scene::RBspehere</computeroutput></para><para>
+Definition at line 13 of file Scene.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/Scene/<link linkend="__scene_8h">Scene.h</link>SOGLVA/src/Core/Scene/<link linkend="__scene_8cpp">Scene.cpp</link></section>
+</section>

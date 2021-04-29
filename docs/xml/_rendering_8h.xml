@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_rendering_8h" kind="file" language="C++">
+    <compoundname>Rendering.h</compoundname>
+    <includes refid="_rendering_def_8h" local="yes">RenderingDef.h</includes>
+    <includedby refid="_rendering_8cpp" local="yes">SOGLVA/src/Core/Rendering/Rendering.cpp</includedby>
+    <includedby refid="_base_panel_8h" local="yes">SOGLVA/src/Core/UI/Panels/BasePanel.h</includedby>
+    <includedby refid="_default_input_8h" local="yes">SOGLVA/src/InputHandler/DefaultInput.h</includedby>
+    <includedby refid="_model_8cpp" local="yes">SOGLVA/src/ManagedObject/Components/Graphics/Model.cpp</includedby>
+    <includedby refid="_s_o_g_l_v_a_8h" local="yes">SOGLVA/src/SOGLVA.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>Windows.h</label>
+      </node>
+      <node id="3">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="4">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/Rendering/Rendering.h</label>
+        <link refid="_rendering_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="2">
+        <label>RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>SOGLVA/src/Core/Rendering/Rendering.cpp</label>
+        <link refid="_rendering_8cpp"/>
+      </node>
+      <node id="12">
+        <label>SOGLVA/src/SOGLVA.cpp</label>
+        <link refid="_s_o_g_l_v_a_8cpp"/>
+      </node>
+      <node id="16">
+        <label>SOGLVA/src/ManagedObject/Components/Graphics/Model.cpp</label>
+        <link refid="_model_8cpp"/>
+      </node>
+      <node id="6">
+        <label>SOGLVA/src/Core/UI/UISystem.h</label>
+        <link refid="_u_i_system_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>SOGLVA/src/Core/UI/Panels/Property.cpp</label>
+        <link refid="_property_8cpp"/>
+      </node>
+      <node id="4">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.h</label>
+        <link refid="_f_p_s_counter_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SOGLVA/src/Core/UI/UISystem.cpp</label>
+        <link refid="_u_i_system_8cpp"/>
+      </node>
+      <node id="10">
+        <label>SOGLVA/src/API.cpp</label>
+        <link refid="_a_p_i_8cpp"/>
+      </node>
+      <node id="8">
+        <label>SOGLVA/src/SOGLVA.h</label>
+        <link refid="_s_o_g_l_v_a_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>SOGLVA/src/Core/UI/Panels/FPSCounter.cpp</label>
+        <link refid="_f_p_s_counter_8cpp"/>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/Rendering/Rendering.h</label>
+        <link refid="_rendering_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>SOGLVA/src/InputHandler/DefaultInput.h</label>
+        <link refid="_default_input_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>SOGLVA/src/Core/UI/Panels/Property.h</label>
+        <link refid="_property_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>SOGLVA/src/API.h</label>
+        <link refid="_a_p_i_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>SOGLVA/src/InputHandler/DefaultInput.cpp</label>
+        <link refid="_default_input_8cpp"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA/src/Core/UI/Panels/BasePanel.h</label>
+        <link refid="_base_panel_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" prot="public">SOGLVA::CORE::RENDERING::Rendering</innerclass>
+    <innernamespace refid="namespace_s_o_g_l_v_a">SOGLVA</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e">SOGLVA::CORE</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g">SOGLVA::CORE::RENDERING</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_rendering_def_8h" kindref="compound">RenderingDef.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g" kindref="compound">SOGLVA::CORE::RENDERING</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">Rendering</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a3ba04a3407c4318be44ab6a676412826" kindref="member">framebuffer_size_callback</ref>(GLFWwindow*<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" kindref="member">window</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab97bc68cb216c890b1b16b9d9689c5e1" kindref="member">SetupGLFWWindow</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a6b6d8b36356a3851507b70c99635b1ab" kindref="member">ConfigureOGLFunction</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a9a0edc825c0cc5fd75a3acab9b0a2bd9" kindref="member">Rendering</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4a33c76e77839b9563222ceb62f4df0f" kindref="member">~Rendering</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a" kindref="member">deltaTime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="39" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab655515cdb07eeabcd94d59ff7f8130a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab655515cdb07eeabcd94d59ff7f8130a" kindref="member">lastFrame</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GLFWwindow*<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" kindref="member">window</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0578f28b8d8bb26457ec96e6ba909ee9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HWND<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0578f28b8d8bb26457ec96e6ba909ee9" kindref="member">hwNative</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0d8718a1eb5d14473cbcbfc78d404b2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0d8718a1eb5d14473cbcbfc78d404b2c" kindref="member">SCREEN_WIDTH</ref><sp/>=<sp/>800;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4f7c81ad37410ed71d19c524658fd7f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4f7c81ad37410ed71d19c524658fd7f3" kindref="member">SCREEN_HEIGHT</ref><sp/>=<sp/>600;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1afd078a972e8b5f9388b37efc3b8d1d5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1afd078a972e8b5f9388b37efc3b8d1d5d" kindref="member">AppName</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Default&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a01497a16323354863d6850bbbf74eae3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a01497a16323354863d6850bbbf74eae3" kindref="member">ClearColor</ref>[4]<sp/>=<sp/>{<sp/>0.05f,<sp/>0.05f,<sp/>0.05f,<sp/>1.0f<sp/>};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac57a32d2dc6cbb4d6254c8e134c76abb" kindref="member">ClearWindow</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/Core/Rendering/Rendering.h"/>
+  </compounddef>
+</doxygen>

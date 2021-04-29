@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__s_o_g_l_v_a_8cpp" xml:lang="en-US">
+<title>SOGLVA/src/SOGLVA.cpp File Reference</title>
+<indexterm><primary>SOGLVA/src/SOGLVA.cpp</primary></indexterm>
+<programlisting>#include &quot;SOGLVA.h&quot;
+#include &quot;InputHandler/DefaultInput.h&quot;
+</programlisting>Include dependency graph for SOGLVA.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_s_o_g_l_v_a_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a">SOGLVA</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

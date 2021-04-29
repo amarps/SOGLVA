@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Model Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Model.h&gt;</computeroutput>
+</para>
+Inheritance diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Model:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Model:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a7b37f9b22c87c90b624a37577b251c8c">Model</link> (std::string const &amp;path=&quot;&quot;, bool <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae72a09222dfe45da22909028c607f5ba">flipUV</link>=true, bool gamma=false)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af54822016f7e3f716919d061bfafd617">Draw</link> (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> &amp;<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e">shader</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1afef6127f9b13a1d7b759edca77041383">loadModel</link> (std::string const &amp;path)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac5d039c98ea9144c8c93f2eb9bd933d3">Start</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae96bac37373fe433a52c7066511cd2cb">Update</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a87334cae4878287f4ecbe418227a1e90">Exit</link> () override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ad2ee9eeb7185a8b30429fceb6f82dda6">textures_loaded</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh">Mesh</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a9977c1d53ad7c5b1d2e98831f339f286">meshes</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a30d36d56b429b5ae24ab2fd7aa731f38">directory</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e">shader</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform">Transform</link> <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5">transform</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ad4e9d0d1ff83deeadb3de00c4a8f99cb">gammaCorrection</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae72a09222dfe45da22909028c607f5ba">flipUV</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af2ca59c533fff468c28716b74c6e267b">processNode</link> (aiNode *node, const aiScene *scene)</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh">Mesh</link> <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a8e47f47444881aff8818dbe340a2da23">processMesh</link> (aiMesh *mesh, const aiScene *scene)</para>
+</listitem>
+            <listitem><para>std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af2eca445f416ef089a96253bea9af559">loadMaterialTextures</link> (aiMaterial *mat, aiTextureType type, std::string typeName)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 17 of file Model.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a7b37f9b22c87c90b624a37577b251c8c"/>    <section>
+    <title>Model()</title>
+<indexterm><primary>Model</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>Model</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Model::Model (std::string const &amp; path = <computeroutput>&quot;&quot;</computeroutput>
+, bool flipUV = <computeroutput>true</computeroutput>
+, bool gamma = <computeroutput>false</computeroutput>
+)</computeroutput></para><para>
+Definition at line 7 of file Model.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_a7b37f9b22c87c90b624a37577b251c8c_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af54822016f7e3f716919d061bfafd617"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Model::Draw (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> &amp; shader)</computeroutput></para><para>
+Definition at line 14 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a87334cae4878287f4ecbe418227a1e90"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Model::Exit ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+<para>
+Definition at line 189 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af2eca445f416ef089a96253bea9af559"/>    <section>
+    <title>loadMaterialTextures()</title>
+<indexterm><primary>loadMaterialTextures</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>loadMaterialTextures</secondary></indexterm>
+<para><computeroutput>std::vector&lt; <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link> &gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Model::loadMaterialTextures (aiMaterial * mat, aiTextureType type, std::string typeName)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 140 of file Model.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_af2eca445f416ef089a96253bea9af559_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1afef6127f9b13a1d7b759edca77041383"/>    <section>
+    <title>loadModel()</title>
+<indexterm><primary>loadModel</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>loadModel</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Model::loadModel (std::string const &amp; path)</computeroutput></para><para>
+Definition at line 20 of file Model.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_afef6127f9b13a1d7b759edca77041383_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a8e47f47444881aff8818dbe340a2da23"/>    <section>
+    <title>processMesh()</title>
+<indexterm><primary>processMesh</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>processMesh</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh">Mesh</link> SOGLVA::MANAGED_OBJECT::COMPONENT::Model::processMesh (aiMesh * mesh, const aiScene * scene)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 55 of file Model.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_a8e47f47444881aff8818dbe340a2da23_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af2ca59c533fff468c28716b74c6e267b"/>    <section>
+    <title>processNode()</title>
+<indexterm><primary>processNode</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>processNode</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Model::processNode (aiNode * node, const aiScene * scene)<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 38 of file Model.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_af2ca59c533fff468c28716b74c6e267b_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac5d039c98ea9144c8c93f2eb9bd933d3"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Model::Start ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+<para>
+Definition at line 171 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae96bac37373fe433a52c7066511cd2cb"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Model::Update ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+<para>
+Definition at line 175 of file Model.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_ae96bac37373fe433a52c7066511cd2cb_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a30d36d56b429b5ae24ab2fd7aa731f38"/>    <section>
+    <title>directory</title>
+<indexterm><primary>directory</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>directory</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Model::directory</computeroutput></para><para>
+Definition at line 23 of file Model.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae72a09222dfe45da22909028c607f5ba"/>    <section>
+    <title>flipUV</title>
+<indexterm><primary>flipUV</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>flipUV</secondary></indexterm>
+<para><computeroutput>bool SOGLVA::MANAGED_OBJECT::COMPONENT::Model::flipUV</computeroutput></para><para>
+Definition at line 28 of file Model.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ad4e9d0d1ff83deeadb3de00c4a8f99cb"/>    <section>
+    <title>gammaCorrection</title>
+<indexterm><primary>gammaCorrection</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>gammaCorrection</secondary></indexterm>
+<para><computeroutput>bool SOGLVA::MANAGED_OBJECT::COMPONENT::Model::gammaCorrection</computeroutput></para><para>
+Definition at line 27 of file Model.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a9977c1d53ad7c5b1d2e98831f339f286"/>    <section>
+    <title>meshes</title>
+<indexterm><primary>meshes</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>meshes</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh">Mesh</link>&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Model::meshes</computeroutput></para><para>
+Definition at line 22 of file Model.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e"/>    <section>
+    <title>shader</title>
+<indexterm><primary>shader</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>shader</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link> SOGLVA::MANAGED_OBJECT::COMPONENT::Model::shader</computeroutput></para><para>
+Definition at line 24 of file Model.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ad2ee9eeb7185a8b30429fceb6f82dda6"/>    <section>
+    <title>textures_loaded</title>
+<indexterm><primary>textures_loaded</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>textures_loaded</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link>&gt; SOGLVA::MANAGED_OBJECT::COMPONENT::Model::textures_loaded</computeroutput></para><para>
+Definition at line 21 of file Model.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5"/>    <section>
+    <title>transform</title>
+<indexterm><primary>transform</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</primary><secondary>transform</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform">Transform</link> SOGLVA::MANAGED_OBJECT::COMPONENT::Model::transform</computeroutput></para><para>
+Definition at line 25 of file Model.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__model_8h">Model.h</link>SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__model_8cpp">Model.cpp</link></section>
+</section>

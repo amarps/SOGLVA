@@ -1,0 +1,5 @@
+<map id="SOGLVA::CORE::UI::PANEL::BasePanel" name="SOGLVA::CORE::UI::PANEL::BasePanel">
+<area shape="rect" id="node1" title="abstract for every nuklear panel" alt="" coords="141,5,357,215"/>
+<area shape="rect" id="node2" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter.html" title=" " alt="" coords="5,270,245,435"/>
+<area shape="rect" id="node3" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property.html" title=" " alt="" coords="270,263,479,443"/>
+</map>

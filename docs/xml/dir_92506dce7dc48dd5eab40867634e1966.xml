@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_92506dce7dc48dd5eab40867634e1966" kind="dir">
+    <compoundname>SOGLVA/src</compoundname>
+    <innerdir refid="dir_883a5621fc05c20e407199c1b8f8eb98">SOGLVA/src/common</innerdir>
+    <innerdir refid="dir_11212700892b452871efb25ade20026b">SOGLVA/src/Core</innerdir>
+    <innerdir refid="dir_9b73525287b64a8a1a48afd236a923e7">SOGLVA/src/InputHandler</innerdir>
+    <innerdir refid="dir_4d96b6bf59029d1cb240e239aa8450b9">SOGLVA/src/ManagedObject</innerdir>
+    <innerfile refid="_a_p_i_8cpp">API.cpp</innerfile>
+    <innerfile refid="_a_p_i_8h">API.h</innerfile>
+    <innerfile refid="_s_o_g_l_v_a_8cpp">SOGLVA.cpp</innerfile>
+    <innerfile refid="_s_o_g_l_v_a_8h">SOGLVA.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/"/>
+  </compounddef>
+</doxygen>

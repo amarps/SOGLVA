@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="struct_texture" kind="struct" language="C++" prot="public">
+    <compoundname>Texture</compoundname>
+    <includes refid="_mesh_8h" local="no">Mesh.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_texture_1aed42161a5c00b6020c85833401da6da6" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Texture::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="17" column="18" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_texture_1a916a835d009806f2a57546c7705942b1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Texture::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="18" column="17" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_texture_1aa8ba4ade408b0df1fc9b6f605a4efd22" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Texture::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="19" column="17" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Components/Graphics/Mesh.h" line="16" column="1" bodyfile="SOGLVA/src/Components/Graphics/Mesh.h" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="struct_texture_1aed42161a5c00b6020c85833401da6da6" prot="public" virt="non-virtual"><scope>Texture</scope><name>id</name></member>
+      <member refid="struct_texture_1aa8ba4ade408b0df1fc9b6f605a4efd22" prot="public" virt="non-virtual"><scope>Texture</scope><name>path</name></member>
+      <member refid="struct_texture_1a916a835d009806f2a57546c7705942b1" prot="public" virt="non-virtual"><scope>Texture</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

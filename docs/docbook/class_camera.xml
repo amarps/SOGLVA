@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_camera" xml:lang="en-US">
+<title>Camera Class Reference</title>
+<indexterm><primary>Camera</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Camera.h&gt;</computeroutput>
+</para>
+Inheritance diagram for Camera:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_camera__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Camera:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_camera__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353">Camera_Movement</link> { <link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353a6388b5408cf8440021383388044ae77f">FORWARD</link>
+, <link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353ae18db08a2289896f26dcddf6e2ad274f">BACKWARD</link>
+, <link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353a1bed5588ea4c26163a72f0fc8621f6be">LEFT</link>
+, <link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353aedac3a8506bf2bae7df2d36dd5580884">RIGHT</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_camera_1adad6423186f3d7e4c461cff7274f2c87">Camera</link> (glm::vec3 position=glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up=glm::vec3(0.0f, 1.0f, 0.0f), float yaw=<link linkend="_class_camera_1a5b59449d1f148774ba4941ced0ecac04">YAW</link>, float pitch=<link linkend="_class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e">PITCH</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_class_camera_1a3537fd723fdfb5fed73a084346270cf6">Camera</link> (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)</para>
+</listitem>
+            <listitem><para>glm::mat4 <link linkend="_class_camera_1affa333055635aed96518c4c66be9a70c">GetViewMatrix</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_camera_1aebba33a8b281fe2598bcafc54a55d296">ProcessKeyboard</link> (<link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353">Camera_Movement</link> direction, float deltaTime)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_camera_1a656c2a8dc40150874f15bce47b789751">ProcessMouseMovement</link> (float xoffset, float yoffset, GLboolean constrainPitch=true)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_camera_1a05d150f7dc98940d2dd62f686cc2efe3">ProcessMouseScroll</link> (float yoffset)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_camera_1ad1e1e6737506ba97eece8b71a3862db7">Start</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_camera_1adba920a003ec354ebaa7d78496d168f1">Update</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_camera_1aaa67ed905ed98408a2b0ac315069cd38">Exit</link> () override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_camera">Camera</link> &amp; <link linkend="_class_camera_1afc637ed0e06583b570c09bbf58d6f949">get</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::vec3 <link linkend="_class_camera_1a9733b59f5340f6f1bca24d52a6679039">Position</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_camera_1ac95b3737115ffe9a6ff9128344d5b963">Front</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_camera_1ad74c4a490bc8865e67e27a2036d0a72d">Up</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_camera_1a6624f9f4228f6299a3d4ccb81e28da0a">Right</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_camera_1a340d30b833954b87fd016ce0e724c723">WorldUp</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_camera_1a1a1354a2bd2df7f18ef82924e671d241">Yaw</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_camera_1af9c8f223bb06bb74fc77c586545e7e67">Pitch</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_camera_1a63221392d762df6a74f45bc9d43a2f61">MovementSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_camera_1a73e88844b31d5111eeb76327dfbb2d68">MouseSensitivity</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_camera_1a2becf27d08eb7e6da9c597c73ea95b5d">Zoom</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static const float <link linkend="_class_camera_1a5b59449d1f148774ba4941ced0ecac04">YAW</link> = -90.0f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e">PITCH</link> = 0.0f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_camera_1a12bc287f7c305b389ca70ce84d5804b3">SPEED</link> = 5.5f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_camera_1ae33d41d8fea366d7a1308768b0b43a4c">SENSITIVITY</link> = 0.1f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_camera_1a501cc2daabe3de4cc1e377ca7adc6a70">ZOOM</link> = 45.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 10 of file Camera.h.</para>
+</section>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_camera_1a910e91793a0078a11eef1cba77dec353"/>    <section>
+    <title>Camera_Movement</title>
+<indexterm><primary>Camera_Movement</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Camera_Movement</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353">Camera::Camera_Movement</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>FORWARD</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>FORWARD</secondary></indexterm>
+<anchor xml:id="_class_camera_1a910e91793a0078a11eef1cba77dec353a6388b5408cf8440021383388044ae77f"/>FORWARD</entry><entry></entry></row><row><entry><indexterm><primary>BACKWARD</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>BACKWARD</secondary></indexterm>
+<anchor xml:id="_class_camera_1a910e91793a0078a11eef1cba77dec353ae18db08a2289896f26dcddf6e2ad274f"/>BACKWARD</entry><entry></entry></row><row><entry><indexterm><primary>LEFT</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>LEFT</secondary></indexterm>
+<anchor xml:id="_class_camera_1a910e91793a0078a11eef1cba77dec353a1bed5588ea4c26163a72f0fc8621f6be"/>LEFT</entry><entry></entry></row><row><entry><indexterm><primary>RIGHT</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>RIGHT</secondary></indexterm>
+<anchor xml:id="_class_camera_1a910e91793a0078a11eef1cba77dec353aedac3a8506bf2bae7df2d36dd5580884"/>RIGHT</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+<para>
+Definition at line 17 of file Camera.h.</para>
+</section>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_camera_1adad6423186f3d7e4c461cff7274f2c87"/>    <section>
+    <title>Camera()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Camera</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Camera</secondary></indexterm>
+<para><computeroutput>Camera::Camera (glm::vec3 position = <computeroutput>glm::vec3(0.0f, 0.0f, 0.0f)</computeroutput>
+, glm::vec3 up = <computeroutput>glm::vec3(0.0f, 1.0f, 0.0f)</computeroutput>
+, float yaw = <computeroutput><link linkend="_class_camera_1a5b59449d1f148774ba4941ced0ecac04">YAW</link></computeroutput>
+, float pitch = <computeroutput><link linkend="_class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e">PITCH</link></computeroutput>
+)</computeroutput></para><para>
+Definition at line 3 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_camera_1a3537fd723fdfb5fed73a084346270cf6"/>    <section>
+    <title>Camera()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Camera</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Camera</secondary></indexterm>
+<para><computeroutput>Camera::Camera (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)</computeroutput></para><para>
+Definition at line 16 of file Camera.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_camera_1aaa67ed905ed98408a2b0ac315069cd38"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>void Camera::Exit ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">IComponent</link>.</para>
+<para>
+Definition at line 89 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_camera_1afc637ed0e06583b570c09bbf58d6f949"/>    <section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_camera">Camera</link>&amp; Camera::get ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 29 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1affa333055635aed96518c4c66be9a70c"/>    <section>
+    <title>GetViewMatrix()</title>
+<indexterm><primary>GetViewMatrix</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>GetViewMatrix</secondary></indexterm>
+<para><computeroutput>glm::mat4 Camera::GetViewMatrix ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 58 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1aebba33a8b281fe2598bcafc54a55d296"/>    <section>
+    <title>ProcessKeyboard()</title>
+<indexterm><primary>ProcessKeyboard</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>ProcessKeyboard</secondary></indexterm>
+<para><computeroutput>void Camera::ProcessKeyboard (<link linkend="_class_camera_1a910e91793a0078a11eef1cba77dec353">Camera_Movement</link> direction, float deltaTime)</computeroutput></para><para>
+Definition at line 25 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_camera_1a656c2a8dc40150874f15bce47b789751"/>    <section>
+    <title>ProcessMouseMovement()</title>
+<indexterm><primary>ProcessMouseMovement</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>ProcessMouseMovement</secondary></indexterm>
+<para><computeroutput>void Camera::ProcessMouseMovement (float xoffset, float yoffset, GLboolean constrainPitch = <computeroutput>true</computeroutput>
+)</computeroutput></para><para>
+Definition at line 47 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_camera_1a05d150f7dc98940d2dd62f686cc2efe3"/>    <section>
+    <title>ProcessMouseScroll()</title>
+<indexterm><primary>ProcessMouseScroll</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>ProcessMouseScroll</secondary></indexterm>
+<para><computeroutput>void Camera::ProcessMouseScroll (float yoffset)</computeroutput></para><para>
+Definition at line 38 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_camera_1ad1e1e6737506ba97eece8b71a3862db7"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void Camera::Start ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">IComponent</link>.</para>
+<para>
+Definition at line 81 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_camera_1adba920a003ec354ebaa7d78496d168f1"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void Camera::Update ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1ae7556b0967bcf83bd53878f430f9c234">IComponent</link>.</para>
+<para>
+Definition at line 85 of file Camera.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_camera_1ac95b3737115ffe9a6ff9128344d5b963"/>    <section>
+    <title>Front</title>
+<indexterm><primary>Front</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Front</secondary></indexterm>
+<para><computeroutput>glm::vec3 Camera::Front</computeroutput></para><para>
+Definition at line 37 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a73e88844b31d5111eeb76327dfbb2d68"/>    <section>
+    <title>MouseSensitivity</title>
+<indexterm><primary>MouseSensitivity</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>MouseSensitivity</secondary></indexterm>
+<para><computeroutput>float Camera::MouseSensitivity</computeroutput></para><para>
+Definition at line 47 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a63221392d762df6a74f45bc9d43a2f61"/>    <section>
+    <title>MovementSpeed</title>
+<indexterm><primary>MovementSpeed</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>MovementSpeed</secondary></indexterm>
+<para><computeroutput>float Camera::MovementSpeed</computeroutput></para><para>
+Definition at line 46 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a13525ad0d59fc2fab7bf8d076a5d4a2e"/>    <section>
+    <title>PITCH</title>
+<indexterm><primary>PITCH</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>PITCH</secondary></indexterm>
+<para><computeroutput>const float Camera::PITCH = 0.0f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1af9c8f223bb06bb74fc77c586545e7e67"/>    <section>
+    <title>Pitch</title>
+<indexterm><primary>Pitch</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Pitch</secondary></indexterm>
+<para><computeroutput>float Camera::Pitch</computeroutput></para><para>
+Definition at line 44 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a9733b59f5340f6f1bca24d52a6679039"/>    <section>
+    <title>Position</title>
+<indexterm><primary>Position</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Position</secondary></indexterm>
+<para><computeroutput>glm::vec3 Camera::Position</computeroutput></para><para>
+Definition at line 36 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a6624f9f4228f6299a3d4ccb81e28da0a"/>    <section>
+    <title>Right</title>
+<indexterm><primary>Right</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Right</secondary></indexterm>
+<para><computeroutput>glm::vec3 Camera::Right</computeroutput></para><para>
+Definition at line 39 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1ae33d41d8fea366d7a1308768b0b43a4c"/>    <section>
+    <title>SENSITIVITY</title>
+<indexterm><primary>SENSITIVITY</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>SENSITIVITY</secondary></indexterm>
+<para><computeroutput>const float Camera::SENSITIVITY = 0.1f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 27 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a12bc287f7c305b389ca70ce84d5804b3"/>    <section>
+    <title>SPEED</title>
+<indexterm><primary>SPEED</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>SPEED</secondary></indexterm>
+<para><computeroutput>const float Camera::SPEED = 5.5f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 26 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1ad74c4a490bc8865e67e27a2036d0a72d"/>    <section>
+    <title>Up</title>
+<indexterm><primary>Up</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Up</secondary></indexterm>
+<para><computeroutput>glm::vec3 Camera::Up</computeroutput></para><para>
+Definition at line 38 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a340d30b833954b87fd016ce0e724c723"/>    <section>
+    <title>WorldUp</title>
+<indexterm><primary>WorldUp</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>WorldUp</secondary></indexterm>
+<para><computeroutput>glm::vec3 Camera::WorldUp</computeroutput></para><para>
+Definition at line 40 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a5b59449d1f148774ba4941ced0ecac04"/>    <section>
+    <title>YAW</title>
+<indexterm><primary>YAW</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>YAW</secondary></indexterm>
+<para><computeroutput>const float Camera::YAW = -90.0f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a1a1354a2bd2df7f18ef82924e671d241"/>    <section>
+    <title>Yaw</title>
+<indexterm><primary>Yaw</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Yaw</secondary></indexterm>
+<para><computeroutput>float Camera::Yaw</computeroutput></para><para>
+Definition at line 43 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a501cc2daabe3de4cc1e377ca7adc6a70"/>    <section>
+    <title>ZOOM</title>
+<indexterm><primary>ZOOM</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>ZOOM</secondary></indexterm>
+<para><computeroutput>const float Camera::ZOOM = 45.0f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 28 of file Camera.h.</para>
+    </section><anchor xml:id="_class_camera_1a2becf27d08eb7e6da9c597c73ea95b5d"/>    <section>
+    <title>Zoom</title>
+<indexterm><primary>Zoom</primary><secondary>Camera</secondary></indexterm>
+<indexterm><primary>Camera</primary><secondary>Zoom</secondary></indexterm>
+<para><computeroutput>float Camera::Zoom</computeroutput></para><para>
+Definition at line 48 of file Camera.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Components/<link linkend="__camera_8h">Camera.h</link>SOGLVA/src/Components/<link linkend="__camera_8cpp">Camera.cpp</link></section>
+</section>

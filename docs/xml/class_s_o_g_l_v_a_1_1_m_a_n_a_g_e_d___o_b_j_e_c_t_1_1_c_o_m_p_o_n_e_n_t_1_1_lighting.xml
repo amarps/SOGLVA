@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</compoundname>
+    <basecompoundref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component" prot="public" virt="non-virtual">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</basecompoundref>
+    <includes refid="_directional_light_8h" local="no">DirectionalLight.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a5c60974c8b25c2cce29b56309e443cb6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform" kindref="compound">Transform</ref></type>
+        <definition>Transform SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::transform</definition>
+        <argsstring></argsstring>
+        <name>transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="12" column="19" bodyfile="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a7501467f2de0031372e6647dd62c88a4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" kindref="compound">Shader</ref></type>
+        <definition>Shader SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::shader</definition>
+        <argsstring></argsstring>
+        <name>shader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="15" column="16" bodyfile="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a2276fcbc782c27015357bdfca1ababf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Draw</definition>
+        <argsstring>(Shader &amp;shader)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" kindref="compound">Shader</ref> &amp;</type>
+          <declname>shader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="18" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a46031236d82636f81be3dc391b270d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Start</definition>
+        <argsstring>() override</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="20" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1ae6e567b33c40993f25ba64cdb5912f54" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Update</definition>
+        <argsstring>() override</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="22" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a4e6186594eeed593084afbf3dd849cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting::Exit</definition>
+        <argsstring>() override</argsstring>
+        <name>Exit</name>
+        <reimplements refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b">Exit</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="24" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+shader</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+transform</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>-use_lib</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>-fragmentCode</edgelabel>
+          <edgelabel>-libfragmentCode</edgelabel>
+          <edgelabel>-libvertexCode</edgelabel>
+          <edgelabel>-vertexCode</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+ID</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+transformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-position</edgelabel>
+          <edgelabel>-rotation</edgelabel>
+          <edgelabel>-scaling</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>vec3</label>
+      </node>
+      <node id="5">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>unsigned int</label>
+      </node>
+      <node id="4">
+        <label>bool</label>
+      </node>
+      <node id="8">
+        <label>mat4</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" line="8" column="5" bodyfile="SOGLVA/src/ManagedObject/Components/Lighting/DirectionalLight.h" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a2276fcbc782c27015357bdfca1ababf9" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</scope><name>Draw</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a4e6186594eeed593084afbf3dd849cab" prot="public" virt="virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</scope><name>Exit</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a7501467f2de0031372e6647dd62c88a4" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</scope><name>shader</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a46031236d82636f81be3dc391b270d66" prot="public" virt="virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</scope><name>Start</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a5c60974c8b25c2cce29b56309e443cb6" prot="public" virt="non-virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</scope><name>transform</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1ae6e567b33c40993f25ba64cdb5912f54" prot="public" virt="virtual"><scope>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

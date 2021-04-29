@@ -1,0 +1,98 @@
+.TH "SOGLVA::Soglva" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::Soglva
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <SOGLVA\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSoglva\fP ()"
+.br
+.ti -1c
+.RI "\fB~Soglva\fP ()"
+.br
+.ti -1c
+.RI "void \fBInitialize\fP ()"
+.br
+.ti -1c
+.RI "void \fBRun\fP ()"
+.br
+.ti -1c
+.RI "bool \fBIsQuit\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::unique_ptr< \fBCORE::RENDERING::Rendering\fP > \fBrendering\fP"
+.br
+.ti -1c
+.RI "std::unique_ptr< \fBCORE::UI::UISystem\fP > \fBui\fP"
+.br
+.ti -1c
+.RI "std::unique_ptr< \fBCORE::SCENE::SceneManager\fP > \fBsceneManager\fP"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fBm_quit\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 8 of file SOGLVA\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::Soglva::Soglva ()"
+
+.PP
+Definition at line 8 of file SOGLVA\&.cpp\&.
+.SS "SOGLVA::Soglva::~Soglva ()"
+
+.PP
+Definition at line 12 of file SOGLVA\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SOGLVA::Soglva::Initialize ()"
+
+.PP
+Definition at line 20 of file SOGLVA\&.cpp\&.
+.SS "bool SOGLVA::Soglva::IsQuit ()"
+
+.PP
+Definition at line 29 of file SOGLVA\&.cpp\&.
+.SS "void SOGLVA::Soglva::Run ()"
+
+.PP
+Definition at line 34 of file SOGLVA\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "bool SOGLVA::Soglva::m_quit\fC [private]\fP"
+
+.PP
+Definition at line 11 of file SOGLVA\&.h\&.
+.SS "std::unique_ptr<\fBCORE::RENDERING::Rendering\fP> SOGLVA::Soglva::rendering"
+
+.PP
+Definition at line 14 of file SOGLVA\&.h\&.
+.SS "std::unique_ptr<\fBCORE::SCENE::SceneManager\fP> SOGLVA::Soglva::sceneManager"
+
+.PP
+Definition at line 16 of file SOGLVA\&.h\&.
+.SS "std::unique_ptr<\fBCORE::UI::UISystem\fP> SOGLVA::Soglva::ui"
+
+.PP
+Definition at line 15 of file SOGLVA\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

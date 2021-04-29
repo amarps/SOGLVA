@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex Struct Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Mesh.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::vec3 <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac9feeef6c0deeca2b28d8aa5090ec8dd">Position</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac516a95167e427a2cd187bc617dd460d">Normal</link></para>
+</listitem>
+            <listitem><para>glm::vec2 <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1a386730ebe9a08846b0c0a00ba1d08943">TexCoords</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1afd406e00d376ac44e41604a5f265ccbb">Tangent</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1aab7a0700758c852c7700dfccf7e64229">Bitangent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 26 of file Mesh.h.</para>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1aab7a0700758c852c7700dfccf7e64229"/>    <section>
+    <title>Bitangent</title>
+<indexterm><primary>Bitangent</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</primary><secondary>Bitangent</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Bitangent</computeroutput></para><para>
+Definition at line 36 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac516a95167e427a2cd187bc617dd460d"/>    <section>
+    <title>Normal</title>
+<indexterm><primary>Normal</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</primary><secondary>Normal</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Normal</computeroutput></para><para>
+Definition at line 30 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac9feeef6c0deeca2b28d8aa5090ec8dd"/>    <section>
+    <title>Position</title>
+<indexterm><primary>Position</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</primary><secondary>Position</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Position</computeroutput></para><para>
+Definition at line 28 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1afd406e00d376ac44e41604a5f265ccbb"/>    <section>
+    <title>Tangent</title>
+<indexterm><primary>Tangent</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</primary><secondary>Tangent</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::Tangent</computeroutput></para><para>
+Definition at line 34 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1a386730ebe9a08846b0c0a00ba1d08943"/>    <section>
+    <title>TexCoords</title>
+<indexterm><primary>TexCoords</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</primary><secondary>TexCoords</secondary></indexterm>
+<para><computeroutput>glm::vec2 SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex::TexCoords</computeroutput></para><para>
+Definition at line 32 of file Mesh.h.</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__mesh_8h">Mesh.h</link></section>
+</section>

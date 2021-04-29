@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_u_i_1_1_panel_1_1_f_p_s_counter" kind="class" language="C++" prot="public">
+    <compoundname>UI::Panel::FPSCounter</compoundname>
+    <basecompoundref refid="class_i_u_i_drawable" prot="public" virt="non-virtual">IUIDrawable</basecompoundref>
+    <basecompoundref refid="class_base_panel" prot="public" virt="non-virtual">BasePanel</basecompoundref>
+    <includes refid="_f_p_s_counter_8h" local="no">FPSCounter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_1_1_panel_1_1_f_p_s_counter_1a2fff74857befddc68b629bd01fe4ed29" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string UI::Panel::FPSCounter::fpsText</definition>
+        <argsstring></argsstring>
+        <name>fpsText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="14" column="13" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_1_1_panel_1_1_f_p_s_counter_1af8fbf8e8e681d03a898ea545c321ed43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UI::Panel::FPSCounter::FPSCounter</definition>
+        <argsstring>(nk_context *&amp;_context, Rendering &amp;_rendering, const std::string &amp;_name)</argsstring>
+        <name>FPSCounter</name>
+        <param>
+          <type>nk_context *&amp;</type>
+          <declname>_context</declname>
+        </param>
+        <param>
+          <type><ref refid="class_rendering" kindref="compound">Rendering</ref> &amp;</type>
+          <declname>_rendering</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="17" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.h" bodystart="17" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_1_1_panel_1_1_f_p_s_counter_1a8f000b8d8f7dfbda96db187a544ea763" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UI::Panel::FPSCounter::Draw</definition>
+        <argsstring>() override</argsstring>
+        <name>Draw</name>
+        <reimplements refid="class_i_u_i_drawable_1a55b8226952f05b430d560d7ce5a71458">Draw</reimplements>
+        <briefdescription>
+<para>Draw <ref refid="namespace_u_i_1_1_panel" kindref="compound">Panel</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="23" column="14" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.cpp" bodystart="7" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BasePanel</label>
+        <link refid="class_base_panel"/>
+      </node>
+      <node id="2">
+        <label>IUIDrawable</label>
+        <link refid="class_i_u_i_drawable"/>
+      </node>
+      <node id="1">
+        <label>UI::Panel::FPSCounter</label>
+        <link refid="class_u_i_1_1_panel_1_1_f_p_s_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>BasePanel</label>
+        <link refid="class_base_panel"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>rendering</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUIDrawable</label>
+        <link refid="class_i_u_i_drawable"/>
+      </node>
+      <node id="4">
+        <label>Rendering</label>
+        <link refid="class_rendering"/>
+      </node>
+      <node id="1">
+        <label>UI::Panel::FPSCounter</label>
+        <link refid="class_u_i_1_1_panel_1_1_f_p_s_counter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/UI/Panels/FPSCounter.h" line="11" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/FPSCounter.h" bodystart="12" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_base_panel_1a946059a37637fede3975991d166dcae9" prot="public" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>BasePanel</name></member>
+      <member refid="class_base_panel_1acfbe89a3ddf3aba9a367c918f720f3a4" prot="protected" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>context</name></member>
+      <member refid="class_u_i_1_1_panel_1_1_f_p_s_counter_1a8f000b8d8f7dfbda96db187a544ea763" prot="public" virt="virtual"><scope>UI::Panel::FPSCounter</scope><name>Draw</name></member>
+      <member refid="class_u_i_1_1_panel_1_1_f_p_s_counter_1af8fbf8e8e681d03a898ea545c321ed43" prot="public" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>FPSCounter</name></member>
+      <member refid="class_u_i_1_1_panel_1_1_f_p_s_counter_1a2fff74857befddc68b629bd01fe4ed29" prot="private" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>fpsText</name></member>
+      <member refid="class_base_panel_1a6e9c2abfca86cbb9eb4cf960423568c6" prot="protected" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>name</name></member>
+      <member refid="class_base_panel_1a1aeb2bcd69f51713f53107ba3b36881b" prot="protected" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>rendering</name></member>
+      <member refid="class_base_panel_1a62a48991f55e47420a65752e219dbce2" prot="public" virt="non-virtual"><scope>UI::Panel::FPSCounter</scope><name>~BasePanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<map id="SOGLVA::CORE::UI::PANEL::FPSCounter" name="SOGLVA::CORE::UI::PANEL::FPSCounter">
+<area shape="rect" id="node1" title=" " alt="" coords="141,661,381,827"/>
+<area shape="rect" id="node2" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable.html" title=" " alt="" coords="5,491,223,568"/>
+<area shape="rect" id="node3" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel.html" title="abstract for every nuklear panel" alt="" coords="324,447,533,612"/>
+<area shape="rect" id="node4" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering.html" title=" " alt="" coords="399,175,605,384"/>
+<area shape="rect" id="node5" title=" " alt="" coords="304,5,359,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="403,5,513,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="537,5,600,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="632,5,679,83"/>
+<area shape="rect" id="node9" title=" " alt="" coords="723,5,795,83"/>
+<area shape="rect" id="node10" title=" " alt="" coords="629,241,733,318"/>
+</map>

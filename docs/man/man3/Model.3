@@ -1,0 +1,130 @@
+.TH "Model" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Model
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Model\&.h>\fP
+.PP
+Inherits \fBIComponent\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBModel\fP (std::string const &path='', bool \fBflipUV\fP=true, bool gamma=false)"
+.br
+.ti -1c
+.RI "void \fBDraw\fP (\fBShader\fP &\fBshader\fP)"
+.br
+.ti -1c
+.RI "void \fBloadModel\fP (std::string const &path)"
+.br
+.ti -1c
+.RI "virtual void \fBStart\fP () override"
+.br
+.ti -1c
+.RI "virtual void \fBUpdate\fP () override"
+.br
+.ti -1c
+.RI "virtual void \fBExit\fP () override"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::vector< \fBTexture\fP > \fBtextures_loaded\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBMesh\fP > \fBmeshes\fP"
+.br
+.ti -1c
+.RI "std::string \fBdirectory\fP"
+.br
+.ti -1c
+.RI "\fBShader\fP \fBshader\fP"
+.br
+.ti -1c
+.RI "\fBTransform\fP \fBtransform\fP"
+.br
+.ti -1c
+.RI "bool \fBgammaCorrection\fP"
+.br
+.ti -1c
+.RI "bool \fBflipUV\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 16 of file Model\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Model::Model (std::string const & path = \fC''\fP, bool flipUV = \fCtrue\fP, bool gamma = \fCfalse\fP)"
+
+.PP
+Definition at line 4 of file Model\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Model::Draw (\fBShader\fP & shader)"
+
+.PP
+Definition at line 11 of file Model\&.cpp\&.
+.SS "void Model::Exit ()\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Implements \fBIComponent\fP\&.
+.PP
+Definition at line 190 of file Model\&.cpp\&.
+.SS "void Model::loadModel (std::string const & path)"
+
+.PP
+Definition at line 17 of file Model\&.cpp\&.
+.SS "void Model::Start ()\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Implements \fBIComponent\fP\&.
+.PP
+Definition at line 170 of file Model\&.cpp\&.
+.SS "void Model::Update ()\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Implements \fBIComponent\fP\&.
+.PP
+Definition at line 176 of file Model\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::string Model::directory"
+
+.PP
+Definition at line 22 of file Model\&.h\&.
+.SS "bool Model::flipUV"
+
+.PP
+Definition at line 27 of file Model\&.h\&.
+.SS "bool Model::gammaCorrection"
+
+.PP
+Definition at line 26 of file Model\&.h\&.
+.SS "std::vector<\fBMesh\fP> Model::meshes"
+
+.PP
+Definition at line 21 of file Model\&.h\&.
+.SS "\fBShader\fP Model::shader"
+
+.PP
+Definition at line 23 of file Model\&.h\&.
+.SS "std::vector<\fBTexture\fP> Model::textures_loaded"
+
+.PP
+Definition at line 20 of file Model\&.h\&.
+.SS "\fBTransform\fP Model::transform"
+
+.PP
+Definition at line 24 of file Model\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

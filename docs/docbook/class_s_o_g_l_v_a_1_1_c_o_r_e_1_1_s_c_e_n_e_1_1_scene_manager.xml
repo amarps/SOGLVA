@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" xml:lang="en-US">
+<title>SOGLVA::CORE::SCENE::SceneManager Class Reference</title>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary></indexterm>
+<para>
+<computeroutput>#include &lt;SceneManager.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::CORE::SCENE::SceneManager:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c">ChangeCurrentScene</link> (const char *name)</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link> * <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1ab89caee04af8a2b82dd263ec01128bca">GetCurrentScene</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a4a7d37ebb746ebe58cf2c3a1442bf4c6">CreateScene</link> (std::string name=&quot;Default <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link>&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a584b15b4ba51a332cd8c1a24bc12d9fb">DeleteScene</link> (const char *name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::map&lt; std::string, <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link> * &gt; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a">scenes</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link> * <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5">currentScene</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 8 of file SceneManager.h.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c"/>    <section>
+    <title>ChangeCurrentScene()</title>
+<indexterm><primary>ChangeCurrentScene</primary><secondary>SOGLVA::CORE::SCENE::SceneManager</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary><secondary>ChangeCurrentScene</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::SCENE::SceneManager::ChangeCurrentScene (const char * name)</computeroutput></para><para>
+Definition at line 5 of file SceneManager.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a4a7d37ebb746ebe58cf2c3a1442bf4c6"/>    <section>
+    <title>CreateScene()</title>
+<indexterm><primary>CreateScene</primary><secondary>SOGLVA::CORE::SCENE::SceneManager</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary><secondary>CreateScene</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::SCENE::SceneManager::CreateScene (std::string name = <computeroutput>&quot;Default <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link>&quot;</computeroutput>
+)</computeroutput></para><para>
+Definition at line 15 of file SceneManager.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_a4a7d37ebb746ebe58cf2c3a1442bf4c6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a584b15b4ba51a332cd8c1a24bc12d9fb"/>    <section>
+    <title>DeleteScene()</title>
+<indexterm><primary>DeleteScene</primary><secondary>SOGLVA::CORE::SCENE::SceneManager</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary><secondary>DeleteScene</secondary></indexterm>
+<para><computeroutput>void SOGLVA::CORE::SCENE::SceneManager::DeleteScene (const char * name)</computeroutput></para><para>
+Definition at line 24 of file SceneManager.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1ab89caee04af8a2b82dd263ec01128bca"/>    <section>
+    <title>GetCurrentScene()</title>
+<indexterm><primary>GetCurrentScene</primary><secondary>SOGLVA::CORE::SCENE::SceneManager</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary><secondary>GetCurrentScene</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link> * SOGLVA::CORE::SCENE::SceneManager::GetCurrentScene ( )</computeroutput></para><para>
+Definition at line 10 of file SceneManager.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5"/>    <section>
+    <title>currentScene</title>
+<indexterm><primary>currentScene</primary><secondary>SOGLVA::CORE::SCENE::SceneManager</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary><secondary>currentScene</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link>* SOGLVA::CORE::SCENE::SceneManager::currentScene<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file SceneManager.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a"/>    <section>
+    <title>scenes</title>
+<indexterm><primary>scenes</primary><secondary>SOGLVA::CORE::SCENE::SceneManager</secondary></indexterm>
+<indexterm><primary>SOGLVA::CORE::SCENE::SceneManager</primary><secondary>scenes</secondary></indexterm>
+<para><computeroutput>std::map&lt;std::string, <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene">Scene</link>*&gt; SOGLVA::CORE::SCENE::SceneManager::scenes</computeroutput></para><para>
+Definition at line 14 of file SceneManager.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/Scene/<link linkend="__scene_manager_8h">SceneManager.h</link>SOGLVA/src/Core/Scene/<link linkend="__scene_manager_8cpp">SceneManager.cpp</link></section>
+</section>

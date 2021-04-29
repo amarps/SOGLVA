@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_lighting" xml:lang="en-US">
+<title>Lighting Class Reference</title>
+<indexterm><primary>Lighting</primary></indexterm>
+<para>
+<computeroutput>#include &lt;DirectionalLight.h&gt;</computeroutput>
+</para>
+Inheritance diagram for Lighting:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_lighting__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Lighting:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_lighting__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_lighting_1aed949fdcbbaec870d80322ba906cee7a">Draw</link> (<link linkend="_class_shader">Shader</link> &amp;<link linkend="_class_lighting_1a50d023ecfa6bdec67f73bfb69078dc51">shader</link>)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_lighting_1a35b6d07e728058d226482e498cf7b9a1">Start</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_lighting_1abe1db17a66cb2eedca2ccd3300f24438">Update</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_lighting_1a38e76ce91dd222fa228c6ee01eb424a5">Exit</link> () override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_transform">Transform</link> <link linkend="_class_lighting_1af2e1401d879690573e2948c2501c20de">transform</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_shader">Shader</link> <link linkend="_class_lighting_1a50d023ecfa6bdec67f73bfb69078dc51">shader</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 6 of file DirectionalLight.h.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_lighting_1aed949fdcbbaec870d80322ba906cee7a"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>Lighting</secondary></indexterm>
+<indexterm><primary>Lighting</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void Lighting::Draw (<link linkend="_class_shader">Shader</link> &amp; shader)</computeroutput></para>    </section><anchor xml:id="_class_lighting_1a38e76ce91dd222fa228c6ee01eb424a5"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>Lighting</secondary></indexterm>
+<indexterm><primary>Lighting</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>virtual void Lighting::Exit ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">IComponent</link>.</para>
+    </section><anchor xml:id="_class_lighting_1a35b6d07e728058d226482e498cf7b9a1"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>Lighting</secondary></indexterm>
+<indexterm><primary>Lighting</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>virtual void Lighting::Start ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">IComponent</link>.</para>
+    </section><anchor xml:id="_class_lighting_1abe1db17a66cb2eedca2ccd3300f24438"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>Lighting</secondary></indexterm>
+<indexterm><primary>Lighting</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>virtual void Lighting::Update ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1ae7556b0967bcf83bd53878f430f9c234">IComponent</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_lighting_1a50d023ecfa6bdec67f73bfb69078dc51"/>    <section>
+    <title>shader</title>
+<indexterm><primary>shader</primary><secondary>Lighting</secondary></indexterm>
+<indexterm><primary>Lighting</primary><secondary>shader</secondary></indexterm>
+<para><computeroutput><link linkend="_class_shader">Shader</link> Lighting::shader</computeroutput></para><para>
+Definition at line 13 of file DirectionalLight.h.</para>
+    </section><anchor xml:id="_class_lighting_1af2e1401d879690573e2948c2501c20de"/>    <section>
+    <title>transform</title>
+<indexterm><primary>transform</primary><secondary>Lighting</secondary></indexterm>
+<indexterm><primary>Lighting</primary><secondary>transform</secondary></indexterm>
+<para><computeroutput><link linkend="_class_transform">Transform</link> Lighting::transform</computeroutput></para><para>
+Definition at line 10 of file DirectionalLight.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SOGLVA/src/Components/Lighting/<link linkend="__directional_light_8h">DirectionalLight.h</link></section>
+</section>

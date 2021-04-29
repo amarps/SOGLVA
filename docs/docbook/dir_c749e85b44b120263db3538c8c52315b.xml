@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_c749e85b44b120263db3538c8c52315b" xml:lang="en-US">
+<title>SOGLVA/src/Components Directory Reference</title>
+<indexterm><primary>SOGLVA/src/Components Directory Reference</primary></indexterm>
+Directory dependency graph for Components:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_c749e85b44b120263db3538c8c52315b_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_caa1ba49e86b321c5810b5a483f7fd9d">Graphics</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_6b6753554356898793d060998f86e855">Lighting</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__camera_8cpp">Camera.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__camera_8h">Camera.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__i_component_8h">IComponent.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__physic_8cpp">Physic.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__physic_8h">Physic.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__transform_8cpp">Transform.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__transform_8h">Transform.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

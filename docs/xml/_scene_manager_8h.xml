@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_scene_manager_8h" kind="file" language="C++">
+    <compoundname>SceneManager.h</compoundname>
+    <includes refid="_scene_8h" local="yes">Scene.h</includes>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <includedby refid="_scene_manager_8cpp" local="yes">SOGLVA/src/Core/Scene/SceneManager.cpp</includedby>
+    <includedby refid="_s_o_g_l_v_a_8h" local="yes">SOGLVA/src/SOGLVA.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Scene.h</label>
+        <link refid="_scene_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="26">
+        <label>Components/Physic.h</label>
+        <link refid="_physic_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ManagedObject/ManagedObject.h</label>
+        <link refid="_managed_object_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Windows.h</label>
+      </node>
+      <node id="12">
+        <label>shader.h</label>
+        <link refid="_shader_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="29">
+        <label>map</label>
+      </node>
+      <node id="15">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="11">
+        <label>Components/Graphics/Mesh.h</label>
+        <link refid="_mesh_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Components/Graphics/Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="18">
+        <label>glm/gtc/type_ptr.hpp</label>
+      </node>
+      <node id="25">
+        <label>vector</label>
+      </node>
+      <node id="27">
+        <label>bullet/btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="23">
+        <label>assimp/scene.h</label>
+      </node>
+      <node id="5">
+        <label>Components/Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>assimp/postprocess.h</label>
+      </node>
+      <node id="10">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="20">
+        <label>stb_image.h</label>
+      </node>
+      <node id="9">
+        <label>Components/Transform.h</label>
+        <link refid="_transform_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Core/Rendering/RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/Scene/SceneManager.h</label>
+        <link refid="_scene_manager_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>set</label>
+      </node>
+      <node id="8">
+        <label>gl/glew.h</label>
+      </node>
+      <node id="22">
+        <label>assimp/Importer.hpp</label>
+      </node>
+      <node id="4">
+        <label>Components/IComponent.h</label>
+        <link refid="_i_component_8h"/>
+      </node>
+      <node id="6">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="7">
+        <label>SOGLVA/src/SOGLVA.cpp</label>
+        <link refid="_s_o_g_l_v_a_8cpp"/>
+      </node>
+      <node id="5">
+        <label>SOGLVA/src/API.cpp</label>
+        <link refid="_a_p_i_8cpp"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA/src/SOGLVA.h</label>
+        <link refid="_s_o_g_l_v_a_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SOGLVA/src/API.h</label>
+        <link refid="_a_p_i_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SOGLVA/src/InputHandler/DefaultInput.cpp</label>
+        <link refid="_default_input_8cpp"/>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/Scene/SceneManager.h</label>
+        <link refid="_scene_manager_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SOGLVA/src/Core/Scene/SceneManager.cpp</label>
+        <link refid="_scene_manager_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" prot="public">SOGLVA::CORE::SCENE::SceneManager</innerclass>
+    <innernamespace refid="namespace_s_o_g_l_v_a">SOGLVA</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e">SOGLVA::CORE</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e">SOGLVA::CORE::SCENE</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_scene_8h" kindref="compound">Scene.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e" kindref="compound">SOGLVA::CORE::SCENE</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" kindref="compound">SceneManager</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kindref="compound">Scene</ref>*<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" kindref="member">currentScene</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::map&lt;std::string,<sp/>Scene*&gt;<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" kindref="member">scenes</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c" kindref="member">ChangeCurrentScene</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kindref="compound">Scene</ref>*<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1ab89caee04af8a2b82dd263ec01128bca" kindref="member">GetCurrentScene</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a4a7d37ebb746ebe58cf2c3a1442bf4c6" kindref="member">CreateScene</ref>(std::string<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Default<sp/>Scene&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a584b15b4ba51a332cd8c1a24bc12d9fb" kindref="member">DeleteScene</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/Core/Scene/SceneManager.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture Struct Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Mesh.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Texture:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>unsigned int <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1a1221ba1cdf3fc2da68fabf8b9607393d">id</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1aaf2aa46f95469e224a0b81ad989af146">type</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1ae53a4c7418dcf9fac21d2c5143f93442">path</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 18 of file Mesh.h.</para>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1a1221ba1cdf3fc2da68fabf8b9607393d"/>    <section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Texture::id</computeroutput></para><para>
+Definition at line 19 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1ae53a4c7418dcf9fac21d2c5143f93442"/>    <section>
+    <title>path</title>
+<indexterm><primary>path</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</primary><secondary>path</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Texture::path</computeroutput></para><para>
+Definition at line 21 of file Mesh.h.</para>
+    </section><anchor xml:id="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1aaf2aa46f95469e224a0b81ad989af146"/>    <section>
+    <title>type</title>
+<indexterm><primary>type</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</primary><secondary>type</secondary></indexterm>
+<para><computeroutput>std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Texture::type</computeroutput></para><para>
+Definition at line 20 of file Mesh.h.</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+SOGLVA/src/ManagedObject/Components/Graphics/<link linkend="__mesh_8h">Mesh.h</link></section>
+</section>

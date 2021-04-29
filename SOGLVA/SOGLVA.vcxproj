@@ -33,7 +33,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -46,7 +46,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -56,18 +56,6 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="Shared">
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -82,30 +70,35 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)</OutDir>
     <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)</OutDir>
     <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
-    <VcpkgEnabled>false</VcpkgEnabled>
-    <VcpkgManifestInstall>false</VcpkgManifestInstall>
-    <VcpkgAutoLink>false</VcpkgAutoLink>
+    <VcpkgEnabled>true</VcpkgEnabled>
+    <VcpkgManifestInstall>true</VcpkgManifestInstall>
+    <VcpkgAutoLink>true</VcpkgAutoLink>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;C:\vclib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\packages\bullet3\src;D:\projects\C++\SOGLVA\SOGLVA\src;C:\vclib\nuklear\demo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\projects\C++\SOGLVA\packages\bullet3\build_cmake\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>BulletCollision.lib;BulletDynamics.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -114,9 +107,10 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;C:\vclib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;C:\vclib\nuklear\demo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -124,6 +118,9 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d  "$(SolutionDir)build\$(Platform)\$(Configuration)\*.dll" "$(SolutionDir)LevelEditor\bin" </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -131,15 +128,20 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;D:\projects\C++\SOGLVA\packages;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;C:\vclib\nuklear\demo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\projects\C++\SOGLVA\packages\bullet3\build_cmake\lib\Release;D:\projects\C++\SOGLVA\packages\glfw\lib-vc2019;D:\projects\C++\SOGLVA\packages\glew\lib\Release\x64;D:\projects\C++\SOGLVA\packages\assimp\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glew32s.lib;glfw3.lib;opengl32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -147,42 +149,85 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;D:\projects\C++\SOGLVA\packages;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\projects\C++\SOGLVA\SOGLVA\src;C:\vclib\nuklear\demo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\projects\C++\SOGLVA\packages\bullet3\build_cmake\lib\Release;D:\projects\C++\SOGLVA\packages\glfw\lib-vc2019;D:\projects\C++\SOGLVA\packages\glew\lib\Release\x64;D:\projects\C++\SOGLVA\packages\assimp\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glew32s.lib;glfw3.lib;opengl32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\projects\C++\SOGLVA\packages\glfw\lib-vc2019;D:\projects\C++\SOGLVA\packages\glew\lib\Release\x64;D:\projects\C++\SOGLVA\packages\assimp\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d  "$(SolutionDir)build\$(Platform)\$(Configuration)\*.dll" "$(SolutionDir)LevelEditor\bin" 
+xcopy /y /d  "$(SolutionDir)build\$(Platform)\$(Configuration)\*.lib" "$(SolutionDir)LevelEditor\bin" </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\UI\Panels\FPSCounter.cpp" />
-    <ClCompile Include="src\UI\Panels\Property.cpp" />
-    <ClCompile Include="src\Rendering\RenderingSystem.cpp" />
+    <ClCompile Include="src\SOGLVA_API\UI\SOGLVAUI.cpp" />
+    <ClCompile Include="src\SOGLVA_API\OBJECT\SOGLVAObject.cpp" />
+    <ClCompile Include="src\SOGLVA_API\SCENE\SOGLVAScene.cpp" />
+    <ClCompile Include="src\SOGLVA_API\SYSTEM\SOGLVASystem.cpp" />
+    <ClCompile Include="src\Scripting\CoreCpp\RuntimeDllUpdate.cpp" />
+    <ClCompile Include="src\ManagedObject\Components\BoxRigidBody.cpp" />
+    <ClCompile Include="src\Core\Scene\WorldPhysic.cpp" />
+    <ClCompile Include="src\Core\Scene\SceneManager.cpp" />
+    <ClCompile Include="src\InputHandler\DefaultInput.cpp" />
+    <ClCompile Include="src\Core\Scene\Scene.cpp" />
+    <ClCompile Include="src\ManagedObject\ManagedObject.cpp" />
+    <ClCompile Include="src\ManagedObject\Components\Camera.cpp" />
+    <ClCompile Include="src\ManagedObject\Components\Graphics\Model.cpp" />
+    <ClCompile Include="src\ManagedObject\Components\Graphics\Shader.cpp" />
+    <ClCompile Include="src\ManagedObject\Components\Graphics\Mesh.cpp" />
+    <ClCompile Include="src\Core\UI\Panels\FPSCounter.cpp" />
+    <ClCompile Include="src\Core\UI\Panels\Property.cpp" />
+    <ClCompile Include="src\Core\Rendering\Rendering.cpp" />
+    <ClCompile Include="src\Core\UI\UISystem.cpp" />
+    <ClCompile Include="src\ManagedObject\Components\Transform.cpp" />
     <ClCompile Include="src\SOGLVA.cpp" />
-    <ClCompile Include="src\API.cpp" />
-    <ClCompile Include="src\UI\UISystem.cpp" />
+    <ClCompile Include="src\SOGLVA_API\SOGLVA_API.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\UI\Panels\FPSCounter.h" />
-    <ClInclude Include="src\UI\Panels\BasePanel.h" />
-    <ClInclude Include="src\UI\Panels\Property.h" />
+    <ClInclude Include="src\SOGLVA_API\UI\SOGLVAUI.h" />
+    <ClInclude Include="src\SOGLVA_API\OBJECT\SOGLVAObject.h" />
+    <ClInclude Include="src\SOGLVA_API\SCENE\SOGLVAScene.h" />
+    <ClInclude Include="src\SOGLVA_API\SYSTEM\SOGLVASystem.h" />
+    <ClInclude Include="src\Scripting\CoreCpp\RuntimeDllUpdate.h" />
+    <ClInclude Include="src\ManagedObject\Components\BoxRigidBody.h" />
+    <ClInclude Include="src\ManagedObject\Components\BaseRigidbody.h" />
+    <ClInclude Include="src\Core\Scene\WorldPhysic.h" />
+    <ClInclude Include="src\ManagedObject\Components\Lighting\DirectionalLight.h" />
+    <ClInclude Include="src\Core\Scene\SceneManager.h" />
+    <ClInclude Include="src\common\json.h" />
+    <ClInclude Include="src\Core\Rendering\RenderingDef.h" />
+    <ClInclude Include="src\InputHandler\DefaultInput.h" />
+    <ClInclude Include="src\ManagedObject\Components\IComponent.h" />
+    <ClInclude Include="src\ManagedObject\ManagedObject.h" />
+    <ClInclude Include="src\ManagedObject\Components\Camera.h" />
+    <ClInclude Include="src\ManagedObject\Components\Graphics\Model.h" />
+    <ClInclude Include="src\ManagedObject\Components\Graphics\Shader.h" />
+    <ClInclude Include="src\ManagedObject\Components\Graphics\Mesh.h" />
+    <ClInclude Include="src\Core\Scene\Scene.h" />
+    <ClInclude Include="src\Core\UI\Panels\FPSCounter.h" />
+    <ClInclude Include="src\Core\UI\Panels\BasePanel.h" />
+    <ClInclude Include="src\Core\UI\Panels\Property.h" />
     <ClInclude Include="src\common\NuklearImport.h" />
-    <ClInclude Include="src\common\standard.h" />
-    <ClInclude Include="src\interfaces\ImanagedObject.h" />
-    <ClInclude Include="src\interfaces\ISystem.h" />
-    <ClInclude Include="src\interfaces\IUIComponent.h" />
-    <ClInclude Include="src\interfaces\IUIPanel.h" />
-    <ClInclude Include="src\Rendering\RenderingSystem.h" />
+    <ClInclude Include="src\Core\UI\IUIDrawable.h" />
+    <ClInclude Include="src\Core\Rendering\Rendering.h" />
+    <ClInclude Include="src\Core\UI\UISystem.h" />
+    <ClInclude Include="src\ManagedObject\Components\Transform.h" />
+    <ClInclude Include="src\Scripting\CoreCpp\ScriptLoader.h" />
     <ClInclude Include="src\SOGLVA.h" />
-    <ClInclude Include="src\API.h" />
-    <ClInclude Include="src\UI\UISystem.h" />
+    <ClInclude Include="src\SOGLVA_API\SOGLVA_API.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

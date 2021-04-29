@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::CORE::SCENE::Scene</compoundname>
+    <includes refid="_scene_8h" local="no">Scene.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a5cd3a250a7817af0664ee51123351f20" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string SOGLVA::CORE::SCENE::Scene::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="9" column="13" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model" kindref="compound">SOGLVA::MANAGED_OBJECT::COMPONENT::Model</ref> *</type>
+        <definition>SOGLVA::MANAGED_OBJECT::COMPONENT::Model* SOGLVA::CORE::SCENE::Scene::cubeModel</definition>
+        <argsstring></argsstring>
+        <name>cubeModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="10" column="42" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" prot="public" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic" kindref="compound">SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</ref></type>
+        <definition>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic SOGLVA::CORE::SCENE::Scene::physic</definition>
+        <argsstring></argsstring>
+        <name>physic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="11" column="43" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" prot="public" static="no" mutable="no">
+        <type>btRigidBody *</type>
+        <definition>btRigidBody* SOGLVA::CORE::SCENE::Scene::RBspehere</definition>
+        <argsstring></argsstring>
+        <name>RBspehere</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="12" column="13" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object" kindref="compound">SOGLVA::MANAGED_OBJECT::ManagedObject</ref> * &gt;</type>
+        <definition>std::vector&lt;SOGLVA::MANAGED_OBJECT::ManagedObject*&gt; SOGLVA::CORE::SCENE::Scene::managedObjects</definition>
+        <argsstring></argsstring>
+        <name>managedObjects</name>
+        <briefdescription>
+<para>managed object that will rendered inside this scene </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="17" column="13" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a3f9acfb9b6873d0170e6aef2ecae916b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::SCENE::Scene::Scene</definition>
+        <argsstring>(std::string _name)</argsstring>
+        <name>Scene</name>
+        <param>
+          <type>std::string</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="19" column="1" bodyfile="SOGLVA/src/Core/Scene/Scene.cpp" bodystart="5" bodyend="46"/>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a2c6bf6c13c94b305272ef085e28a13a7" compoundref="_physic_8cpp" startline="35" endline="55">SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::CreateSpehereRigidBody</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" compoundref="_scene_8h" startline="10">cubeModel</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208" compoundref="_transform_8cpp" startline="22" endline="25">SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::getPosition</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ad23f20cf2d8fe9bcfcd73194a136b211" compoundref="_physic_8h" startline="20">SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_rigidBodies</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" compoundref="_physic_8h" startline="14">SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_world</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" compoundref="_scene_8h" startline="17">managedObjects</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" compoundref="_scene_8h" startline="11">physic</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" compoundref="_scene_8h" startline="12">RBspehere</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1abc73763addad4935c6b0da13543dafd8" compoundref="_shader_8h" startline="60" endline="63">SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec4</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e" compoundref="_model_8h" startline="24">SOGLVA::MANAGED_OBJECT::COMPONENT::Model::shader</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" compoundref="_model_8h" startline="25">SOGLVA::MANAGED_OBJECT::COMPONENT::Model::transform</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a59d2bd380bd601809a49086b0e2f698d" compoundref="_transform_8cpp" startline="16" endline="20">SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::Translate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a4c36c3a01e1163548b41d9c7c87b7158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::SCENE::Scene::~Scene</definition>
+        <argsstring>()</argsstring>
+        <name>~Scene</name>
+        <briefdescription>
+<para>delete every managedObject inside managed objects data and clear the data container which is std::vector </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="25" column="1" bodyfile="SOGLVA/src/Core/Scene/Scene.cpp" bodystart="48" bodyend="55"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" compoundref="_scene_8h" startline="17">managedObjects</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1acf795615e11c0097a490daea4c304979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::CORE::SCENE::Scene::Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>call Update in every managedObject inside managed objects data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/Scene.h" line="30" column="6" bodyfile="SOGLVA/src/Core/Scene/Scene.cpp" bodystart="57" bodyend="67"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" compoundref="_scene_8h" startline="10">cubeModel</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" compoundref="_physic_8h" startline="14">SOGLVA::MANAGED_OBJECT::COMPONENT::Physic::m_world</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" compoundref="_scene_8h" startline="17">managedObjects</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" compoundref="_scene_8h" startline="11">physic</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" compoundref="_scene_8h" startline="12">RBspehere</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" compoundref="_model_8h" startline="25">SOGLVA::MANAGED_OBJECT::COMPONENT::Model::transform</references>
+        <references refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa17ba8fc7dfcd04a74facaafbf35045c" compoundref="_transform_8h" startline="10">SOGLVA::MANAGED_OBJECT::COMPONENT::Transform::transformMatrix</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::Texture &gt;</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::SCENE::Scene</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+managedObjects</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+cubeModel</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+name</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+RBspehere</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+physic</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+shader</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+transform</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+textures_loaded</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+flipUV</edgelabel>
+          <edgelabel>+gammaCorrection</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+directory</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>+meshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="21">
+        <label>btCollisionConfiguration *</label>
+      </node>
+      <node id="2">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::ManagedObject * &gt;</label>
+      </node>
+      <node id="5">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>-use_lib</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>-fragmentCode</edgelabel>
+          <edgelabel>-libfragmentCode</edgelabel>
+          <edgelabel>-libvertexCode</edgelabel>
+          <edgelabel>-vertexCode</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+ID</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+transformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>-position</edgelabel>
+          <edgelabel>-rotation</edgelabel>
+          <edgelabel>-scaling</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>vec3</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="20">
+        <label>vector&lt; btRigidBody * &gt;</label>
+      </node>
+      <node id="14">
+        <label>btRigidBody *</label>
+      </node>
+      <node id="17">
+        <label>btDispatcher *</label>
+      </node>
+      <node id="15">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic"/>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+m_solver</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+m_dispatcher</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>+m_gravitation</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>+m_world</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>+m_rigidBodies</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>+m_collisionConfig</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>+m_broadPhase</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh &gt;</label>
+      </node>
+      <node id="16">
+        <label>btConstraintSolver *</label>
+      </node>
+      <node id="8">
+        <label>unsigned int</label>
+      </node>
+      <node id="18">
+        <label>btVector3</label>
+      </node>
+      <node id="22">
+        <label>btBroadphaseInterface *</label>
+      </node>
+      <node id="6">
+        <label>bool</label>
+      </node>
+      <node id="19">
+        <label>btDynamicsWorld *</label>
+      </node>
+      <node id="10">
+        <label>mat4</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/Scene/Scene.h" line="6" column="1" bodyfile="SOGLVA/src/Core/Scene/Scene.h" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>cubeModel</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>managedObjects</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a5cd3a250a7817af0664ee51123351f20" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>name</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>physic</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>RBspehere</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a3f9acfb9b6873d0170e6aef2ecae916b" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>Scene</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1acf795615e11c0097a490daea4c304979" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>Update</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a4c36c3a01e1163548b41d9c7c87b7158" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::Scene</scope><name>~Scene</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

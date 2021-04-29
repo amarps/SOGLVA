@@ -1,0 +1,150 @@
+.TH "Shader" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Shader
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Shader\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBShader\fP (const char *vertexPath='resources/shaders/object/objectDefaultLit\&.vs', const char *fragmentPath='resources/shaders/object/objectDefaultLit\&.fs', bool _uselib=true)"
+.br
+.ti -1c
+.RI "void \fBsetPath\fP (const char *vertexPath, const char *fragmentPath)"
+.br
+.ti -1c
+.RI "void \fBcompile\fP ()"
+.br
+.ti -1c
+.RI "void \fBuse\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBool\fP (const std::string &name, bool value) const"
+.br
+.ti -1c
+.RI "void \fBsetInt\fP (const std::string &name, int value) const"
+.br
+.ti -1c
+.RI "void \fBsetFloat\fP (const std::string &name, float value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec2\fP (const std::string &name, const glm::vec2 &value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec2\fP (const std::string &name, float x, float y) const"
+.br
+.ti -1c
+.RI "void \fBsetVec3\fP (const std::string &name, const glm::vec3 &value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec3\fP (const std::string &name, float x, float y, float z) const"
+.br
+.ti -1c
+.RI "void \fBsetVec4\fP (const std::string &name, const glm::vec4 &value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec4\fP (const std::string &name, float x, float y, float z, float w)"
+.br
+.ti -1c
+.RI "void \fBsetMat2\fP (const std::string &name, const glm::mat2 &mat) const"
+.br
+.ti -1c
+.RI "void \fBsetMat3\fP (const std::string &name, const glm::mat3 &mat) const"
+.br
+.ti -1c
+.RI "void \fBsetMat4\fP (const std::string &name, const glm::mat4 &mat) const"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBID\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 9 of file Shader\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Shader::Shader (const char * vertexPath = \fC'resources/shaders/object/objectDefaultLit\&.vs'\fP, const char * fragmentPath = \fC'resources/shaders/object/objectDefaultLit\&.fs'\fP, bool _uselib = \fCtrue\fP)"
+
+.PP
+Definition at line 3 of file Shader\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Shader::compile ()"
+
+.PP
+Definition at line 55 of file Shader\&.cpp\&.
+.SS "void Shader::setBool (const std::string & name, bool value) const\fC [inline]\fP"
+
+.PP
+Definition at line 25 of file Shader\&.h\&.
+.SS "void Shader::setFloat (const std::string & name, float value) const\fC [inline]\fP"
+
+.PP
+Definition at line 35 of file Shader\&.h\&.
+.SS "void Shader::setInt (const std::string & name, int value) const\fC [inline]\fP"
+
+.PP
+Definition at line 30 of file Shader\&.h\&.
+.SS "void Shader::setMat2 (const std::string & name, const glm::mat2 & mat) const\fC [inline]\fP"
+
+.PP
+Definition at line 67 of file Shader\&.h\&.
+.SS "void Shader::setMat3 (const std::string & name, const glm::mat3 & mat) const\fC [inline]\fP"
+
+.PP
+Definition at line 72 of file Shader\&.h\&.
+.SS "void Shader::setMat4 (const std::string & name, const glm::mat4 & mat) const\fC [inline]\fP"
+
+.PP
+Definition at line 77 of file Shader\&.h\&.
+.SS "void Shader::setPath (const char * vertexPath, const char * fragmentPath)"
+
+.PP
+Definition at line 12 of file Shader\&.cpp\&.
+.SS "void Shader::setVec2 (const std::string & name, const glm::vec2 & value) const\fC [inline]\fP"
+
+.PP
+Definition at line 40 of file Shader\&.h\&.
+.SS "void Shader::setVec2 (const std::string & name, float x, float y) const\fC [inline]\fP"
+
+.PP
+Definition at line 44 of file Shader\&.h\&.
+.SS "void Shader::setVec3 (const std::string & name, const glm::vec3 & value) const\fC [inline]\fP"
+
+.PP
+Definition at line 49 of file Shader\&.h\&.
+.SS "void Shader::setVec3 (const std::string & name, float x, float y, float z) const\fC [inline]\fP"
+
+.PP
+Definition at line 53 of file Shader\&.h\&.
+.SS "void Shader::setVec4 (const std::string & name, const glm::vec4 & value) const\fC [inline]\fP"
+
+.PP
+Definition at line 58 of file Shader\&.h\&.
+.SS "void Shader::setVec4 (const std::string & name, float x, float y, float z, float w)\fC [inline]\fP"
+
+.PP
+Definition at line 62 of file Shader\&.h\&.
+.SS "void Shader::use ()\fC [inline]\fP"
+
+.PP
+Definition at line 21 of file Shader\&.h\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "unsigned int Shader::ID"
+
+.PP
+Definition at line 13 of file Shader\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

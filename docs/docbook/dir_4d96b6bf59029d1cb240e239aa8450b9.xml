@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_4d96b6bf59029d1cb240e239aa8450b9" xml:lang="en-US">
+<title>SOGLVA/src/ManagedObject Directory Reference</title>
+<indexterm><primary>SOGLVA/src/ManagedObject Directory Reference</primary></indexterm>
+Directory dependency graph for ManagedObject:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_4d96b6bf59029d1cb240e239aa8450b9_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_5f77f39654fea40997b785d73888715f">Components</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__managed_object_8cpp">ManagedObject.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__managed_object_8h">ManagedObject.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

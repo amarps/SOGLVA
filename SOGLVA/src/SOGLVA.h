@@ -1,16 +1,27 @@
 #pragma once
-#include "Rendering/RenderingSystem.h"
-#include "UI/UISystem.h"
-#include "common/standard.h"
+#include "Core/Rendering/Rendering.h"
+#include "Core/UI/UISystem.h"
+#include "Core/Scene/SceneManager.h"
+#include "Scripting/CoreCpp/RuntimeDllUpdate.h"
 
-class SOGLVA
+class Soglva
 {
 private:
-	std::unique_ptr<RenderingSystem> rendering;
-	std::unique_ptr<UISystem> ui;
+	bool m_quit;
+	RuntimeDLLUpdate* _dllUpdater;
+	std::map<std::string, DllFunction> _entryPointMap;
 
 public:
-	SOGLVA() = default;
+	std::unique_ptr<Rendering> rendering;
+	std::unique_ptr<UISystem> ui;
+	std::unique_ptr<SceneManager> sceneManager;
 
-	bool Init();
+	Soglva();
+	~Soglva();
+
+	void Initialize();
+
+	void Run();
+	bool IsQuit();
+	void Quit();
 };

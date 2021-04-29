@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_model" xml:lang="en-US">
+<title>Model Class Reference</title>
+<indexterm><primary>Model</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Model.h&gt;</computeroutput>
+</para>
+Inheritance diagram for Model:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_model__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for Model:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_model__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_model_1a5e5a11248d2ffdd5a1edd28aed94521a">Model</link> (std::string const &amp;path=&quot;&quot;, bool <link linkend="_class_model_1a45860e6e3f38e96843fd28b37a0a7943">flipUV</link>=true, bool gamma=false)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_model_1a9c66de8af7e48fefaccbb8a056ec3c1d">Draw</link> (<link linkend="_class_shader">Shader</link> &amp;<link linkend="_class_model_1a634e0014fce54c8b994f110a1b98b57b">shader</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_model_1a28c642db0df154eed0cae184afe99621">loadModel</link> (std::string const &amp;path)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_model_1aec91baaf9703d179794580a40696dedd">Start</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_model_1a9d6bbfb0279efb902c0f238b4bc6c76c">Update</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_model_1a17650cafdc01e03053ac794aeec06dd8">Exit</link> () override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::vector&lt; <link linkend="_struct_texture">Texture</link> &gt; <link linkend="_class_model_1a866353fd9967b57286864fac87799ae1">textures_loaded</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; <link linkend="_class_mesh">Mesh</link> &gt; <link linkend="_class_model_1a538e42901dcfba59471072a48a162163">meshes</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_model_1a5ea3aa111c7a7d179e93dcc0bb567701">directory</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_shader">Shader</link> <link linkend="_class_model_1a634e0014fce54c8b994f110a1b98b57b">shader</link></para>
+</listitem>
+            <listitem><para><link linkend="_class_transform">Transform</link> <link linkend="_class_model_1a6ade6755da87446ae85a3f33dc693800">transform</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_model_1ad77d358db2ff46758774b8a621f60db3">gammaCorrection</link></para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_model_1a45860e6e3f38e96843fd28b37a0a7943">flipUV</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 16 of file Model.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_model_1a5e5a11248d2ffdd5a1edd28aed94521a"/>    <section>
+    <title>Model()</title>
+<indexterm><primary>Model</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>Model</secondary></indexterm>
+<para><computeroutput>Model::Model (std::string const &amp; path = <computeroutput>&quot;&quot;</computeroutput>
+, bool flipUV = <computeroutput>true</computeroutput>
+, bool gamma = <computeroutput>false</computeroutput>
+)</computeroutput></para><para>
+Definition at line 4 of file Model.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_model_1a9c66de8af7e48fefaccbb8a056ec3c1d"/>    <section>
+    <title>Draw()</title>
+<indexterm><primary>Draw</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>Draw</secondary></indexterm>
+<para><computeroutput>void Model::Draw (<link linkend="_class_shader">Shader</link> &amp; shader)</computeroutput></para><para>
+Definition at line 11 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_model_1a17650cafdc01e03053ac794aeec06dd8"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>void Model::Exit ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">IComponent</link>.</para>
+<para>
+Definition at line 190 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_model_1a28c642db0df154eed0cae184afe99621"/>    <section>
+    <title>loadModel()</title>
+<indexterm><primary>loadModel</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>loadModel</secondary></indexterm>
+<para><computeroutput>void Model::loadModel (std::string const &amp; path)</computeroutput></para><para>
+Definition at line 17 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_model_1aec91baaf9703d179794580a40696dedd"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void Model::Start ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">IComponent</link>.</para>
+<para>
+Definition at line 170 of file Model.cpp.</para>
+    </section><anchor xml:id="_class_model_1a9d6bbfb0279efb902c0f238b4bc6c76c"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void Model::Update ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_i_component_1ae7556b0967bcf83bd53878f430f9c234">IComponent</link>.</para>
+<para>
+Definition at line 176 of file Model.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_model_1a5ea3aa111c7a7d179e93dcc0bb567701"/>    <section>
+    <title>directory</title>
+<indexterm><primary>directory</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>directory</secondary></indexterm>
+<para><computeroutput>std::string Model::directory</computeroutput></para><para>
+Definition at line 22 of file Model.h.</para>
+    </section><anchor xml:id="_class_model_1a45860e6e3f38e96843fd28b37a0a7943"/>    <section>
+    <title>flipUV</title>
+<indexterm><primary>flipUV</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>flipUV</secondary></indexterm>
+<para><computeroutput>bool Model::flipUV</computeroutput></para><para>
+Definition at line 27 of file Model.h.</para>
+    </section><anchor xml:id="_class_model_1ad77d358db2ff46758774b8a621f60db3"/>    <section>
+    <title>gammaCorrection</title>
+<indexterm><primary>gammaCorrection</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>gammaCorrection</secondary></indexterm>
+<para><computeroutput>bool Model::gammaCorrection</computeroutput></para><para>
+Definition at line 26 of file Model.h.</para>
+    </section><anchor xml:id="_class_model_1a538e42901dcfba59471072a48a162163"/>    <section>
+    <title>meshes</title>
+<indexterm><primary>meshes</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>meshes</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_class_mesh">Mesh</link>&gt; Model::meshes</computeroutput></para><para>
+Definition at line 21 of file Model.h.</para>
+    </section><anchor xml:id="_class_model_1a634e0014fce54c8b994f110a1b98b57b"/>    <section>
+    <title>shader</title>
+<indexterm><primary>shader</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>shader</secondary></indexterm>
+<para><computeroutput><link linkend="_class_shader">Shader</link> Model::shader</computeroutput></para><para>
+Definition at line 23 of file Model.h.</para>
+    </section><anchor xml:id="_class_model_1a866353fd9967b57286864fac87799ae1"/>    <section>
+    <title>textures_loaded</title>
+<indexterm><primary>textures_loaded</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>textures_loaded</secondary></indexterm>
+<para><computeroutput>std::vector&lt;<link linkend="_struct_texture">Texture</link>&gt; Model::textures_loaded</computeroutput></para><para>
+Definition at line 20 of file Model.h.</para>
+    </section><anchor xml:id="_class_model_1a6ade6755da87446ae85a3f33dc693800"/>    <section>
+    <title>transform</title>
+<indexterm><primary>transform</primary><secondary>Model</secondary></indexterm>
+<indexterm><primary>Model</primary><secondary>transform</secondary></indexterm>
+<para><computeroutput><link linkend="_class_transform">Transform</link> Model::transform</computeroutput></para><para>
+Definition at line 24 of file Model.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Components/Graphics/<link linkend="__model_8h">Model.h</link>SOGLVA/src/Components/Graphics/<link linkend="__model_8cpp">Model.cpp</link></section>
+</section>

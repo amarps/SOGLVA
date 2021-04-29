@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_input_handler" xml:lang="en-US">
+<title>InputHandler Namespace Reference</title>
+<indexterm><primary>InputHandler</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_namespace_input_handler_1a2ec95ebfb37b5d983707cafdffb40891">DefaultKeyboardInput</link> (<link linkend="_class_rendering">Rendering</link> &amp;rendering)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespace_input_handler_1a2ec95ebfb37b5d983707cafdffb40891"/>    <section>
+    <title>DefaultKeyboardInput()</title>
+<indexterm><primary>DefaultKeyboardInput</primary><secondary>InputHandler</secondary></indexterm>
+<indexterm><primary>InputHandler</primary><secondary>DefaultKeyboardInput</secondary></indexterm>
+<para><computeroutput>void InputHandler::DefaultKeyboardInput (<link linkend="_class_rendering">Rendering</link> &amp; rendering)</computeroutput></para><para>
+Definition at line 6 of file DefaultInput.cpp.</para>
+</section>
+</section>
+</section>

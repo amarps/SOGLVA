@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</primary></indexterm>
+<para>
+<computeroutput>#include &lt;IComponent.h&gt;</computeroutput>
+</para>
+Inheritance diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50">Start</link> ()=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da">Update</link> ()=0</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b">Exit</link> ()=0</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 6 of file IComponent.h.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent::Exit ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a4e6186594eeed593084afbf3dd849cab">SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</link>, <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a87334cae4878287f4ecbe418227a1e90">SOGLVA::MANAGED_OBJECT::COMPONENT::Model</link>, and <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4ccd54165133276226148838713c0c4f">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</link>.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent::Start ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a46031236d82636f81be3dc391b270d66">SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</link>, <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac5d039c98ea9144c8c93f2eb9bd933d3">SOGLVA::MANAGED_OBJECT::COMPONENT::Model</link>, and <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7fbd7aa09bad055770376dc4af567808">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</link>.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>virtual void SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent::Update ( )<computeroutput>[pure virtual]</computeroutput></computeroutput></para><para>
+Implemented in <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1ae6e567b33c40993f25ba64cdb5912f54">SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</link>, <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae96bac37373fe433a52c7066511cd2cb">SOGLVA::MANAGED_OBJECT::COMPONENT::Model</link>, and <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a9bc4ccc6b6345236e6bb022605c5b731">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SOGLVA/src/ManagedObject/Components/<link linkend="__i_component_8h">IComponent.h</link></section>
+</section>

@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel" kind="class"><name>SOGLVA::CORE::UI::PANEL::BasePanel</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" kind="variable"><name>context</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a9ef4bc09f2a893686cae5c1828a2402e" kind="variable"><name>rendering</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" kind="variable"><name>name</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a607a168c375ff16af7db8e81771feee6" kind="function"><name>BasePanel</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ace83bb74601c40c7cedb51af6e8dbf14" kind="function"><name>~BasePanel</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29" kind="enum"><name>Camera_Movement</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29aecb66931927ba8fb61ca6eee757c4e7e" kind="enumvalue"><name>FORWARD</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a1600546df8da227fb258c2dc296d433c" kind="enumvalue"><name>BACKWARD</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a7c43f07c60613f723bba36f725b7c342" kind="enumvalue"><name>LEFT</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a4952cfe01a42208e0571551de40df9dd" kind="enumvalue"><name>RIGHT</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4bf5fa4697283f8ccf4021e8161e8381" kind="variable"><name>YAW</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1aa025701fb3626f7710e5f0db12793fa2" kind="variable"><name>PITCH</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ae81e7e1c04a6b2897d04a8a4bf79d9a1" kind="variable"><name>SPEED</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac8689fd6807db467505cd8c0ac82a8d1" kind="variable"><name>SENSITIVITY</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a6666c6210c90fee034fc97021e7dcf1e" kind="variable"><name>ZOOM</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a73c257cf88b432200fc559c991c8f999" kind="variable"><name>Position</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a358103c1edf1aa887444cba81149de3c" kind="variable"><name>Front</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a69ec0eb5bc71031bfd18d25d14c2a7fa" kind="variable"><name>Up</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a31b314302f4789bb1135790145c4c243" kind="variable"><name>Right</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a5c80c705af7243113913249c786b6627" kind="variable"><name>WorldUp</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a66c8a254d8363e9b1a366db26e76c4c8" kind="variable"><name>Yaw</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a23696779bb6fb851ff3c053de783452e" kind="variable"><name>Pitch</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a153aa3ccf608f142a42f2dd16a067884" kind="variable"><name>MovementSpeed</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1af84bd1c12e8606eea6111cb151fe72bc" kind="variable"><name>MouseSensitivity</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a42814ed418f97bc7191b8031b36927df" kind="variable"><name>Zoom</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ae781b61b20221125502e9fe3a6e820cb" kind="function"><name>Camera</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1af94ee1eee4c0f94c83b5b57fb9892dca" kind="function"><name>updateCameraVectors</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a581843a2acbb7e915ab340958fe0dac9" kind="function"><name>get</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a2b74e3ccf09b02477053258f6eef304e" kind="function"><name>Camera</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7364a98c943fe903fa1db215ecc8b022" kind="function"><name>Camera</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a0ec6ecc2628cef5a3791a4f4fc091f5a" kind="function"><name>GetViewMatrix</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ad1edda4d81ed45b40238af05a054ffe8" kind="function"><name>ProcessKeyboard</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac6965462dfcfdae73cdaccd67a7af5fb" kind="function"><name>ProcessMouseMovement</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a416e09415b7cd0b009871e1cddb92764" kind="function"><name>ProcessMouseScroll</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7fbd7aa09bad055770376dc4af567808" kind="function"><name>Start</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a9bc4ccc6b6345236e6bb022605c5b731" kind="function"><name>Update</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4ccd54165133276226148838713c0c4f" kind="function"><name>Exit</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter" kind="class"><name>SOGLVA::CORE::UI::PANEL::FPSCounter</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a3a9c8a9f3db4fcd8eb462066f5bae7c8" kind="variable"><name>fpsText</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1afbfdfef613850e6b02769c307dc037bd" kind="function"><name>FPSCounter</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter_1a19b3b9d6658e396c4a8b7134809555e6" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50" kind="function"><name>Start</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da" kind="function"><name>Update</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b" kind="function"><name>Exit</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" kind="class"><name>SOGLVA::CORE::UI::IUIDrawable</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable_1aba6138fb0737c3750ce29b8d098dbd4d" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Lighting</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a5c60974c8b25c2cce29b56309e443cb6" kind="variable"><name>transform</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a7501467f2de0031372e6647dd62c88a4" kind="variable"><name>shader</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a2276fcbc782c27015357bdfca1ababf9" kind="function"><name>Draw</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a46031236d82636f81be3dc391b270d66" kind="function"><name>Start</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1ae6e567b33c40993f25ba64cdb5912f54" kind="function"><name>Update</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting_1a4e6186594eeed593084afbf3dd849cab" kind="function"><name>Exit</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object" kind="class"><name>SOGLVA::MANAGED_OBJECT::ManagedObject</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a8c56f002df800e5a34f64abf29ec9956" kind="variable"><name>name</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a37601642d6b4c34233e2cb55d0d907e5" kind="variable"><name>components</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1a3d6d98454879f6e54e6defabcb0b1068" kind="function"><name>ManagedObject</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1af37ed7c3d7a823ca70fc91781267890c" kind="function"><name>~ManagedObject</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object_1aa43d8685638b0dfd4c7d84c76e324acf" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1ad6cfb560ec50fc3fdff3d0945f4ebba9" kind="variable"><name>vertices</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a9a2d9c8a1d8516621c56c7c7d7f74ccc" kind="variable"><name>indices</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5c16e9bd46aee5d400b65d78b28c7ebd" kind="variable"><name>textures</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a4938da96f19cc531f01d5879dc83c9a7" kind="variable"><name>VAO</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a92864d080d5b9c737961e403b551a95d" kind="variable"><name>VBO</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a7612e0c37c281d778f75c53ed4d150fa" kind="variable"><name>EBO</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a49541426a3663a84b807541d724bed87" kind="function"><name>Mesh</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1aa6c3364b6f54721b959952b7dd88d1a5" kind="function"><name>Draw</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh_1a5cf8430bb8732c4093deff0ecab23ed9" kind="function"><name>setupMesh</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ad2ee9eeb7185a8b30429fceb6f82dda6" kind="variable"><name>textures_loaded</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a9977c1d53ad7c5b1d2e98831f339f286" kind="variable"><name>meshes</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a30d36d56b429b5ae24ab2fd7aa731f38" kind="variable"><name>directory</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e" kind="variable"><name>shader</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" kind="variable"><name>transform</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ad4e9d0d1ff83deeadb3de00c4a8f99cb" kind="variable"><name>gammaCorrection</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae72a09222dfe45da22909028c607f5ba" kind="variable"><name>flipUV</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a7b37f9b22c87c90b624a37577b251c8c" kind="function"><name>Model</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af54822016f7e3f716919d061bfafd617" kind="function"><name>Draw</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1afef6127f9b13a1d7b759edca77041383" kind="function"><name>loadModel</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac5d039c98ea9144c8c93f2eb9bd933d3" kind="function"><name>Start</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ae96bac37373fe433a52c7066511cd2cb" kind="function"><name>Update</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a87334cae4878287f4ecbe418227a1e90" kind="function"><name>Exit</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af2ca59c533fff468c28716b74c6e267b" kind="function"><name>processNode</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1a8e47f47444881aff8818dbe340a2da23" kind="function"><name>processMesh</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1af2eca445f416ef089a96253bea9af559" kind="function"><name>loadMaterialTextures</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" kind="variable"><name>m_world</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1aca24f8263556d982960dc2b4ca7cc156" kind="variable"><name>m_dispatcher</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1abe39b4456b292b7afcc58d3ec8e731ff" kind="variable"><name>m_collisionConfig</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a0c69de77826d711d6fa45df96dc88b48" kind="variable"><name>m_broadPhase</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1addda4fb9e13a7f4f682a96e7e5286a3c" kind="variable"><name>m_solver</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ab0893ac64209291365a691d75e7d864a" kind="variable"><name>m_gravitation</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ad23f20cf2d8fe9bcfcd73194a136b211" kind="variable"><name>m_rigidBodies</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a67095a95a54a70ea24597adb83f3300a" kind="function"><name>Physic</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a3f96149ec042cb39e9ef742779ae3cda" kind="function"><name>Update</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1af7423112d611f5c2c99cc38297a1e426" kind="function"><name>~Physic</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a2c6bf6c13c94b305272ef085e28a13a7" kind="function"><name>CreateSpehereRigidBody</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property" kind="class"><name>SOGLVA::CORE::UI::PANEL::Property</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property_1a20ec3099d6bc795aa899845028a09265" kind="function"><name>Property</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property_1a3ca951c7ec2824660146038da4026736" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kind="class"><name>SOGLVA::CORE::RENDERING::Rendering</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a7a46897ab78a76993a0202fa9fe8cb2a" kind="variable"><name>deltaTime</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab655515cdb07eeabcd94d59ff7f8130a" kind="variable"><name>lastFrame</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" kind="variable"><name>window</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0578f28b8d8bb26457ec96e6ba909ee9" kind="variable"><name>hwNative</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a0d8718a1eb5d14473cbcbfc78d404b2c" kind="variable"><name>SCREEN_WIDTH</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4f7c81ad37410ed71d19c524658fd7f3" kind="variable"><name>SCREEN_HEIGHT</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1afd078a972e8b5f9388b37efc3b8d1d5d" kind="variable"><name>AppName</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a01497a16323354863d6850bbbf74eae3" kind="variable"><name>ClearColor</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a3ba04a3407c4318be44ab6a676412826" kind="function"><name>framebuffer_size_callback</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ab97bc68cb216c890b1b16b9d9689c5e1" kind="function"><name>SetupGLFWWindow</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a6b6d8b36356a3851507b70c99635b1ab" kind="function"><name>ConfigureOGLFunction</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a9a0edc825c0cc5fd75a3acab9b0a2bd9" kind="function"><name>Rendering</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1a4a33c76e77839b9563222ceb62f4df0f" kind="function"><name>~Rendering</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac57a32d2dc6cbb4d6254c8e134c76abb" kind="function"><name>ClearWindow</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kind="class"><name>SOGLVA::CORE::SCENE::Scene</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a5cd3a250a7817af0664ee51123351f20" kind="variable"><name>name</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kind="variable"><name>cubeModel</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" kind="variable"><name>physic</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" kind="variable"><name>RBspehere</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" kind="variable"><name>managedObjects</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a3f9acfb9b6873d0170e6aef2ecae916b" kind="function"><name>Scene</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a4c36c3a01e1163548b41d9c7c87b7158" kind="function"><name>~Scene</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1acf795615e11c0097a490daea4c304979" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" kind="class"><name>SOGLVA::CORE::SCENE::SceneManager</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" kind="variable"><name>currentScene</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" kind="variable"><name>scenes</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c" kind="function"><name>ChangeCurrentScene</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1ab89caee04af8a2b82dd263ec01128bca" kind="function"><name>GetCurrentScene</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a4a7d37ebb746ebe58cf2c3a1442bf4c6" kind="function"><name>CreateScene</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a584b15b4ba51a332cd8c1a24bc12d9fb" kind="function"><name>DeleteScene</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a33e503add5c09e826472b69a4f4dbdd2" kind="variable"><name>ID</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a18955dc6f4b530aad84d06725fc6d912" kind="variable"><name>vertexCode</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a5e2d89b9419d5b6e17ddeec1fe1fea65" kind="variable"><name>fragmentCode</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a93c402992da9d0195d6c0af6242f3d5a" kind="variable"><name>libvertexCode</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1af07446b6f2883c00c0e7db3d2df7ab5d" kind="variable"><name>libfragmentCode</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1ab8e82b8077c7434edddbf4af6a42fbf3" kind="variable"><name>use_lib</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a5fb36f1334e339601091ef8bbe9eef65" kind="function"><name>Shader</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a02e0792912d89c9c72a4e6c8b9674bd8" kind="function"><name>setPath</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1adcf52d415f600d3024838ebd488b2cb2" kind="function"><name>compile</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a9fd26512b5de44a5c5c2747e9401aa8f" kind="function"><name>use</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7e549b387c5cd620ab67d63ce89161da" kind="function"><name>setBool</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1af119146598a6823ed4d6d4eeb7dec040" kind="function"><name>setInt</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1adbcef9925b30917e0e708db1f3a9a284" kind="function"><name>setFloat</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a1a4416bbd981add1593b67234bed9742" kind="function"><name>setVec2</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a28e0620f1bb9b005af13ae0c1239b3fd" kind="function"><name>setVec2</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a0366896fa53cf38ac6b8e07f59f37219" kind="function"><name>setVec3</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1afc5107169708986d555a9f24bc465a32" kind="function"><name>setVec3</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1abc73763addad4935c6b0da13543dafd8" kind="function"><name>setVec4</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7998b41d4b4c89c30867915a5d9c0a61" kind="function"><name>setVec4</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a7b140034b9a27680f4aa159b2baf6be7" kind="function"><name>setMat2</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a0dc789ab008bce085d538299ee1ebdc4" kind="function"><name>setMat3</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1a599ee441a335640f2eb955d8ba83fa1a" kind="function"><name>setMat4</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1aa217d6cef11ca67c0dfad794ed7205fb" kind="function"><name>checkCompileErrors</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_soglva" kind="class"><name>SOGLVA::Soglva</name>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43" kind="variable"><name>m_quit</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b" kind="variable"><name>rendering</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe" kind="variable"><name>ui</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c" kind="variable"><name>sceneManager</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1a3bdd9f32b910ac66cb78a5def8dfef88" kind="function"><name>Soglva</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1af1345ce2bf6c65401fde8a06b462c62a" kind="function"><name>~Soglva</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2" kind="function"><name>Initialize</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd" kind="function"><name>Run</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988" kind="function"><name>IsQuit</name></member>
+  </compound>
+  <compound refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture" kind="struct"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Texture</name>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1a1221ba1cdf3fc2da68fabf8b9607393d" kind="variable"><name>id</name></member>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1aaf2aa46f95469e224a0b81ad989af146" kind="variable"><name>type</name></member>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture_1ae53a4c7418dcf9fac21d2c5143f93442" kind="variable"><name>path</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform" kind="class"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</name>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa17ba8fc7dfcd04a74facaafbf35045c" kind="variable"><name>transformMatrix</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1afb08a874a1c70201c456b6b127f7690a" kind="variable"><name>position</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a07fba787e09d02e0d6d3763fdd186025" kind="variable"><name>rotation</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa9749b8f3fef8c7502e96b4f28167b65" kind="variable"><name>scaling</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1acf3a46d36bc217b6887d8aea118f323a" kind="function"><name>Transform</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1ac74727dda981435eccae2690d8fbebad" kind="function"><name>Transform</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a59d2bd380bd601809a49086b0e2f698d" kind="function"><name>Translate</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a00c3390542d06947741133662537be88" kind="function"><name>Scale</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208" kind="function"><name>getPosition</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a7b3f4ee48ef8ffce67ebbbbc35fd83be" kind="function"><name>setPosition</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1ab4523dcb3b8352fc3409d2a8477439a1" kind="function"><name>Scaling</name></member>
+  </compound>
+  <compound refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system" kind="class"><name>SOGLVA::CORE::UI::UISystem</name>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" kind="variable"><name>rendering</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" kind="variable"><name>vUIPanels</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" kind="variable"><name>glfw</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" kind="variable"><name>context</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf" kind="function"><name>UISystem</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3" kind="function"><name>~UISystem</name></member>
+    <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88" kind="function"><name>DrawUiPanels</name></member>
+  </compound>
+  <compound refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex" kind="struct"><name>SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex</name>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac9feeef6c0deeca2b28d8aa5090ec8dd" kind="variable"><name>Position</name></member>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1ac516a95167e427a2cd187bc617dd460d" kind="variable"><name>Normal</name></member>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1a386730ebe9a08846b0c0a00ba1d08943" kind="variable"><name>TexCoords</name></member>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1afd406e00d376ac44e41604a5f265ccbb" kind="variable"><name>Tangent</name></member>
+    <member refid="struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex_1aab7a0700758c852c7700dfccf7e64229" kind="variable"><name>Bitangent</name></member>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a" kind="namespace"><name>SOGLVA</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e" kind="namespace"><name>SOGLVA::CORE</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g" kind="namespace"><name>SOGLVA::CORE::RENDERING</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e" kind="namespace"><name>SOGLVA::CORE::SCENE</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i" kind="namespace"><name>SOGLVA::CORE::UI</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l" kind="namespace"><name>SOGLVA::CORE::UI::PANEL</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r" kind="namespace"><name>SOGLVA::INPUTHANDLER</name>
+    <member refid="namespace_s_o_g_l_v_a_1_1_i_n_p_u_t_h_a_n_d_l_e_r_1ad8a2ede621b1aedc78489910b0cba427" kind="function"><name>DefaultKeyboardInput</name></member>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t" kind="namespace"><name>SOGLVA::MANAGED_OBJECT</name>
+  </compound>
+  <compound refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t" kind="namespace"><name>SOGLVA::MANAGED_OBJECT::COMPONENT</name>
+    <member refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641" kind="function"><name>TextureFromFile</name></member>
+  </compound>
+  <compound refid="_readme_8md" kind="file"><name>Readme.md</name>
+  </compound>
+  <compound refid="_a_p_i_8cpp" kind="file"><name>API.cpp</name>
+    <member refid="_a_p_i_8cpp_1a4e30c99b0f20f7155adebf2cb2219b03" kind="define"><name>NK_INCLUDE_FIXED_TYPES</name></member>
+    <member refid="_a_p_i_8cpp_1a2ab99de094ad4c244260062426e5caa0" kind="define"><name>NK_INCLUDE_STANDARD_IO</name></member>
+    <member refid="_a_p_i_8cpp_1a13b5abd58c2a82dcf6a5f7ddfcf112aa" kind="define"><name>NK_INCLUDE_STANDARD_VARARGS</name></member>
+    <member refid="_a_p_i_8cpp_1adf1c808d169071b73cb46f7538bf1721" kind="define"><name>NK_INCLUDE_DEFAULT_ALLOCATOR</name></member>
+    <member refid="_a_p_i_8cpp_1ac67be0ee8bc7f08530c891cbfa14b788" kind="define"><name>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</name></member>
+    <member refid="_a_p_i_8cpp_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2" kind="define"><name>NK_INCLUDE_FONT_BAKING</name></member>
+    <member refid="_a_p_i_8cpp_1af0847faa9e18a4865944c2f5fb093be0" kind="define"><name>NK_INCLUDE_DEFAULT_FONT</name></member>
+    <member refid="_a_p_i_8cpp_1a9555e340b124951b3323becad26b15c5" kind="define"><name>NK_KEYSTATE_BASED_INPUT</name></member>
+    <member refid="_a_p_i_8cpp_1aae11ce91efbb99ec40b279ddc84c050f" kind="define"><name>NK_IMPLEMENTATION</name></member>
+    <member refid="_a_p_i_8cpp_1afcbe59ecb36abfe68316d9e74d5889b8" kind="define"><name>NK_GLFW_GL3_IMPLEMENTATION</name></member>
+    <member refid="_a_p_i_8cpp_1a18372412ad2fc3ce1e3240b3cf0efe78" kind="define"><name>STB_IMAGE_IMPLEMENTATION</name></member>
+    <member refid="_a_p_i_8cpp_1ad4ad2f9f5426826faa5651f6913400f2" kind="function"><name>SOGLVAInitialize</name></member>
+    <member refid="_a_p_i_8cpp_1abf5d66297cd56a29de5dbc454c2393ba" kind="function"><name>SOGLVARunApp</name></member>
+    <member refid="_a_p_i_8cpp_1a199398df1ba356f908954a6d83cc862a" kind="function"><name>SOGLVARestart</name></member>
+    <member refid="_a_p_i_8cpp_1af12dde41a775c2faadea650da6e89cd0" kind="function"><name>SOGLVADestroy</name></member>
+  </compound>
+  <compound refid="_a_p_i_8h" kind="file"><name>API.h</name>
+    <member refid="_a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49" kind="define"><name>EXPORT</name></member>
+    <member refid="_a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538" kind="variable"><name>application</name></member>
+    <member refid="_a_p_i_8h_1a04cbf2821cbd3f8ba71425349db54ba4" kind="function"><name>SOGLVAInitialize</name></member>
+    <member refid="_a_p_i_8h_1a156c559c2d041016eecd1ea301cabe48" kind="function"><name>SOGLVARunApp</name></member>
+    <member refid="_a_p_i_8h_1aad4b020d35cc37900b5616ee3a85532e" kind="function"><name>SOGLVARestart</name></member>
+    <member refid="_a_p_i_8h_1a1a3eea41fab8cfd737fe31cfa090695e" kind="function"><name>SOGLVADestroy</name></member>
+  </compound>
+  <compound refid="json_8h" kind="file"><name>json.h</name>
+  </compound>
+  <compound refid="_nuklear_import_8h" kind="file"><name>NuklearImport.h</name>
+    <member refid="_nuklear_import_8h_1a4e30c99b0f20f7155adebf2cb2219b03" kind="define"><name>NK_INCLUDE_FIXED_TYPES</name></member>
+    <member refid="_nuklear_import_8h_1a2ab99de094ad4c244260062426e5caa0" kind="define"><name>NK_INCLUDE_STANDARD_IO</name></member>
+    <member refid="_nuklear_import_8h_1a13b5abd58c2a82dcf6a5f7ddfcf112aa" kind="define"><name>NK_INCLUDE_STANDARD_VARARGS</name></member>
+    <member refid="_nuklear_import_8h_1adf1c808d169071b73cb46f7538bf1721" kind="define"><name>NK_INCLUDE_DEFAULT_ALLOCATOR</name></member>
+    <member refid="_nuklear_import_8h_1ac67be0ee8bc7f08530c891cbfa14b788" kind="define"><name>NK_INCLUDE_VERTEX_BUFFER_OUTPUT</name></member>
+    <member refid="_nuklear_import_8h_1a7ad0c2aa5bf98a3302a170b7ce2fb9d2" kind="define"><name>NK_INCLUDE_FONT_BAKING</name></member>
+    <member refid="_nuklear_import_8h_1af0847faa9e18a4865944c2f5fb093be0" kind="define"><name>NK_INCLUDE_DEFAULT_FONT</name></member>
+    <member refid="_nuklear_import_8h_1a9555e340b124951b3323becad26b15c5" kind="define"><name>NK_KEYSTATE_BASED_INPUT</name></member>
+  </compound>
+  <compound refid="_rendering_8cpp" kind="file"><name>Rendering.cpp</name>
+  </compound>
+  <compound refid="_rendering_8h" kind="file"><name>Rendering.h</name>
+  </compound>
+  <compound refid="_rendering_def_8h" kind="file"><name>RenderingDef.h</name>
+    <member refid="_rendering_def_8h_1a7226e54815f41685fdc9df544352957e" kind="define"><name>GLFW_EXPOSE_NATIVE_WIN32</name></member>
+    <member refid="_rendering_def_8h_1a9f918755b601cf4bffca775992e6fb90" kind="define"><name>NOMINMAX</name></member>
+  </compound>
+  <compound refid="_scene_8cpp" kind="file"><name>Scene.cpp</name>
+  </compound>
+  <compound refid="_scene_8h" kind="file"><name>Scene.h</name>
+  </compound>
+  <compound refid="_scene_manager_8cpp" kind="file"><name>SceneManager.cpp</name>
+  </compound>
+  <compound refid="_scene_manager_8h" kind="file"><name>SceneManager.h</name>
+  </compound>
+  <compound refid="_i_u_i_drawable_8h" kind="file"><name>IUIDrawable.h</name>
+  </compound>
+  <compound refid="_base_panel_8h" kind="file"><name>BasePanel.h</name>
+  </compound>
+  <compound refid="_f_p_s_counter_8cpp" kind="file"><name>FPSCounter.cpp</name>
+  </compound>
+  <compound refid="_f_p_s_counter_8h" kind="file"><name>FPSCounter.h</name>
+  </compound>
+  <compound refid="_property_8cpp" kind="file"><name>Property.cpp</name>
+  </compound>
+  <compound refid="_property_8h" kind="file"><name>Property.h</name>
+  </compound>
+  <compound refid="_u_i_system_8cpp" kind="file"><name>UISystem.cpp</name>
+  </compound>
+  <compound refid="_u_i_system_8h" kind="file"><name>UISystem.h</name>
+  </compound>
+  <compound refid="_default_input_8cpp" kind="file"><name>DefaultInput.cpp</name>
+  </compound>
+  <compound refid="_default_input_8h" kind="file"><name>DefaultInput.h</name>
+  </compound>
+  <compound refid="_camera_8cpp" kind="file"><name>Camera.cpp</name>
+  </compound>
+  <compound refid="_camera_8h" kind="file"><name>Camera.h</name>
+  </compound>
+  <compound refid="_mesh_8cpp" kind="file"><name>Mesh.cpp</name>
+  </compound>
+  <compound refid="_mesh_8h" kind="file"><name>Mesh.h</name>
+    <member refid="_mesh_8h_1af70b7d747f3a41e1503b6ac69179d42f" kind="define"><name>MESH_H</name></member>
+  </compound>
+  <compound refid="_model_8cpp" kind="file"><name>Model.cpp</name>
+  </compound>
+  <compound refid="_model_8h" kind="file"><name>Model.h</name>
+  </compound>
+  <compound refid="_shader_8cpp" kind="file"><name>Shader.cpp</name>
+  </compound>
+  <compound refid="_shader_8h" kind="file"><name>Shader.h</name>
+  </compound>
+  <compound refid="_i_component_8h" kind="file"><name>IComponent.h</name>
+  </compound>
+  <compound refid="_directional_light_8h" kind="file"><name>DirectionalLight.h</name>
+  </compound>
+  <compound refid="_physic_8cpp" kind="file"><name>Physic.cpp</name>
+  </compound>
+  <compound refid="_physic_8h" kind="file"><name>Physic.h</name>
+  </compound>
+  <compound refid="_transform_8cpp" kind="file"><name>Transform.cpp</name>
+  </compound>
+  <compound refid="_transform_8h" kind="file"><name>Transform.h</name>
+  </compound>
+  <compound refid="_managed_object_8cpp" kind="file"><name>ManagedObject.cpp</name>
+  </compound>
+  <compound refid="_managed_object_8h" kind="file"><name>ManagedObject.h</name>
+  </compound>
+  <compound refid="_s_o_g_l_v_a_8cpp" kind="file"><name>SOGLVA.cpp</name>
+  </compound>
+  <compound refid="_s_o_g_l_v_a_8h" kind="file"><name>SOGLVA.h</name>
+  </compound>
+  <compound refid="md__s_o_g_l_v_a__readme" kind="page"><name>md_SOGLVA_Readme</name>
+  </compound>
+  <compound refid="dir_883a5621fc05c20e407199c1b8f8eb98" kind="dir"><name>SOGLVA/src/common</name>
+  </compound>
+  <compound refid="dir_5f77f39654fea40997b785d73888715f" kind="dir"><name>SOGLVA/src/ManagedObject/Components</name>
+  </compound>
+  <compound refid="dir_11212700892b452871efb25ade20026b" kind="dir"><name>SOGLVA/src/Core</name>
+  </compound>
+  <compound refid="dir_51b83b55384cafef5ab440cca5d1a94e" kind="dir"><name>SOGLVA/src/ManagedObject/Components/Graphics</name>
+  </compound>
+  <compound refid="dir_9b73525287b64a8a1a48afd236a923e7" kind="dir"><name>SOGLVA/src/InputHandler</name>
+  </compound>
+  <compound refid="dir_8b4168203b5f12743d70f178dccc384d" kind="dir"><name>SOGLVA/src/ManagedObject/Components/Lighting</name>
+  </compound>
+  <compound refid="dir_4d96b6bf59029d1cb240e239aa8450b9" kind="dir"><name>SOGLVA/src/ManagedObject</name>
+  </compound>
+  <compound refid="dir_8989f69d5c4f4920eec819feb18e1812" kind="dir"><name>SOGLVA/src/Core/UI/Panels</name>
+  </compound>
+  <compound refid="dir_fb8fe5feafa800bff77474b2c210aa36" kind="dir"><name>SOGLVA/src/Core/Rendering</name>
+  </compound>
+  <compound refid="dir_40b94d92348dbca1f0f0485cc885935b" kind="dir"><name>SOGLVA/src/Core/Scene</name>
+  </compound>
+  <compound refid="dir_89929af0bba131ba78e50fecbe44064b" kind="dir"><name>SOGLVA</name>
+  </compound>
+  <compound refid="dir_92506dce7dc48dd5eab40867634e1966" kind="dir"><name>SOGLVA/src</name>
+  </compound>
+  <compound refid="dir_1a6fe08b3913066b7886fb2bfe59c32f" kind="dir"><name>SOGLVA/src/Core/UI</name>
+  </compound>
+</doxygenindex>

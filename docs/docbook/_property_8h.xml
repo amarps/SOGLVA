@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__property_8h" xml:lang="en-US">
+<title>SOGLVA/src/Core/UI/Panels/Property.h File Reference</title>
+<indexterm><primary>SOGLVA/src/Core/UI/Panels/Property.h</primary></indexterm>
+<programlisting>#include &quot;Core/UI/IUIDrawable.h&quot;
+#include &quot;BasePanel.h&quot;
+</programlisting>Include dependency graph for Property.h:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_property_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+This graph shows which files directly or indirectly include this file:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_property_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property">SOGLVA::CORE::UI::PANEL::Property</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a">SOGLVA</link></para>
+</listitem>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a_1_1_c_o_r_e">SOGLVA::CORE</link></para>
+</listitem>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i">SOGLVA::CORE::UI</link></para>
+</listitem>
+            <listitem><para> <link linkend="_namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l">SOGLVA::CORE::UI::PANEL</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

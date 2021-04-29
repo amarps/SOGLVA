@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_s_o_g_l_v_a_1_1_c_o_r_e" kind="namespace" language="C++">
+    <compoundname>SOGLVA::CORE</compoundname>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g">SOGLVA::CORE::RENDERING</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e">SOGLVA::CORE::SCENE</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i">SOGLVA::CORE::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/Rendering/Rendering.cpp" line="3" column="1"/>
+  </compounddef>
+</doxygen>

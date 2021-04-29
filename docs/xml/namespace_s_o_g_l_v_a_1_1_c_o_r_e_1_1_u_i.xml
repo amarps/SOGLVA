@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i" kind="namespace" language="C++">
+    <compoundname>SOGLVA::CORE::UI</compoundname>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_i_u_i_drawable" prot="public">SOGLVA::CORE::UI::IUIDrawable</innerclass>
+    <innerclass refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system" prot="public">SOGLVA::CORE::UI::UISystem</innerclass>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l">SOGLVA::CORE::UI::PANEL</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/UI/IUIDrawable.h" line="3" column="1"/>
+  </compounddef>
+</doxygen>

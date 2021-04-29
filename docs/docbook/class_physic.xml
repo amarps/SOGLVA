@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_physic" xml:lang="en-US">
+<title>Physic Class Reference</title>
+<indexterm><primary>Physic</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Physic.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_physic_1a861135e64e4a93d7d119f822b8c5aed8">Physic</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_physic_1acfb6d16d80680c76d9b5f18b72f7ef78">Update</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_physic_1a34cfc9860bd0822bcc554dc9e076c9f0">~Physic</link> ()</para>
+</listitem>
+            <listitem><para>btRigidBody * <link linkend="_class_physic_1ae98e8248710cd8da03c49b089ff359e7">CreateSpehereRigidBody</link> (float radius, float x, float y, float z, float mass)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>btDynamicsWorld * <link linkend="_class_physic_1ab33d801d033fd56221217c505a64c9c6">m_world</link></para>
+</listitem>
+            <listitem><para>btDispatcher * <link linkend="_class_physic_1a72aaec2b6fdb8fad4af43422c858331d">m_dispatcher</link></para>
+</listitem>
+            <listitem><para>btCollisionConfiguration * <link linkend="_class_physic_1ab4873f4a524afc6f40748dbf91c8804e">m_collisionConfig</link></para>
+</listitem>
+            <listitem><para>btBroadphaseInterface * <link linkend="_class_physic_1a1adf6db5cced5d471a7d61c5fdaf5c21">m_broadPhase</link></para>
+</listitem>
+            <listitem><para>btConstraintSolver * <link linkend="_class_physic_1aaf0e30a78f4af73f106d20c3ea798d3d">m_solver</link></para>
+</listitem>
+            <listitem><para>btVector3 <link linkend="_class_physic_1a1359aa4b680fbaa314ca256840512be6">m_gravitation</link></para>
+</listitem>
+            <listitem><para>std::vector&lt; btRigidBody * &gt; <link linkend="_class_physic_1a3b8d5c600398b02950a759eb55a012a5">m_rigidBodies</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 6 of file Physic.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_physic_1a861135e64e4a93d7d119f822b8c5aed8"/>    <section>
+    <title>Physic()</title>
+<indexterm><primary>Physic</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>Physic</secondary></indexterm>
+<para><computeroutput>Physic::Physic ( )</computeroutput></para><para>
+Definition at line 3 of file Physic.cpp.</para>
+    </section><anchor xml:id="_class_physic_1a34cfc9860bd0822bcc554dc9e076c9f0"/>    <section>
+    <title>~Physic()</title>
+<indexterm><primary>~Physic</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>~Physic</secondary></indexterm>
+<para><computeroutput>Physic::~Physic ( )</computeroutput></para><para>
+Definition at line 23 of file Physic.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_physic_1ae98e8248710cd8da03c49b089ff359e7"/>    <section>
+    <title>CreateSpehereRigidBody()</title>
+<indexterm><primary>CreateSpehereRigidBody</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>CreateSpehereRigidBody</secondary></indexterm>
+<para><computeroutput>btRigidBody * Physic::CreateSpehereRigidBody (float radius, float x, float y, float z, float mass)</computeroutput></para><para>
+Definition at line 32 of file Physic.cpp.</para>
+    </section><anchor xml:id="_class_physic_1acfb6d16d80680c76d9b5f18b72f7ef78"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void Physic::Update ( )</computeroutput></para><para>
+Definition at line 18 of file Physic.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_physic_1a1adf6db5cced5d471a7d61c5fdaf5c21"/>    <section>
+    <title>m_broadPhase</title>
+<indexterm><primary>m_broadPhase</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_broadPhase</secondary></indexterm>
+<para><computeroutput>btBroadphaseInterface* Physic::m_broadPhase</computeroutput></para><para>
+Definition at line 12 of file Physic.h.</para>
+    </section><anchor xml:id="_class_physic_1ab4873f4a524afc6f40748dbf91c8804e"/>    <section>
+    <title>m_collisionConfig</title>
+<indexterm><primary>m_collisionConfig</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_collisionConfig</secondary></indexterm>
+<para><computeroutput>btCollisionConfiguration* Physic::m_collisionConfig</computeroutput></para><para>
+Definition at line 11 of file Physic.h.</para>
+    </section><anchor xml:id="_class_physic_1a72aaec2b6fdb8fad4af43422c858331d"/>    <section>
+    <title>m_dispatcher</title>
+<indexterm><primary>m_dispatcher</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_dispatcher</secondary></indexterm>
+<para><computeroutput>btDispatcher* Physic::m_dispatcher</computeroutput></para><para>
+Definition at line 10 of file Physic.h.</para>
+    </section><anchor xml:id="_class_physic_1a1359aa4b680fbaa314ca256840512be6"/>    <section>
+    <title>m_gravitation</title>
+<indexterm><primary>m_gravitation</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_gravitation</secondary></indexterm>
+<para><computeroutput>btVector3 Physic::m_gravitation</computeroutput></para><para>
+Definition at line 14 of file Physic.h.</para>
+    </section><anchor xml:id="_class_physic_1a3b8d5c600398b02950a759eb55a012a5"/>    <section>
+    <title>m_rigidBodies</title>
+<indexterm><primary>m_rigidBodies</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_rigidBodies</secondary></indexterm>
+<para><computeroutput>std::vector&lt;btRigidBody*&gt; Physic::m_rigidBodies</computeroutput></para><para>
+Definition at line 15 of file Physic.h.</para>
+    </section><anchor xml:id="_class_physic_1aaf0e30a78f4af73f106d20c3ea798d3d"/>    <section>
+    <title>m_solver</title>
+<indexterm><primary>m_solver</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_solver</secondary></indexterm>
+<para><computeroutput>btConstraintSolver* Physic::m_solver</computeroutput></para><para>
+Definition at line 13 of file Physic.h.</para>
+    </section><anchor xml:id="_class_physic_1ab33d801d033fd56221217c505a64c9c6"/>    <section>
+    <title>m_world</title>
+<indexterm><primary>m_world</primary><secondary>Physic</secondary></indexterm>
+<indexterm><primary>Physic</primary><secondary>m_world</secondary></indexterm>
+<para><computeroutput>btDynamicsWorld* Physic::m_world</computeroutput></para><para>
+Definition at line 9 of file Physic.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Components/<link linkend="__physic_8h">Physic.h</link>SOGLVA/src/Components/<link linkend="__physic_8cpp">Physic.cpp</link></section>
+</section>

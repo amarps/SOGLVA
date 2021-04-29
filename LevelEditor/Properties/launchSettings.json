@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LevelEditor": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

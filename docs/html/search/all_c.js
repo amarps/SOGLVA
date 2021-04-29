@@ -1,0 +1,17 @@
+var searchData=
+[
+  ['name_92',['name',['../class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene.html#a5cd3a250a7817af0664ee51123351f20',1,'SOGLVA::CORE::SCENE::Scene::name()'],['../class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel.html#ab6184fd0d09eabee879777e3d1e15d28',1,'SOGLVA::CORE::UI::PANEL::BasePanel::name()'],['../class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_managed_object.html#a8c56f002df800e5a34f64abf29ec9956',1,'SOGLVA::MANAGED_OBJECT::ManagedObject::name()']]],
+  ['nk_5fglfw_5fgl3_5fimplementation_93',['NK_GLFW_GL3_IMPLEMENTATION',['../_a_p_i_8cpp.html#afcbe59ecb36abfe68316d9e74d5889b8',1,'API.cpp']]],
+  ['nk_5fimplementation_94',['NK_IMPLEMENTATION',['../_a_p_i_8cpp.html#aae11ce91efbb99ec40b279ddc84c050f',1,'API.cpp']]],
+  ['nk_5finclude_5fdefault_5fallocator_95',['NK_INCLUDE_DEFAULT_ALLOCATOR',['../_a_p_i_8cpp.html#adf1c808d169071b73cb46f7538bf1721',1,'NK_INCLUDE_DEFAULT_ALLOCATOR():&#160;API.cpp'],['../_nuklear_import_8h.html#adf1c808d169071b73cb46f7538bf1721',1,'NK_INCLUDE_DEFAULT_ALLOCATOR():&#160;NuklearImport.h']]],
+  ['nk_5finclude_5fdefault_5ffont_96',['NK_INCLUDE_DEFAULT_FONT',['../_a_p_i_8cpp.html#af0847faa9e18a4865944c2f5fb093be0',1,'NK_INCLUDE_DEFAULT_FONT():&#160;API.cpp'],['../_nuklear_import_8h.html#af0847faa9e18a4865944c2f5fb093be0',1,'NK_INCLUDE_DEFAULT_FONT():&#160;NuklearImport.h']]],
+  ['nk_5finclude_5ffixed_5ftypes_97',['NK_INCLUDE_FIXED_TYPES',['../_a_p_i_8cpp.html#a4e30c99b0f20f7155adebf2cb2219b03',1,'NK_INCLUDE_FIXED_TYPES():&#160;API.cpp'],['../_nuklear_import_8h.html#a4e30c99b0f20f7155adebf2cb2219b03',1,'NK_INCLUDE_FIXED_TYPES():&#160;NuklearImport.h']]],
+  ['nk_5finclude_5ffont_5fbaking_98',['NK_INCLUDE_FONT_BAKING',['../_a_p_i_8cpp.html#a7ad0c2aa5bf98a3302a170b7ce2fb9d2',1,'NK_INCLUDE_FONT_BAKING():&#160;API.cpp'],['../_nuklear_import_8h.html#a7ad0c2aa5bf98a3302a170b7ce2fb9d2',1,'NK_INCLUDE_FONT_BAKING():&#160;NuklearImport.h']]],
+  ['nk_5finclude_5fstandard_5fio_99',['NK_INCLUDE_STANDARD_IO',['../_a_p_i_8cpp.html#a2ab99de094ad4c244260062426e5caa0',1,'NK_INCLUDE_STANDARD_IO():&#160;API.cpp'],['../_nuklear_import_8h.html#a2ab99de094ad4c244260062426e5caa0',1,'NK_INCLUDE_STANDARD_IO():&#160;NuklearImport.h']]],
+  ['nk_5finclude_5fstandard_5fvarargs_100',['NK_INCLUDE_STANDARD_VARARGS',['../_a_p_i_8cpp.html#a13b5abd58c2a82dcf6a5f7ddfcf112aa',1,'NK_INCLUDE_STANDARD_VARARGS():&#160;API.cpp'],['../_nuklear_import_8h.html#a13b5abd58c2a82dcf6a5f7ddfcf112aa',1,'NK_INCLUDE_STANDARD_VARARGS():&#160;NuklearImport.h']]],
+  ['nk_5finclude_5fvertex_5fbuffer_5foutput_101',['NK_INCLUDE_VERTEX_BUFFER_OUTPUT',['../_a_p_i_8cpp.html#ac67be0ee8bc7f08530c891cbfa14b788',1,'NK_INCLUDE_VERTEX_BUFFER_OUTPUT():&#160;API.cpp'],['../_nuklear_import_8h.html#ac67be0ee8bc7f08530c891cbfa14b788',1,'NK_INCLUDE_VERTEX_BUFFER_OUTPUT():&#160;NuklearImport.h']]],
+  ['nk_5fkeystate_5fbased_5finput_102',['NK_KEYSTATE_BASED_INPUT',['../_a_p_i_8cpp.html#a9555e340b124951b3323becad26b15c5',1,'NK_KEYSTATE_BASED_INPUT():&#160;API.cpp'],['../_nuklear_import_8h.html#a9555e340b124951b3323becad26b15c5',1,'NK_KEYSTATE_BASED_INPUT():&#160;NuklearImport.h']]],
+  ['nominmax_103',['NOMINMAX',['../_rendering_def_8h.html#a9f918755b601cf4bffca775992e6fb90',1,'RenderingDef.h']]],
+  ['normal_104',['Normal',['../struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex.html#ac516a95167e427a2cd187bc617dd460d',1,'SOGLVA::MANAGED_OBJECT::COMPONENT::Vertex']]],
+  ['nuklearimport_2eh_105',['NuklearImport.h',['../_nuklear_import_8h.html',1,'']]]
+];

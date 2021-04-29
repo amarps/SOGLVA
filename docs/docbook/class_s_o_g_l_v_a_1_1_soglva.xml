@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_soglva" xml:lang="en-US">
+<title>SOGLVA::Soglva Class Reference</title>
+<indexterm><primary>SOGLVA::Soglva</primary></indexterm>
+<para>
+<computeroutput>#include &lt;SOGLVA.h&gt;</computeroutput>
+</para>
+Collaboration diagram for SOGLVA::Soglva:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_soglva__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_soglva_1a3bdd9f32b910ac66cb78a5def8dfef88">Soglva</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_soglva_1af1345ce2bf6c65401fde8a06b462c62a">~Soglva</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2">Initialize</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd">Run</link> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988">IsQuit</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::unique_ptr&lt; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">CORE::RENDERING::Rendering</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b">rendering</link></para>
+</listitem>
+            <listitem><para>std::unique_ptr&lt; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system">CORE::UI::UISystem</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe">ui</link></para>
+</listitem>
+            <listitem><para>std::unique_ptr&lt; <link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager">CORE::SCENE::SceneManager</link> &gt; <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c">sceneManager</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43">m_quit</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 8 of file SOGLVA.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1a3bdd9f32b910ac66cb78a5def8dfef88"/>    <section>
+    <title>Soglva()</title>
+<indexterm><primary>Soglva</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>Soglva</secondary></indexterm>
+<para><computeroutput>SOGLVA::Soglva::Soglva ( )</computeroutput></para><para>
+Definition at line 8 of file SOGLVA.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1af1345ce2bf6c65401fde8a06b462c62a"/>    <section>
+    <title>~Soglva()</title>
+<indexterm><primary>~Soglva</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>~Soglva</secondary></indexterm>
+<para><computeroutput>SOGLVA::Soglva::~Soglva ( )</computeroutput></para><para>
+Definition at line 12 of file SOGLVA.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1a24f1b409ca27ccf341480ee8ba64c7b2"/>    <section>
+    <title>Initialize()</title>
+<indexterm><primary>Initialize</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>Initialize</secondary></indexterm>
+<para><computeroutput>void SOGLVA::Soglva::Initialize ( )</computeroutput></para><para>
+Definition at line 20 of file SOGLVA.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1a5fd1fa4817a6330dbb4e84e0e2828988"/>    <section>
+    <title>IsQuit()</title>
+<indexterm><primary>IsQuit</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>IsQuit</secondary></indexterm>
+<para><computeroutput>bool SOGLVA::Soglva::IsQuit ( )</computeroutput></para><para>
+Definition at line 29 of file SOGLVA.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1aed3a182305d3f747617f7e6d1ae247bd"/>    <section>
+    <title>Run()</title>
+<indexterm><primary>Run</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>Run</secondary></indexterm>
+<para><computeroutput>void SOGLVA::Soglva::Run ( )</computeroutput></para><para>
+Definition at line 34 of file SOGLVA.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_soglva_aed3a182305d3f747617f7e6d1ae247bd_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1ae1ea9637f20e980115a3ab30c0e70f43"/>    <section>
+    <title>m_quit</title>
+<indexterm><primary>m_quit</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>m_quit</secondary></indexterm>
+<para><computeroutput>bool SOGLVA::Soglva::m_quit<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file SOGLVA.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1ae7eea1cad5e699d5a9e13f5c215bb91b"/>    <section>
+    <title>rendering</title>
+<indexterm><primary>rendering</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>rendering</secondary></indexterm>
+<para><computeroutput>std::unique_ptr&lt;<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering">CORE::RENDERING::Rendering</link>&gt; SOGLVA::Soglva::rendering</computeroutput></para><para>
+Definition at line 14 of file SOGLVA.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1a11ab3f554752f00d5f76a3e40d52f67c"/>    <section>
+    <title>sceneManager</title>
+<indexterm><primary>sceneManager</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>sceneManager</secondary></indexterm>
+<para><computeroutput>std::unique_ptr&lt;<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager">CORE::SCENE::SceneManager</link>&gt; SOGLVA::Soglva::sceneManager</computeroutput></para><para>
+Definition at line 16 of file SOGLVA.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_soglva_1a16bb2f2da495416fa0d59c2bcb0580fe"/>    <section>
+    <title>ui</title>
+<indexterm><primary>ui</primary><secondary>SOGLVA::Soglva</secondary></indexterm>
+<indexterm><primary>SOGLVA::Soglva</primary><secondary>ui</secondary></indexterm>
+<para><computeroutput>std::unique_ptr&lt;<link linkend="_class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system">CORE::UI::UISystem</link>&gt; SOGLVA::Soglva::ui</computeroutput></para><para>
+Definition at line 15 of file SOGLVA.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/<link linkend="__s_o_g_l_v_a_8h">SOGLVA.h</link>SOGLVA/src/<link linkend="__s_o_g_l_v_a_8cpp">SOGLVA.cpp</link></section>
+</section>

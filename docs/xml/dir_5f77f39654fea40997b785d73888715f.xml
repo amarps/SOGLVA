@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_5f77f39654fea40997b785d73888715f" kind="dir">
+    <compoundname>SOGLVA/src/ManagedObject/Components</compoundname>
+    <innerdir refid="dir_51b83b55384cafef5ab440cca5d1a94e">SOGLVA/src/ManagedObject/Components/Graphics</innerdir>
+    <innerdir refid="dir_8b4168203b5f12743d70f178dccc384d">SOGLVA/src/ManagedObject/Components/Lighting</innerdir>
+    <innerfile refid="_camera_8cpp">Camera.cpp</innerfile>
+    <innerfile refid="_camera_8h">Camera.h</innerfile>
+    <innerfile refid="_i_component_8h">IComponent.h</innerfile>
+    <innerfile refid="_physic_8cpp">Physic.cpp</innerfile>
+    <innerfile refid="_physic_8h">Physic.h</innerfile>
+    <innerfile refid="_transform_8cpp">Transform.cpp</innerfile>
+    <innerfile refid="_transform_8h">Transform.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/ManagedObject/Components/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_lighting" kind="class" language="C++" prot="public">
+    <compoundname>Lighting</compoundname>
+    <basecompoundref refid="class_i_component" prot="public" virt="non-virtual">IComponent</basecompoundref>
+    <includes refid="_directional_light_8h" local="no">DirectionalLight.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_lighting_1af2e1401d879690573e2948c2501c20de" prot="public" static="no" mutable="no">
+        <type><ref refid="class_transform" kindref="compound">Transform</ref></type>
+        <definition>Transform Lighting::transform</definition>
+        <argsstring></argsstring>
+        <name>transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="10" column="15" bodyfile="SOGLVA/src/Components/Lighting/DirectionalLight.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lighting_1a50d023ecfa6bdec67f73bfb69078dc51" prot="public" static="no" mutable="no">
+        <type><ref refid="class_shader" kindref="compound">Shader</ref></type>
+        <definition>Shader Lighting::shader</definition>
+        <argsstring></argsstring>
+        <name>shader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="13" column="12" bodyfile="SOGLVA/src/Components/Lighting/DirectionalLight.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lighting_1aed949fdcbbaec870d80322ba906cee7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Lighting::Draw</definition>
+        <argsstring>(Shader &amp;shader)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type><ref refid="class_shader" kindref="compound">Shader</ref> &amp;</type>
+          <declname>shader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="16" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lighting_1a35b6d07e728058d226482e498cf7b9a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Lighting::Start</definition>
+        <argsstring>() override</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_i_component_1aafe8463918f6aa9126c690e09a9c6d9a">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="18" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lighting_1abe1db17a66cb2eedca2ccd3300f24438" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Lighting::Update</definition>
+        <argsstring>() override</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_i_component_1ae7556b0967bcf83bd53878f430f9c234">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="20" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lighting_1a38e76ce91dd222fa228c6ee01eb424a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Lighting::Exit</definition>
+        <argsstring>() override</argsstring>
+        <name>Exit</name>
+        <reimplements refid="class_i_component_1a559e400d4e90ecdda87c65761ef5fda1">Exit</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="22" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Lighting</label>
+        <link refid="class_lighting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Transform</label>
+        <link refid="class_transform"/>
+      </node>
+      <node id="1">
+        <label>Lighting</label>
+        <link refid="class_lighting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>shader</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>transform</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Shader</label>
+        <link refid="class_shader"/>
+      </node>
+      <node id="2">
+        <label>IComponent</label>
+        <link refid="class_i_component"/>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Components/Lighting/DirectionalLight.h" line="6" column="1" bodyfile="SOGLVA/src/Components/Lighting/DirectionalLight.h" bodystart="7" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_lighting_1aed949fdcbbaec870d80322ba906cee7a" prot="public" virt="non-virtual"><scope>Lighting</scope><name>Draw</name></member>
+      <member refid="class_lighting_1a38e76ce91dd222fa228c6ee01eb424a5" prot="public" virt="virtual"><scope>Lighting</scope><name>Exit</name></member>
+      <member refid="class_lighting_1a50d023ecfa6bdec67f73bfb69078dc51" prot="public" virt="non-virtual"><scope>Lighting</scope><name>shader</name></member>
+      <member refid="class_lighting_1a35b6d07e728058d226482e498cf7b9a1" prot="public" virt="virtual"><scope>Lighting</scope><name>Start</name></member>
+      <member refid="class_lighting_1af2e1401d879690573e2948c2501c20de" prot="public" virt="non-virtual"><scope>Lighting</scope><name>transform</name></member>
+      <member refid="class_lighting_1abe1db17a66cb2eedca2ccd3300f24438" prot="public" virt="virtual"><scope>Lighting</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

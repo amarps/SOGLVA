@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::CORE::SCENE::SceneManager</compoundname>
+    <includes refid="_scene_manager_8h" local="no">SceneManager.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kindref="compound">Scene</ref> *</type>
+        <definition>Scene* SOGLVA::CORE::SCENE::SceneManager::currentScene</definition>
+        <argsstring></argsstring>
+        <name>currentScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="11" column="7" bodyfile="SOGLVA/src/Core/Scene/SceneManager.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" prot="public" static="no" mutable="no">
+        <type>std::map&lt; std::string, <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kindref="compound">Scene</ref> * &gt;</type>
+        <definition>std::map&lt;std::string, Scene*&gt; SOGLVA::CORE::SCENE::SceneManager::scenes</definition>
+        <argsstring></argsstring>
+        <name>scenes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="14" column="10" bodyfile="SOGLVA/src/Core/Scene/SceneManager.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::CORE::SCENE::SceneManager::ChangeCurrentScene</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>ChangeCurrentScene</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="16" column="6" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="5" bodyend="8"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" compoundref="_scene_manager_8h" startline="11">currentScene</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" compoundref="_scene_manager_8h" startline="14">scenes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1ab89caee04af8a2b82dd263ec01128bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kindref="compound">Scene</ref> *</type>
+        <definition>Scene * SOGLVA::CORE::SCENE::SceneManager::GetCurrentScene</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="18" column="7" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="10" bodyend="13"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" compoundref="_scene_manager_8h" startline="11">currentScene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a4a7d37ebb746ebe58cf2c3a1442bf4c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::CORE::SCENE::SceneManager::CreateScene</definition>
+        <argsstring>(std::string name=&quot;Default Scene&quot;)</argsstring>
+        <name>CreateScene</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+          <defval>&quot;Default <ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene" kindref="compound">Scene</ref>&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="20" column="6" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="15" bodyend="22"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c" compoundref="_scene_manager_8cpp" startline="5" endline="8">ChangeCurrentScene</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" compoundref="_scene_manager_8h" startline="14">scenes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a584b15b4ba51a332cd8c1a24bc12d9fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SOGLVA::CORE::SCENE::SceneManager::DeleteScene</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>DeleteScene</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="22" column="6" bodyfile="SOGLVA/src/Core/Scene/SceneManager.cpp" bodystart="24" bodyend="27"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" compoundref="_scene_manager_8h" startline="14">scenes</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="14">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::Texture &gt;</label>
+      </node>
+      <node id="3">
+        <label>SOGLVA::CORE::SCENE::Scene</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+managedObjects</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+cubeModel</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+name</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>+RBspehere</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>+physic</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component"/>
+      </node>
+      <node id="5">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Model</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+shader</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>+transform</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>+textures_loaded</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>+flipUV</edgelabel>
+          <edgelabel>+gammaCorrection</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>+directory</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>+meshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::SCENE::SceneManager</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+scenes</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-currentScene</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>btCollisionConfiguration *</label>
+      </node>
+      <node id="2">
+        <label>map&lt; std::string, SOGLVA::CORE::SCENE::Scene * &gt;</label>
+      </node>
+      <node id="4">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::ManagedObject * &gt;</label>
+      </node>
+      <node id="7">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Shader</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>-use_lib</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>-fragmentCode</edgelabel>
+          <edgelabel>-libfragmentCode</edgelabel>
+          <edgelabel>-libvertexCode</edgelabel>
+          <edgelabel>-vertexCode</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>+ID</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Transform</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>+transformMatrix</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>-position</edgelabel>
+          <edgelabel>-rotation</edgelabel>
+          <edgelabel>-scaling</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>vec3</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+      <node id="22">
+        <label>vector&lt; btRigidBody * &gt;</label>
+      </node>
+      <node id="16">
+        <label>btRigidBody *</label>
+      </node>
+      <node id="19">
+        <label>btDispatcher *</label>
+      </node>
+      <node id="17">
+        <label>SOGLVA::MANAGED_OBJECT::COMPONENT::Physic</label>
+        <link refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic"/>
+        <childnode refid="18" relation="usage">
+          <edgelabel>+m_solver</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>+m_dispatcher</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>+m_gravitation</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>+m_world</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>+m_rigidBodies</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>+m_collisionConfig</edgelabel>
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>+m_broadPhase</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>vector&lt; SOGLVA::MANAGED_OBJECT::COMPONENT::Mesh &gt;</label>
+      </node>
+      <node id="18">
+        <label>btConstraintSolver *</label>
+      </node>
+      <node id="10">
+        <label>unsigned int</label>
+      </node>
+      <node id="20">
+        <label>btVector3</label>
+      </node>
+      <node id="24">
+        <label>btBroadphaseInterface *</label>
+      </node>
+      <node id="8">
+        <label>bool</label>
+      </node>
+      <node id="21">
+        <label>btDynamicsWorld *</label>
+      </node>
+      <node id="12">
+        <label>mat4</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/Scene/SceneManager.h" line="8" column="1" bodyfile="SOGLVA/src/Core/Scene/SceneManager.h" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a8e7c629f6dc5c6f29529f90ea0974c6c" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::SceneManager</scope><name>ChangeCurrentScene</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a4a7d37ebb746ebe58cf2c3a1442bf4c6" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::SceneManager</scope><name>CreateScene</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a45d963a17bb7668ae0152422e0aa4db5" prot="private" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::SceneManager</scope><name>currentScene</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a584b15b4ba51a332cd8c1a24bc12d9fb" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::SceneManager</scope><name>DeleteScene</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1ab89caee04af8a2b82dd263ec01128bca" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::SceneManager</scope><name>GetCurrentScene</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_manager_1a3ce846222be179b4da46619803e6820a" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::SCENE::SceneManager</scope><name>scenes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

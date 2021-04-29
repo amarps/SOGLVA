@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT Namespace Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera">Camera</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_texture">Texture</link></para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_vertex">Vertex</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_mesh">Mesh</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model">Model</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader">Shader</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component">IComponent</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_lighting">Lighting</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic">Physic</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform">Transform</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>unsigned int <link linkend="_namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641">TextureFromFile</link> (const char *path, const std::string &amp;directory, bool gamma)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1a851772de86429575172fc78db19ec641"/>    <section>
+    <title>TextureFromFile()</title>
+<indexterm><primary>TextureFromFile</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT</primary><secondary>TextureFromFile</secondary></indexterm>
+<para><computeroutput>unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::TextureFromFile (const char * path, const std::string &amp; directory, bool gamma)</computeroutput></para><para>
+Definition at line 92 of file Mesh.cpp.</para>
+</section>
+</section>
+</section>

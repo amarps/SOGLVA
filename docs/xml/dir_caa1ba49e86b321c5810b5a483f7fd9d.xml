@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_caa1ba49e86b321c5810b5a483f7fd9d" kind="dir">
+    <compoundname>SOGLVA/src/Components/Graphics</compoundname>
+    <innerfile refid="_mesh_8cpp">Mesh.cpp</innerfile>
+    <innerfile refid="_mesh_8h">Mesh.h</innerfile>
+    <innerfile refid="_model_8cpp">Model.cpp</innerfile>
+    <innerfile refid="_model_8h">Model.h</innerfile>
+    <innerfile refid="_shader_8cpp">Shader.cpp</innerfile>
+    <innerfile refid="_shader_8h">Shader.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Components/Graphics/"/>
+  </compounddef>
+</doxygen>

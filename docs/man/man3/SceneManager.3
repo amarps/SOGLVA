@@ -1,0 +1,64 @@
+.TH "SceneManager" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SceneManager
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <SceneManager\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBChangeCurrentScene\fP (const char *name)"
+.br
+.ti -1c
+.RI "\fBScene\fP * \fBGetCurrentScene\fP ()"
+.br
+.ti -1c
+.RI "void \fBCreateScene\fP (std::string name='Default \fBScene\fP')"
+.br
+.ti -1c
+.RI "void \fBDeleteScene\fP (const char *name)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::map< std::string, \fBScene\fP * > \fBscenes\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file SceneManager\&.h\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SceneManager::ChangeCurrentScene (const char * name)"
+
+.PP
+Definition at line 3 of file SceneManager\&.cpp\&.
+.SS "void SceneManager::CreateScene (std::string name = \fC'Default \fBScene\fP'\fP)"
+
+.PP
+Definition at line 13 of file SceneManager\&.cpp\&.
+.SS "void SceneManager::DeleteScene (const char * name)"
+
+.PP
+Definition at line 22 of file SceneManager\&.cpp\&.
+.SS "\fBScene\fP * SceneManager::GetCurrentScene ()"
+
+.PP
+Definition at line 8 of file SceneManager\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::map<std::string, \fBScene\fP*> SceneManager::scenes"
+
+.PP
+Definition at line 11 of file SceneManager\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

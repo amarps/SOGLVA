@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_scene_8cpp" kind="file" language="C++">
+    <compoundname>Scene.cpp</compoundname>
+    <includes refid="_scene_8h" local="yes">Scene.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Scene.h</label>
+        <link refid="_scene_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>glm/ext/matrix_transform.hpp</label>
+      </node>
+      <node id="26">
+        <label>Components/Physic.h</label>
+        <link refid="_physic_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ManagedObject/ManagedObject.h</label>
+        <link refid="_managed_object_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Windows.h</label>
+      </node>
+      <node id="12">
+        <label>shader.h</label>
+        <link refid="_shader_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="15">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="11">
+        <label>Components/Graphics/Mesh.h</label>
+        <link refid="_mesh_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Components/Graphics/Model.h</label>
+        <link refid="_model_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="18">
+        <label>glm/gtc/type_ptr.hpp</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/Scene/Scene.cpp</label>
+        <link refid="_scene_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>vector</label>
+      </node>
+      <node id="27">
+        <label>bullet/btBulletDynamicsCommon.h</label>
+      </node>
+      <node id="23">
+        <label>assimp/scene.h</label>
+      </node>
+      <node id="5">
+        <label>Components/Camera.h</label>
+        <link refid="_camera_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>assimp/postprocess.h</label>
+      </node>
+      <node id="10">
+        <label>glm/gtc/matrix_transform.hpp</label>
+      </node>
+      <node id="20">
+        <label>stb_image.h</label>
+      </node>
+      <node id="9">
+        <label>Components/Transform.h</label>
+        <link refid="_transform_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Core/Rendering/RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>set</label>
+      </node>
+      <node id="8">
+        <label>gl/glew.h</label>
+      </node>
+      <node id="22">
+        <label>assimp/Importer.hpp</label>
+      </node>
+      <node id="4">
+        <label>Components/IComponent.h</label>
+        <link refid="_i_component_8h"/>
+      </node>
+      <node id="6">
+        <label>glm/glm.hpp</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_s_o_g_l_v_a">SOGLVA</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e">SOGLVA::CORE</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e">SOGLVA::CORE::SCENE</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_scene_8h" kindref="compound">Scene.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e" kindref="compound">SOGLVA::CORE::SCENE</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a3f9acfb9b6873d0170e6aef2ecae916b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a3f9acfb9b6873d0170e6aef2ecae916b" kindref="member">Scene::Scene</ref>(std::string<sp/>_name)<sp/>:name(_name)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Mobject<sp/>=<sp/><ref refid="namespace_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t" kindref="compound">SOGLVA::MANAGED_OBJECT</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cube<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Mobject::ManagedObject();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>plane<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Mobject::ManagedObject();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Mobject::COMPONENT::Model(</highlight><highlight class="stringliteral">&quot;resources/objects/primitive/cube.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e" kindref="member">shader</ref><sp/>=<sp/>Mobject::COMPONENT::Shader(</highlight><highlight class="stringliteral">&quot;resources/shaders/object/Unlit.vs&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;resources/shaders/object/unlit.fs&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e" kindref="member">shader</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1abc73763addad4935c6b0da13543dafd8" kindref="member">setVec4</ref>(</highlight><highlight class="stringliteral">&quot;in_Tint&quot;</highlight><highlight class="normal">,<sp/>glm::vec4(0.5f,<sp/>0.5f,<sp/>1.0f,<sp/>1.0f));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>planeModel<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Mobject::COMPONENT::Model(</highlight><highlight class="stringliteral">&quot;resources/objects/primitive/plane/plane.obj&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeModel-&gt;shader<sp/>=<sp/>Mobject::COMPONENT::Shader(</highlight><highlight class="stringliteral">&quot;resources/shaders/object/Unlit.vs&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;resources/shaders/default/gridPlane.fs&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1ac8d8504450e1792d25fe0ce7b0711a7e" kindref="member">shader</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_shader_1abc73763addad4935c6b0da13543dafd8" kindref="member">setVec4</ref>(</highlight><highlight class="stringliteral">&quot;in_Tint&quot;</highlight><highlight class="normal">,<sp/>glm::vec4(1.0f,<sp/>0.5f,<sp/>1.0f,<sp/>1.0f));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>planeModel-&gt;transform.Scale(glm::vec3(1000.0f));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" kindref="member">transform</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a59d2bd380bd601809a49086b0e2f698d" kindref="member">Translate</ref>(glm::vec3(0,<sp/>90,<sp/>-10));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>plane-&gt;components.insert(planeModel);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cube-&gt;components.insert(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>physic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btTransform<sp/>plane_phys_trans;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>plane_phys_trans.setIdentity();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>plane_phys_trans.setOrigin(btVector3(0,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btStaticPlaneShape*<sp/>plane_phys_shape<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>btStaticPlaneShape(btVector3(0,<sp/>1,<sp/>0),<sp/>0);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btMotionState*<sp/>motion<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>btDefaultMotionState(plane_phys_trans);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>rigidbody</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btRigidBody::btRigidBodyConstructionInfo<sp/>info(0.0f,<sp/>motion,<sp/>plane_phys_shape);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btRigidBody*<sp/>body<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>btRigidBody(info);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" kindref="member">RBspehere</ref><sp/>=<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" kindref="member">physic</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a2c6bf6c13c94b305272ef085e28a13a7" kindref="member">CreateSpehereRigidBody</ref>(3,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" kindref="member">transform</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208" kindref="member">getPosition</ref>().x,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" kindref="member">transform</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208" kindref="member">getPosition</ref>().y,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" kindref="member">transform</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1a43ca822514cbd31b88d51046023c8208" kindref="member">getPosition</ref>().z,<sp/>1);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>setup<sp/>world</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" kindref="member">physic</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1ad23f20cf2d8fe9bcfcd73194a136b211" kindref="member">m_rigidBodies</ref>.push_back(body);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" kindref="member">physic</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" kindref="member">m_world</ref>-&gt;addRigidBody(body);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" kindref="member">physic</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" kindref="member">m_world</ref>-&gt;addRigidBody(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" kindref="member">RBspehere</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" kindref="member">managedObjects</ref>.push_back(plane);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" kindref="member">managedObjects</ref>.push_back(cube);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a4c36c3a01e1163548b41d9c7c87b7158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a4c36c3a01e1163548b41d9c7c87b7158" kindref="member">Scene::~Scene</ref>()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>mObj<sp/>:<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" kindref="member">managedObjects</ref>)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>mObj;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" kindref="member">managedObjects</ref>.clear();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1acf795615e11c0097a490daea4c304979" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1acf795615e11c0097a490daea4c304979" kindref="member">Scene::Update</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1ace9756491c2e83ae0db6847c34309229" kindref="member">physic</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_physic_1a43c720e03b74c14e1a5cea1edea6e4e6" kindref="member">m_world</ref>-&gt;stepSimulation(1.0f<sp/>/<sp/>60.0f);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>mObj<sp/>:<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a22b4208adcd57b01b39850b5429cc6ee" kindref="member">managedObjects</ref>)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mObj-&gt;Update();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>btTransform<sp/>t;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1a1f7396faa64ac59bf9a8a7e5199e7be1" kindref="member">RBspehere</ref>-&gt;getMotionState()-&gt;getWorldTransform(t);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t.getOpenGLMatrix(glm::value_ptr(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_s_c_e_n_e_1_1_scene_1afa4083c54b7a14d17881c664d93b5b3a" kindref="member">cubeModel</ref>-&gt;<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_model_1acc72d05a73e1b0f8832bcebeb79791e5" kindref="member">transform</ref>.<ref refid="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_transform_1aa17ba8fc7dfcd04a74facaafbf35045c" kindref="member">transformMatrix</ref>));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/Core/Scene/Scene.cpp"/>
+  </compounddef>
+</doxygen>

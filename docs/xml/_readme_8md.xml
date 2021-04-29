@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_readme_8md" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">common:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>nuklearImport.h<sp/>:<sp/>simplify<sp/>nuklear<sp/>import</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>standard.h<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>define<sp/>standard<sp/>library</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">components:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Graphics:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Camera</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Transform</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">EventHandler:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>event</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">workflow:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>SOGLVA<sp/><sp/>-<sp/>RenderingSystem:<sp/>ISystem</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>UISystem<sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>ISystem</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>SceneSystem<sp/><sp/><sp/><sp/>:<sp/>ISystem</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="SOGLVA/Readme.md"/>
+  </compounddef>
+</doxygen>

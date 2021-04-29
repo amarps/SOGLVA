@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_1a6fe08b3913066b7886fb2bfe59c32f" xml:lang="en-US">
+<title>SOGLVA/src/Core/UI Directory Reference</title>
+<indexterm><primary>SOGLVA/src/Core/UI Directory Reference</primary></indexterm>
+Directory dependency graph for UI:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_1a6fe08b3913066b7886fb2bfe59c32f_dep.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_8989f69d5c4f4920eec819feb18e1812">Panels</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__i_u_i_drawable_8h">IUIDrawable.h</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__u_i_system_8cpp">UISystem.cpp</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__u_i_system_8h">UISystem.h</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

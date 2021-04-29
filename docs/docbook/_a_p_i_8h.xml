@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__a_p_i_8h" xml:lang="en-US">
+<title>SOGLVA/src/API.h File Reference</title>
+<indexterm><primary>SOGLVA/src/API.h</primary></indexterm>
+<programlisting>#include &quot;SOGLVA.h&quot;
+</programlisting>Include dependency graph for API.h:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+This graph shows which files directly or indirectly include this file:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link>   __declspec(dllimport)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>HWND <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> <link linkend="__a_p_i_8h_1a04cbf2821cbd3f8ba71425349db54ba4">SOGLVAInitialize</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> <link linkend="__a_p_i_8h_1a156c559c2d041016eecd1ea301cabe48">SOGLVARunApp</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> <link linkend="__a_p_i_8h_1aad4b020d35cc37900b5616ee3a85532e">SOGLVARestart</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> <link linkend="__a_p_i_8h_1a1a3eea41fab8cfd737fe31cfa090695e">SOGLVADestroy</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_s_o_g_l_v_a_1_1_soglva">SOGLVA::Soglva</link> * <link linkend="__a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538">application</link> = new <link linkend="_class_s_o_g_l_v_a_1_1_soglva">SOGLVA::Soglva</link>()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49"/>    <section>
+    <title>EXPORT</title>
+<indexterm><primary>EXPORT</primary><secondary>API.h</secondary></indexterm>
+<indexterm><primary>API.h</primary><secondary>EXPORT</secondary></indexterm>
+<para><computeroutput>#define EXPORT   __declspec(dllimport)</computeroutput></para><para>
+Definition at line 7 of file API.h.</para>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__a_p_i_8h_1a1a3eea41fab8cfd737fe31cfa090695e"/>    <section>
+    <title>SOGLVADestroy()</title>
+<indexterm><primary>SOGLVADestroy</primary><secondary>API.h</secondary></indexterm>
+<indexterm><primary>API.h</primary><secondary>SOGLVADestroy</secondary></indexterm>
+<para><computeroutput>void <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> SOGLVADestroy ( )</computeroutput></para><para>
+Definition at line 46 of file API.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8h_a1a3eea41fab8cfd737fe31cfa090695e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="__a_p_i_8h_1a04cbf2821cbd3f8ba71425349db54ba4"/>    <section>
+    <title>SOGLVAInitialize()</title>
+<indexterm><primary>SOGLVAInitialize</primary><secondary>API.h</secondary></indexterm>
+<indexterm><primary>API.h</primary><secondary>SOGLVAInitialize</secondary></indexterm>
+<para><computeroutput>HWND <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> SOGLVAInitialize ( )</computeroutput></para><para>
+Definition at line 28 of file API.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8h_a04cbf2821cbd3f8ba71425349db54ba4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="__a_p_i_8h_1aad4b020d35cc37900b5616ee3a85532e"/>    <section>
+    <title>SOGLVARestart()</title>
+<indexterm><primary>SOGLVARestart</primary><secondary>API.h</secondary></indexterm>
+<indexterm><primary>API.h</primary><secondary>SOGLVARestart</secondary></indexterm>
+<para><computeroutput>void <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> SOGLVARestart ( )</computeroutput></para>
+<para>not implemented</para>
+<para>
+Definition at line 40 of file API.cpp.</para>
+    </section><anchor xml:id="__a_p_i_8h_1a156c559c2d041016eecd1ea301cabe48"/>    <section>
+    <title>SOGLVARunApp()</title>
+<indexterm><primary>SOGLVARunApp</primary><secondary>API.h</secondary></indexterm>
+<indexterm><primary>API.h</primary><secondary>SOGLVARunApp</secondary></indexterm>
+<para><computeroutput>void <link linkend="__a_p_i_8h_1a3472d8cdbb788d5f1815b3522595bc49">EXPORT</link> SOGLVARunApp ( )</computeroutput></para><para>
+Definition at line 34 of file API.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_a_p_i_8h_a156c559c2d041016eecd1ea301cabe48_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="__a_p_i_8h_1aa8f628204f28cc45fa2489a1dd606538"/>    <section>
+    <title>application</title>
+<indexterm><primary>application</primary><secondary>API.h</secondary></indexterm>
+<indexterm><primary>API.h</primary><secondary>application</secondary></indexterm>
+<para><computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_soglva">SOGLVA::Soglva</link>* application = new <link linkend="_class_s_o_g_l_v_a_1_1_soglva">SOGLVA::Soglva</link>()<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 10 of file API.h.</para>
+</section>
+</section>
+</section>

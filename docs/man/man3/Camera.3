@@ -1,0 +1,246 @@
+.TH "Camera" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Camera
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Camera\&.h>\fP
+.PP
+Inherits \fBIComponent\fP\&.
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "enum \fBCamera_Movement\fP { \fBFORWARD\fP, \fBBACKWARD\fP, \fBLEFT\fP, \fBRIGHT\fP }"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCamera\fP (glm::vec3 position=glm::vec3(0\&.0f, 0\&.0f, 0\&.0f), glm::vec3 up=glm::vec3(0\&.0f, 1\&.0f, 0\&.0f), float yaw=\fBYAW\fP, float pitch=\fBPITCH\fP)"
+.br
+.ti -1c
+.RI "\fBCamera\fP (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)"
+.br
+.ti -1c
+.RI "glm::mat4 \fBGetViewMatrix\fP ()"
+.br
+.ti -1c
+.RI "void \fBProcessKeyboard\fP (\fBCamera_Movement\fP direction, float deltaTime)"
+.br
+.ti -1c
+.RI "void \fBProcessMouseMovement\fP (float xoffset, float yoffset, GLboolean constrainPitch=true)"
+.br
+.ti -1c
+.RI "void \fBProcessMouseScroll\fP (float yoffset)"
+.br
+.ti -1c
+.RI "virtual void \fBStart\fP () override"
+.br
+.ti -1c
+.RI "virtual void \fBUpdate\fP () override"
+.br
+.ti -1c
+.RI "virtual void \fBExit\fP () override"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBCamera\fP & \fBget\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "glm::vec3 \fBPosition\fP"
+.br
+.ti -1c
+.RI "glm::vec3 \fBFront\fP"
+.br
+.ti -1c
+.RI "glm::vec3 \fBUp\fP"
+.br
+.ti -1c
+.RI "glm::vec3 \fBRight\fP"
+.br
+.ti -1c
+.RI "glm::vec3 \fBWorldUp\fP"
+.br
+.ti -1c
+.RI "float \fBYaw\fP"
+.br
+.ti -1c
+.RI "float \fBPitch\fP"
+.br
+.ti -1c
+.RI "float \fBMovementSpeed\fP"
+.br
+.ti -1c
+.RI "float \fBMouseSensitivity\fP"
+.br
+.ti -1c
+.RI "float \fBZoom\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static const float \fBYAW\fP = \-90\&.0f"
+.br
+.ti -1c
+.RI "static const float \fBPITCH\fP = 0\&.0f"
+.br
+.ti -1c
+.RI "static const float \fBSPEED\fP = 5\&.5f"
+.br
+.ti -1c
+.RI "static const float \fBSENSITIVITY\fP = 0\&.1f"
+.br
+.ti -1c
+.RI "static const float \fBZOOM\fP = 45\&.0f"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 10 of file Camera\&.h\&.
+.SH "Member Enumeration Documentation"
+.PP 
+.SS "enum \fBCamera::Camera_Movement\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIFORWARD \fP\fP
+.TP
+\fB\fIBACKWARD \fP\fP
+.TP
+\fB\fILEFT \fP\fP
+.TP
+\fB\fIRIGHT \fP\fP
+.PP
+Definition at line 17 of file Camera\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Camera::Camera (glm::vec3 position = \fCglm::vec3(0\&.0f, 0\&.0f, 0\&.0f)\fP, glm::vec3 up = \fCglm::vec3(0\&.0f, 1\&.0f, 0\&.0f)\fP, float yaw = \fC\fBYAW\fP\fP, float pitch = \fC\fBPITCH\fP\fP)"
+
+.PP
+Definition at line 3 of file Camera\&.cpp\&.
+.SS "Camera::Camera (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)"
+
+.PP
+Definition at line 16 of file Camera\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Camera::Exit ()\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Implements \fBIComponent\fP\&.
+.PP
+Definition at line 89 of file Camera\&.cpp\&.
+.SS "static \fBCamera\fP& Camera::get ()\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 29 of file Camera\&.h\&.
+.SS "glm::mat4 Camera::GetViewMatrix ()\fC [inline]\fP"
+
+.PP
+Definition at line 58 of file Camera\&.h\&.
+.SS "void Camera::ProcessKeyboard (\fBCamera_Movement\fP direction, float deltaTime)"
+
+.PP
+Definition at line 25 of file Camera\&.cpp\&.
+.SS "void Camera::ProcessMouseMovement (float xoffset, float yoffset, GLboolean constrainPitch = \fCtrue\fP)"
+
+.PP
+Definition at line 47 of file Camera\&.cpp\&.
+.SS "void Camera::ProcessMouseScroll (float yoffset)"
+
+.PP
+Definition at line 38 of file Camera\&.cpp\&.
+.SS "void Camera::Start ()\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Implements \fBIComponent\fP\&.
+.PP
+Definition at line 81 of file Camera\&.cpp\&.
+.SS "void Camera::Update ()\fC [override]\fP, \fC [virtual]\fP"
+
+.PP
+Implements \fBIComponent\fP\&.
+.PP
+Definition at line 85 of file Camera\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "glm::vec3 Camera::Front"
+
+.PP
+Definition at line 37 of file Camera\&.h\&.
+.SS "float Camera::MouseSensitivity"
+
+.PP
+Definition at line 47 of file Camera\&.h\&.
+.SS "float Camera::MovementSpeed"
+
+.PP
+Definition at line 46 of file Camera\&.h\&.
+.SS "const float Camera::PITCH = 0\&.0f\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 25 of file Camera\&.h\&.
+.SS "float Camera::Pitch"
+
+.PP
+Definition at line 44 of file Camera\&.h\&.
+.SS "glm::vec3 Camera::Position"
+
+.PP
+Definition at line 36 of file Camera\&.h\&.
+.SS "glm::vec3 Camera::Right"
+
+.PP
+Definition at line 39 of file Camera\&.h\&.
+.SS "const float Camera::SENSITIVITY = 0\&.1f\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 27 of file Camera\&.h\&.
+.SS "const float Camera::SPEED = 5\&.5f\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 26 of file Camera\&.h\&.
+.SS "glm::vec3 Camera::Up"
+
+.PP
+Definition at line 38 of file Camera\&.h\&.
+.SS "glm::vec3 Camera::WorldUp"
+
+.PP
+Definition at line 40 of file Camera\&.h\&.
+.SS "const float Camera::YAW = \-90\&.0f\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 24 of file Camera\&.h\&.
+.SS "float Camera::Yaw"
+
+.PP
+Definition at line 43 of file Camera\&.h\&.
+.SS "const float Camera::ZOOM = 45\&.0f\fC [inline]\fP, \fC [static]\fP"
+
+.PP
+Definition at line 28 of file Camera\&.h\&.
+.SS "float Camera::Zoom"
+
+.PP
+Definition at line 48 of file Camera\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

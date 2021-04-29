@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_40b94d92348dbca1f0f0485cc885935b" kind="dir">
+    <compoundname>SOGLVA/src/Core/Scene</compoundname>
+    <innerfile refid="_scene_8cpp">Scene.cpp</innerfile>
+    <innerfile refid="_scene_8h">Scene.h</innerfile>
+    <innerfile refid="_scene_manager_8cpp">SceneManager.cpp</innerfile>
+    <innerfile refid="_scene_manager_8h">SceneManager.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SOGLVA/src/Core/Scene/"/>
+  </compounddef>
+</doxygen>

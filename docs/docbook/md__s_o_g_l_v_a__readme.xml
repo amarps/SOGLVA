@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__s_o_g_l_v_a__readme" xml:lang="en-US">
+
+<para>common: <link linkend="__nuklear_import_8h">nuklearImport.h</link> : simplify nuklear import standard.h : define standard library</para>
+
+<para>components: Graphics:<itemizedlist>
+<listitem>
+<para>Camera Transform</para>
+</listitem></itemizedlist>
+</para>
+
+<para>EventHandler: event</para>
+
+<para>workflow: <literallayout><computeroutput>SOGLVA  - RenderingSystem: ISystem
+        - UISystem       : ISystem
+        - SceneSystem    : ISystem
+</computeroutput></literallayout> </para>
+</section>

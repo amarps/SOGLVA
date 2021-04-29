@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_scene_manager" xml:lang="en-US">
+<title>SceneManager Class Reference</title>
+<indexterm><primary>SceneManager</primary></indexterm>
+<para>
+<computeroutput>#include &lt;SceneManager.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_scene_manager_1ad7a33600535b88f13e71d4d4f2b065c0">ChangeCurrentScene</link> (const char *name)</para>
+</listitem>
+            <listitem><para><link linkend="_class_scene">Scene</link> * <link linkend="_class_scene_manager_1aa12ac3807b8e59b815ec445c25fca5ae">GetCurrentScene</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_manager_1a6ddf2cc2c9f6902d3dc9318715b20d4c">CreateScene</link> (std::string name=&quot;Default <link linkend="_class_scene">Scene</link>&quot;)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_scene_manager_1a229dc2977144af1a4dd3e7ff6e593034">DeleteScene</link> (const char *name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::map&lt; std::string, <link linkend="_class_scene">Scene</link> * &gt; <link linkend="_class_scene_manager_1ab8338d52fbc9671a82f1bdafda13fe62">scenes</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 5 of file SceneManager.h.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_scene_manager_1ad7a33600535b88f13e71d4d4f2b065c0"/>    <section>
+    <title>ChangeCurrentScene()</title>
+<indexterm><primary>ChangeCurrentScene</primary><secondary>SceneManager</secondary></indexterm>
+<indexterm><primary>SceneManager</primary><secondary>ChangeCurrentScene</secondary></indexterm>
+<para><computeroutput>void SceneManager::ChangeCurrentScene (const char * name)</computeroutput></para><para>
+Definition at line 3 of file SceneManager.cpp.</para>
+    </section><anchor xml:id="_class_scene_manager_1a6ddf2cc2c9f6902d3dc9318715b20d4c"/>    <section>
+    <title>CreateScene()</title>
+<indexterm><primary>CreateScene</primary><secondary>SceneManager</secondary></indexterm>
+<indexterm><primary>SceneManager</primary><secondary>CreateScene</secondary></indexterm>
+<para><computeroutput>void SceneManager::CreateScene (std::string name = <computeroutput>&quot;Default <link linkend="_class_scene">Scene</link>&quot;</computeroutput>
+)</computeroutput></para><para>
+Definition at line 13 of file SceneManager.cpp.</para>
+    </section><anchor xml:id="_class_scene_manager_1a229dc2977144af1a4dd3e7ff6e593034"/>    <section>
+    <title>DeleteScene()</title>
+<indexterm><primary>DeleteScene</primary><secondary>SceneManager</secondary></indexterm>
+<indexterm><primary>SceneManager</primary><secondary>DeleteScene</secondary></indexterm>
+<para><computeroutput>void SceneManager::DeleteScene (const char * name)</computeroutput></para><para>
+Definition at line 22 of file SceneManager.cpp.</para>
+    </section><anchor xml:id="_class_scene_manager_1aa12ac3807b8e59b815ec445c25fca5ae"/>    <section>
+    <title>GetCurrentScene()</title>
+<indexterm><primary>GetCurrentScene</primary><secondary>SceneManager</secondary></indexterm>
+<indexterm><primary>SceneManager</primary><secondary>GetCurrentScene</secondary></indexterm>
+<para><computeroutput><link linkend="_class_scene">Scene</link> * SceneManager::GetCurrentScene ( )</computeroutput></para><para>
+Definition at line 8 of file SceneManager.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_scene_manager_1ab8338d52fbc9671a82f1bdafda13fe62"/>    <section>
+    <title>scenes</title>
+<indexterm><primary>scenes</primary><secondary>SceneManager</secondary></indexterm>
+<indexterm><primary>SceneManager</primary><secondary>scenes</secondary></indexterm>
+<para><computeroutput>std::map&lt;std::string, <link linkend="_class_scene">Scene</link>*&gt; SceneManager::scenes</computeroutput></para><para>
+Definition at line 11 of file SceneManager.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/Scene/<link linkend="__scene_manager_8h">SceneManager.h</link>SOGLVA/src/Core/Scene/<link linkend="__scene_manager_8cpp">SceneManager.cpp</link></section>
+</section>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_u_i_system_8cpp" kind="file" language="C++">
+    <compoundname>UISystem.cpp</compoundname>
+    <includes refid="_u_i_system_8h" local="yes">UISystem.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>UISystem.h</label>
+        <link refid="_u_i_system_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Windows.h</label>
+      </node>
+      <node id="8">
+        <label>GL/glew.h</label>
+      </node>
+      <node id="3">
+        <label>Panels/FPSCounter.h</label>
+        <link refid="_f_p_s_counter_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GLFW/glfw3.h</label>
+      </node>
+      <node id="1">
+        <label>SOGLVA/src/Core/UI/UISystem.cpp</label>
+        <link refid="_u_i_system_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Core/Rendering/Rendering.h</label>
+        <link refid="_rendering_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GLFW/glfw3native.h</label>
+      </node>
+      <node id="15">
+        <label>style.c</label>
+      </node>
+      <node id="13">
+        <label>nuklear.h</label>
+      </node>
+      <node id="4">
+        <label>Core/UI/IUIDrawable.h</label>
+        <link refid="_i_u_i_drawable_8h"/>
+      </node>
+      <node id="12">
+        <label>common/NuklearImport.h</label>
+        <link refid="_nuklear_import_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Panels/Property.h</label>
+        <link refid="_property_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>glfw_opengl3/nuklear_glfw_gl3.h</label>
+      </node>
+      <node id="5">
+        <label>BasePanel.h</label>
+        <link refid="_base_panel_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>RenderingDef.h</label>
+        <link refid="_rendering_def_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_s_o_g_l_v_a">SOGLVA</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e">SOGLVA::CORE</innernamespace>
+    <innernamespace refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i">SOGLVA::CORE::UI</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_u_i_system_8h" kindref="compound">UISystem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i" kindref="compound">SOGLVA::CORE::UI</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a846f39b1f054689075edd55c5581cecf" kindref="member">UISystem::UISystem</ref>(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref>&amp;<sp/>_rendering)<sp/>:<sp/>rendering(_rendering)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" kindref="member">context</ref><sp/>=<sp/>nk_glfw3_init(&amp;<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" kindref="member">glfw</ref>,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" kindref="member">rendering</ref>.<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering_1ac17e593a56256cd220762b8d5c8dce38" kindref="member">window</ref>,<sp/>NK_GLFW3_INSTALL_CALLBACKS);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_font_atlas*<sp/>atlas;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_glfw3_font_stash_begin(&amp;<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" kindref="member">glfw</ref>,<sp/>&amp;atlas);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_glfw3_font_stash_end(&amp;<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" kindref="member">glfw</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set_style(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" kindref="member">context</ref>,<sp/>THEME_WHITE);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" kindref="member">vUIPanels</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter" kindref="compound">PANEL::FPSCounter</ref>(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" kindref="member">context</ref>,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" kindref="member">rendering</ref>,<sp/></highlight><highlight class="stringliteral">&quot;FPS<sp/>Counter&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" kindref="member">vUIPanels</ref>.push_back(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property" kindref="compound">PANEL::Property</ref>(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" kindref="member">context</ref>,<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1ab090447ce6da1591dc69e897773927e0" kindref="member">rendering</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Property&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a8aee40dc186e25b84be17dd0a54343c3" kindref="member">UISystem::~UISystem</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>iPanel<sp/>:<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" kindref="member">vUIPanels</ref>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>iPanel;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_free(<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a4b413c1791387fa65c965871ee72ddab" kindref="member">context</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1a11dc8a2b2a09292756a79d87cb985d88" kindref="member">UISystem::DrawUiPanels</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_glfw3_new_frame(&amp;<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" kindref="member">glfw</ref>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>panel<sp/>:<sp/><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1aa190c2cd0f0171b8a50a4fd2b7d9428a" kindref="member">vUIPanels</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>panel-&gt;Draw();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nk_glfw3_render(&amp;<ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_u_i_system_1afb60c80204088d755659c0dafb9884dc" kindref="member">glfw</ref>,<sp/>NK_ANTI_ALIASING_ON,<sp/>512<sp/>*<sp/>1024,<sp/>128<sp/>*<sp/>1024);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="SOGLVA/src/Core/UI/UISystem.cpp"/>
+  </compounddef>
+</doxygen>

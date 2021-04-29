@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera" xml:lang="en-US">
+<title>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera Class Reference</title>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Camera.h&gt;</computeroutput>
+</para>
+Inheritance diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Camera:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for SOGLVA::MANAGED_OBJECT::COMPONENT::Camera:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Types    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29">Camera_Movement</link> { <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29aecb66931927ba8fb61ca6eee757c4e7e">FORWARD</link>
+, <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a1600546df8da227fb258c2dc296d433c">BACKWARD</link>
+, <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a7c43f07c60613f723bba36f725b7c342">LEFT</link>
+, <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a4952cfe01a42208e0571551de40df9dd">RIGHT</link>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a2b74e3ccf09b02477053258f6eef304e">Camera</link> (glm::vec3 position=glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up=glm::vec3(0.0f, 1.0f, 0.0f), float yaw=<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4bf5fa4697283f8ccf4021e8161e8381">YAW</link>, float pitch=<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1aa025701fb3626f7710e5f0db12793fa2">PITCH</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7364a98c943fe903fa1db215ecc8b022">Camera</link> (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)</para>
+</listitem>
+            <listitem><para>glm::mat4 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a0ec6ecc2628cef5a3791a4f4fc091f5a">GetViewMatrix</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ad1edda4d81ed45b40238af05a054ffe8">ProcessKeyboard</link> (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29">Camera_Movement</link> direction, float deltaTime)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac6965462dfcfdae73cdaccd67a7af5fb">ProcessMouseMovement</link> (float xoffset, float yoffset, GLboolean constrainPitch=true)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a416e09415b7cd0b009871e1cddb92764">ProcessMouseScroll</link> (float yoffset)</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7fbd7aa09bad055770376dc4af567808">Start</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a9bc4ccc6b6345236e6bb022605c5b731">Update</link> () override</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4ccd54165133276226148838713c0c4f">Exit</link> () override</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera">Camera</link> &amp; <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a581843a2acbb7e915ab340958fe0dac9">get</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a73c257cf88b432200fc559c991c8f999">Position</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a358103c1edf1aa887444cba81149de3c">Front</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a69ec0eb5bc71031bfd18d25d14c2a7fa">Up</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a31b314302f4789bb1135790145c4c243">Right</link></para>
+</listitem>
+            <listitem><para>glm::vec3 <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a5c80c705af7243113913249c786b6627">WorldUp</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a66c8a254d8363e9b1a366db26e76c4c8">Yaw</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a23696779bb6fb851ff3c053de783452e">Pitch</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a153aa3ccf608f142a42f2dd16a067884">MovementSpeed</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1af84bd1c12e8606eea6111cb151fe72bc">MouseSensitivity</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a42814ed418f97bc7191b8031b36927df">Zoom</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static const float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4bf5fa4697283f8ccf4021e8161e8381">YAW</link> = -90.0f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1aa025701fb3626f7710e5f0db12793fa2">PITCH</link> = 0.0f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ae81e7e1c04a6b2897d04a8a4bf79d9a1">SPEED</link> = 5.5f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac8689fd6807db467505cd8c0ac82a8d1">SENSITIVITY</link> = 0.1f</para>
+</listitem>
+            <listitem><para>static const float <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a6666c6210c90fee034fc97021e7dcf1e">ZOOM</link> = 45.0f</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ae781b61b20221125502e9fe3a6e820cb">Camera</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1af94ee1eee4c0f94c83b5b57fb9892dca">updateCameraVectors</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file Camera.h.</para>
+</section>
+<section>
+<title>Member Enumeration Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29"/>    <section>
+    <title>Camera_Movement</title>
+<indexterm><primary>Camera_Movement</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Camera_Movement</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29">SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Camera_Movement</link></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>FORWARD</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>FORWARD</secondary></indexterm>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29aecb66931927ba8fb61ca6eee757c4e7e"/>FORWARD</entry><entry></entry></row><row><entry><indexterm><primary>BACKWARD</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>BACKWARD</secondary></indexterm>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a1600546df8da227fb258c2dc296d433c"/>BACKWARD</entry><entry></entry></row><row><entry><indexterm><primary>LEFT</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>LEFT</secondary></indexterm>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a7c43f07c60613f723bba36f725b7c342"/>LEFT</entry><entry></entry></row><row><entry><indexterm><primary>RIGHT</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>RIGHT</secondary></indexterm>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29a4952cfe01a42208e0571551de40df9dd"/>RIGHT</entry><entry></entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+<para>
+Definition at line 20 of file Camera.h.</para>
+</section>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ae781b61b20221125502e9fe3a6e820cb"/>    <section>
+    <title>Camera()<computeroutput>[1/3]</computeroutput></title>
+<indexterm><primary>Camera</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Camera</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Camera ( )<computeroutput>[private]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a2b74e3ccf09b02477053258f6eef304e"/>    <section>
+    <title>Camera()<computeroutput>[2/3]</computeroutput></title>
+<indexterm><primary>Camera</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Camera</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Camera (glm::vec3 position = <computeroutput>glm::vec3(0.0f, 0.0f, 0.0f)</computeroutput>
+, glm::vec3 up = <computeroutput>glm::vec3(0.0f, 1.0f, 0.0f)</computeroutput>
+, float yaw = <computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4bf5fa4697283f8ccf4021e8161e8381">YAW</link></computeroutput>
+, float pitch = <computeroutput><link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1aa025701fb3626f7710e5f0db12793fa2">PITCH</link></computeroutput>
+)</computeroutput></para><para>
+Definition at line 5 of file Camera.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_a2b74e3ccf09b02477053258f6eef304e_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7364a98c943fe903fa1db215ecc8b022"/>    <section>
+    <title>Camera()<computeroutput>[3/3]</computeroutput></title>
+<indexterm><primary>Camera</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Camera</secondary></indexterm>
+<para><computeroutput>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Camera (float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch)</computeroutput></para><para>
+Definition at line 18 of file Camera.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_a7364a98c943fe903fa1db215ecc8b022_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4ccd54165133276226148838713c0c4f"/>    <section>
+    <title>Exit()</title>
+<indexterm><primary>Exit</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Exit</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Exit ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ab3b77bdf45f85f7dccb630c6aac3fc2b">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+<para>
+Definition at line 91 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a581843a2acbb7e915ab340958fe0dac9"/>    <section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera">Camera</link>&amp; SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::get ( )<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 32 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a0ec6ecc2628cef5a3791a4f4fc091f5a"/>    <section>
+    <title>GetViewMatrix()</title>
+<indexterm><primary>GetViewMatrix</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>GetViewMatrix</secondary></indexterm>
+<para><computeroutput>glm::mat4 SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::GetViewMatrix ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 61 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ad1edda4d81ed45b40238af05a054ffe8"/>    <section>
+    <title>ProcessKeyboard()</title>
+<indexterm><primary>ProcessKeyboard</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>ProcessKeyboard</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::ProcessKeyboard (<link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac860fcef7b8fd7cad7f5cb41d1c76f29">Camera_Movement</link> direction, float deltaTime)</computeroutput></para><para>
+Definition at line 27 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac6965462dfcfdae73cdaccd67a7af5fb"/>    <section>
+    <title>ProcessMouseMovement()</title>
+<indexterm><primary>ProcessMouseMovement</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>ProcessMouseMovement</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::ProcessMouseMovement (float xoffset, float yoffset, GLboolean constrainPitch = <computeroutput>true</computeroutput>
+)</computeroutput></para><para>
+Definition at line 49 of file Camera.cpp.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_ac6965462dfcfdae73cdaccd67a7af5fb_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a416e09415b7cd0b009871e1cddb92764"/>    <section>
+    <title>ProcessMouseScroll()</title>
+<indexterm><primary>ProcessMouseScroll</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>ProcessMouseScroll</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::ProcessMouseScroll (float yoffset)</computeroutput></para><para>
+Definition at line 40 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a7fbd7aa09bad055770376dc4af567808"/>    <section>
+    <title>Start()</title>
+<indexterm><primary>Start</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Start</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Start ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1a6423359bb949a17791b1f6a43023be50">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+<para>
+Definition at line 83 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a9bc4ccc6b6345236e6bb022605c5b731"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Update ( )<computeroutput>[override]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+Implements <link linkend="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_i_component_1ac457b857074ff9ebd5bdac10829a35da">SOGLVA::MANAGED_OBJECT::COMPONENT::IComponent</link>.</para>
+<para>
+Definition at line 87 of file Camera.cpp.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1af94ee1eee4c0f94c83b5b57fb9892dca"/>    <section>
+    <title>updateCameraVectors()</title>
+<indexterm><primary>updateCameraVectors</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>updateCameraVectors</secondary></indexterm>
+<para><computeroutput>void SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::updateCameraVectors ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 70 of file Camera.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a358103c1edf1aa887444cba81149de3c"/>    <section>
+    <title>Front</title>
+<indexterm><primary>Front</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Front</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Front</computeroutput></para><para>
+Definition at line 40 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1af84bd1c12e8606eea6111cb151fe72bc"/>    <section>
+    <title>MouseSensitivity</title>
+<indexterm><primary>MouseSensitivity</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>MouseSensitivity</secondary></indexterm>
+<para><computeroutput>float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::MouseSensitivity</computeroutput></para><para>
+Definition at line 50 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a153aa3ccf608f142a42f2dd16a067884"/>    <section>
+    <title>MovementSpeed</title>
+<indexterm><primary>MovementSpeed</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>MovementSpeed</secondary></indexterm>
+<para><computeroutput>float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::MovementSpeed</computeroutput></para><para>
+Definition at line 49 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1aa025701fb3626f7710e5f0db12793fa2"/>    <section>
+    <title>PITCH</title>
+<indexterm><primary>PITCH</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>PITCH</secondary></indexterm>
+<para><computeroutput>const float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::PITCH = 0.0f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 28 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a23696779bb6fb851ff3c053de783452e"/>    <section>
+    <title>Pitch</title>
+<indexterm><primary>Pitch</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Pitch</secondary></indexterm>
+<para><computeroutput>float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Pitch</computeroutput></para><para>
+Definition at line 47 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a73c257cf88b432200fc559c991c8f999"/>    <section>
+    <title>Position</title>
+<indexterm><primary>Position</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Position</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Position</computeroutput></para><para>
+Definition at line 39 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a31b314302f4789bb1135790145c4c243"/>    <section>
+    <title>Right</title>
+<indexterm><primary>Right</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Right</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Right</computeroutput></para><para>
+Definition at line 42 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ac8689fd6807db467505cd8c0ac82a8d1"/>    <section>
+    <title>SENSITIVITY</title>
+<indexterm><primary>SENSITIVITY</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>SENSITIVITY</secondary></indexterm>
+<para><computeroutput>const float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::SENSITIVITY = 0.1f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 30 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1ae81e7e1c04a6b2897d04a8a4bf79d9a1"/>    <section>
+    <title>SPEED</title>
+<indexterm><primary>SPEED</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>SPEED</secondary></indexterm>
+<para><computeroutput>const float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::SPEED = 5.5f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 29 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a69ec0eb5bc71031bfd18d25d14c2a7fa"/>    <section>
+    <title>Up</title>
+<indexterm><primary>Up</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Up</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Up</computeroutput></para><para>
+Definition at line 41 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a5c80c705af7243113913249c786b6627"/>    <section>
+    <title>WorldUp</title>
+<indexterm><primary>WorldUp</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>WorldUp</secondary></indexterm>
+<para><computeroutput>glm::vec3 SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::WorldUp</computeroutput></para><para>
+Definition at line 43 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a4bf5fa4697283f8ccf4021e8161e8381"/>    <section>
+    <title>YAW</title>
+<indexterm><primary>YAW</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>YAW</secondary></indexterm>
+<para><computeroutput>const float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::YAW = -90.0f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 27 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a66c8a254d8363e9b1a366db26e76c4c8"/>    <section>
+    <title>Yaw</title>
+<indexterm><primary>Yaw</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Yaw</secondary></indexterm>
+<para><computeroutput>float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Yaw</computeroutput></para><para>
+Definition at line 46 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a6666c6210c90fee034fc97021e7dcf1e"/>    <section>
+    <title>ZOOM</title>
+<indexterm><primary>ZOOM</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>ZOOM</secondary></indexterm>
+<para><computeroutput>const float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::ZOOM = 45.0f<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 31 of file Camera.h.</para>
+    </section><anchor xml:id="_class_s_o_g_l_v_a_1_1_m_a_n_a_g_e_d___o_b_j_e_c_t_1_1_c_o_m_p_o_n_e_n_t_1_1_camera_1a42814ed418f97bc7191b8031b36927df"/>    <section>
+    <title>Zoom</title>
+<indexterm><primary>Zoom</primary><secondary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</secondary></indexterm>
+<indexterm><primary>SOGLVA::MANAGED_OBJECT::COMPONENT::Camera</primary><secondary>Zoom</secondary></indexterm>
+<para><computeroutput>float SOGLVA::MANAGED_OBJECT::COMPONENT::Camera::Zoom</computeroutput></para><para>
+Definition at line 51 of file Camera.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/ManagedObject/Components/<link linkend="__camera_8h">Camera.h</link>SOGLVA/src/ManagedObject/Components/<link linkend="__camera_8cpp">Camera.cpp</link></section>
+</section>

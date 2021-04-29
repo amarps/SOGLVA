@@ -1,0 +1,96 @@
+.TH "Scene" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Scene
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Scene\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBScene\fP (std::string _name)"
+.br
+.ti -1c
+.RI "\fB~Scene\fP ()"
+.br
+.RI "delete every managedObject inside managed objects data and clear the data container which is std::vector "
+.ti -1c
+.RI "void \fBUpdate\fP ()"
+.br
+.RI "call Update in every managedObject inside managed objects data "
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBname\fP"
+.br
+.ti -1c
+.RI "\fBModel\fP * \fBcubeModel\fP"
+.br
+.ti -1c
+.RI "\fBPhysic\fP \fBphysic\fP"
+.br
+.ti -1c
+.RI "btRigidBody * \fBRBspehere\fP"
+.br
+.ti -1c
+.RI "std::vector< \fBManagedObject\fP * > \fBmanagedObjects\fP"
+.br
+.RI "managed object that will rendered inside this scene "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 7 of file Scene\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Scene::Scene (std::string _name)"
+
+.PP
+Definition at line 3 of file Scene\&.cpp\&.
+.SS "Scene::~Scene ()"
+
+.PP
+delete every managedObject inside managed objects data and clear the data container which is std::vector 
+.PP
+Definition at line 44 of file Scene\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Scene::Update ()"
+
+.PP
+call Update in every managedObject inside managed objects data 
+.PP
+Definition at line 53 of file Scene\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBModel\fP* Scene::cubeModel"
+
+.PP
+Definition at line 11 of file Scene\&.h\&.
+.SS "std::vector<\fBManagedObject\fP*> Scene::managedObjects"
+
+.PP
+managed object that will rendered inside this scene 
+.PP
+Definition at line 18 of file Scene\&.h\&.
+.SS "std::string Scene::name"
+
+.PP
+Definition at line 10 of file Scene\&.h\&.
+.SS "\fBPhysic\fP Scene::physic"
+
+.PP
+Definition at line 12 of file Scene\&.h\&.
+.SS "btRigidBody* Scene::RBspehere"
+
+.PP
+Definition at line 13 of file Scene\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

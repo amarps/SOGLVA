@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_rendering" xml:lang="en-US">
+<title>Rendering Class Reference</title>
+<indexterm><primary>Rendering</primary></indexterm>
+<para>
+<computeroutput>#include &lt;Rendering.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_rendering_1a2d6135f6f0563031d59f12e81c15416d">Rendering</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_rendering_1a8bbf821e06ed0a707b080a12cdda8896">~Rendering</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_rendering_1ab7548b359eaa9fc89f7466034324a949">ClearWindow</link> ()</para>
+
+<para>Clear the window using static rendering::ClearColor </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_class_rendering_1adfe5f69d4040554dc0d35ba85b33af18">deltaTime</link> = 0.0f</para>
+</listitem>
+            <listitem><para>float <link linkend="_class_rendering_1adb2e2cd5a054e57c823473cfcf087c24">lastFrame</link> = 0.0f</para>
+</listitem>
+            <listitem><para>GLFWwindow * <link linkend="_class_rendering_1ac700e204354afc7f4ef8e49abb13803f">window</link></para>
+</listitem>
+            <listitem><para>HWND <link linkend="_class_rendering_1a49b62aa1e8903005fcca12ef0c8f6ae5">hwNative</link></para>
+
+<para>HWND of glfwWindow yang dibuat untuk export to dll volatile keyword to prevent compiler optimize this member variable </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_rendering_1aa9a6a1fca7cee848d17ecfb687fd4cc2">SCREEN_WIDTH</link> = 800</para>
+
+<para>default screen width if this changed the window size will be changed to </para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_rendering_1ab8692715493254fe3a3234b463cdaf38">SCREEN_HEIGHT</link> = 600</para>
+
+<para>default screen height if this changed the window size will be changed to </para>
+</listitem>
+            <listitem><para>static std::string <link linkend="_class_rendering_1afa94636ea7ba0773a9fddae6a3b77395">AppName</link> = &quot;Default&quot;</para>
+</listitem>
+            <listitem><para>static float <link linkend="_class_rendering_1ac9d12a43b1151d74d2de60c1e463224a">ClearColor</link> [4] = { 0.05f, 0.05f, 0.05f, 1.0f }</para>
+
+<para>Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 6 of file Rendering.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_rendering_1a2d6135f6f0563031d59f12e81c15416d"/>    <section>
+    <title>Rendering()</title>
+<indexterm><primary>Rendering</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>Rendering</secondary></indexterm>
+<para><computeroutput>Rendering::Rendering ( )</computeroutput></para><para>
+Definition at line 3 of file Rendering.cpp.</para>
+    </section><anchor xml:id="_class_rendering_1a8bbf821e06ed0a707b080a12cdda8896"/>    <section>
+    <title>~Rendering()</title>
+<indexterm><primary>~Rendering</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>~Rendering</secondary></indexterm>
+<para><computeroutput>Rendering::~Rendering ( )</computeroutput></para><para>
+Definition at line 9 of file Rendering.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_rendering_1ab7548b359eaa9fc89f7466034324a949"/>    <section>
+    <title>ClearWindow()</title>
+<indexterm><primary>ClearWindow</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>ClearWindow</secondary></indexterm>
+<para><computeroutput>void Rendering::ClearWindow ( )</computeroutput></para><para>
+
+<para>Clear the window using static rendering::ClearColor </para>
+</para>
+<para>
+Definition at line 64 of file Rendering.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_rendering_1afa94636ea7ba0773a9fddae6a3b77395"/>    <section>
+    <title>AppName</title>
+<indexterm><primary>AppName</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>AppName</secondary></indexterm>
+<para><computeroutput>std::string Rendering::AppName = &quot;Default&quot;<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 54 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1ac9d12a43b1151d74d2de60c1e463224a"/>    <section>
+    <title>ClearColor</title>
+<indexterm><primary>ClearColor</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>ClearColor</secondary></indexterm>
+<para><computeroutput>float Rendering::ClearColor[4] = { 0.05f, 0.05f, 0.05f, 1.0f }<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Clear Color contain 4 color in RGBA which will be used in clear in ClearWindow Method for clearing window </para>
+</para>
+<para>
+Definition at line 59 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1adfe5f69d4040554dc0d35ba85b33af18"/>    <section>
+    <title>deltaTime</title>
+<indexterm><primary>deltaTime</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>deltaTime</secondary></indexterm>
+<para><computeroutput>float Rendering::deltaTime = 0.0f</computeroutput></para><para>
+Definition at line 34 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1a49b62aa1e8903005fcca12ef0c8f6ae5"/>    <section>
+    <title>hwNative</title>
+<indexterm><primary>hwNative</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>hwNative</secondary></indexterm>
+<para><computeroutput>HWND Rendering::hwNative</computeroutput></para><para>
+
+<para>HWND of glfwWindow yang dibuat untuk export to dll volatile keyword to prevent compiler optimize this member variable </para>
+</para>
+<para>
+Definition at line 43 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1adb2e2cd5a054e57c823473cfcf087c24"/>    <section>
+    <title>lastFrame</title>
+<indexterm><primary>lastFrame</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>lastFrame</secondary></indexterm>
+<para><computeroutput>float Rendering::lastFrame = 0.0f</computeroutput></para><para>
+Definition at line 35 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1ab8692715493254fe3a3234b463cdaf38"/>    <section>
+    <title>SCREEN_HEIGHT</title>
+<indexterm><primary>SCREEN_HEIGHT</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>SCREEN_HEIGHT</secondary></indexterm>
+<para><computeroutput>int Rendering::SCREEN_HEIGHT = 600<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>default screen height if this changed the window size will be changed to </para>
+</para>
+<para>
+Definition at line 53 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1aa9a6a1fca7cee848d17ecfb687fd4cc2"/>    <section>
+    <title>SCREEN_WIDTH</title>
+<indexterm><primary>SCREEN_WIDTH</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>SCREEN_WIDTH</secondary></indexterm>
+<para><computeroutput>int Rendering::SCREEN_WIDTH = 800<computeroutput>[inline]</computeroutput>, <computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>default screen width if this changed the window size will be changed to </para>
+</para>
+<para>
+Definition at line 48 of file Rendering.h.</para>
+    </section><anchor xml:id="_class_rendering_1ac700e204354afc7f4ef8e49abb13803f"/>    <section>
+    <title>window</title>
+<indexterm><primary>window</primary><secondary>Rendering</secondary></indexterm>
+<indexterm><primary>Rendering</primary><secondary>window</secondary></indexterm>
+<para><computeroutput>GLFWwindow* Rendering::window</computeroutput></para><para>
+Definition at line 37 of file Rendering.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/Rendering/<link linkend="__rendering_8h">Rendering.h</link>SOGLVA/src/Core/Rendering/<link linkend="__rendering_8cpp">Rendering.cpp</link></section>
+</section>

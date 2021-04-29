@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_i_u_i_drawable" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IUIDrawable</compoundname>
+    <derivedcompoundref refid="class_u_i_1_1_panel_1_1_f_p_s_counter" prot="public" virt="non-virtual">UI::Panel::FPSCounter</derivedcompoundref>
+    <derivedcompoundref refid="class_u_i_1_1_panel_1_1_property" prot="public" virt="non-virtual">UI::Panel::Property</derivedcompoundref>
+    <includes refid="_i_u_i_drawable_8h" local="no">IUIDrawable.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_u_i_drawable_1a55b8226952f05b430d560d7ce5a71458" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IUIDrawable::Draw</definition>
+        <argsstring>()=0</argsstring>
+        <name>Draw</name>
+        <reimplementedby refid="class_u_i_1_1_panel_1_1_f_p_s_counter_1a8f000b8d8f7dfbda96db187a544ea763">Draw</reimplementedby>
+        <reimplementedby refid="class_u_i_1_1_panel_1_1_property_1a8884e2529e06f2f80f6555d3ad654321">Draw</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/IUIDrawable.h" line="7" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UI::Panel::Property</label>
+        <link refid="class_u_i_1_1_panel_1_1_property"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IUIDrawable</label>
+        <link refid="class_i_u_i_drawable"/>
+      </node>
+      <node id="2">
+        <label>UI::Panel::FPSCounter</label>
+        <link refid="class_u_i_1_1_panel_1_1_f_p_s_counter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="SOGLVA/src/Core/UI/IUIDrawable.h" line="3" column="1" bodyfile="SOGLVA/src/Core/UI/IUIDrawable.h" bodystart="4" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_i_u_i_drawable_1a55b8226952f05b430d560d7ce5a71458" prot="public" virt="pure-virtual"><scope>IUIDrawable</scope><name>Draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

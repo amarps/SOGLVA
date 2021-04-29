@@ -1,0 +1,6 @@
+<map id="SOGLVA::CORE::RENDERING::Rendering::Rendering" name="SOGLVA::CORE::RENDERING::Rendering::Rendering">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,211,87"/>
+<area shape="rect" id="node2" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering.html#a6b6d8b36356a3851507b70c99635b1ab" title=" " alt="" coords="259,13,485,54"/>
+<area shape="rect" id="node4" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering.html#ab97bc68cb216c890b1b16b9d9689c5e1" title="intialize glfw window and startup configuration handler" alt="" coords="265,78,479,119"/>
+<area shape="rect" id="node3" href="$class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering.html#a3ba04a3407c4318be44ab6a676412826" title="resize callback for opengl viewport size context to new window size" alt="" coords="533,5,739,61"/>
+</map>

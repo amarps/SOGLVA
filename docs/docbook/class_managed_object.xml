@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_managed_object" xml:lang="en-US">
+<title>ManagedObject Class Reference</title>
+<indexterm><primary>ManagedObject</primary></indexterm>
+<para>
+<computeroutput>#include &lt;ManagedObject.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_managed_object_1a9cd9df1e19ff19d810780a5aea9f90e4">Update</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_managed_object_1a22ce2ca7303221335061417772bbb7cb">ManagedObject</link> (std::string <link linkend="_class_managed_object_1a22c74aea256fcc7dec87fb1f35f54f17">name</link>=&quot;Default Object&quot;)</para>
+</listitem>
+            <listitem><para><link linkend="_class_managed_object_1a402ce9b3882e39046864a61a9b6d044e">~ManagedObject</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>std::string <link linkend="_class_managed_object_1a22c74aea256fcc7dec87fb1f35f54f17">name</link></para>
+</listitem>
+            <listitem><para>std::set&lt; <link linkend="_class_i_component">IComponent</link> * &gt; <link linkend="_class_managed_object_1aa5090c26e39c0e2f9ef4e77b1be44055">components</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 13 of file ManagedObject.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_managed_object_1a22ce2ca7303221335061417772bbb7cb"/>    <section>
+    <title>ManagedObject()</title>
+<indexterm><primary>ManagedObject</primary><secondary>ManagedObject</secondary></indexterm>
+<indexterm><primary>ManagedObject</primary><secondary>ManagedObject</secondary></indexterm>
+<para><computeroutput>ManagedObject::ManagedObject (std::string name = <computeroutput>&quot;Default Object&quot;</computeroutput>
+)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 27 of file ManagedObject.h.</para>
+    </section><anchor xml:id="_class_managed_object_1a402ce9b3882e39046864a61a9b6d044e"/>    <section>
+    <title>~ManagedObject()</title>
+<indexterm><primary>~ManagedObject</primary><secondary>ManagedObject</secondary></indexterm>
+<indexterm><primary>ManagedObject</primary><secondary>~ManagedObject</secondary></indexterm>
+<para><computeroutput>ManagedObject::~ManagedObject ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 31 of file ManagedObject.h.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_managed_object_1a9cd9df1e19ff19d810780a5aea9f90e4"/>    <section>
+    <title>Update()</title>
+<indexterm><primary>Update</primary><secondary>ManagedObject</secondary></indexterm>
+<indexterm><primary>ManagedObject</primary><secondary>Update</secondary></indexterm>
+<para><computeroutput>void ManagedObject::Update ( )<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file ManagedObject.h.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_managed_object_1aa5090c26e39c0e2f9ef4e77b1be44055"/>    <section>
+    <title>components</title>
+<indexterm><primary>components</primary><secondary>ManagedObject</secondary></indexterm>
+<indexterm><primary>ManagedObject</primary><secondary>components</secondary></indexterm>
+<para><computeroutput>std::set&lt;<link linkend="_class_i_component">IComponent</link>*&gt; ManagedObject::components</computeroutput></para><para>
+Definition at line 17 of file ManagedObject.h.</para>
+    </section><anchor xml:id="_class_managed_object_1a22c74aea256fcc7dec87fb1f35f54f17"/>    <section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>ManagedObject</secondary></indexterm>
+<indexterm><primary>ManagedObject</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>std::string ManagedObject::name</computeroutput></para><para>
+Definition at line 16 of file ManagedObject.h.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SOGLVA/src/ManagedObject/<link linkend="__managed_object_8h">ManagedObject.h</link></section>
+</section>

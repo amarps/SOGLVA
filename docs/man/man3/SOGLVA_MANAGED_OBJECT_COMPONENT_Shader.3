@@ -1,0 +1,200 @@
+.TH "SOGLVA::MANAGED_OBJECT::COMPONENT::Shader" 3 "Tue Apr 27 2021" "Version 0.01" "SOGLVA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SOGLVA::MANAGED_OBJECT::COMPONENT::Shader
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <Shader\&.h>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBShader\fP (const char *vertexPath='resources/shaders/object/objectDefaultLit\&.vs', const char *fragmentPath='resources/shaders/object/objectDefaultLit\&.fs', bool _uselib=true)"
+.br
+.ti -1c
+.RI "void \fBsetPath\fP (const char *vertexPath, const char *fragmentPath)"
+.br
+.ti -1c
+.RI "void \fBcompile\fP ()"
+.br
+.ti -1c
+.RI "void \fBuse\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetBool\fP (const std::string &name, bool value) const"
+.br
+.ti -1c
+.RI "void \fBsetInt\fP (const std::string &name, int value) const"
+.br
+.ti -1c
+.RI "void \fBsetFloat\fP (const std::string &name, float value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec2\fP (const std::string &name, const glm::vec2 &value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec2\fP (const std::string &name, float x, float y) const"
+.br
+.ti -1c
+.RI "void \fBsetVec3\fP (const std::string &name, const glm::vec3 &value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec3\fP (const std::string &name, float x, float y, float z) const"
+.br
+.ti -1c
+.RI "void \fBsetVec4\fP (const std::string &name, const glm::vec4 &value) const"
+.br
+.ti -1c
+.RI "void \fBsetVec4\fP (const std::string &name, float x, float y, float z, float w)"
+.br
+.ti -1c
+.RI "void \fBsetMat2\fP (const std::string &name, const glm::mat2 &mat) const"
+.br
+.ti -1c
+.RI "void \fBsetMat3\fP (const std::string &name, const glm::mat3 &mat) const"
+.br
+.ti -1c
+.RI "void \fBsetMat4\fP (const std::string &name, const glm::mat4 &mat) const"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBID\fP"
+.br
+.in -1c
+.SS "Private Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBcheckCompileErrors\fP (unsigned int shader, std::string type)"
+.br
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBvertexCode\fP"
+.br
+.ti -1c
+.RI "std::string \fBfragmentCode\fP"
+.br
+.ti -1c
+.RI "std::string \fBlibvertexCode\fP"
+.br
+.ti -1c
+.RI "std::string \fBlibfragmentCode\fP"
+.br
+.ti -1c
+.RI "bool \fBuse_lib\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file Shader\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::Shader (const char * vertexPath = \fC'resources/shaders/object/objectDefaultLit\&.vs'\fP, const char * fragmentPath = \fC'resources/shaders/object/objectDefaultLit\&.fs'\fP, bool _uselib = \fCtrue\fP)"
+
+.PP
+Definition at line 9 of file Shader\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::checkCompileErrors (unsigned int shader, std::string type)\fC [private]\fP"
+
+.PP
+Definition at line 94 of file Shader\&.cpp\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::compile ()"
+
+.PP
+Definition at line 61 of file Shader\&.cpp\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setBool (const std::string & name, bool value) const\fC [inline]\fP"
+
+.PP
+Definition at line 27 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setFloat (const std::string & name, float value) const\fC [inline]\fP"
+
+.PP
+Definition at line 37 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setInt (const std::string & name, int value) const\fC [inline]\fP"
+
+.PP
+Definition at line 32 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setMat2 (const std::string & name, const glm::mat2 & mat) const\fC [inline]\fP"
+
+.PP
+Definition at line 69 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setMat3 (const std::string & name, const glm::mat3 & mat) const\fC [inline]\fP"
+
+.PP
+Definition at line 74 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setMat4 (const std::string & name, const glm::mat4 & mat) const\fC [inline]\fP"
+
+.PP
+Definition at line 79 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setPath (const char * vertexPath, const char * fragmentPath)"
+
+.PP
+Definition at line 18 of file Shader\&.cpp\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec2 (const std::string & name, const glm::vec2 & value) const\fC [inline]\fP"
+
+.PP
+Definition at line 42 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec2 (const std::string & name, float x, float y) const\fC [inline]\fP"
+
+.PP
+Definition at line 46 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec3 (const std::string & name, const glm::vec3 & value) const\fC [inline]\fP"
+
+.PP
+Definition at line 51 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec3 (const std::string & name, float x, float y, float z) const\fC [inline]\fP"
+
+.PP
+Definition at line 55 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec4 (const std::string & name, const glm::vec4 & value) const\fC [inline]\fP"
+
+.PP
+Definition at line 60 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::setVec4 (const std::string & name, float x, float y, float z, float w)\fC [inline]\fP"
+
+.PP
+Definition at line 64 of file Shader\&.h\&.
+.SS "void SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::use ()\fC [inline]\fP"
+
+.PP
+Definition at line 23 of file Shader\&.h\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::fragmentCode\fC [private]\fP"
+
+.PP
+Definition at line 86 of file Shader\&.h\&.
+.SS "unsigned int SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::ID"
+
+.PP
+Definition at line 15 of file Shader\&.h\&.
+.SS "std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::libfragmentCode\fC [private]\fP"
+
+.PP
+Definition at line 88 of file Shader\&.h\&.
+.SS "std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::libvertexCode\fC [private]\fP"
+
+.PP
+Definition at line 87 of file Shader\&.h\&.
+.SS "bool SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::use_lib\fC [private]\fP"
+
+.PP
+Definition at line 90 of file Shader\&.h\&.
+.SS "std::string SOGLVA::MANAGED_OBJECT::COMPONENT::Shader::vertexCode\fC [private]\fP"
+
+.PP
+Definition at line 85 of file Shader\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for SOGLVA from the source code\&.

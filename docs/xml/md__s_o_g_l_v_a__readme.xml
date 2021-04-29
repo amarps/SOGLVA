@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md__s_o_g_l_v_a__readme" kind="page">
+    <compoundname>md_SOGLVA_Readme</compoundname>
+    <title>Readme</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>common: <ref refid="_nuklear_import_8h" kindref="compound">nuklearImport.h</ref> : simplify nuklear import standard.h : define standard library</para>
+<para>components: Graphics:<itemizedlist>
+<listitem><para>Camera Transform</para>
+</listitem></itemizedlist>
+</para>
+<para>EventHandler: event</para>
+<para>workflow: <verbatim>SOGLVA  - RenderingSystem: ISystem
+        - UISystem       : ISystem
+        - SceneSystem    : ISystem
+</verbatim> </para>
+    </detaileddescription>
+    <location file="SOGLVA/Readme.md"/>
+  </compounddef>
+</doxygen>

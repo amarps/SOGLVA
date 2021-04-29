@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel" kind="class" language="C++" prot="public">
+    <compoundname>SOGLVA::CORE::UI::PANEL::BasePanel</compoundname>
+    <derivedcompoundref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter" prot="public" virt="non-virtual">SOGLVA::CORE::UI::PANEL::FPSCounter</derivedcompoundref>
+    <derivedcompoundref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property" prot="public" virt="non-virtual">SOGLVA::CORE::UI::PANEL::Property</derivedcompoundref>
+    <includes refid="_base_panel_8h" local="no">BasePanel.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" prot="protected" static="no" mutable="no">
+        <type>nk_context *&amp;</type>
+        <definition>nk_context*&amp; SOGLVA::CORE::UI::PANEL::BasePanel::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="14" column="12" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a9ef4bc09f2a893686cae5c1828a2402e" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref> &amp;</type>
+        <definition>SOGLVA::CORE::RENDERING::Rendering&amp; SOGLVA::CORE::UI::PANEL::BasePanel::rendering</definition>
+        <argsstring></argsstring>
+        <name>rendering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="15" column="36" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string SOGLVA::CORE::UI::PANEL::BasePanel::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="16" column="13" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a607a168c375ff16af7db8e81771feee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::UI::PANEL::BasePanel::BasePanel</definition>
+        <argsstring>(nk_context *&amp;_context, SOGLVA::CORE::RENDERING::Rendering &amp;_rendering, const std::string &amp;_name)</argsstring>
+        <name>BasePanel</name>
+        <param>
+          <type>nk_context *&amp;</type>
+          <declname>_context</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering" kindref="compound">SOGLVA::CORE::RENDERING::Rendering</ref> &amp;</type>
+          <declname>_rendering</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="19" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="19" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ace83bb74601c40c7cedb51af6e8dbf14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SOGLVA::CORE::UI::PANEL::BasePanel::~BasePanel</definition>
+        <argsstring>()</argsstring>
+        <name>~BasePanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="22" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="22" bodyend="25"/>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" compoundref="_base_panel_8h" startline="14">context</references>
+        <references refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" compoundref="_base_panel_8h" startline="16">name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>abstract for every nuklear panel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>SOGLVA::CORE::UI::PANEL::FPSCounter</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_f_p_s_counter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::PANEL::BasePanel</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel"/>
+      </node>
+      <node id="3">
+        <label>SOGLVA::CORE::UI::PANEL::Property</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_property"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>float</label>
+      </node>
+      <node id="7">
+        <label>static int</label>
+      </node>
+      <node id="5">
+        <label>HWND</label>
+      </node>
+      <node id="2">
+        <label>SOGLVA::CORE::RENDERING::Rendering</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_r_e_n_d_e_r_i_n_g_1_1_rendering"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+AppName</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+window</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+hwNative</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>+ClearColor</edgelabel>
+          <edgelabel>+deltaTime</edgelabel>
+          <edgelabel>+lastFrame</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>+SCREEN_HEIGHT</edgelabel>
+          <edgelabel>+SCREEN_WIDTH</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SOGLVA::CORE::UI::PANEL::BasePanel</label>
+        <link refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>#rendering</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>#name</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>#context</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GLFWwindow *</label>
+      </node>
+      <node id="8">
+        <label>nk_context *&amp;</label>
+      </node>
+    </collaborationgraph>
+    <location file="SOGLVA/src/Core/UI/Panels/BasePanel.h" line="11" column="1" bodyfile="SOGLVA/src/Core/UI/Panels/BasePanel.h" bodystart="12" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a607a168c375ff16af7db8e81771feee6" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::BasePanel</scope><name>BasePanel</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a0388e34ee764a5133aae791dd8be52e6" prot="protected" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::BasePanel</scope><name>context</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ab6184fd0d09eabee879777e3d1e15d28" prot="protected" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::BasePanel</scope><name>name</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1a9ef4bc09f2a893686cae5c1828a2402e" prot="protected" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::BasePanel</scope><name>rendering</name></member>
+      <member refid="class_s_o_g_l_v_a_1_1_c_o_r_e_1_1_u_i_1_1_p_a_n_e_l_1_1_base_panel_1ace83bb74601c40c7cedb51af6e8dbf14" prot="public" virt="non-virtual"><scope>SOGLVA::CORE::UI::PANEL::BasePanel</scope><name>~BasePanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_u_i_system" xml:lang="en-US">
+<title>UISystem Class Reference</title>
+<indexterm><primary>UISystem</primary></indexterm>
+<para>
+
+<para>this uiSystem class is for ui inside the opengl context. ui system use nuklear library for rendering ui inside the opengl context. this uisystem mean to be used in app for example for debugging or inapp ui not inside level editor. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;UISystem.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_u_i_system_1a91a74f7b261216602f997afecd1c9d9e">UISystem</link> (<link linkend="_class_rendering">Rendering</link> &amp;_rendering)</para>
+</listitem>
+            <listitem><para><link linkend="_class_u_i_system_1a877206d1d98fcf1129871905aab35356">~UISystem</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_u_i_system_1a73fa98334b256507cf288c135a1aa521">DrawUiPanels</link> ()</para>
+
+<para>create nuklear_glfw frame and draw every panels inside vUIPanels </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>this uiSystem class is for ui inside the opengl context. ui system use nuklear library for rendering ui inside the opengl context. this uisystem mean to be used in app for example for debugging or inapp ui not inside level editor. </para>
+
+
+<para>
+Definition at line 17 of file UISystem.h.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_u_i_system_1a91a74f7b261216602f997afecd1c9d9e"/>    <section>
+    <title>UISystem()</title>
+<indexterm><primary>UISystem</primary><secondary>UISystem</secondary></indexterm>
+<indexterm><primary>UISystem</primary><secondary>UISystem</secondary></indexterm>
+<para><computeroutput>UISystem::UISystem (<link linkend="_class_rendering">Rendering</link> &amp; _rendering)</computeroutput></para><para>
+Definition at line 3 of file UISystem.cpp.</para>
+    </section><anchor xml:id="_class_u_i_system_1a877206d1d98fcf1129871905aab35356"/>    <section>
+    <title>~UISystem()</title>
+<indexterm><primary>~UISystem</primary><secondary>UISystem</secondary></indexterm>
+<indexterm><primary>UISystem</primary><secondary>~UISystem</secondary></indexterm>
+<para><computeroutput>UISystem::~UISystem ( )</computeroutput></para><para>
+Definition at line 19 of file UISystem.cpp.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_u_i_system_1a73fa98334b256507cf288c135a1aa521"/>    <section>
+    <title>DrawUiPanels()</title>
+<indexterm><primary>DrawUiPanels</primary><secondary>UISystem</secondary></indexterm>
+<indexterm><primary>UISystem</primary><secondary>DrawUiPanels</secondary></indexterm>
+<para><computeroutput>void UISystem::DrawUiPanels ( )</computeroutput></para><para>
+
+<para>create nuklear_glfw frame and draw every panels inside vUIPanels </para>
+</para>
+<para>
+Definition at line 29 of file UISystem.cpp.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+SOGLVA/src/Core/UI/<link linkend="__u_i_system_8h">UISystem.h</link>SOGLVA/src/Core/UI/<link linkend="__u_i_system_8cpp">UISystem.cpp</link></section>
+</section>
